@@ -8,6 +8,8 @@ drag: 0.3
 accel: 0.3
 range: 166
 hitSize: 8
+mechFrontSway: 0.24
+mechSideSway: 0.46
 itemCapacity: 20
 targetGround: true
 targetAir: true 
