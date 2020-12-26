@@ -7,6 +7,8 @@ flying: false
 drag: 0.3
 accel: 0.3
 range: 165
+mechFrontSway: 0.37
+mechSideSway: 0.72
 hitSize: 9
 itemCapacity: 35
 targetGround: true
