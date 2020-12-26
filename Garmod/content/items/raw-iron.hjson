@@ -1,0 +1,12 @@
+name: Iron Ore
+description: A standard ore, can be separated into full iron.
+hardness: 2
+cost: 0.5
+color: b19696
+research: {
+    parent: lead
+    requirements: [
+        lead/480
+        copper/780
+    ]
+}

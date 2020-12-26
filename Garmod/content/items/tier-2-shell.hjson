@@ -1,0 +1,13 @@
+name: Tier 2 Shell
+description: Used as powerful ammo for turrets.
+hardness: 0
+cost: 0.5
+color: a4b8fa
+research: {
+    parent: tier-1-shell
+    requirements:[
+        steel/1240
+        titanium/620
+        silicon/460
+    ]
+}

@@ -1,0 +1,24 @@
+type: GenericSmelter
+name: Steel Smelter
+description: Fuses coal and iron together into a steel alloy.
+hasPower: true
+hasItems: true
+craftTime: 120
+craftEffect: smeltsmoke
+consumes: {
+    power: 0.8
+    items: {
+        iron/2
+        coal/2
+    }
+}
+requirements: [
+    copper/180
+    lead/120
+    graphite/100
+    iron/60
+    silicon/60
+]
+category: crafting
+research: iron-separator
+outputItem: steel/1

@@ -1,0 +1,43 @@
+name: "Patred"
+description: "Fires heavy bullets that knock back at any nearby enemy."
+commandLimit: 5
+health: 185
+speed: 0.45
+flying: false
+drag: 0.3
+accel: 0.3
+range: 166
+hitSize: 8
+itemCapacity: 20
+targetGround: true
+targetAir: true 
+armor: 0
+rotateSpeed: 3.7
+weapons:[{
+    name: large-weapon
+    reload: 18
+    x: 5
+    y: 0
+    shootY: 2
+    shootCone: 30
+    inaccuracy: 2
+    shootSound: pew
+    rotate: false
+    recoil: 1.5
+    top: false
+    bullet:{
+        type: BasicBulletType
+        damage: 11
+        backColor: f9c27aff
+        frontColor: fff8e8ff
+        speed: 3.2
+        lifetime: 52
+        width: 8.5
+        height: 11.5
+        knockback: 0.8
+    }
+}
+]
+research: {
+    parent: ground-factory
+}

@@ -1,0 +1,13 @@
+name: Tier 1 Shell
+description: Used as powerful ammo for turrets.
+hardness: 0
+cost: 0.5
+color: d99d73
+research: {
+    parent: silicon
+    requirements:[
+        copper/780
+        silicon/440
+        lead/220
+    ]
+}

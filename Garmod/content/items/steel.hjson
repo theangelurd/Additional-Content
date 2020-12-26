@@ -1,0 +1,13 @@
+name: Steel
+description: A sturdy material, used in walls and such.
+hardness: 0
+cost: 0.5
+color: dcdcdc
+research: {
+    parent: iron
+    requirements:[
+        iron/420
+        lead/780
+        copper/1280
+    ]
+}
