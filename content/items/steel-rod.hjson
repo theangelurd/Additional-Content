@@ -1,0 +1,14 @@
+name: Steel Rod
+description: A rod made out of Steel. Less durable, but better suited for ammo.
+hardness: 0
+cost: 0.5
+color: dcdcdc
+research: {
+    parent: steel 
+    requirements:[
+        steel/100
+        iron/720
+        lead/1680
+        copper/2740
+    ]
+}

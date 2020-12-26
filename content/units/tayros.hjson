@@ -1,0 +1,42 @@
+name: "Tayros"
+description: "Quickly fires bullets at any nearby enemy."
+commandLimit: 6
+health: 380
+speed: 0.4
+flying: false
+drag: 0.3
+accel: 0.3
+range: 165
+hitSize: 9
+itemCapacity: 35
+targetGround: true
+targetAir: true 
+armor: 3
+rotateSpeed: 2.8
+weapons:[{
+    name: tayros-weapon
+    reload: 13
+    x: 6
+    y: 0
+    shootY: 5
+    shootCone: 35
+    inaccuracy: 0
+    shootSound: pew
+    rotate: false
+    recoil: 2
+    top: false
+    bullet:{
+        type: BasicBulletType
+        damage: 12
+        backColor: f9c27aff
+        frontColor: fff8e8ff
+        speed: 4.6
+        lifetime: 36
+        width: 6
+        height: 9
+    }
+}
+]
+research: {
+    parent: patred
+}

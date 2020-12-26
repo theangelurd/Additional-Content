@@ -1,0 +1,12 @@
+name: Iron
+description: A product of separating iron ore, harder than most begginer materials. Used for stronger walls than Copper.
+hardness: 0
+cost: 0.5
+color: b19696
+research: {
+    parent: raw-iron
+    requirements: [
+        lead/480
+        copper/780
+    ]
+}
