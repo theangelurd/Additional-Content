@@ -1,3 +1,4 @@
+type: mech
 name: "Tayros"
 description: "Quickly fires bullets at any nearby enemy."
 commandLimit: 6
@@ -9,7 +10,7 @@ accel: 0.3
 range: 165
 mechFrontSway: 0.37
 mechSideSway: 0.72
-hitSize: 9
+hitSize: 10
 itemCapacity: 35
 targetGround: true
 targetAir: true 
