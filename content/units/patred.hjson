@@ -1,3 +1,4 @@
+type: mech
 name: "Patred"
 description: "Fires heavy bullets that knock back at any nearby enemy."
 commandLimit: 5
