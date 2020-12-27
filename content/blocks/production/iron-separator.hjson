@@ -8,9 +8,9 @@ size: 1
 craftEffect: smeltsmoke
 consumes: {
     power: 0.6
-    items: {
+    items: [
         raw-iron/2
-    }
+    ]
 }
 requirements: [
     copper/60
