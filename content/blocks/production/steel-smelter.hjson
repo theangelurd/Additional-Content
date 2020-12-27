@@ -4,7 +4,7 @@ description: "Smelts iron with coal to produce a durable steel alloy."
 size: 2
 hasPower: true
 hasItems: true
-craftTime: 120
+craftTime: 60
 craftEffect: smeltsmoke
 consumes: {
   power: 0.7
