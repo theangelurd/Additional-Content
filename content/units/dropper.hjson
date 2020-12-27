@@ -31,10 +31,13 @@ weapons:[{
         type: BasicBulletType
         damage: 0
         splashDamage: 17
+        splashDamageRadius: 18
         collides: false
         collidesTiles: false
         hitEffect: explosion
         hitSound: explosion
+        shootEffect: none
+        smokeEffect: none
         speed: 0.0001
         height: 11
         width: 11
