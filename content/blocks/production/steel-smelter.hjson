@@ -11,7 +11,7 @@ consumes: {
     items: {
         iron/2
         coal/2
-    }
+      }
 }
 requirements: [
     copper/180
