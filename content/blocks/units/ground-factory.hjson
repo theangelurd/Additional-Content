@@ -5,7 +5,7 @@ plans: [
       silicon/10
       lead/10
     ]
-    time: 180
+    time: 360
   }
   {
     unit: crawler
@@ -13,7 +13,7 @@ plans: [
       silicon/10
       coal/20
     ]
-    time: 150
+    time: 340
   }
   {
     unit: nova
@@ -22,7 +22,7 @@ plans: [
         lead/20
         titanium/20
     ]
-    time: 280
+    time: 580
   }
   {
     unit: patred
@@ -30,6 +30,6 @@ plans: [
         silicon/15
         lead/20
     ]
-    time: 230
+    time: 420
   }
 ]
