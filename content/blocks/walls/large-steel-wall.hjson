@@ -2,6 +2,7 @@ name: "Large Steel Wall"
 description: "Protects structures from enemy projectiles. Spans multiple tiles."
 type: Wall
 health: 2880
+size: 2
 requirements:[
     steel/24
 ]
