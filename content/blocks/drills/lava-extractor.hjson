@@ -8,7 +8,7 @@ rotateSpeed: 3
 hasPower: true
 updateEffect: smeltsmoke
 updateEffectChance: 0.22
-pumpAmount: 0.3
+pumpAmount: 0.14
 result: molten-rock
 consumes: {
   power: 2.6
