@@ -32,7 +32,7 @@ weapons:[{
     bullet:{
         type: BasicBulletType
         damage: 0
-        splashDamage: 17
+        splashDamage: 26
         splashDamageRadius: 18
         collides: false
         collidesTiles: false
