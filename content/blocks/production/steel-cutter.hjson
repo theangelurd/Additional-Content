@@ -1,0 +1,26 @@
+name: Steel Cutter
+description: "Cuts steel pieces into steel rods for ammo and other purposes."
+size: 1
+hasItems: true
+hasPower: true
+type: GenericCrafter
+craftTime: 160
+consumes: {
+    power: 1.14
+    items: {
+      items:[
+        steel/1
+      ]
+    }
+}
+requirements: [
+  copper/160
+  lead/100
+  graphite/80
+  silicon/70
+  iron/60
+  steel/40
+]
+category: crafting
+research: steel-smelter
+outputItem: steel-rod/3
