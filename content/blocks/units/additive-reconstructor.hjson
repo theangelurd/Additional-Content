@@ -1,0 +1,23 @@
+upgrades: [
+  [
+    dagger, mace
+  ]
+  [
+    nova, pulsar
+  ]
+  [
+    crawler, atrax
+  ]
+  [
+    flare, horizon
+  ]
+  [
+    mono, poly
+  ]
+  [
+    risso, minke
+  ]
+  [
+    patred, tayros
+  ]
+]
