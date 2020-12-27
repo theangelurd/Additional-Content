@@ -1,0 +1,27 @@
+type: Reconstructor
+name: "Additive Reconstructor v2"
+description: "A Reconstructor modified to reconstruct different units."
+size: 3
+constructTime: 280
+health: 40 * 8
+upgrades:[
+    [
+        patred, tayros
+    ]
+]
+consumes: {
+    items: {
+        items:[
+            silicon/50
+            graphite/30
+        ]
+    }
+}
+category: units
+research: additive-reconstructor
+requirements:[
+    copper/160
+    lead/120
+    graphite/80
+    silicon/140
+]
