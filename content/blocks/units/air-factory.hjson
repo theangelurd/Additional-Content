@@ -4,7 +4,7 @@ plans: [
     requirements: [
       silicon/15
     ]
-    time: 240
+    time: 320
   }
   {
     unit: mono
@@ -12,7 +12,7 @@ plans: [
         silicon/30
         lead/15
     ]
-    time: 380
+    time: 560
   }
   {
     unit: dropper
@@ -20,6 +20,6 @@ plans: [
         silicon/25
         graphite/20
     ]
-    time: 300
+    time: 520
   }
 ]
