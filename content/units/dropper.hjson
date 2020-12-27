@@ -10,7 +10,7 @@ engineSize: 2
 drag: 0.12
 accel: 0.12
 faceTarget: false
-lowAltitude: true
+lowAltitude: false
 targetGround: true
 targetAir: false
 range: 128
@@ -33,7 +33,7 @@ weapons:[{
         splashDamage: 17
         collides: false
         collidesTiles: false
-        hitEffect: blastExplosion
+        hitEffect: explosion
         hitSound: explosion
         speed: 0.0001
         height: 11
