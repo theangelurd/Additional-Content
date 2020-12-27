@@ -5,10 +5,11 @@ commandLimit: 4
 speed: 2.6
 health: 125
 flying: true
-engineOffset: 7
-engineSize: 3.5
+engineOffset: 4
+engineSize: 2
 drag: 0.12
 accel: 0.12
+faceTarget: false
 lowAltitude: true
 targetGround: true
 targetAir: false
