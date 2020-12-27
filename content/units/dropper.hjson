@@ -45,7 +45,7 @@ weapons:[{
         width: 11
         knockback: 1.3
         drag: 0.05
-        lifetime: 43
+        lifetime: 26
     }
 }
 ]
