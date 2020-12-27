@@ -6,6 +6,7 @@ hasItems: true
 type: GenericCrafter
 craftTime: 10
 consumes: {
+    power: 0.92
   liquid: {
     liquid: molten-rock
     amount: 0.22
