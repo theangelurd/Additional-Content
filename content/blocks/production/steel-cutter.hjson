@@ -7,9 +7,9 @@ type: GenericCrafter
 craftTime: 160
 consumes: {
     power: 1.14
-    items: {
+    items: [
       steel/1
-    }
+    ]
 }
 requirements: [
   copper/160
