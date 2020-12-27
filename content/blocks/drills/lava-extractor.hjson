@@ -1,0 +1,24 @@
+name: Lava Extractor
+description: Extracts molten rock from below.
+type: Fracker
+health: 130
+size: 3
+liquidCapacity: 50
+rotateSpeed: 3
+hasPower: true
+updateEffect: smeltsmoke
+updateEffectChance: 0.22
+pumpAmount: 0.3
+result: molten-rock
+consumes: {
+  power: 2.6
+}
+requirements: [
+    copper/160
+    lead/220
+    graphite/140
+    silicon/130
+    titanium/200
+]
+category: production
+research: pneumatic-drill
