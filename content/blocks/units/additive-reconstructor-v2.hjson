@@ -3,7 +3,7 @@ name: "Additive Reconstructor v2"
 description: "A Reconstructor modified to reconstruct different units."
 size: 3
 constructTime: 280
-health: 40 * 8
+health: 320
 upgrades:[
     [
         patred, tayros
