@@ -4,6 +4,7 @@ size: 1
 hasItems: true
 hasPower: true
 type: GenericCrafter
+craftEffect: pulverize
 craftTime: 160
 consumes: {
     power: 1.14
