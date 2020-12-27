@@ -10,6 +10,7 @@ upgrades:[
     ]
 ]
 consumes: {
+    power: 1.4
     items: {
         items:[
             silicon/50
