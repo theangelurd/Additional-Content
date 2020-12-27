@@ -7,7 +7,7 @@ speed: 0.4
 flying: false
 drag: 0.3
 accel: 0.3
-range: 165
+range: 130
 mechFrontSway: 0.37
 mechSideSway: 0.72
 hitSize: 10
