@@ -10,7 +10,7 @@ consumes: {
     power: 0.6
     items: {
         raw-iron/2
-    }
+      }
 }
 requirements: [
     copper/60
