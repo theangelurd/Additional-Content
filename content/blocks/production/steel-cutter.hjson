@@ -9,7 +9,9 @@ craftTime: 160
 consumes: {
     power: 1.14
     items: {
-      steel/1
+      items: [
+        steel/1
+      ]
     }
 }
 requirements: [
