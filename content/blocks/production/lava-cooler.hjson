@@ -15,6 +15,6 @@ requirements: [
     graphite/50
     silicon/40
 ]
-category: production
+category: crafting
 research: melter
 outputItem: raw-iron/1
