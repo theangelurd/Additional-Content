@@ -10,7 +10,7 @@ engineSize: 2
 drag: 0.12
 accel: 0.12
 faceTarget: false
-lowAltitude: false
+lowAltitude: true
 targetGround: true
 targetAir: false
 range: 128
@@ -19,7 +19,7 @@ armor: 0
 rotateSpeed: 3.4
 weapons:[{
     name: none
-    reload: 17
+    reload: 14
     x: 2
     mirror: true
     recoil: 0
@@ -27,7 +27,7 @@ weapons:[{
     rotate: false
     top: false
     shootY: 0
-    minShootVelocity: 1.2
+    minShootVelocity: 0.6
     shootSound: none
     bullet:{
         type: BasicBulletType
