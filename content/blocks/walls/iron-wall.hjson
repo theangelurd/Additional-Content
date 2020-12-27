@@ -1,0 +1,9 @@
+name: "Iron Wall"
+description: "Protects structures from enemy projectiles."
+type: Wall
+health: 480
+requirements:[
+    iron/6
+]
+category: defense
+research: titanium-wall

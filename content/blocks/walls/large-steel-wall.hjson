@@ -1,0 +1,9 @@
+name: "Large Steel Wall"
+description: "Protects structures from enemy projectiles. Spans multiple tiles."
+type: Wall
+health: 2880
+requirements:[
+    steel/24
+]
+category: defense
+research: steel-wall

@@ -1,0 +1,9 @@
+name: "Large Iron Wall"
+description: "Protects structures from enemy projectiles. Spans multiple tiles."
+type: Wall
+health: 1920
+requirements:[
+    iron/24
+]
+category: defense
+research: iron-wall

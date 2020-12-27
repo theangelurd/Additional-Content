@@ -1,0 +1,9 @@
+name: "Steel Wall"
+description: "Protects structures from enemy projectiles."
+type: Wall
+health: 720
+requirements:[
+    steel/6
+]
+category: defense
+research: large-iron-wall
