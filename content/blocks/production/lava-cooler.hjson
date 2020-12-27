@@ -3,8 +3,9 @@ description: "Cools molten rock down to get raw iron ore."
 size: 1
 hasLiquids: true
 hasItems: true
+hasPower: true
 type: GenericCrafter
-craftTime: 10
+craftTime: 30
 consumes: {
     power: 0.92
   liquid: {
