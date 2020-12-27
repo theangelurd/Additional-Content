@@ -1,0 +1,6 @@
+name: Molten Rock
+description: Molten rock. What did you expect?
+temperature: 1.6
+viscosity: 0.8
+effect: burning
+color: ff953a
