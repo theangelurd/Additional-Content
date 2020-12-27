@@ -3,7 +3,7 @@ name: Steel Smelter
 description: Fuses coal and iron together into a steel alloy.
 hasPower: true
 hasItems: true
-craftTime: 120
+craftTime: 60
 craftEffect: smeltsmoke
 consumes: {
     power: 0.8
