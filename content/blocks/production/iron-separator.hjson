@@ -1,16 +1,19 @@
 type: GenericSmelter
 name: Iron Separator
-description: Melts pieces of iron ore to get full iron pieces by cooling down the melted rocks.
+description: "Separates the iron in rocks of iron ore."
+liquidCapacity: 50
+size: 1
 hasPower: true
 hasItems: true
-craftTime: 140
-size: 1
-craftEffect: smeltsmoke
+craftTime: 160
+updateEffect: smeltsmoke
 consumes: {
-    power: 0.6
-    items: {
-        raw-iron/2
-      }
+  power: 0.5
+  items: {
+    items: [
+      raw-iron/2
+    ]
+  }
 }
 requirements: [
     copper/60
