@@ -7,6 +7,7 @@ speed: 0.5
 flying: false
 drag: 0.2
 accel: 0.2
+groundLayer: legUnit
 range: 130
 hitSize: 7
 itemCapacity: 20
