@@ -23,6 +23,7 @@ ammoTypes: {
         damage: 150
         shootEffect: railShoot
         pierce: true
+        hitSize: 3
         pierceBuilding: true
         updateEffect: railTrail
         updateEffectSeg: 30
