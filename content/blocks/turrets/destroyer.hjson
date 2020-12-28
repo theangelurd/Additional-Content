@@ -15,7 +15,7 @@ chargeTime: 100
 hasPower: true
 chargeEffects: 1860
 chargeEffect: lancerLaserCharge
-powerUse: 4
+powerUse: 16
 shots: 1
 rotateSpeed: 2.8
 ammoTypes: {
