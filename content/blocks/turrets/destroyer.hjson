@@ -1,0 +1,62 @@
+type: PowerTurret
+name: "Destroyer"
+description: "Shoots devastating lasers."
+health: 320
+size: 4
+reloadTime: 200
+shootSound: laserbig
+cooldown: 0.004
+heatColor: ab3400
+range: 220
+recoilAmount: 2
+restitution: 0.03
+chargeTime: 100
+hasPower: true
+chargeEffects: 46
+chargeEffect: lancerLaserCharge
+powerUse: 4
+shots: 1
+rotateSpeed: 8
+ammoTypes: {
+           titanium: {
+           type: LaserBulletType
+           pierce: true
+           damage: 4400
+           width: 70
+           lifetime: 200
+           length: 220
+           hitSize: 70
+           shootEffect: lancerLaserChargeBegin
+           smokeEffect: none
+           sideAngle: 90
+           sideLength: 170
+           sideWidth: 20
+           }
+}
+shootType: {
+           type: LaserBulletType
+           pierce: true
+           damage: 4400
+           width: 70
+           lifetime: 200
+           length: 220
+           hitSize: 70
+           shootEffect: lancerLaserChargeBegin
+           smokeEffect: none
+           sideAngle: 90
+           sideLength: 90
+           sideWidth: 20
+}
+requirements:[
+  copper/2500
+  lead/2100
+  graphite/1800
+  silicon/1600
+  plastanium/1000
+  surge-alloy/600
+  steel/1000
+  iron/800
+  timerite/700
+]
+research: meltdown
+category: turret
