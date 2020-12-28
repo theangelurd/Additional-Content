@@ -10,17 +10,17 @@ mechFrontSway: 0.76
 mechSideSway: 0.57
 flying: false
 itemCapacity: 70
-rotateSpeed: 3.8
+rotateSpeed: 2
 rotateShooting: true
 weapons: [
 {
 name: impra-weapon
-reload: 27
+reload: 31
 alternate: true
 ejectEffect: casing3
 top: false
 shootSound: shootBig
-recoil: 1
+recoil: 2.5
 x: 10
 shootY: 4
 y: 0
@@ -48,7 +48,7 @@ alternate: true
 ejectEffect: casing1
 top: true
 shootSound: pew
-recoil: 1
+recoil: 1.5
 x: 6
 shootY: 4
 y: 0
