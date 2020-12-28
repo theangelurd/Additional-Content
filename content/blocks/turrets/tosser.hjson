@@ -20,6 +20,9 @@ ammoTypes: {
     height: 13
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
+    hitEffect: explosion
+    despawnEffect: explosion
+    hitSound: explosion
     lifetime: 68
     drag: 0.02
     frontColor: ff795e
