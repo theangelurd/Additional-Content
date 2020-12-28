@@ -46,6 +46,32 @@ weapons:[
         height: 19
         knockback: 1.4
     }
+    {
+    name: mount-weapon
+    reload: 19
+    recoil: 1.5
+    x: 6
+    mirror: true
+    shootSound: pew
+    shootY: 2
+    shootCone: 30
+    inaccuracy: 2
+    rotate: true
+    rotateSpeed: 5.7
+    top: true
+    bullet: {
+        type: BasicBulletType
+        speed: 3
+        lifetime: 60
+        damage: 9
+        pierce: false
+        width: 7
+        height: 9
+        shootEffect: shootSmall
+        smokeEffect: shootSmallSmoke
+        hitEffect: hitBulletSmall
+        despawnEffect: hitBulletSmall
+    }
 }
 ]
 parent: tayros
