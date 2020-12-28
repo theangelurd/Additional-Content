@@ -3,8 +3,8 @@ name: "Destroyer"
 description: "Shoots devastating lasers."
 health: 3200
 size: 4
-reloadTime: 400
-recoilAmount: 7
+reloadTime: 720
+recoilAmount: 16
 shootSound: laserbig
 cooldown: 0.002
 heatColor: ab3400
