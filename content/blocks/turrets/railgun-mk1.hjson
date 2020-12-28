@@ -1,7 +1,6 @@
 type: PowerTurret
 name: "Piercer"
 description: "Shoots weak lasers."
-type: ItemTurret
 health: 320
 size: 1
 reloadTime: 70
