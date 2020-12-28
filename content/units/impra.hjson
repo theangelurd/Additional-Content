@@ -1,77 +1,77 @@
 type: mech
 name: "Impra"
-description: "Shoots strong bullets and weaker bullets at any nearby enemy."
-mechFrontSway: 0.52
-mechSideSway: 0.93
-health: 700
-armor: 8
-speed: 0.38
-flying: false
-hitSize: 15
-rotateSpeed: 3.2
-range: 150
-itemCapacity: 70
-targetGround: true
-targetAir: true
+description: "Shoots strong and weak bullets at any nearby enemy."
+speed: 0.37
 drag: 0.2
+hitSize: 10
+health: 700
 accel: 0.2
-commandLimit: 7
-weapons:[
-    {
-    name: impra-weapon
-    reload: 18
-    recoil: 2.5
-    x: 10
-    y: 0
-    mirror: true
-    shootSound: shootBig
-    shootY: 7
-    shootCone: 15
-    inaccuracy: 0
-    rotate: false
-    top: false
-    bullet: {
-        type: BasicBulletType
-        speed: 5.3
-        lifetime: 29
-        damage: 27
-        pierce: true
-        hitEffect: hitBulletBig
-        shootEffect: shootBig
-        despawnEffect: hitBulletBig
-        pierceBuilding: true
-        smokeEffect: shootBigSmoke
-        pierceCap: 3
-        width: 10
-        height: 19
-        knockback: 1.4
-    }
-    {
-    name: mount-weapon
-    reload: 19
-    recoil: 1.5
-    x: 6
-    mirror: true
-    shootSound: pew
-    shootY: 2
-    shootCone: 30
-    inaccuracy: 2
-    rotate: true
-    rotateSpeed: 5.7
-    top: true
-    bullet: {
-        type: BasicBulletType
-        speed: 3
-        lifetime: 60
-        damage: 9
-        pierce: false
-        width: 7
-        height: 9
-        shootEffect: shootSmall
-        smokeEffect: shootSmallSmoke
-        hitEffect: omegaexplosion
-    }
-    }
+mechFrontSway: 0.76
+mechSideSway: 0.57
+flying: false
+itemCapacity: 70
+rotateSpeed: 3.8
+rotateShooting: true
+weapons: [
+{
+name: impra-weapon
+reload: 27
+alternate: true
+ejectEffect: casing3
+top: false
+shootSound: shootBig
+recoil: 1
+x: 10
+shootY: 4
+y: 0
+rotate: true
+bullet: {
+type: BasicBulletType
+damage: 23
+lifetime: 26
+speed: 5.3
+width: 11
+height: 18
+pierce: true
+pierceCap: 3
+despawnEffect: hitBulletBig
+hitEffect: hitBulletBig
+shootEffect: shootBig
+smokeEffect: shootBigSmoke
+knockback: 1.4
+}
+}
+{
+name: mount-weapon
+reload: 16
+alternate: true
+ejectEffect: casing1
+top: true
+shootSound: pew
+recoil: 1
+x: 6
+shootY: 4
+y: 0
+rotate: true
+rotateSpeed: 7
+bullet: {
+type: BasicBulletType
+damage: 9
+speed: 3
+lifetime: 60
+hitSound: none
+width: 7
+height: 9
+despawnEffect: hitBulletSmall
+hitEffect: hitBulletSmall
+shootEffect: shootSmall
+smokeEffect: shootSmallSmoke
+trailEffect: none
+}
+}
 }
 ]
+research:{
 parent: tayros
+]
+}
