@@ -25,6 +25,12 @@ ammoTypes: {
         pierce: true
         hitSize: 3
         pierceBuilding: true
+        collides: true
+        collidesAir: true
+        collidesGround: true
+        collidesTiles: true
+        hitEffect: railHit
+        pierceEffect: railHit
         updateEffect: railTrail
         updateEffectSeg: 30
         length: 280
