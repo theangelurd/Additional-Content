@@ -44,7 +44,7 @@ weapons:[
         height: 17
         knockback: 1.4
     }
-    {
+    '{'
     name: mount-weapon
     reload: 19
     recoil: 1.5
@@ -69,6 +69,6 @@ weapons:[
         smokeEffect: shootSmallSmoke
         hitEffect: hitBulletSmall
     }
-    }
+    '}'
 }
 ]
