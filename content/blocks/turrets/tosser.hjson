@@ -5,7 +5,7 @@ health: 320
 size: 1
 reloadTime: 80
 shootSound: bigshot
-range: 160
+range: 120
 shots: 1
 ammoUseEffect: casing3
 targetAir: false
