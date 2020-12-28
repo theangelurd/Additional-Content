@@ -18,7 +18,7 @@ commandLimit: 7
 weapons:[
     {
     name: impra-weapon
-    reload: 22
+    reload: 18
     recoil: 2.5
     x: 11.5
     y: 0
@@ -37,11 +37,12 @@ weapons:[
         pierce: true
         hitEffect: hitBulletBig
         shootEffect: shootBig
+        despawnEffect: hitBulletBig
         pierceBuilding: true
         smokeEffect: shootBigSmoke
         pierceCap: 3
         width: 10
-        height: 17
+        height: 19
         knockback: 1.4
     }
 }
