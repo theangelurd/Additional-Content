@@ -7,7 +7,7 @@ health: 700
 armor: 8
 speed: 0.38
 flying: false
-hitSize: 14
+hitSize: 15
 rotateSpeed: 3.2
 range: 150
 itemCapacity: 70
