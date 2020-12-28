@@ -20,7 +20,7 @@ weapons:[
     name: impra-weapon
     reload: 18
     recoil: 2.5
-    x: 11.5
+    x: 11
     y: 0
     mirror: true
     shootSound: shootBig
