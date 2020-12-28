@@ -1,0 +1,40 @@
+type: ItemTurret
+name: Tosser
+description: Tosses bombs that do heavy damage on contact.
+health: 320
+size: 1
+reloadTime: 80
+shootSound: bigshot
+range: 160
+shots: 1
+ammoUseEffect: casing3
+targetAir: false
+targetGround: true
+rotateSpeed: 6.8
+ammoTypes: {
+  blast-compound: {
+    speed: 4.2
+    damage: 8
+    splashDamage: 37
+    width: 13
+    height: 13
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    lifetime: 68
+    drag: 0.02
+    frontColor: ff795e
+    backColor: c85c51
+    knockback: 2.3
+    collidesGround: true
+    collidesAir: false
+    }
+}
+requirements: [    
+  copper/120
+  lead/60
+  graphite/80
+  iron/50
+  steel/40
+]
+category: turret
+research: hail
