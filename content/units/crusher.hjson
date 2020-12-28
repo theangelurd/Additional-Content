@@ -11,14 +11,15 @@ range: 130
 hitSize: 7
 itemCapacity: 20
 targetGround: true
+legLength: 6
 targetAir: true 
 armor: 0
 rotateSpeed: 3.7
 weapons:[{
     name: crusher-weapon
     reload: 27
-    x: 5
-    y: 4
+    x: 2
+    y: 2
     shootY: 2
     shootCone: 30
     inaccuracy: 2
