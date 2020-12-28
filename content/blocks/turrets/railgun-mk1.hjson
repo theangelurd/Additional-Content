@@ -7,6 +7,7 @@ size: 1
 maxAmmo: 10
 reloadTime: 190
 shootSound: railgun
+cooldown: 190
 range: 280
 alternate: true
 recoilAmount: 2
