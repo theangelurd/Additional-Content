@@ -31,7 +31,6 @@ ammoTypes: {
     }
     steel: {
         speed: 6
-        type: RailBulletType
         damage: 83
         pierceCap: 5
         width: 14
@@ -45,7 +44,6 @@ ammoTypes: {
     }
     steel-rod: {
         speed: 6
-        type: RailBulletType
         damage: 103
         shootEffect: shootBig
         pierceCap: 7
