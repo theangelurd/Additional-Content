@@ -1,67 +1,41 @@
 type: ItemTurret
-name: "Pierce Turret"
-description: "Shoots fast piercing bullets."
+name: "Railgun Turret MK1"
+description: "Shoots rail bullets that pierce everything."
+type: ItemTurret
 health: 340
 size: 1
 maxAmmo: 10
-reloadTime: 140
-shootSound: shootBig
-range: 240
-shots: 2
-spread: 5
+reloadTime: 190
+shootSound: railShoot
+range: 280
 alternate: true
 recoilAmount: 2
-restitution: 0.02
+restitution: 0.01
 shots: 1
 ammoUseEffect: casing3
 rotateSpeed: 6
 ammoTypes: {
-    iron: {
-        speed: 6
-        damage: 58
-        pierceCap: 5
-        width: 13
-        height: 17
-        pierce: true
-        pierceBuilding: true
-        lifetime: 60
-        shootEffect: shootBig
-        smokeEffect: shootBigSmoke
-        ammoMultiplier: 2
-    }
-    steel: {
-        speed: 6
-        damage: 83
-        pierceCap: 5
-        width: 14
-        height: 16
-        pierce: true
-        pierceBuilding: true
-        lifetime: 60
-        shootEffect: shootBig
-        smokeEffect: shootBigSmoke
-        ammoMultiplier: 2
-    }
     steel-rod: {
-        speed: 6
-        damage: 103
-        shootEffect: shootBig
-        pierceCap: 7
+        type: RailBulletType
+        speed: 0.01
+        damage: 150
+        shootEffect: railShoot
         pierce: true
         pierceBuilding: true
-        width: 8
-        lifetime: 60
-        height: 18
-        smokeEffect: shootBigSmoke
-        ammoMultiplier: 2
+        updateEffect: railTrail
+        updateEffectSeg: 30
+        length: 280
+        lifetime: 10
+        smokeEffect: explosion
+        ammoMultiplier: 1
     }
 }
 requirements:[
-  iron/40
-  steel/40
-  copper/100
-  lead/80
-  graphite/80
+  iron/100
+  steel/80
+  copper/80
+  lead/180
+  graphite/120
 ]
 research: lancer
 category: turret
