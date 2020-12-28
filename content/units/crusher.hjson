@@ -1,0 +1,43 @@
+type: legs
+name: "Crusher"
+description: "Fires strong bullets at any nearby enemy."
+commandLimit: 5
+health: 200
+speed: 0.5
+flying: false
+drag: 0.2
+accel: 0.2
+range: 130
+hitSize: 7
+itemCapacity: 20
+targetGround: true
+targetAir: true 
+armor: 0
+rotateSpeed: 3.7
+weapons:[{
+    name: crusher-weapon
+    reload: 27
+    x: 5
+    y: 4
+    shootY: 2
+    shootCone: 30
+    inaccuracy: 2
+    shootSound: pew
+    rotate: false
+    recoil: 1.5
+    top: false
+    bullet:{
+        type: BasicBulletType
+        damage: 14
+        backColor: f9c27aff
+        frontColor: fff8e8ff
+        speed: 3.8
+        lifetime: 52
+        width: 10
+        height: 16
+    }
+}
+]
+research: {
+    parent: mace
+}
