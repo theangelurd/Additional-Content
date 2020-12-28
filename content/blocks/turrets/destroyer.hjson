@@ -10,7 +10,7 @@ cooldown: 0.002
 heatColor: ab3400
 range: 220
 recoilAmount: 2
-restitution: 0.03
+restitution: 0.01
 chargeTime: 100
 hasPower: true
 chargeEffects: 1860
