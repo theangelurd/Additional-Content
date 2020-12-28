@@ -8,10 +8,10 @@ shootSound: laser
 cooldown: 0.02
 heatColor: ab3400
 range: 180
-alternate: true
 recoilAmount: 2
 restitution: 0.03
 chargeTime: 30
+hasPower: true
 chargeEffects: 3
 chargeEffect: lancerLaserCharge
 powerUse: 4
