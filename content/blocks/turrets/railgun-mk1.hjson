@@ -1,50 +1,40 @@
+type: PowerTurret
+name: "Piercer"
+description: "Shoots weak lasers."
 type: ItemTurret
-name: "Railgun Turret MK1"
-description: "Shoots rail bullets that pierce everything."
-type: ItemTurret
-health: 340
+health: 320
 size: 1
-maxAmmo: 10
-reloadTime: 190
-shootSound: railgun
-cooldown: 190
+reloadTime: 70
+shootSound: laser
+cooldown: 0.02
 heatColor: ab3400
-range: 280
+range: 180
 alternate: true
 recoilAmount: 2
-restitution: 0.01
+restitution: 0.03
+chargeTime: 30
+chargeEffects: 3
+chargeEffect: lancerLaserCharge
+powerUse: 4
 shots: 1
-ammoUseEffect: casing3
-rotateSpeed: 6
-ammoTypes: {
-    steel-rod: {
-        type: RailBulletType
-        speed: 0.01
-        damage: 150
-        shootEffect: railShoot
-        pierce: true
-        hitSize: 3
-        pierceBuilding: true
-        collides: true
-        collidesAir: true
-        collidesGround: true
-        collidesTiles: true
-        hitEffect: railHit
-        pierceEffect: railHit
-        updateEffect: railTrail
-        updateEffectSeg: 30
-        length: 280
-        lifetime: 10
-        smokeEffect: explosion
-        ammoMultiplier: 1
-    }
+rotateSpeed: 8
+shootType: {
+           type: LaserBulletType
+           pierce: true
+           damage: 50
+           width: 9
+           lifetime: 18
+           length: 180
+           shootEffect: lancerLaserChargeBegin
+           smokeEffect: none
+           sideAngle: 90
+           sideLength: 90
+           sideWidth: 15
 }
 requirements:[
-  iron/100
-  steel/80
-  copper/80
-  lead/180
-  graphite/120
+  copper/50
+  lead/40
+  silicon/25
 ]
-research: lancer
+research: arc
 category: turret
