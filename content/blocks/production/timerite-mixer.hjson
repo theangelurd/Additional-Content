@@ -1,0 +1,29 @@
+name: Timerite Mixer
+description: "Mixes lead, copper, graphite and titanium into a timerite alloy."
+size: 2
+hasItems: true
+hasPower: true
+type: GenericCrafter
+craftTime: 50
+consumes: {
+    power: 1.3
+    items: {
+      items:[
+        lead/3
+        copper/2
+        graphite/2
+        titanium/1
+      ]
+    }
+}
+requirements: [
+  copper/240
+  lead/180
+  graphite/160
+  silicon/100
+  iron/70
+  steel/20
+]
+category: crafting
+research: steel-smelter
+outputItem: timerite/1
