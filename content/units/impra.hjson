@@ -45,7 +45,7 @@ weapons:[
         knockback: 1.4
     }
     '{'
-    :name: mount-weapon
+    ':'name: mount-weapon
     reload: 19
     recoil: 1.5
     x: 6
