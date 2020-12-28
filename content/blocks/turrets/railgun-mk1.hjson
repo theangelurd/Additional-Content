@@ -1,12 +1,12 @@
 type: ItemTurret
 name: "Pierce Turret"
 description: "Shoots fast piercing bullets."
-health: 200
+health: 340
 size: 1
 maxAmmo: 10
-reloadTime: 75
+reloadTime: 140
 shootSound: shootBig
-range: 200
+range: 240
 shots: 2
 spread: 5
 alternate: true
