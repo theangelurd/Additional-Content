@@ -1,0 +1,110 @@
+type: ItemTurret
+name: Gattler
+description: Quickly fires bullets at any enemy.
+health: 320
+size: 2
+reloadTime: 10
+shootSound: shootBig
+range: 140
+xRand: 3
+shots: 1
+ammoUseEffect: casing2
+targetAir: true
+targetGround: true
+rotateSpeed: 5.4
+ammoTypes: {
+  iron: {
+    speed: 4.7
+    damage: 7
+    splashDamage: 14
+    splashDamageRadius: 14
+    width: 10
+    height: 17
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    hitEffect: hitBulletBig
+    despawnEffect: hitBulletBig
+    lifetime: 48
+    ammoMultiplier: 3
+    knockback: 1.2
+    collidesGround: true
+    collidesAir: true
+    }
+    steel: {
+    speed: 4.7
+    damage: 10
+    splashDamage: 14
+    splashDamageRadius: 17
+    width: 11
+    height: 16
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    hitEffect: hitBulletBig
+    despawnEffect: hitBulletBig
+    lifetime: 48
+    ammoMultiplier: 3
+    knockback: 1.2
+    collidesGround: true
+    collidesAir: true
+    }
+    steel-rod: {
+    speed: 4.7
+    damage: 21
+    splashDamage: 4
+    splashDamageRadius: 11
+    width: 9
+    height: 23
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    hitEffect: hitBulletBig
+    despawnEffect: hitBulletBig
+    lifetime: 48
+    ammoMultiplier: 2
+    knockback: 1.2
+    collidesGround: true
+    collidesAir: true
+    }
+    copper: {
+    speed: 4.7
+    damage: 4
+    splashDamage: 5
+    splashDamageRadius: 13
+    width: 9
+    height: 13
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    hitEffect: hitBulletBig
+    despawnEffect: hitBulletBig
+    lifetime: 48
+    ammoMultiplier: 3
+    knockback: 1.2
+    collidesGround: true
+    collidesAir: true
+    }
+    graphite: {
+    speed: 4.7
+    damage: 7
+    splashDamage: 11
+    splashDamageRadius: 15
+    width: 9
+    height: 13
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    hitEffect: hitBulletBig
+    despawnEffect: hitBulletBig
+    lifetime: 48
+    ammoMultiplier: 3
+    knockback: 1.2
+    collidesGround: true
+    collidesAir: true
+    }
+}
+requirements: [    
+  copper/220
+  lead/160
+  graphite/120
+  iron/100
+  steel/60
+]
+category: turret
+research: salvo
