@@ -6,7 +6,7 @@ health: 340
 size: 1
 maxAmmo: 10
 reloadTime: 190
-shootSound: railShoot
+shootSound: railgun
 range: 280
 alternate: true
 recoilAmount: 2
