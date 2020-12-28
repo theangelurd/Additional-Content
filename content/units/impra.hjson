@@ -38,7 +38,7 @@ weapons:[
         pierce: true
         hitEffect: hitBulletBig
         shootEffect: shootBig
-        despawnEffect: hitBulletBig
+        despawnEffect: omegaexplosion
         pierceBuilding: true
         smokeEffect: shootBigSmoke
         pierceCap: 3
