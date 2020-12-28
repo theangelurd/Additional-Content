@@ -17,21 +17,6 @@ chargeEffect: lancerLaserCharge
 powerUse: 4
 shots: 1
 rotateSpeed: 8
-ammoTypes: {
-           titanium: {
-           type: LaserBulletType
-           pierce: true
-           damage: 50
-           width: 9
-           lifetime: 18
-           length: 180
-           shootEffect: lancerLaserChargeBegin
-           smokeEffect: none
-           sideAngle: 90
-           sideLength: 90
-           sideWidth: 15
-           }
-}
 shootType: {
            type: LaserBulletType
            pierce: true
@@ -43,7 +28,7 @@ shootType: {
            smokeEffect: none
            sideAngle: 90
            sideLength: 90
-           sideWidth: 15
+           sideWidth: 8
 }
 requirements:[
   copper/50
