@@ -3,6 +3,7 @@ name: "Impra"
 description: "Shoots strong and weak bullets at any nearby enemy."
 speed: 0.37
 drag: 0.2
+armor: 8
 hitSize: 10
 health: 700
 accel: 0.2
