@@ -17,7 +17,7 @@ chargeEffects: 46
 chargeEffect: lancerLaserCharge
 powerUse: 4
 shots: 1
-rotateSpeed: 8
+rotateSpeed: 2.8
 ammoTypes: {
            titanium: {
            type: LaserBulletType
