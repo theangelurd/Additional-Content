@@ -1,7 +1,7 @@
 type: PowerTurret
 name: "Destroyer"
 description: "Shoots devastating lasers."
-health: 320
+health: 3200
 size: 4
 reloadTime: 320
 recoilAmount: 7
