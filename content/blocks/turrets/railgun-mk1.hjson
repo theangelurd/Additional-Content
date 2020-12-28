@@ -8,6 +8,7 @@ maxAmmo: 10
 reloadTime: 190
 shootSound: railgun
 cooldown: 190
+heatColor: ab3400
 range: 280
 alternate: true
 recoilAmount: 2
