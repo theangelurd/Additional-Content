@@ -3,7 +3,7 @@ name: Gattler
 description: Quickly fires bullets at any enemy.
 health: 320
 size: 2
-reloadTime: 10
+reloadTime: 6
 shootSound: shootBig
 range: 140
 xRand: 3
