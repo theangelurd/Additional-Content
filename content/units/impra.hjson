@@ -69,7 +69,6 @@ smokeEffect: shootSmallSmoke
 trailEffect: none
 }
 }
-}
 ]
 research:{
 parent: tayros
