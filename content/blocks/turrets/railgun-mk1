@@ -1,6 +1,6 @@
 type: ItemTurret
-name: Pierce Turret
-description: Shoots fast piercing bullets.
+name: "Pierce Turret"
+description: "Shoots fast piercing bullets."
 health: 200
 size: 1
 maxAmmo: 10
