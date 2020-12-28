@@ -13,7 +13,7 @@ recoilAmount: 2
 restitution: 0.03
 chargeTime: 100
 hasPower: true
-chargeEffects: 46
+chargeEffects: 186
 chargeEffect: lancerLaserCharge
 powerUse: 4
 shots: 1
