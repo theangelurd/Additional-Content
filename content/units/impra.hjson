@@ -24,7 +24,7 @@ recoil: 1
 x: 10
 shootY: 4
 y: 0
-rotate: true
+rotate: false
 bullet: {
 type: BasicBulletType
 damage: 23
