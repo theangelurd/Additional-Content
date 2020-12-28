@@ -58,3 +58,11 @@ ammoTypes: {
         ammoMultiplier: 2
     }
 }
+requirements:[
+  iron/40
+  steel/40
+  copper/100
+  lead/80
+  graphite/80
+]
+research: lancer
