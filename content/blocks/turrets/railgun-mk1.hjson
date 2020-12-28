@@ -29,7 +29,7 @@ ammoTypes: {
            smokeEffect: none
            sideAngle: 90
            sideLength: 90
-           sideWidth: 15
+           sideWidth: 4
            }
 }
 shootType: {
@@ -43,7 +43,7 @@ shootType: {
            smokeEffect: none
            sideAngle: 90
            sideLength: 90
-           sideWidth: 8
+           sideWidth: 4
 }
 requirements:[
   copper/50
