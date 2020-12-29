@@ -15,6 +15,7 @@ rotateShooting: false
 trailLength: 45
 trailX: 8
 trailY: -8
+trailScl: 2.5
 weapons: [
 {
 name: large-bullet-mount
