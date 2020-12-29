@@ -17,7 +17,7 @@ emra.localizedName = "Emra";
   navalValley.alwaysUnlocked = false;
   navalValley.research = SectorPresets.ruinousShores;
 
-  const planetEntryPoint = new SectorPreset("planetEntryPoint", emra, 109);
+  const planetEntryPoint = new SectorPreset("planetEntryPoint", emra, 21);
   navalValley.captureWave = 15;
   navalValley.localizedName = "Planet Entry Point";
   navalValley.difficulty = 2;
