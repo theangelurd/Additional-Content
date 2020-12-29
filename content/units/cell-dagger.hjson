@@ -1,0 +1,25 @@
+type: mech
+name: "Cell Dagger"
+description: "This dagger's cell is its body..."
+rotateSpeed: 5
+hitSize: 8
+speed: 0.5
+mechFrontSway: 0.21
+mechSideSway: 0.53
+health: 140
+armor: 0
+flying: false
+range: 154
+itemCapacity: 30
+drag: 0.3
+accel: 0.5
+weapons:[
+name: large-weapon
+x: 4
+y: 2
+recoil: 1.5
+reload: 28
+rotate: false
+top: false
+shootY: 3
+bullet: standardCopper
