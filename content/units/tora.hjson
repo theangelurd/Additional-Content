@@ -47,7 +47,7 @@ weapons:[{
         collidesGround: true
         collides: true
         speed: 3
-        lifetime: 120
+        lifetime: 80
         width: 10
         height: 10
         knockback: 0.6
