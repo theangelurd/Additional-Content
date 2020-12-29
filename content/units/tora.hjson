@@ -42,7 +42,7 @@ weapons:[{
         backColor: f9c27aff
         frontColor: fff8e8ff
         hitSound: explosion
-        hitEffect: giantExplosion
+        hitEffect: explosion
         collidesAir: false
         collidesGround: true
         collidesTiles: true
