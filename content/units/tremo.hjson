@@ -37,6 +37,8 @@ height: 9
 hitEffect: hitLaser
 colors: [ff9c5aff, ec7458aaff, ffffffff]
 lightColor: 6f5b5f
+collidesGround: false
+collidesAir: true
 width: 18
 length: 160
 shootEffect: none
@@ -60,6 +62,7 @@ rotateSpeed: 4.8
 bullet: {
 type: ArtilleryBulletType
 splashDamage: 34
+splashDamageRadius: 23
 lifetime: 70
 speed: 3
 width: 14
@@ -68,6 +71,10 @@ despawnEffect: explosion
 hitEffect: explosion
 shootEffect: shootBig
 smokeEffect: shootBigSmoke
+collides: true
+collidesTiles: true
+collidesGround: true
+collidesAir: false
 knockback: 1.4
 }
 }
