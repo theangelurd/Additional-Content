@@ -5,7 +5,7 @@ speed: 0.7
 drag: 0.08
 armor: 6
 hitSize: 11
-health: 560
+health: 680
 range: 140
 accel: 0.08
 flying: false
