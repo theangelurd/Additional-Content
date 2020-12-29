@@ -21,5 +21,4 @@ const planetEntryPoint = new SectorPreset("planetEntryPoint", emra, 74);
 navalValley.captureWave = 15;
 navalValley.localizedName = "Planet Entry Point";
 navalValley.difficulty = 2;
-navalValley.alwaysUnlocked = false;
-navalValley.research = SectorPresets.frozenForest;
+navalValley.alwaysUnlocked = true;
