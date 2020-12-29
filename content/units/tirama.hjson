@@ -53,7 +53,7 @@ alternate: true
 ejectEffect: casing3
 shootSound: artillery
 recoil: 3
-x: 8
+x: 9
 shootY: 4
 y: -9
 rotate: true
