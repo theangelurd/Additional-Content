@@ -45,6 +45,7 @@ weapons:[{
         hitEffect: explosion
         collidesAir: false
         collidesGround: true
+        collidesTiles: true
         collides: true
         speed: 3
         lifetime: 80
