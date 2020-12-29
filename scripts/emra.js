@@ -1,4 +1,4 @@
-const emra = new Planet("emra", Planets.sun, 1.2, 1);
+const emra = new Planet("emra", Planets.sun, 1.4, 1.4);
 emra.generator = new SerpuloPlanetGenerator();
 emra.mesh = new HexMesh(emra, 6);
 emra.bloom = true;
@@ -7,7 +7,7 @@ emra.accessible = true;
 emra.hasAtmosphere = true;
 emra.atmosphereColor = Color.valueOf("c7fffbff");
 emra.atmosphereRadIn = 0.02;
-emra.atmosphereRadOut = 0.3;
+emra.atmosphereRadOut = 0.35;
 emra.localizedName = "Emra";
 
 const navalValley = new SectorPreset("navalValley", emra, 18);
