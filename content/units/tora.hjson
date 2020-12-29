@@ -20,7 +20,7 @@ armor: 2
 rotateSpeed: 2.4
 weapons:[{
     name: small-artillery-mount-double
-    reload: 34
+    reload: 60
     x: 0
     y: -5
     mirror: false
@@ -40,6 +40,10 @@ weapons:[{
         splashDamageRadius: 20
         backColor: f9c27aff
         frontColor: fff8e8ff
+        hitSound: explosion
+        hitEffect: explosion
+        collidesAir: false
+        collides: false
         speed: 3
         lifetime: 80
         width: 10
