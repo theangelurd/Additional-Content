@@ -19,7 +19,7 @@ name: large-weapon
 x: 4
 y: 2
 recoil: 1.5
-reload: 28
+reload: 16
 rotate: false
 top: false
 shootY: 3
