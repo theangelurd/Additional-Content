@@ -1,0 +1,116 @@
+type: naval
+name: "Timera"
+description: "Shoots artillery, basic bullets and powerful lasers at enemies."
+speed: 0.75
+drag: 0.08
+armor: 6
+hitSize: 11
+health: 1020
+range: 180
+accel: 0.08
+flying: false
+itemCapacity: 80
+rotateSpeed: 1.5
+rotateShooting: false
+trailLength: 60
+trailX: 8
+trailY: -11
+trailScl: 3
+weapons: [
+{
+name: mount-weapon
+reload: 16
+alternate: true
+ejectEffect: casing1
+top: true
+shootSound: pew
+recoil: 1.5
+x: 3
+shootY: 4
+y: 9
+rotate: true
+rotateSpeed: 8
+bullet: {
+type: BasicBulletType
+damage: 9
+speed: 3
+lifetime: 60
+hitSound: none
+width: 7
+height: 9
+hitEffect: hitBulletSmall
+collidesGround: true
+collidesAir: true
+shootEffect: shootSmall
+smokeEffect: shootSmallSmoke
+trailEffect: none
+}
+}
+{
+name: artillery-mount
+reload: 60
+alternate: true
+ejectEffect: casing3
+shootSound: artillery
+recoil: 3
+x: 5
+shootY: 4
+y: -9
+rotate: true
+top: true
+rotateSpeed: 3.6
+bullet: {
+type: ArtilleryBulletType
+splashDamage: 30
+splashDamageRadius: 21
+lifetime: 70
+speed: 3
+width: 12
+height: 12
+lightning: 2
+lightningLength: 5
+lightningLengthRand: 5
+despawnEffect: explosion
+hitEffect: explosion
+shootEffect: shootBig
+smokeEffect: shootBigSmoke
+collides: true
+collidesTiles: true
+collidesGround: true
+collidesAir: false
+knockback: 0.9
+}
+}
+{
+name: artillery-mount-double
+reload: 270
+cooldownTime: 180
+recoil: 4
+shootSound: laser
+top: true
+rotate: true
+rotateSpeed: 1.8
+mirror: false
+y: -9
+x: 0
+shootY: 6
+bullet: {
+type: LaserBulletType
+length: 240
+lightningSpacing: 30
+lifetime: 35
+lightningLength: 7
+lightningDamage: 8
+lightnignLengthRand: 7
+width: 30
+sideWidth: 2
+sideAngle: 90
+colors: [ff9c5aff, ec7458aaff, ffffffff]
+lightColor: 6f5b5f
+damage: 130
+}
+}
+]
+research:{
+parent: tremo
+}
