@@ -20,7 +20,7 @@ alternate: true
 ejectEffect: none
 top: true
 shootSound: laser
-recoil: 1.5
+recoil: 3
 x: 8
 shootY: 4
 y: 0
