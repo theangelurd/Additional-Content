@@ -35,7 +35,7 @@ hitSound: none
 width: 7
 height: 9
 hitEffect: hitLaser
-colors: [ff9c5a, ec7458aa, ffff]
+colors: [ff9c5a, ec7458aa, ffffff]
 length: 160
 shootEffect: none
 smokeEffect: shootBigSmoke
