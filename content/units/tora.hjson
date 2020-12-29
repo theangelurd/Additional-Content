@@ -10,10 +10,10 @@ accel: 0.12
 range: 240
 hitSize: 8
 itemCapacity: 30
-trailX: 5
-trailY: -7
-trailScl: 1.5
-trailLength: 40
+trailX: 3
+trailY: -5
+trailScl: 1
+trailLength: 30
 targetGround: true
 targetAir: false
 armor: 2
@@ -21,7 +21,7 @@ rotateSpeed: 2.4
 weapons:[{
     name: small-artillery-mount-double
     reload: 34
-    x: 5
+    x: 0
     y: 0
     mirror: false
     shootY: 4
