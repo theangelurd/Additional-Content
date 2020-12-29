@@ -14,6 +14,7 @@ itemCapacity: 30
 drag: 0.3
 accel: 0.5
 weapons:[
+{
 name: large-weapon
 x: 4
 y: 2
@@ -22,4 +23,12 @@ reload: 28
 rotate: false
 top: false
 shootY: 3
-bullet: standardCopper
+bullet: {
+type: BasicBulletType
+damage: 9
+width: 7
+height: 9
+lifetime: 60
+}
+}
+]
