@@ -1,0 +1,75 @@
+type: naval
+name: "Tremo"
+description: "Shoots lasers at air targets and artillery at ground targets."
+speed: 0.7
+drag: 0.08
+armor: 6
+hitSize: 11
+health: 560
+range: 140
+accel: 0.08
+flying: false
+itemCapacity: 50
+rotateSpeed: 1.8
+rotateShooting: false
+weapons: [
+{
+name: large-bullet-mount
+reload: 110
+alternate: true
+ejectEffect: none
+top: true
+shootSound: laser
+recoil: 1.5
+x: 7
+shootY: 4
+y: 0
+rotate: true
+rotateSpeed: 2.4
+bullet: {
+type: LaserBulletType
+damage: 60
+speed: 0.01
+lifetime: 24
+hitSound: none
+width: 7
+height: 9
+hitEffect: hitLaser
+colors: [ff9c5a, ec7458aa, ffff]
+length: 160
+shootEffect: none
+smokeEffect: shootBigSmoke
+trailEffect: none
+}
+}
+{
+name: small-artillery-mount
+reload: 62
+alternate: true
+ejectEffect: casing3
+shootSound: artillery
+recoil: 3
+x: 7
+shootY: 4
+y: -4
+rotate: true
+top: true
+rotateSpeed: 4.8
+bullet: {
+type: ArtilleryBulletType
+splashDamage: 34
+lifetime: 70
+speed: 5.3
+width: 14
+height: 14
+despawnEffect: hitBulletBig
+hitEffect: hitBulletBig
+shootEffect: shootBig
+smokeEffect: shootBigSmoke
+knockback: 1.4
+}
+}
+]
+research:{
+parent: tora
+}
