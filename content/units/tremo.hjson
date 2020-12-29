@@ -36,6 +36,7 @@ width: 7
 height: 9
 hitEffect: hitLaser
 colors: [ff9c5aff, ec7458aaff, ffffffff]
+lightColor: 6f5b5f
 width: 18
 length: 160
 shootEffect: none
