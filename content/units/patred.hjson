@@ -28,6 +28,7 @@ weapons:[{
     rotate: false
     recoil: 1.5
     top: false
+    ejectEffect: casing1
     bullet:{
         type: BasicBulletType
         damage: 11
