@@ -1,0 +1,53 @@
+type: naval
+name: "Tora"
+description: "Fires artillery shells at ground targets."
+commandLimit: 4
+health: 260
+speed: 1
+flying: false
+drag: 0.12
+accel: 0.12
+range: 240
+hitSize: 8
+itemCapacity: 30
+trailX: 5
+trailY: -7
+trailScl: 1.5
+trailLength: 40
+targetGround: true
+targetAir: false
+armor: 2
+rotateSpeed: 2.4
+weapons:[{
+    name: small-artillery-mount-double
+    reload: 34
+    x: 5
+    y: 0
+    mirror: false
+    shootY: 4
+    shootCone: 15
+    rotate: true
+    inaccuracy: 0
+    shootSound: artillery
+    rotate: false
+    recoil: 2
+    top: true
+    rotateSpeed: 3
+    bullet:{
+        type: ArtilleryBulletType
+        sprite: shell
+        splashDamage: 23
+        splashDamageRadius: 20
+        backColor: f9c27aff
+        frontColor: fff8e8ff
+        speed: 3
+        lifetime: 80
+        width: 10
+        height: 10
+        knockback: 0.6
+    }
+}
+]
+research: {
+    parent: naval-factory
+}
