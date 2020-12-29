@@ -10,15 +10,15 @@ emra.atmosphereRadIn = 0.001;
 emra.atmosphereRadOut = 0.05;
 emra.localizedName = "Emra";
 
-const navalValley = new SectorPreset("navalValley", emra, 18);
-navalValley.captureWave = 25;
-navalValley.localizedName = "Naval Valley";
-navalValley.difficulty = 4;
-navalValley.alwaysUnlocked = false;
-navalValley.research = SectorPresets.ruinousShores;
+  const navalValley = new SectorPreset("navalValley", emra, 18);
+  navalValley.captureWave = 25;
+  navalValley.localizedName = "Naval Valley";
+  navalValley.difficulty = 4;
+  navalValley.alwaysUnlocked = false;
+  navalValley.research = SectorPresets.ruinousShores;
 
-const planetEntryPoint = new SectorPreset("planetEntryPoint", emra, 109);
-navalValley.captureWave = 15;
-navalValley.localizedName = "Planet Entry Point";
-navalValley.difficulty = 2;
-navalValley.alwaysUnlocked = true;
+  const planetEntryPoint = new SectorPreset("planetEntryPoint", emra, 109);
+  navalValley.captureWave = 15;
+  navalValley.localizedName = "Planet Entry Point";
+  navalValley.difficulty = 2;
+  navalValley.alwaysUnlocked = true;
