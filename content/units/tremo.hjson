@@ -21,7 +21,7 @@ ejectEffect: none
 top: true
 shootSound: laser
 recoil: 1.5
-x: 7
+x: 8
 shootY: 4
 y: 0
 rotate: true
