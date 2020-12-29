@@ -1,7 +1,7 @@
 const emra = new Planet("emra", Planets.sun, 3.6, 0.8);
 emra.generator = new SerpuloPlanetGenerator();
 emra.mesh = new HexMesh(emra, 5);
-emra.bloom = false;
+emra.bloom = true;
 emra.radius = 1;
 emra.accessible = true;
 emra.hasAtmosphere = true;
