@@ -35,7 +35,7 @@ hitSound: none
 width: 7
 height: 9
 hitEffect: hitLaser
-colors: [ff9c5aff, ec7458aaff, ffffff]
+colors: [ff9c5aff, ec7458aaff, ffffffff]
 width: 18
 length: 160
 shootEffect: none
