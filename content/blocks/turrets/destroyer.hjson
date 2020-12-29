@@ -6,6 +6,7 @@ size: 4
 reloadTime: 720
 recoilAmount: 16
 shootSound: laserbig
+shootShake: 178
 cooldown: 0.002
 heatColor: ab3400
 range: 220
