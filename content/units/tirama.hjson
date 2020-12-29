@@ -53,7 +53,7 @@ alternate: true
 ejectEffect: casing3
 shootSound: artillery
 recoil: 3
-x: 5
+x: 7
 shootY: 4
 y: -9
 rotate: true
@@ -83,8 +83,8 @@ knockback: 0.9
 }
 {
 name: artillery-mount-double
-reload: 270
-cooldownTime: 180
+reload: 320
+cooldownTime: 320
 recoil: 4
 shootSound: laser
 top: true
