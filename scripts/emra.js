@@ -7,7 +7,7 @@ emra.accessible = true;
 emra.hasAtmosphere = true;
 emra.atmosphereColor = Color.valueOf("1c195c");
 emra.atmosphereRadIn = 0.02;
-emra.atmosphereRadOut = 0.35;
+emra.atmosphereRadOut = 0.2;
 emra.localizedName = "Emra";
 
 const navalValley = new SectorPreset("navalValley", emra, 18);
