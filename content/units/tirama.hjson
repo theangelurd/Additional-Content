@@ -1,5 +1,5 @@
 type: naval
-name: "Timera"
+name: "Tirama"
 description: "Shoots artillery, basic bullets and powerful lasers at enemies."
 speed: 0.75
 drag: 0.08
