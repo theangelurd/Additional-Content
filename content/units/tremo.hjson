@@ -12,6 +12,9 @@ flying: false
 itemCapacity: 50
 rotateSpeed: 1.8
 rotateShooting: false
+trailLength: 45
+trailX: 8
+trailY: -8
 weapons: [
 {
 name: large-bullet-mount
