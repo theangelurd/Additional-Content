@@ -36,6 +36,7 @@ width: 7
 height: 9
 hitEffect: hitLaser
 colors: [ff9c5aff, ec7458aaff, ffffff]
+width: 18
 length: 160
 shootEffect: none
 smokeEffect: shootBigSmoke
@@ -51,7 +52,7 @@ shootSound: artillery
 recoil: 3
 x: 7
 shootY: 4
-y: -4
+y: -6
 rotate: true
 top: true
 rotateSpeed: 4.8
