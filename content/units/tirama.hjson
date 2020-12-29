@@ -4,7 +4,7 @@ description: "Shoots artillery, basic bullets and powerful lasers at enemies."
 speed: 0.75
 drag: 0.08
 armor: 6
-hitSize: 11
+hitSize: 15
 health: 1020
 range: 180
 accel: 0.08
