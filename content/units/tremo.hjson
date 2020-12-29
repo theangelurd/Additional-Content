@@ -20,6 +20,7 @@ alternate: true
 ejectEffect: none
 top: true
 shootSound: laser
+cooldownTime: 110
 recoil: 3
 x: 8
 shootY: 4
