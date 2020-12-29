@@ -22,7 +22,7 @@ weapons:[{
     name: small-artillery-mount-double
     reload: 34
     x: 0
-    y: 0
+    y: -5
     mirror: false
     shootY: 4
     shootCone: 15
