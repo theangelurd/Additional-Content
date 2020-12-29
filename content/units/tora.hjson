@@ -9,7 +9,8 @@ drag: 0.12
 accel: 0.12
 range: 360
 hitSize: 8
-faceTarget: false
+faceTarget: true
+rotateShooting: false
 itemCapacity: 30
 trailX: 3
 trailY: -5
