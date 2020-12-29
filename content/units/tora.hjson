@@ -43,7 +43,8 @@ weapons:[{
         hitSound: explosion
         hitEffect: explosion
         collidesAir: false
-        collides: false
+        collidesGround: true
+        collides: true
         speed: 3
         lifetime: 80
         width: 10
