@@ -6,7 +6,7 @@ emra.radius = 2;
 emra.accessible = true;
 emra.hasAtmosphere = true;
 emra.atmosphereColor = Color.valueOf("c7fffbff");
-emra.atmosphereRadIn = 0.04;
+emra.atmosphereRadIn = 0.02;
 emra.atmosphereRadOut = 0.3;
 emra.localizedName = "Emra";
 
