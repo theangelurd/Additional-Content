@@ -33,6 +33,7 @@ weapons:[{
     recoil: 2
     top: true
     rotateSpeed: 3
+    ejectEffect: casing2
     bullet:{
         type: ArtilleryBulletType
         sprite: shell
