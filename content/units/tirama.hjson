@@ -19,7 +19,7 @@ trailScl: 3
 weapons: [
 {
 name: mount-weapon
-reload: 16
+reload: 12
 alternate: true
 ejectEffect: casing1
 top: true
@@ -53,7 +53,7 @@ alternate: true
 ejectEffect: casing3
 shootSound: artillery
 recoil: 3
-x: 7
+x: 8
 shootY: 4
 y: -9
 rotate: true
