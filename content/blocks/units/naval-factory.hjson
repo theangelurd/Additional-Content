@@ -1,0 +1,18 @@
+plans: [
+  {
+    unit: risso
+    requirements: [
+      silicon/20
+      metaglass/35
+    ]
+    time: 920
+  }
+  {
+    unit: tora
+    requirements: [
+        silicon/30
+        metaglass/40
+    ]
+    time: 1100
+  }
+]
