@@ -29,6 +29,7 @@ damage: 9
 width: 7
 height: 9
 lifetime: 60
+speed: 3
 }
 }
 ]
