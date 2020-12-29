@@ -29,7 +29,7 @@ weapons:[{
     rotate: true
     inaccuracy: 0
     shootSound: artillery
-    rotate: false
+    rotate: true
     recoil: 2
     top: true
     rotateSpeed: 3
