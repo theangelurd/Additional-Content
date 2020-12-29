@@ -48,7 +48,7 @@ trailEffect: none
 }
 {
 name: artillery-mount
-reload: 60
+reload: 85
 alternate: true
 ejectEffect: casing3
 shootSound: artillery
