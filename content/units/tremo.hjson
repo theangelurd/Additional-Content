@@ -29,7 +29,7 @@ rotate: true
 rotateSpeed: 2.4
 bullet: {
 type: LaserBulletType
-damage: 60
+damage: 84
 speed: 0.01
 lifetime: 24
 hitSound: none
