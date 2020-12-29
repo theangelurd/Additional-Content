@@ -7,7 +7,7 @@ speed: 1
 flying: false
 drag: 0.12
 accel: 0.12
-range: 360
+range: 240
 hitSize: 8
 faceTarget: true
 rotateShooting: false
