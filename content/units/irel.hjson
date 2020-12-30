@@ -25,7 +25,7 @@ rotate: false
 x: 4
 bullet: {
 type: LightningBulletType
-damage: 7
+damage: 3
 lightningLength: 8.4
 lightningLengthRand: 8.4
 shootEffect: sparkShoot
