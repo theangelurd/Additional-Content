@@ -25,7 +25,7 @@ heatColor: 85d1ff
 reload: 60
 recoil: 3
 alternate: true
-shootY: 8
+shootY: 7
 top: false
 x: 8
 y: 0
