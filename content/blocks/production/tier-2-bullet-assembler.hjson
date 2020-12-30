@@ -1,0 +1,26 @@
+name: Tier 2 Shell Assembler
+description: "Assembles tier 2 shells for ammo."
+size: 2
+hasItems: true
+hasPower: true
+type: GenericCrafter
+craftEffect: pulverize
+craftTime: 80
+consumes: {
+    power: 1.2
+    items: {
+      items: [
+        copper/3
+        silicon/2
+        lead/1
+      ]
+    }
+}
+requirements: [
+  steel/240
+  silicon/80
+  titanium/140
+]
+category: crafting
+research: tier-1-bullet-assembler
+outputItem: tier-2-shell/1
