@@ -1,11 +1,11 @@
 name: Tier 1 Shell Assembler
 description: "Assembles tier 1 shells for ammo."
-size: 1
+size: 2
 hasItems: true
 hasPower: true
 type: GenericCrafter
 craftEffect: pulverize
-craftTime: 160
+craftTime: 60
 consumes: {
     power: 1.2
     items: {
@@ -23,4 +23,4 @@ requirements: [
 ]
 category: crafting
 research: graphite-press
-outputItem: tier-1-shell
+outputItem: tier-1-shell/1
