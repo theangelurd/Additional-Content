@@ -1,0 +1,40 @@
+type: mech
+name: "Irule"
+hitSize: 9
+speed: 0.7
+health: 320
+range: 140
+description: "Fires piercing lasers."
+canBoost: true
+boostMultiplier: 2.4
+engineSize: 1.5
+engineOffset: 7
+mineTier: 2
+mineSpeed: 3
+weapons:[
+{
+name: laser-weapon
+cooldownTime: 30
+heatColor: 85d1ff
+reload: 60
+recoil: 3
+alternate: true
+shootY: 10
+x: 7
+y: 0
+bullet: {
+type: LaserBulletType
+length: 140
+width: 20
+damage: 40
+recoil: 1.5
+speed: 0.01
+sideAngle: 90
+sideWidth: 2
+sideLength: 90
+}
+}
+]
+research: {
+parent: irel
+}
