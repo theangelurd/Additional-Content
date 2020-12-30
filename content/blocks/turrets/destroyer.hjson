@@ -3,7 +3,7 @@ name: "Destroyer"
 description: "Shoots devastating lasers."
 health: 3200
 size: 4
-reloadTime: 720
+reloadTime: 600
 recoilAmount: 16
 shootSound: laserbig
 shootShake: 32
@@ -38,8 +38,8 @@ ammoTypes: {
 shootType: {
            type: LaserBulletType
            pierce: true
-           damage: 4400
-           width: 70
+           damage: 4600
+           width: 125
            lifetime: 200
            length: 220
            hitSize: 70
@@ -50,15 +50,15 @@ shootType: {
            sideWidth: 2
 }
 requirements:[
-  copper/2500
-  lead/2100
-  graphite/1800
-  silicon/1600
-  plastanium/1000
-  surge-alloy/600
-  steel/1000
-  iron/800
-  timerite/700
+  copper/3800
+  lead/3400
+  graphite/3100
+  silicon/2700
+  plastanium/1800
+  surge-alloy/1000
+  steel/2000
+  iron/2400
+  timerite/1200
 ]
 research: meltdown
 category: turret
