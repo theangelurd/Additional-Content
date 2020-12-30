@@ -17,7 +17,7 @@ ammoTypes: {
   iron: {
     speed: 4.7
     damage: 7
-    splashDamage: 14
+    splashDamage: 18
     splashDamageRadius: 14
     width: 10
     height: 17
@@ -50,8 +50,8 @@ ammoTypes: {
     }
     steel-rod: {
     speed: 4.7
-    damage: 21
-    splashDamage: 4
+    damage: 27
+    splashDamage: 5
     splashDamageRadius: 11
     width: 9
     height: 23
@@ -67,8 +67,8 @@ ammoTypes: {
     }
     copper: {
     speed: 4.7
-    damage: 4
-    splashDamage: 5
+    damage: 5
+    splashDamage: 8
     splashDamageRadius: 13
     width: 9
     height: 13
@@ -84,8 +84,8 @@ ammoTypes: {
     }
     graphite: {
     speed: 4.7
-    damage: 7
-    splashDamage: 11
+    damage: 9
+    splashDamage: 15
     splashDamageRadius: 15
     width: 9
     height: 13
