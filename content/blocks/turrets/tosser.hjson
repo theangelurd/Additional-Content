@@ -3,7 +3,7 @@ name: Tosser
 description: Tosses bombs that do heavy damage on contact.
 health: 320
 size: 1
-reloadTime: 100
+reloadTime: 75
 shootSound: bigshot
 range: 120
 shots: 1
@@ -14,15 +14,15 @@ rotateSpeed: 6.8
 ammoTypes: {
   blast-compound: {
     speed: 4.2
-    damage: 8
-    splashDamage: 37
+    damage: 13
+    splashDamage: 39
     splashDamageRadius: 23
     width: 13
     height: 13
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
-    hitEffect: explosion
-    despawnEffect: explosion
+    hitEffect: blastExplosion
+    despawnEffect: blastExplosion
     hitSound: explosion
     lifetime: 68
     drag: 0.02
