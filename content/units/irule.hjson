@@ -15,16 +15,19 @@ weapons:[
 {
 name: laser-weapon
 cooldownTime: 30
+shootSound: laser
 heatColor: 85d1ff
 reload: 60
 recoil: 3
 alternate: true
 shootY: 10
-x: 7
+top: false
+x: 8
 y: 0
 bullet: {
 type: LaserBulletType
 length: 140
+lifetime: 24
 width: 20
 damage: 40
 recoil: 1.5
