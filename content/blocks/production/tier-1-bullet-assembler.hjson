@@ -1,0 +1,26 @@
+name: Tier 1 Shell Assembler
+description: "Assembles tier 1 shells for ammo."
+size: 1
+hasItems: true
+hasPower: true
+type: GenericCrafter
+craftEffect: pulverize
+craftTime: 160
+consumes: {
+    power: 1.2
+    items: {
+      items: [
+        copper/3
+        silicon/2
+        lead/1
+      ]
+    }
+}
+requirements: [
+  copper/240
+  lead/80
+  silicon/140
+]
+category: crafting
+research: graphite-press
+outputItem: tier-1-shell
