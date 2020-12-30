@@ -1,6 +1,6 @@
 type: mech
 name: "Irule"
-hitSize: 9
+hitSize: 11
 speed: 0.7
 health: 320
 range: 140
