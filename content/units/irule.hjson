@@ -4,6 +4,7 @@ hitSize: 9
 speed: 0.7
 health: 320
 range: 140
+rotateSpeed: 4.8
 description: "Fires piercing lasers."
 canBoost: true
 drag: 0.3
