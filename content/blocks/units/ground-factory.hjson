@@ -32,4 +32,12 @@ plans: [
     ]
     time: 780
   }
+  {
+    unit: irel
+    requirements: [
+      silicon/5
+      lead/10
+    ]
+    time: 400
+  }
 ]
