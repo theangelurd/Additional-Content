@@ -4,7 +4,7 @@ description: "Shoots devastating lasers."
 health: 3200
 size: 4
 reloadTime: 600
-recoilAmount: 36
+recoilAmount: 172
 shootSound: laserbig
 shootShake: 32
 cooldown: 0.002
