@@ -6,15 +6,17 @@ health: 320
 range: 140
 description: "Fires piercing lasers."
 canBoost: true
-boostMultiplier: 2.4
-engineSize: 1.5
-engineOffset: 7
+drag: 0.3
+accel: 0.5
+boostMultiplier: 1.5
+engineSize: 2.5
+engineOffset: 6
 mineTier: 2
 mineSpeed: 3
 weapons:[
 {
 name: laser-weapon
-cooldownTime: 30
+cooldownTime: 60
 shootSound: laser
 heatColor: 85d1ff
 reload: 60
