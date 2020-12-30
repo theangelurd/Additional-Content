@@ -1,0 +1,44 @@
+type: mech
+name: "Irel"
+description: "Shoots lightning at all enemies."
+range: 84
+speed: 0.85
+hitSize: 7
+rotateSpeed: 6
+drag: 0.3
+accel: 0.5
+itemCapacity: 20
+mineTier: 1
+mineSpeed: 1.5
+weapons:[
+{
+name: electric-weapon
+reload: 38
+shots: 2
+recoil: 2
+cooldownTime: 76
+heatColor: a3a3ff
+ejectEffect: none
+top: false
+rotate: false
+bullet: {
+type: LightningBulletType
+damage: 7
+lightningLength: 8.4
+lightningLengthRand: 8.4
+shootEffect: sparkShoot
+smokeEffect: shootSmallSmoke
+lightningType: {
+lifetime: 10
+hitEffect: hitLancer
+despawnEffect: Fx.none
+statusDuration: 10
+status: shocked
+hittable: false
+}
+}
+}
+]
+research: {
+parent: ground-factory
+}
