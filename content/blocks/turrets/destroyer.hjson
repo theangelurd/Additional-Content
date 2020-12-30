@@ -4,14 +4,14 @@ description: "Shoots devastating lasers."
 health: 3200
 size: 4
 reloadTime: 600
-recoilAmount: 16
+recoilAmount: 36
 shootSound: laserbig
 shootShake: 32
 cooldown: 0.002
 heatColor: ab3400
 range: 220
 recoilAmount: 2
-restitution: 0.01
+restitution: 0.004
 chargeTime: 100
 hasPower: true
 chargeEffects: 1860
