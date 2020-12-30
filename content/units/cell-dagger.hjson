@@ -15,7 +15,7 @@ drag: 0.3
 accel: 0.5
 weapons:[
 {
-name: large-weapon
+name: cell-dagger-weapon
 x: 4
 y: 2
 recoil: 1.5
