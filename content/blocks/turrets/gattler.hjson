@@ -99,6 +99,36 @@ ammoTypes: {
     collidesGround: true
     collidesAir: true
     }
+    tier-1-shell: {
+    speed: 5.2
+    damage: 36
+    width: 14
+    height: 21
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    hitEffect: hitBulletBig
+    despawnEffect: hitBulletBig
+    lifetime: 48
+    ammoMultiplier: 2
+    knockback: 1.6
+    collidesGround: true
+    collidesAir: true
+    }
+    tier-2-shell: {
+    speed: 5.2
+    damage: 59
+    width: 16
+    height: 23
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    hitEffect: hitBulletBig
+    despawnEffect: hitBulletBig
+    lifetime: 48
+    ammoMultiplier: 2
+    knockback: 2.1
+    collidesGround: true
+    collidesAir: true
+    }
 }
 requirements: [    
   copper/220
