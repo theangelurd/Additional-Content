@@ -31,7 +31,7 @@ smokeEffect: shootSmallSmoke
 lightningType: {
 lifetime: 10
 hitEffect: hitLancer
-despawnEffect: Fx.none
+despawnEffect: none
 statusDuration: 10
 status: shocked
 hittable: false
