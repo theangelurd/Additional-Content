@@ -21,6 +21,7 @@ heatColor: a3a3ff
 ejectEffect: none
 top: false
 rotate: false
+x: 3
 bullet: {
 type: LightningBulletType
 damage: 7
