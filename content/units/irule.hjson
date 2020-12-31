@@ -1,3 +1,4 @@
+type: mech
 name: "Irule"
 hitSize: 11
 speed: 0.7
