@@ -4,7 +4,7 @@ description: "Shoots strong and weak bullets at any nearby enemy."
 speed: 0.37
 drag: 0.2
 armor: 8
-hitSize: 10
+hitSize: 13
 health: 700
 accel: 0.2
 mechFrontSway: 0.76
