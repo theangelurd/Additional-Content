@@ -36,8 +36,6 @@ height: 18
 pierce: true
 pierceCap: 3
 pierceBuilding: true
-despawnEffect: hitBulletBig
-hitEffect: hitBulletBig
 shootEffect: shootBig
 smokeEffect: shootBigSmoke
 knockback: 1.4
