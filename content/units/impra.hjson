@@ -59,7 +59,7 @@ bullet: {
 type: BasicBulletType
 damage: 7
 splashDamage: 26
-splashDamageRadius: 20
+splashDamageRadius: 28
 lightning: 3
 lightningDamage: 2
 sprite: "large-bomb"
