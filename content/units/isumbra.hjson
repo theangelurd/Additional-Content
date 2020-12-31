@@ -21,6 +21,7 @@ recoil: 4
 cooldownTime: 120
 x: 18
 y: 0
+shootY: 14
 top: false
 rotate: false
 shootSound: railgun
@@ -44,6 +45,7 @@ name: large-bullet-mount
 cooldownTime: 0
 reload: 40
 shootSound: missile
+shootY: 8
 shots: 4
 shotDelay: 3
 recoil: 2.5
