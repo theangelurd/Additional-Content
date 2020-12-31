@@ -25,6 +25,7 @@ shootSound: railgun
 ejectEffect: casing4
 bullet: {
 type: RailBulletType
+pierceDamageFactor: 0.5
 speed: 0.01
 updateEffectSeg: 50
 damage: 320
@@ -40,6 +41,7 @@ smokeEffect: smokeCloud
 name: large-bullet-mount
 cooldownTime: 0
 reload: 80
+shootSound: missile
 shots: 3
 shotDelay: 3
 recoil: 2.5
