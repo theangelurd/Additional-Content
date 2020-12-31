@@ -5,6 +5,7 @@ speed: 0.8
 health: 270
 range: 140
 rotateSpeed: 4.8
+commandLimit: 4
 mechSideSway: 0.77
 mechFrontSway: 0.38
 description: "Fires piercing lasers."
