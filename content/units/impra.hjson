@@ -56,7 +56,8 @@ rotate: true
 rotateSpeed: 7
 bullet: {
 type: BasicBulletType
-damage: 9
+damage: 3
+sprite: bubble-bullet
 speed: 3
 lifetime: 60
 hitSound: none
