@@ -22,7 +22,7 @@ name: laser-weapon
 cooldownTime: 60
 shootSound: laser
 heatColor: 85d1ff
-reload: 50
+reload: 40
 recoil: 3
 alternate: true
 shake: 2.2
