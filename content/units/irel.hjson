@@ -5,6 +5,7 @@ range: 84
 speed: 0.85
 health: 100
 hitSize: 7
+commandLimit: 3
 rotateSpeed: 6
 drag: 0.3
 accel: 0.5
