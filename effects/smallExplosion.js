@@ -13,4 +13,4 @@ Angles.randLenVectors(e.id, 10, e.fin() * 15, e.rotation, 360,d)
 
 const impra = extendContent(mech,"impra",{});
 impra.weapons.get(0).bullet.hitEffect = smallExplosion;
-impra.weapons.get(0).bullet.despawn = smallExplosion;
+impra.weapons.get(0).bullet.despawnEffect = smallExplosion;
