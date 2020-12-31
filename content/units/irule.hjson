@@ -5,8 +5,8 @@ speed: 0.7
 health: 320
 range: 140
 rotateSpeed: 4.8
-mechSideSway: 0.58
-mechFrontSway: 0.22
+mechSideSway: 0.77
+mechFrontSway: 0.38
 description: "Fires piercing lasers."
 canBoost: true
 drag: 0.3
@@ -32,7 +32,7 @@ y: 0
 bullet: {
 type: LaserBulletType
 length: 140
-lifetime: 24
+lifetime: 18
 width: 20
 damage: 40
 recoil: 1.5
