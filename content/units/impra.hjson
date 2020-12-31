@@ -55,13 +55,14 @@ y: 0
 rotate: true
 rotateSpeed: 7
 bullet: {
-type: ArtilleryBulletType
+type: BasicBulletType
 damage: 7
 splashDamage: 26
 splashDamageRadius: 20
 lightning: 3
 lightningDamage: 2
 sprite: "large-bomb"
+drag: 0.02
 spin: 1
 speed: 3
 lifetime: 60
@@ -75,14 +76,15 @@ smokeEffect: shootBigSmoke
 trailEffect: none
 fragBullets: 3
 fragBullet: {
+type: ArtilleryBulletType
 sprite: "shell"
 damage: 4
 splashDamage: 7
 splashDamageRadius: 16
 spin: 0
 speed: 3
-drag: 0.05
-lifetime: 42
+drag: 0.02
+lifetime: 56
 hitEffect: explosion
 despawnEffect: explosion
 }
