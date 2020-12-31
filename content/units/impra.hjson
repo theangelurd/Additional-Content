@@ -24,6 +24,7 @@ shootSound: shootBig
 recoil: 2.5
 x: 10
 shootY: 4
+shrinkX: shrinkY
 y: 0
 rotate: false
 bullet: {
@@ -67,8 +68,8 @@ spin: 1
 speed: 3
 lifetime: 60
 hitSound: none
-width: 16
-height: 16
+width: 26
+height: 26
 despawnEffect: massiveExplosion
 hitEffect: massiveExplosion
 shootEffect: shootBig
