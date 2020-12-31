@@ -19,7 +19,7 @@ mineSpeed: 3
 weapons:[
 {
 name: laser-weapon
-cooldownTime: 60
+cooldownTime: 40
 shootSound: laser
 heatColor: 85d1ff
 reload: 40
