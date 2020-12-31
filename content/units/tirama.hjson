@@ -6,6 +6,7 @@ drag: 0.08
 armor: 6
 hitSize: 15
 health: 1020
+commandLimit: 6
 range: 180
 accel: 0.08
 flying: false
