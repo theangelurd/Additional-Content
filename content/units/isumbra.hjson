@@ -16,9 +16,9 @@ accel: 0.5
 weapons: [
 {
 name: isumbra-weapon
-reload: 70
+reload: 60
 recoil: 4
-cooldownTime: 220
+cooldownTime: 120
 x: 18
 y: 0
 top: false
@@ -65,6 +65,7 @@ hitEffect: blastExplosion
 despawnEffect: blastExplosion
 shootEffect: shootBig
 smokeEffect: shootBig
+knockback: 4.2
 }
 }
 ]
