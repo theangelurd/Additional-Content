@@ -5,6 +5,8 @@ commandLimit: 8
 health: 8700
 armor: 12
 speed: 0.33
+mechFrontSway: 1.2
+mechSideSway: 0.7
 itemCapacity: 160
 rotateSpeed: 2.4
 hitSize: 18
