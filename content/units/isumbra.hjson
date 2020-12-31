@@ -14,7 +14,7 @@ accel: 0.5
 weapons: [
 {
 name: isumbra-weapon
-reload: 110
+reload: 90
 recoil: 4
 cooldownTime: 220
 x: 18
