@@ -7,6 +7,7 @@ armor: 6
 hitSize: 11
 health: 680
 range: 140
+commandLimit: 5
 accel: 0.08
 flying: false
 itemCapacity: 50
