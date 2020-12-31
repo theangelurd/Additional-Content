@@ -57,7 +57,7 @@ rotateSpeed: 7
 bullet: {
 type: BasicBulletType
 damage: 3
-sprite: bubble-bullet
+sprite: "bubble-bullet"
 speed: 3
 lifetime: 60
 hitSound: none
@@ -70,7 +70,7 @@ smokeEffect: shootSmallSmoke
 trailEffect: none
 fragBullets: 3
 fragBullet: {
-sprite: bubble
+sprite: "bubble"
 damage: 4
 spin: 1
 speed: 4
