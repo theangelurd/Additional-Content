@@ -9,7 +9,7 @@ mechFrontSway: 1.2
 mechSideSway: 0.7
 itemCapacity: 160
 rotateSpeed: 2.4
-hitSize: 18
+hitSize: 22
 range: 280
 drag: 0.3
 accel: 0.5
