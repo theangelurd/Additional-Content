@@ -43,7 +43,7 @@ knockback: 1.4
 }
 {
 name: artillery-mount
-reload: 80
+reload: 110
 alternate: true
 ejectEffect: casing1
 top: true
