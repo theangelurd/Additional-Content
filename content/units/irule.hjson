@@ -37,8 +37,8 @@ width: 20
 damage: 40
 recoil: 1.5
 speed: 0.01
-sideAngle: 90
-sideWidth: 2
+sideAngle: 25
+sideWidth: 1
 sideLength: 90
 }
 }
