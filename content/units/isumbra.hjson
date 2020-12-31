@@ -1,0 +1,64 @@
+type: mech
+description: "Fires rail bullets and a barrage of missiles at any nearby enemy."
+commandLimit: 8
+health: 8700
+armor: 12
+speed: 0.33
+itemCapacity: 160
+range: 280
+drag: 0.3
+accel: 0.5
+weapons: [
+{
+name: isumbra-weapon
+reload: 110
+recoil: 4
+cooldownTime: 220
+x: 16
+y: 0
+top: false
+rotate: false
+shootSound: railgun
+ejectEffect: casing4
+bullet: {
+type: RailBulletType
+speed: 0.01
+updateEffectSeg: 50
+damage: 320
+updateEffect: railTrail
+length: 280
+hitEffect: railHit
+pierceEffect: railHit
+shootEffect: railShoot
+smokeEffect: smokeCloud
+}
+}
+{
+name: large-bullet-mount
+cooldownTime: 0
+reload: 80
+shots: 3
+shotDelay: 3
+recoil: 2.5
+x: 9
+bullet: {
+type: MissileBulletType
+speed: 3
+lifetime: 60
+frontColor: ff795e
+backColor: c85c51
+weaveMag: 1
+weaveScl: 1
+damage: 8.6
+splashDamage: 19
+splashDamageRadius: 28
+hitEffect: blastExplosion
+despawnEffect: blastExplosion
+shootEffect: shootBig
+smokeEffect: shootBig
+}
+}
+]
+research: {
+parent: impra
+}
