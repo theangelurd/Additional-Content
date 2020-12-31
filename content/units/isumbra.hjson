@@ -16,7 +16,7 @@ accel: 0.5
 weapons: [
 {
 name: isumbra-weapon
-reload: 90
+reload: 70
 recoil: 4
 cooldownTime: 220
 x: 18
@@ -42,9 +42,9 @@ smokeEffect: smokeCloud
 {
 name: large-bullet-mount
 cooldownTime: 0
-reload: 50
+reload: 40
 shootSound: missile
-shots: 3
+shots: 4
 shotDelay: 3
 recoil: 2.5
 rotate: true
@@ -58,7 +58,7 @@ frontColor: ff795e
 backColor: c85c51
 weaveMag: 2
 weaveScl: 2
-damage: 8.6
+damage: 12
 splashDamage: 19
 splashDamageRadius: 28
 hitEffect: blastExplosion
