@@ -68,6 +68,15 @@ hitEffect: hitBulletSmall
 shootEffect: shootSmall
 smokeEffect: shootSmallSmoke
 trailEffect: none
+fragBullets: 3
+fragBullet: {
+sprite: bubble
+damage: 4
+spin: 1
+speed: 4
+drag: 0.05
+lifetime: 42
+}
 }
 }
 ]
