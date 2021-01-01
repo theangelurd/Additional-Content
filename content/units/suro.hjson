@@ -29,7 +29,7 @@ bullet: {
 type: LaserBoltBulletType
 damage: 12
 speed: 3.8
-lifetime: 30
+lifetime: 40
 width: 2.5
 height: 2.5
 }
