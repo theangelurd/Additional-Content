@@ -3,7 +3,7 @@ name: "Toxic Reconstructor"
 size: 3
 health: 280
 description: "Reconstructs Suro into Aruma."
-constructTime: 200
+constructTime: 480
 hasPower: true
 upgrades: [
   [
