@@ -10,7 +10,6 @@ range: 114
 accel: 0.2
 engineOffset: 6
 engineSize: 3
-ammoType: power
 weapons:[
 {
 name: none
