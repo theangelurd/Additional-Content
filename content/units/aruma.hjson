@@ -15,6 +15,7 @@ weapons:[
 {
 name: aruma-weapon
 recoil: 1
+shootSound: sap
 reload: 16
 x: 5
 y: -1
@@ -31,6 +32,7 @@ length: 160
 hitColor: bf92f9
 color: bf92f9
 lifetime: 20
+pierce: true
 }
 }
 ]
