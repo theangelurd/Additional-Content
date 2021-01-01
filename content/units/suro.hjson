@@ -2,14 +2,19 @@ type: flying
 name: "Suro"
 description: "Shoots energy bullets at enemies."
 flying: true
+health: 140
 commandLimit: 4
 lowAltitude: true
+hitSize: 6
 speed: 2.2
 drag: 0.08
 range: 114
 accel: 0.2
 engineOffset: 6
 engineSize: 3
+targetGround: true
+targetAir: true
+rotateSpeed: 9.6
 weapons:[
 {
 name: none
