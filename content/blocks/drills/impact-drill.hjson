@@ -3,9 +3,9 @@ description: Uses impact force to gather ores.
 type: Drill
 size: 1
 tier: 10
-drillTime: 120
+drillTime: 80
 consumes: {
-  power: 3
+  power: 2.4
   liquid: {
     liquid: water
     amount: 0.4
