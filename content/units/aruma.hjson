@@ -3,7 +3,37 @@ name: "Aruma"
 description: "Shoots sapping lasers at enemies."
 lowAltitude: true
 health: 320
+range: 160
 armor: 2
 speed: 1.8
 engineSize: 4
 engineOffset: 6
+drag: 0.1
+accel: 0.3
+flying: true
+weapons:[
+{
+name: aruma-weapon
+recoil: 1
+reload: 16
+x: 5
+y: -1
+top: true
+rotate: true
+rotateSpeed: 8
+bullet: {
+type: SapBulletType
+sapStrength: 0.4
+knockback: -1.7
+damage: 15
+width: 0.5
+length: 160
+hitColor: bf92f9
+color: bf92f9
+lifetime: 20
+}
+}
+]
+research: {
+parent: toxic-reconstructor
+}
