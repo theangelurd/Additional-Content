@@ -1,0 +1,32 @@
+type: flying
+name: "Suro"
+description: "Shoots energy bullets at enemies."
+flying: true
+commandLimit: 4
+lowAltitude: true
+speed: 2.2
+drag: 0.08
+range: 114
+accel: 0.2
+engineOffset: 6
+engineSize: 3
+ammoType: power
+weapons:[
+{
+name: none
+x: 3
+y: 5
+recoil: 0
+reload: 14
+mirror: true
+shootY: 0
+shootSound: lasershoot
+bullet: {
+type: LaserBoltBulletType
+damage: 12
+speed: 3.8
+lifetime: 30
+width: height: 2.5
+}
+}
+]
