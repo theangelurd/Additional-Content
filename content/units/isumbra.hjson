@@ -17,6 +17,7 @@ weapons: [
 {
 name: isumbra-weapon
 reload: 60
+shake: 4
 recoil: 4
 cooldownTime: 120
 x: 18
@@ -43,6 +44,7 @@ smokeEffect: smokeCloud
 {
 name: large-bullet-mount
 cooldownTime: 0
+shake: 2.5
 reload: 40
 shootSound: missile
 shootY: 8
