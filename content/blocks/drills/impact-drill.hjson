@@ -1,0 +1,26 @@
+name: Impact Drill
+description: Uses impact force to gather ores.
+type: Drill
+size: 1
+tier: 10
+drillTime: 120
+consumes: {
+  power: 3
+  liquid: {
+    liquid: water
+    amount: 0.4
+    booster: true
+    optional: true
+  }
+}
+requirements: [
+  copper/35
+  lead/30
+  titanium/30
+  silicon/40
+  graphite/20
+  plastanium/20
+  surge-alloy/10
+]
+category: production
+research: laser-drill
