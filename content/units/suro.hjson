@@ -8,7 +8,7 @@ lowAltitude: true
 hitSize: 6
 speed: 2.2
 drag: 0.08
-range: 114
+range: 160
 accel: 0.2
 engineOffset: 6
 engineSize: 3
@@ -28,8 +28,8 @@ shootSound: lasershoot
 bullet: {
 type: LaserBoltBulletType
 damage: 12
-speed: 3.8
-lifetime: 40
+speed: 4
+lifetime: 60
 width: 2.5
 height: 2.5
 }
