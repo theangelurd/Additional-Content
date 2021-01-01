@@ -22,4 +22,13 @@ plans: [
     ]
     time: 740
   }
+  {
+    unit: suro
+    requirements: [
+      silicon/10
+      lead/15
+      titanium/10
+    ]
+    time: 840
+  }
 ]
