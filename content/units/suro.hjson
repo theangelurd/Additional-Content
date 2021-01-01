@@ -18,7 +18,7 @@ rotateSpeed: 9.6
 weapons:[
 {
 name: none
-x: 3
+x: 2
 y: 5
 recoil: 0
 reload: 14
