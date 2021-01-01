@@ -35,3 +35,6 @@ height: 2.5
 }
 }
 ]
+research: {
+parent: air-factory
+}
