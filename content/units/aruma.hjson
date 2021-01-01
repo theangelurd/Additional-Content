@@ -1,0 +1,9 @@
+type: flying
+name: "Aruma"
+description: "Shoots sapping lasers at enemies."
+lowAltitude: true
+health: 320
+armor: 2
+speed: 1.8
+engineSize: 4
+engineOffset: 6
