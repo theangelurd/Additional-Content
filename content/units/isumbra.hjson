@@ -54,6 +54,7 @@ recoil: 2.5
 rotate: true
 rotateSpeed: 4
 x: 9
+y: -3
 bullet: {
 type: MissileBulletType
 speed: 3
