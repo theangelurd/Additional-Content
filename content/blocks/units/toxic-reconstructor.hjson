@@ -1,0 +1,28 @@
+type: Reconstructor
+name: "Toxic Reconstructor"
+size: 3
+health: 280
+description: "Reconstructs Suro into Aruma."
+constructTime: 200
+hasPower: true
+upgrades: [
+  [
+    suro, aruma
+  ]
+]
+consumes: {
+    power: 0.4
+items:{
+  items: [
+  silicon/30
+  graphite/30
+  ]
+}
+}
+category: units
+research: suro
+requirements: [
+  copper/140
+  lead/100
+  silicon/80
+]
