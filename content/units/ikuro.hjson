@@ -10,16 +10,18 @@ hitSize: 11
 engineOffset: 7
 engineSize: 3
 commandLimit: 5
+flying: true
 weapons:[
 {
 name: ikuro-missiles
 y: -1
-x: 8
-shadow: 14
+shootSound: missile
+x: 6
+shadow: 23
 recoil: 3
-reload: 140
+reload: 170
 shots: 4
-xRand: 5
+xRand: 3
 spacing: 3
 inaccuracy: 1.2
 shotDelay: 3
