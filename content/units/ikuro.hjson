@@ -13,20 +13,21 @@ commandLimit: 5
 flying: true
 rotateSpeed: 7
 lowAltitude: true
+range: 226
 weapons:[
 {
 name: ikuro-missiles
 y: -1
 shootSound: missile
 x: 6
-shadow: 18
+shadow: 14
 recoil: 3
 reload: 170
 shots: 4
 xRand: 3
 spacing: 3
 inaccuracy: 1.2
-shotDelay: 3
+shotDelay: 4
 mirror: true
 top: true
 rotate: true
@@ -45,7 +46,7 @@ lifetime: 52
 speed: 3.4
 homingRange: 70
 homingPower: 0.4
-drag: -0.03
+drag: -0.06
 keepVelocity: false
 width: 7
 height: 7
