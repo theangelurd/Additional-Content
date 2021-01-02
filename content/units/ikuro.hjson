@@ -11,6 +11,7 @@ engineOffset: 7
 engineSize: 3
 commandLimit: 5
 flying: true
+rotateSpeed: 7
 weapons:[
 {
 name: ikuro-missiles
