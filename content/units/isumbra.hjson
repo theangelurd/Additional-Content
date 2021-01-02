@@ -62,9 +62,9 @@ lifetime: 60
 frontColor: ff795e
 backColor: c85c51
 weaveMag: 2
-weaveScl: 2
-damage: 12
-splashDamage: 19
+weaveScale: 6
+damage: 27
+splashDamage: 24
 splashDamageRadius: 28
 hitEffect: blastExplosion
 despawnEffect: blastExplosion
