@@ -19,11 +19,11 @@ weapons:[
 name: ikuro-missiles
 y: -1
 shootSound: missile
-x: 6
+x: 5
 shadow: 14
 recoil: 3
-reload: 170
-shots: 4
+reload: 160
+shots: 3
 xRand: 3
 spacing: 3
 inaccuracy: 1.2
