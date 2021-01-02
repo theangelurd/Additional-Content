@@ -13,6 +13,7 @@ hitSize: 22
 range: 280
 drag: 0.3
 accel: 0.5
+canDrown: false
 weapons: [
 {
 name: isumbra-weapon
