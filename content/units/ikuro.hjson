@@ -1,0 +1,58 @@
+type: flying
+name: "Ikuro"
+description: "Shoots streams of missiles."
+health: 400
+armor: 3
+speed: 1.6
+drag: 0.08
+accel: 0.1
+hitSize: 11
+engineOffset: 7
+engineSize: 3
+commandLimit: 5
+weapons:[
+{
+name: ikuro-missiles
+y: -1
+x: 8
+shadow: 14
+recoil: 3
+reload: 140
+shots: 4
+xRand: 5
+spacing: 3
+inaccuracy: 1.2
+shotDelay: 3
+mirror: true
+top: true
+rotate: true
+rotateSpeed: 3.5
+shake: 2
+bullet: {
+type: MissileBulletType
+backColor: e28751
+frontColor: ffa665
+trailColor: ffa665
+weaveScale: 5
+weaveMag: 1.4
+hitEffect: blastExplosion
+despawnEffect: blastExplosion
+lifetime: 52
+speed: 3.4
+homingRange: 70
+homingPower: 0.4
+drag: -0.03
+keepVelocity: false
+width: 7
+height: 7
+shrinkY: -0.2
+shrinkX: -0.04
+damage: 11
+splashDamage: 24
+splashDamageRadius: 21
+}
+}
+]
+research: {
+parent: suro
+}
