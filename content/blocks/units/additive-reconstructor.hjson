@@ -26,4 +26,7 @@ upgrades: [
   [
     irel, irule
   ]
+  [
+    suro, ikuro
+  ]
 ]
