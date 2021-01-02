@@ -1,0 +1,12 @@
+name: "Inmobility Field"
+type: Floor
+isLiquid: false
+albedo: 0.75
+speedMultiplier: 0.1
+variants: 0
+solid: false
+placeableOn: false
+emitLight: true
+lightRadius: 100
+lightColor: purple
+cacheLayer: slag
