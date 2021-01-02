@@ -61,7 +61,7 @@ speed: 3
 lifetime: 60
 frontColor: ff795e
 backColor: c85c51
-weaveMag: 2
+weaveMag: 3
 weaveScale: 6
 damage: 27
 splashDamage: 24
@@ -71,6 +71,7 @@ despawnEffect: blastExplosion
 shootEffect: shootBig
 smokeEffect: shootBig
 knockback: 4.2
+drag: -0.1
 }
 }
 ]
