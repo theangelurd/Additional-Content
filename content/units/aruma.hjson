@@ -12,6 +12,7 @@ drag: 0.1
 accel: 0.3
 flying: true
 rotateSpeed: 9
+hitSize: 10
 weapons:[
 {
 name: aruma-weapon
