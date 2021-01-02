@@ -44,12 +44,12 @@ smokeEffect: smokeCloud
 {
 name: large-bullet-mount
 cooldownTime: 0
-shake: 2.5
+shake: 3
 reload: 40
 shootSound: missile
 shootY: 8
-shots: 7
-shotDelay: 4
+shots: 8
+shotDelay: 1.5
 recoil: 2.5
 rotate: true
 rotateSpeed: 4
