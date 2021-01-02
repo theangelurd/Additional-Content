@@ -13,6 +13,7 @@ accel: 0.3
 flying: true
 rotateSpeed: 9
 hitSize: 10
+commandLimit: 4
 weapons:[
 {
 name: aruma-weapon
