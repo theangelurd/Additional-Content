@@ -9,4 +9,4 @@ placeableOn: false
 emitLight: true
 lightRadius: 100
 lightColor: purple
-cacheLayer: slag
+cacheLayer: water
