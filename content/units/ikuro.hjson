@@ -12,13 +12,14 @@ engineSize: 3
 commandLimit: 5
 flying: true
 rotateSpeed: 7
+lowAltitude: true
 weapons:[
 {
 name: ikuro-missiles
 y: -1
 shootSound: missile
 x: 6
-shadow: 23
+shadow: 18
 recoil: 3
 reload: 170
 shots: 4
