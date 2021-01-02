@@ -1,0 +1,31 @@
+type: NuclearReactor
+name: "Hypercombustion Generator"
+description: "Uses combustion from pyratite in order to make power. Heats up."
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+itemCapacity: 10
+liquidCapacity: 10
+itemDuration: 90
+powerProduction: 10
+heating: 0.02
+consumes: {
+ liquid: cryofluid/0.08
+  items: {
+   items: [
+    pyratite/1
+    ]
+  }
+}
+requirements: [
+  metaglass/80
+  silicon/160
+  titanium/120
+  lead/160
+  graphite/200
+  iron/100
+  steel/60
+]
+category: power
+research: steam-generator
