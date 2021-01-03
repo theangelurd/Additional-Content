@@ -59,7 +59,9 @@ drag: -0.36
 keepVelocity: false
 shrinkY: 0.34
 lifetime: 32
-speed: 11
+speed: 7
+width: 11
+height: 11
 }
 }
 }
@@ -118,8 +120,8 @@ bullet: {
 type: FlakBulletType
 lifetime: 44
 speed: 4.2
-damage: 12
-splashDamage: 24
+damage: 26
+splashDamage: 37
 homingPower: 0.02
 homingRange: 60
 }
