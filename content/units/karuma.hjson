@@ -14,6 +14,7 @@ flying: false
 rotateSpeed: 1.8
 mechFrontSway: 1.14
 mechSideSway: 0.78
+itemCapacity: 240
 weapons:[
 {
 name: karuma-weapon
