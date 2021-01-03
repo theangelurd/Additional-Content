@@ -6,7 +6,7 @@ health: 25600
 armor: 20
 canDrown: false
 commandLimit: 10
-hitSize: 28
+hitSize: 34
 speed: 0.3
 drag: 0.3
 accel: 1
