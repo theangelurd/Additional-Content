@@ -1,0 +1,121 @@
+type: mech
+name: "Karuma"
+description: "Shoots very powerful piercing bullets, flak bullets and missiles at enemies."
+details: "Rumored to be one of the main superweapons on very rough wars. It's your turn to use this beast now."
+health: 25600
+armor: 20
+canDrown: false
+commandLimit: 10
+hitSize: 30
+speed: 0.3
+drag: 3
+accel: 10
+flying: false
+rotateSpeed: 1.8
+mechFrontSway: 1.14
+mechSideSway: 0.78
+weapons:[
+{
+name: karuma-weapon
+reload: 26
+recoil: 5
+top: false
+x: 20
+y: 0
+rotate: false
+shootSound: bang
+shots: 1
+shootY: 16
+shake: 4.4
+bullet: {
+type: BasicBulletType
+width: 15
+height: 38
+pierceCap: 14
+pierce: true
+pierceBuilding: true
+hitEffect: massiveExplosion
+despawnEffect: massiveExplosion
+damage: 63
+splashDamage: 44
+splashDamageRadius: 47
+fragBullets: 3
+fragCone: 24
+fragVelocityMin: 0.7
+lifetime: 34
+speed: 8
+fragBullet: {
+type: BasicBulletType
+damage: 8
+splashDamage: 22
+pierceCap: 3
+pierce: true
+pierceBuilding: true
+hitEffect: blastExplosion
+despawnEffect: flakExplosionBig
+lifetime: 26
+drag: -0.36
+keepVelocity: false
+shrinkY: 0.34
+}
+}
+}
+{
+name: swarmer-mount
+x: 16
+y: 10
+recoil: 3
+shake: 4
+xRand: 6
+shadow: 14
+rotate: true
+rotateSpeed: 3.8
+shots: 3
+spacing: 4
+inaccuracy: 3
+shotDelay: 2.2
+shootY: 3
+velocityRnd: 0.54
+shootSound: missile
+mirror: true
+reload: 30
+ejectEffect: casing4
+bullet: {
+type: MissileBulletType
+frontColor: ff795e
+backColor: c85c51
+splashDamage: 18
+damage: 23
+weaveScale: 5
+weaveMag: 5
+hitEffect: blastExplosion
+despawnEffect: blastExplosion
+homingPower: 0.2
+homingRange: 100
+}
+}
+{
+name: double-snapper
+x: 17
+y: -8
+recoil: 2
+reload: 19
+shots: 2
+xRand: 4
+shotDelay: 3
+inaccuracy: 4
+shootSound: shootSnap
+bullet: {
+type: FlakBulletType
+lifetime: 44
+speed: 4.2
+damage: 12
+splashDamage: 24
+homingPower: 0.02
+homingRange: 60
+}
+}
+]
+research: {
+parent: isumbra
+}
