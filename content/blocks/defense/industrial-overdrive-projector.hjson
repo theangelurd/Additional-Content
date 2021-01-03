@@ -1,0 +1,28 @@
+type: OverdriveProjector
+name: "Industrial Overdrive Projector"
+description: "Increases the speed of nearby buildings. Requires phase fabric, surge alloy and silicon to operate."
+size: 4
+consumes: {
+    power: 20
+    items: {
+        items:[
+            phase-fabric/2
+            surge-alloy/1
+            silicon/3
+        ]
+    }
+}
+range: 360
+useTime: 260
+speedBoost: 4
+hasBoost: false
+research: overdrive-dome
+requirements:[
+    surge-alloy/300
+    plastanium/620
+    silicon/890
+    metaglass/960
+    titanium/1180
+    lead/1400
+]
+category: effect
