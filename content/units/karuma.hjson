@@ -73,7 +73,7 @@ y: 10
 recoil: 3
 shake: 4
 xRand: 6
-shadow: 14
+shadow: 18
 rotate: true
 rotateSpeed: 3.8
 shots: 3
@@ -109,6 +109,7 @@ x: 16
 y: -8
 recoil: 2
 reload: 19
+shadow: 14
 shots: 2
 xRand: 4
 shotDelay: 3
