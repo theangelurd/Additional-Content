@@ -10,3 +10,7 @@ emitLight: true
 lightRadius: 100
 lightColor: purple
 cacheLayer: water
+walkSound: shield
+walkSoundVolume: 0.1
+walkSoundPitchMin: 0.2
+walkSoundPitchMax: 1
