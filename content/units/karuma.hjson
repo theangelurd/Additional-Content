@@ -92,6 +92,7 @@ lifetime: 64
 frontColor: ff795e
 backColor: c85c51
 splashDamage: 18
+splashDamageRadius: 21
 damage: 23
 weaveScale: 5
 weaveMag: 5
