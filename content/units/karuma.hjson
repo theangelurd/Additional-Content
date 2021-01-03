@@ -77,7 +77,7 @@ shots: 3
 spacing: 4
 inaccuracy: 3
 shotDelay: 2.2
-shootY: 3
+shootY: 6
 velocityRnd: 0.54
 shootSound: missile
 mirror: true
@@ -113,6 +113,7 @@ shootSound: shootSnap
 rotate: true
 rotateSpeed: 5
 ejectEffect: casing3
+shootY: 6
 bullet: {
 type: FlakBulletType
 lifetime: 44
