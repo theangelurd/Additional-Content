@@ -8,8 +8,8 @@ canDrown: false
 commandLimit: 10
 hitSize: 28
 speed: 0.3
-drag: 3
-accel: 10
+drag: 0.3
+accel: 1
 flying: false
 rotateSpeed: 1.8
 mechFrontSway: 1.14
