@@ -1,6 +1,6 @@
 type: OverdriveProjector
 name: "Industrial Overdrive Projector"
-description: "Increases the speed of nearby buildings. Requires phase fabric, surge alloy and silicon to operate."
+description: "Increases the speed of nearby buildings. Requires phase fabric and silicon in great amounts to operate."
 size: 4
 consumes: {
     power: 20
