@@ -122,7 +122,7 @@ lifetime: 44
 speed: 4.2
 damage: 26
 splashDamage: 37
-homingPower: 0.02
+homingPower: 0.06
 homingRange: 60
 collidesAir: true
 collidesGround: true
