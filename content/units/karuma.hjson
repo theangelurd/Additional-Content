@@ -6,7 +6,7 @@ health: 25600
 armor: 20
 canDrown: false
 commandLimit: 10
-hitSize: 30
+hitSize: 28
 speed: 0.3
 drag: 3
 accel: 10
@@ -20,13 +20,14 @@ name: karuma-weapon
 reload: 26
 recoil: 5
 top: false
-x: 20
+x: 26
 y: 0
 rotate: false
 shootSound: bang
 shots: 1
 shootY: 16
 shake: 4.4
+ejectEffect: casing4
 bullet: {
 type: BasicBulletType
 width: 15
@@ -57,12 +58,14 @@ lifetime: 26
 drag: -0.36
 keepVelocity: false
 shrinkY: 0.34
+lifetime: 32
+speed: 11
 }
 }
 }
 {
 name: swarmer-mount
-x: 16
+x: 14
 y: 10
 recoil: 3
 shake: 4
@@ -79,9 +82,11 @@ velocityRnd: 0.54
 shootSound: missile
 mirror: true
 reload: 30
-ejectEffect: casing4
+ejectEffect: casing3
 bullet: {
 type: MissileBulletType
+speed: 3
+lifetime: 64
 frontColor: ff795e
 backColor: c85c51
 splashDamage: 18
@@ -96,7 +101,7 @@ homingRange: 100
 }
 {
 name: double-snapper
-x: 17
+x: 16
 y: -8
 recoil: 2
 reload: 19
@@ -105,6 +110,9 @@ xRand: 4
 shotDelay: 3
 inaccuracy: 4
 shootSound: shootSnap
+rotate: true
+rotateSpeed: 5
+ejectEffect: casing3
 bullet: {
 type: FlakBulletType
 lifetime: 44
