@@ -12,7 +12,7 @@ drag: 0.3
 accel: 1
 flying: false
 rotateSpeed: 1.8
-mechFrontSway: 1.14
+mechFrontSway: 2.3
 mechSideSway: 0.78
 itemCapacity: 240
 weapons:[
