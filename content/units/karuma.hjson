@@ -124,6 +124,8 @@ damage: 26
 splashDamage: 37
 homingPower: 0.02
 homingRange: 60
+collidesAir: true
+collidesGround: true
 }
 }
 ]
