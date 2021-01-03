@@ -18,10 +18,10 @@ hasBoost: false
 research: overdrive-dome
 requirements:[
     surge-alloy/300
-    plastanium/620
-    silicon/890
-    metaglass/960
-    titanium/1180
+    plastanium/600
+    silicon/850
+    metaglass/900
+    titanium/1100
     lead/1400
 ]
 category: effect
