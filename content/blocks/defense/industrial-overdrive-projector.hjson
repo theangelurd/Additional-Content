@@ -6,14 +6,13 @@ consumes: {
     power: 20
     items: {
         items:[
-            phase-fabric/2
-            surge-alloy/1
-            silicon/3
+            phase-fabric/3
+            silicon/5
         ]
     }
 }
 range: 360
-useTime: 260
+useTime: 220
 speedBoost: 4
 hasBoost: false
 research: overdrive-dome
