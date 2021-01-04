@@ -1,0 +1,49 @@
+type: ItemTurret
+name: "Rip"
+description: "Fires 2 close-range piercing blasts at nearby enemies."
+reloadTime: 32
+size: 1
+health: 320
+shots: 2
+range: 75
+alternate: false
+spread: 25
+rotateSpeed: 7.5
+recoilAmount: 2
+restitution: 0.14
+shootShake: 3
+shootSound: shotgun
+ejectEffect: none
+ammoTypes: {
+copper: {
+speed: 0.01
+damage: 9
+width: 8
+type: ShrapnelBulletType
+lifetime: 18
+length: 75
+serrations: 4
+fromColor: ffddc9
+toColor: ffddc9
+ammoMultiplier: 4
+}
+graphite: {
+speed: 0.01
+damage: 18
+width: 8
+type: ShrapnelBulletType
+lifetime: 18
+length: 75
+serrations: 4
+fromColor: ffddc9
+toColor: ffddc9
+ammoMultiplier: 8
+}
+}
+requirements:[
+copper/55
+graphite/22
+lead/40
+]
+research: hail
+category: turret
