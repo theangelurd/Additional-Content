@@ -30,13 +30,13 @@ ammoMultiplier: 4
 graphite: {
 speed: 0.01
 damage: 18
-width: 8
+width: 11
 type: ShrapnelBulletType
 lifetime: 18
 length: 75
 serrations: 4
-fromColor: ffddc9
-toColor: ffddc9
+fromColor: 8aa3f4
+toColor: 8aa3f4
 ammoMultiplier: 8
 }
 }
