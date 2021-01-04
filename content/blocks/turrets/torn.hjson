@@ -1,0 +1,50 @@
+type: ItemTurret
+name: "Torn"
+description: "Fires 3 close-range piercing blasts at nearby enemies."
+reloadTime: 36.5
+size: 2
+health: 320
+shots: 3
+range: 82
+alternate: false
+spread: 22
+rotateSpeed: 6
+recoilAmount: 3.5
+restitution: 0.12
+shootShake: 5
+shootSound: shotgun
+ejectEffect: none
+ammoTypes: {
+graphite: {
+speed: 0.01
+damage: 19
+width: 11
+type: ShrapnelBulletType
+lifetime: 18
+length: 82
+serrations: 5
+fromColor: 8aa3f4
+toColor: 8aa3f4
+ammoMultiplier: 6
+}
+titanium: {
+speed: 0.01
+damage: 26
+width: 13
+type: ShrapnelBulletType
+lifetime: 18
+length: 82
+serrations: 5
+fromColor: 8aa3f4
+toColor: 8aa3f4
+ammoMultiplier: 6
+}
+}
+requirements:[
+copper/120
+graphite/100
+titanium/85
+silicon/60
+]
+research: rip
+category: turret
