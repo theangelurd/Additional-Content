@@ -21,8 +21,8 @@ name: aruma-weapon
 recoil: 1.5
 shootSound: sap
 reload: 12
-x: 4
-y: 6
+x: 2
+y: 5
 top: true
 rotate: true
 rotateSpeed: 17
@@ -42,7 +42,8 @@ pierce: true
 {
 name: isaro-artillery
 recoil: 2
-y: 2
+y: -1
+x: 0
 reload: 80
 recoil: 3
 shootSound: artillery
