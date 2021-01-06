@@ -7,11 +7,11 @@ engineSize: 7.8
 health: 24000
 armor: 16
 itemCapacity: 250
-mineSpeed: 9999999
-buildSpeed: 9999999
-mineTier: 999
+mineSpeed: 9
+buildSpeed: 9
+mineTier: 9
 range: 240
-commandLimit: 999
+commandLimit: 9
 flying: true
 hitSize: 60
 canBoost: true
@@ -34,7 +34,7 @@ sprite: flare-bullet
 damage: 999
 knockback: 9
 status: unmoving
-statusDuration: 99999999
+statusDuration: 9999
 speed: 8
 pierce: true
 pierceBuilding: true
