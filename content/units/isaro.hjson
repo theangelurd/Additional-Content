@@ -21,7 +21,7 @@ name: aruma-weapon
 recoil: 1.5
 shootSound: sap
 reload: 12
-x: 2
+x: 4
 y: 5
 top: true
 rotate: true
