@@ -2,7 +2,7 @@ type: Reconstructor
 name: "Toxic Additive Reconstructor"
 size: 3
 health: 380
-description: "Reconstructs Suro into Aruma."
+description: "Reconstructs Aruma into Kairo."
 constructTime: 780
 hasPower: true
 upgrades: [
