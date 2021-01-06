@@ -24,6 +24,8 @@ rotate: true
 top: true
 rotateSpeed: 4
 shootY: 38
+y: 0
+x: 34
 bullet: {
 type: BasicBulletType
 sprite: flare-bullet
