@@ -31,7 +31,7 @@ x: 30
 bullet: {
 type: BasicBulletType
 sprite: flare-bullet
-damage: 99
+damage: 999
 knockback: 9
 status: unmoving
 statusDuration: 99999999
