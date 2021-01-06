@@ -23,7 +23,7 @@ shootSound: shootSnap
 rotate: true
 top: true
 rotateSpeed: 4
-shootY: 38
+shootY: 30
 y: -2
 x: 30
 bullet: {
