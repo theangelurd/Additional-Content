@@ -50,6 +50,7 @@ top: true
 rotate: true
 rotateSpeed: 5
 shake: 4
+mirror: false
 bullet: {
 type: ArtilleryBulletType
 width: 18
