@@ -14,6 +14,8 @@ range: 240
 commandLimit: 999
 flying: true
 hitSize: 60
+canBoost: true
+boostMultiplier: 1
 weapons:[
 {
 name: ultimate-form-of-weapon
