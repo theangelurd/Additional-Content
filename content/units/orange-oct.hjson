@@ -21,6 +21,16 @@ shootSound: shootSnap
 rotate: true
 top: true
 rotateSpeed: 4
+bullet: {
+type: BasicBulletType
+sprite: flare-bullet
+damage: 99
+knockback: 9
+status: unmoving
+statusDuration: 99999999
+speed: 8
+pierce: true
+pierceBuilding: true
 }
 }
 ]
