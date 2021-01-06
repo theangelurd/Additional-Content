@@ -12,6 +12,8 @@ buildSpeed: 9999999
 mineTier: 999
 range: 240
 commandLimit: 999
+flying: true
+hitSize: 60
 weapons:[
 {
 name: ultimate-form-of-weapon
@@ -21,6 +23,7 @@ shootSound: shootSnap
 rotate: true
 top: true
 rotateSpeed: 4
+shootY: 38
 bullet: {
 type: BasicBulletType
 sprite: flare-bullet
