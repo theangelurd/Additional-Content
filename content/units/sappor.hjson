@@ -1,0 +1,98 @@
+type: naval
+name: "Sappor"
+description: "Shoots sapping lasers and sapping artillery."
+flying: false
+speed: 1.183
+rotateSpeed: 3.7
+commandLimit: 3
+health: 300
+drag: 0.16
+accel: 0.16
+range: 100
+hitSize: 10
+faceTarget: true
+rotateShooting: false
+itemCapacity: 40
+trailX: 4
+trailY: -6
+trailScl: 2
+trailLength: 55
+targetGround: true
+targetAir: true
+armor: 3
+weapons:[
+{
+name: aruma-weapon
+recoil: 1
+reload: 20
+shootSound: sap
+rotate: true
+rotateSpeed: 28
+x: 10
+y: 6
+bullet: {
+type: SapBulletType
+damage: 8
+lifetime: 32
+hitColor: bf92f9
+color: bf92f9
+length: 120
+width: 0.4
+pierce: true
+knockback: -1
+sapStrength: 0.1
+}
+}
+{
+name: aruma-weapon
+recoil: 1
+reload: 20
+shootSound: sap
+rotate: true
+rotateSpeed: 28
+x: 10
+y: -6
+bullet: {
+type: SapBulletType
+damage: 8
+lifetime: 32
+hitColor: bf92f9
+color: bf92f9
+length: 120
+width: 0.4
+pierce: true
+knockback: -1
+sapStrength: 0.1
+}
+}
+{
+name: artillery-sap-mount
+y: -10
+x: 4
+recoil: 2
+reload: 80
+shootSound: artillery
+rotate: true
+rotateSpeed: 6
+shake: 3
+bullet: {
+type: ArilleryBulletType
+damage: 11
+splashDamage: 19
+splashDamageRadius: 23
+speed: 3.2
+lifetime: 60
+lightning: 3
+lightningCone: 70
+lightningColor: bf92f9
+hitShake: 2.3
+frontColor: bf92f9
+backColor: bf92f9
+hitEffect: sapExplosion
+despawnEffect: sapExplosion
+}
+}
+]
+research: {
+parent: naval-factory
+}
