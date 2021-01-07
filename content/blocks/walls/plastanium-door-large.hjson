@@ -1,0 +1,15 @@
+name: "Large Plastanium Door"
+description: "Protects structures from enemy projectiles. Absorbs lasers and electric arcs. Spans multiple tiles."
+type: Door
+health: 2400
+insulated: true
+absorbLasers: true
+size: 2
+requirements:[
+    titanium/12
+    silicon/10
+    metaglass/14
+    plastanium/18
+]
+category: defense
+research: plastanium-door
