@@ -85,6 +85,8 @@ lifetime: 60
 lightning: 2
 lightningCone: 70
 lightningColor: bf92f9
+lightningLength: 9
+lightningLengthRand: 3
 hitShake: 2.3
 frontColor: bf92f9
 backColor: bf92f9
