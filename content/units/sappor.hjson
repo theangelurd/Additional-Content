@@ -50,7 +50,7 @@ reload: 20
 shootSound: sap
 rotate: true
 rotateSpeed: 28
-x: 8
+x: 6
 y: -8
 bullet: {
 type: SapBulletType
@@ -67,7 +67,7 @@ sapStrength: 0.1
 }
 {
 name: artillery-sap-mount
-y: -10
+y: -2
 x: 4
 recoil: 2
 reload: 80
