@@ -28,7 +28,7 @@ reload: 20
 shootSound: sap
 rotate: true
 rotateSpeed: 28
-x: 10
+x: 4
 y: 6
 bullet: {
 type: SapBulletType
@@ -50,8 +50,8 @@ reload: 20
 shootSound: sap
 rotate: true
 rotateSpeed: 28
-x: 10
-y: -6
+x: 8
+y: -8
 bullet: {
 type: SapBulletType
 damage: 8
@@ -90,8 +90,8 @@ frontColor: bf92f9
 backColor: bf92f9
 hitEffect: sapExplosion
 despawnEffect: sapExplosion
-width: 10
-height: 10
+width: 17
+height: 17
 }
 }
 ]
