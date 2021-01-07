@@ -70,7 +70,7 @@ name: artillery-sap-mount
 y: -2
 x: 4
 recoil: 2
-reload: 80
+reload: 110
 shootSound: artillery
 rotate: true
 rotateSpeed: 6
