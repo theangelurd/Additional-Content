@@ -15,4 +15,14 @@ plans: [
     ]
     time: 1100
   }
+  {
+    unit: sappor
+    requirements: [
+        silicon/55
+        metaglass/50
+        steel/20
+        titanium/30
+    ]
+    time: 1980
+  }
 ]
