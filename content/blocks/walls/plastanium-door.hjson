@@ -1,7 +1,7 @@
 name: "Plastanium Door"
 description: "Protects structures from enemy projectiles. Absorbs lasers and electric arcs."
 type: Door
-health: 480
+health: 600
 insulated: true
 absorbLasers: true
 requirements:[
