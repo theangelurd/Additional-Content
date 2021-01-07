@@ -1,5 +1,5 @@
 name: "Large Plastanium Door"
-description: "Protects structures from enemy projectiles. Absorbs lasers and electric arcs. Spans multiple tiles."
+description: "A wall that can be opened and closed. Absorbs lasers and electric arcs."
 type: Door
 health: 2400
 insulated: true
