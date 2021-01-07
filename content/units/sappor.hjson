@@ -90,6 +90,8 @@ frontColor: bf92f9
 backColor: bf92f9
 hitEffect: sapExplosion
 despawnEffect: sapExplosion
+width: 10
+height: 10
 }
 }
 ]
