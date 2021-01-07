@@ -16,7 +16,7 @@ itemCapacity: 40
 trailX: 4
 trailY: -6
 trailScl: 2
-trailLength: 55
+trailLength: 20
 targetGround: true
 targetAir: true
 armor: 3
