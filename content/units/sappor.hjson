@@ -1,6 +1,6 @@
 type: naval
 name: "Sappor"
-description: "Shoots sapping lasers and sapping artillery."
+description: "Shoots sapping lasers and sapping artillery at enemies."
 flying: false
 speed: 1.183
 rotateSpeed: 3.7
