@@ -76,7 +76,7 @@ rotate: true
 rotateSpeed: 6
 shake: 3
 bullet: {
-type: ArilleryBulletType
+type: ArtilleryBulletType
 damage: 11
 splashDamage: 19
 splashDamageRadius: 23
