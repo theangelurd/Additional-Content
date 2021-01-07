@@ -77,12 +77,12 @@ rotateSpeed: 6
 shake: 3
 bullet: {
 type: ArtilleryBulletType
-damage: 11
-splashDamage: 19
+damage: 6
+splashDamage: 13
 splashDamageRadius: 23
 speed: 3.2
 lifetime: 60
-lightning: 3
+lightning: 2
 lightningCone: 70
 lightningColor: bf92f9
 hitShake: 2.3
