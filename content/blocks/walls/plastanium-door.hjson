@@ -1,0 +1,14 @@
+name: "Plastanium Door"
+description: "Protects structures from enemy projectiles. Absorbs lasers and electric arcs."
+type: Door
+health: 480
+insulated: true
+absorbLasers: true
+requirements:[
+    titanium/3
+    silicon/2
+    metaglass/2
+    plastanium/4
+]
+category: defense
+research: door
