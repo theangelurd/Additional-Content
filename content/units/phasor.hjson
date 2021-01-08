@@ -17,6 +17,7 @@ targetAir: true
 rotateSpeed: 16
 buildSpeed: 0.6
 mineSpeed: 0.75
+mineTier: 1
 weapons:[
 {
 name: small-basic-weapon
