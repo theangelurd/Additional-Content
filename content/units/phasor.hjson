@@ -10,21 +10,22 @@ speed: 3.24
 drag: 0.08
 range: 160
 accel: 0.2
-engineOffset: 6
-engineSize: 3
+engineOffset: 4
+engineSize: 2
 targetGround: true
 targetAir: true
 rotateSpeed: 16
 weapons:[
 {
 name: small-basic-weapon
-x: 4
-y: 6
+x: 3
+y: 4
 recoil: 2
 reload: 24
 mirror: true
 shootY: 3
 shootSound: lasershoot
+top: false
 bullet: {
 type: BasicBulletType
 damage: 6
@@ -38,12 +39,14 @@ fragBullets: 6
 hitSound: lasershoot
 fragBullet: {
 type: BasicBulletType
-sprite: particle
+sprite: circle-shadow
 pierce: true
 pierceBuilding: true
 damage: 1
 speed: 1
-lifetime: 20
+lifetime: 10
+width: 4
+height: 4
 }
 }
 }
