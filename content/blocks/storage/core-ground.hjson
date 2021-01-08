@@ -1,0 +1,18 @@
+type: CoreBlock
+name: "Core: Ground"
+description: "A version of Core: Shard that spawns a ground unit."
+health: 2500
+itemCapacity: 5000
+size: 4
+unitCapModifier: 10
+unitType: smasher
+researchCostMultiplier: 0.06
+requirements: [
+  copper/3400
+  lead/3000
+] 
+category: effect
+hasItems: true
+solid: true
+alwaysUnlocked: false
+research: core-shard
