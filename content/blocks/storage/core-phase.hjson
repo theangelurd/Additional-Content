@@ -1,16 +1,16 @@
 type: CoreBlock
 name: "Core: Phase"
 description: "A version of Core: Shard with more health and with a different unit."
-health: 3000
+health: 2000
 itemCapacity: 5500
 size: 4
 unitCapModifier: 12
 unitType: phasor
 researchCostMultiplier: 0.06
 requirements: [
-  copper/1280
-  lead/1000
-  graphite/620
+  copper/2500
+  lead/2140
+  graphite/1520
 ] 
 category: effect
 hasItems: true
