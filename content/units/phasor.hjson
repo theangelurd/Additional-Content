@@ -47,6 +47,8 @@ sprite: circle-shadow
 pierce: true
 pierceBuilding: true
 damage: 1
+splashDamage: 1
+splashDamageRadius: 1
 speed: 1
 lifetime: 10
 width: 4
