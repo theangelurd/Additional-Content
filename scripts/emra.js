@@ -15,7 +15,8 @@ navalValley.captureWave = 25;
 navalValley.localizedName = "Naval Valley";
 navalValley.difficulty = 4;
 
-const planetEntryPoint = new SectorPreset("planetEntryPoint", emra, 18);
-navalValley.captureWave = 25;
+const planetEntryPoint = new SectorPreset("planetEntryPoint", emra, 27);
+navalValley.captureWave = 15;
 navalValley.localizedName = "Planet Entry Point";
-navalValley.difficulty = 4;
+navalValley.difficulty = 2;
+alwaysUnlocked = true;
