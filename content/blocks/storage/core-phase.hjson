@@ -1,0 +1,18 @@
+type: CoreBlock
+name: "Core: Phase"
+description: "A version of Core: Shard with more health and with a different unit."
+health: "3000"
+itemCapacity: 5500
+size: 4
+unitCapModifier: 12
+unitType: phasor
+requirements: [
+  copper/1280
+  lead/1000
+  graphite/620
+] 
+category: effect
+hasItems: true
+solid: true
+alwaysUnlocked: false
+research: core-shard
