@@ -42,6 +42,7 @@ weapons:[{
         width: 10
         height: 14
         knockback: 1.7
+        buildingDamageMultiplier: 0.01
     }
 }
 ]
