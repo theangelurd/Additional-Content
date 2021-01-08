@@ -1,4 +1,4 @@
-const emra = new Planet("emra", Planets.sun, 1.2, 0.9);
+const emra = new Planet("emra", Planets.sun, 3, 2);
 emra.generator = new SerpuloPlanetGenerator();
 emra.mesh = new HexMesh(emra, 6);
 emra.bloom = true;
