@@ -14,6 +14,11 @@ targetGround: true
 targetAir: true
 armor: 3
 rotateSpeed: 8
+canBoost: true
+boostMultiplier: 1.4
+mineSpeed: 5
+mineTier: 1
+buildSpeed: 0.4
 weapons:[{
     name: large-core-weapon
     reload: 16
