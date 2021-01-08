@@ -28,7 +28,7 @@ shootSound: lasershoot
 top: false
 bullet: {
 type: BasicBulletType
-damage: 4
+damage: 7
 speed: 3
 lifetime: 60
 width: 9
