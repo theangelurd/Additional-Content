@@ -1,0 +1,45 @@
+type: mech
+name: "Smasher"
+description: "Shoots heavy bullets at enemies."
+health: 220
+speed: 0.65
+mechFrontSway: 0.32
+mechSideSway: 0.6
+hitSize: 9
+drag: 0.3
+accel: 0.5
+range: 160
+itemCapacity: 40
+targetGround: true
+targetAir: true
+armor: 3
+rotateSpeed: 8
+weapons:[{
+    name: large-core-weapon
+    reload: 16
+    x: 4
+    y: 2
+    shootY: 3
+    shootCone: 30
+    inaccuracy: 0
+    shootSound: pew
+    rotate: false
+    recoil: 2
+    top: false
+    ejectEffect: casing1
+    bullet:{
+        type: BasicBulletType
+        damage: 14
+        backColor: f9c27aff
+        frontColor: fff8e8ff
+        speed: 3.5
+        lifetime: 50
+        width: 10
+        height: 14
+        knockback: 1.7
+    }
+}
+]
+research: {
+    parent: core-ground
+}
