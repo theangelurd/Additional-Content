@@ -1,0 +1,19 @@
+name: Massive Drill
+description: Uses more tiles to mine ores.
+type: Drill
+size: 4
+tier: 2
+drillTime: 600
+consumes: {
+  liquid: {
+    liquid: water
+    amount: 0.6
+    booster: true
+    optional: true
+  }
+}
+requirements: [
+  copper/68
+]
+category: production
+research: pneumatic-drill
