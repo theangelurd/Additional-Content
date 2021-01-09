@@ -3,7 +3,7 @@ description: Uses more tiles to mine ores.
 type: Drill
 size: 4
 tier: 2
-drillTime: 600
+drillTime: 680
 consumes: {
   liquid: {
     liquid: water
@@ -13,7 +13,8 @@ consumes: {
   }
 }
 requirements: [
-  copper/68
+  copper/94
+  lead/36
 ]
 category: production
 research: pneumatic-drill
