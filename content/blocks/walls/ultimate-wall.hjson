@@ -1,4 +1,6 @@
 type: ForceProjector
+name: "Ultimate Wall"
+description: "Has a built-in forcefield, deflects bullets, absorbs electric arcs and absorbs lasers."
 size: 2
 radius: 32
 health: 5520
