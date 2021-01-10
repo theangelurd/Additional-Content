@@ -3,6 +3,7 @@ size: 2
 radius: 32
 health: 5520
 shieldHealth: 7120
+phaseRadiusBoost: 18
 cooldownNormal: 0.8
 cooldownBrokenBase: 0.23
 insulated: true
@@ -11,6 +12,11 @@ chanceDeflect: 35
 flashHit: true
 consumes: {
   power: 6.84
+   items: {
+    items: [
+      phaseFabric/1
+    ]
+  }
 }
 requirements: [
 copper/30
