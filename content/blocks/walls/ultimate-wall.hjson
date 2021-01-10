@@ -14,7 +14,7 @@ consumes: {
   power: 6.84
    items: {
     items: [
-      phaseFabric/1
+      phase-fabric/1
     ]
   }
 }
