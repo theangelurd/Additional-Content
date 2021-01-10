@@ -1,0 +1,27 @@
+type: ForceProjector
+size: 2
+radius: 32
+health: 5520
+shieldHealth: 7120
+cooldownNormal: 0.8
+cooldownBrokenBase: 0.23
+insulated: true
+absorbLasers: true
+chanceDeflect: 35
+flashHit: true
+consumes: {
+  power: 6.84
+}
+requirements: [
+copper/30
+lead/30
+graphite/30
+silicon/30
+titanium/30
+thorium/30
+surge-alloy/30
+plastanium/30
+phase-fabric/30
+]
+research: phase-wall
+category: defense
