@@ -1,7 +1,7 @@
 type: flying
 name: "Kairo"
 description: "Shoots sapping lasers and sapping artillery at enemies."
-speed: 1.237
+speed: 1.52
 flying: true
 commandLimit: 6
 itemCapacity: 60
@@ -13,7 +13,7 @@ lowAltitude: true
 range: 80
 engineSize: 2
 engineOffset: 8
-rotateSpeed: 6.2
+rotateSpeed: 7.5
 hitSize: 18
 weapons:[
 {
