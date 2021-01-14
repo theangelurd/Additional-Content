@@ -15,14 +15,6 @@ plans: [
     time: 1020
   }
   {
-    unit: dropper
-    requirements: [
-        silicon/25
-        graphite/20
-    ]
-    time: 740
-  }
-  {
     unit: suro
     requirements: [
       silicon/10
