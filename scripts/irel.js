@@ -1,4 +1,4 @@
-const irel = extendContent(mech, "irel", {});
+const irel = extendContent(UnitType, "irel", {});
 irule.constructor = function(){
   return extend(PayloadUnit, {});
 };
