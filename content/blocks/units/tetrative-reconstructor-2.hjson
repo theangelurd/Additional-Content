@@ -22,8 +22,8 @@ items:{
   items: [
   silicon/1000
   plastanium/600
-  surgealloy/500
-  phasefabric/350
+  surge-alloy/500
+  phase-fabric/350
   ]
 }
 }
@@ -35,6 +35,6 @@ requirements: [
   silicon/3000
   thorium/1000
   plastanium/600
-  phasefabric/600
-  surgealloy/800
+  phase-fabric/600
+  surge-alloy/800
 ]
