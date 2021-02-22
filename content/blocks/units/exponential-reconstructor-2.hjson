@@ -17,9 +17,10 @@ upgrades: [
 ]
 consumes: {
     power: 13
-liquids:{
+liquid:{
 liquid: cryofluid
 amount: 1
+}
 items:{
   items: [
   silicon/130
@@ -39,4 +40,3 @@ requirements: [
   plastanium/450
   phaseFabric/600
 ]
-}
