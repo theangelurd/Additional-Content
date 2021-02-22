@@ -1,3 +1,4 @@
+type: Factory
 name: "Air Factory 2"
 description: "An air factory designed to produce additional units."
 health: 300
