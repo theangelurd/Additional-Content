@@ -6,7 +6,7 @@ size: 3
 plans:[
  {
  unit: tora
- constructTime: 2560
+ buildTime: 2560
  requirements:[
  silicon/30
  metaglass/30
