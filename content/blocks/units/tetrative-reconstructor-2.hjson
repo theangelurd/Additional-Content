@@ -14,9 +14,10 @@ upgrades: [
 ]
 consumes: {
     power: 25
-liquids:{
+liquid:{
 liquid: cryofluid
 amount: 3
+}
 items:{
   items: [
   silicon/1000
