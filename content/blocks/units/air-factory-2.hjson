@@ -6,6 +6,7 @@ size: 3
 plans:[
  {
  unit: suro
+ time: 1200
  requirements:[
  lead/10
  silicon/5
