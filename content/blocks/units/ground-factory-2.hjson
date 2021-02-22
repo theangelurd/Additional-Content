@@ -11,13 +11,6 @@ plans:[
  silicon/10
 ]
  }
- {
- unit: tora
- requirements:[
- silicon/30
- metaglass/30
-]
- }
 ]
 consumes: {
 power: 1.2
