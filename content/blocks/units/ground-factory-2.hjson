@@ -1,3 +1,4 @@
+type: Factory
 name: "Ground Factory 2"
 description: "A ground factory designed to build additional units."
 health: 300
