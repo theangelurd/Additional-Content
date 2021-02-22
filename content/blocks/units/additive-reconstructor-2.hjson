@@ -1,0 +1,37 @@
+type: Reconstructor
+name: "Additive Reconstructor 2"
+size: 3
+health: 380
+description: "An Additive Reconstructor specialized for this mod's units"
+constructTime: 600
+hasPower: true
+upgrades: [
+  [
+    patred, tayros
+  ]
+  [
+    suro, ikuro
+  ]
+  [
+    tora, tremo
+  ]
+  [
+    irel, irule
+  ]
+]
+consumes: {
+    power: 3
+items:{
+  items: [
+  silicon/40
+  graphite/40
+  ]
+}
+}
+category: units
+research: ground-factory
+requirements: [
+  copper/200
+  lead/120
+  silicon/90
+]
