@@ -1,6 +1,6 @@
 type: Reconstructor
 name: "Multiplicative Reconstructor 2"
-size: 3
+size: 5
 health: 380
 description: "A Multiplicative Reconstructor specialized for this mod's units"
 constructTime: 1800
@@ -27,7 +27,8 @@ category: units
 research: additive-reconstructor
 researchCostMultiplier: 0
 requirements: [
-  copper/200
-  lead/120
-  silicon/90
+  lead/650
+  silicon/450
+  titanium/350
+  thorium/650
 ]
