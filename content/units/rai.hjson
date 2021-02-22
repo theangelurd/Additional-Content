@@ -1,6 +1,6 @@
 type: naval
 name: "Rai"
-description: ""
+description: "Quickly fires a barrage of artillery, bullets and flak."
 speed: 0.75
 drag: 0.08
 armor: 6
