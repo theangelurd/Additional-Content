@@ -98,10 +98,10 @@ bullet: {
 type: FlakBulletType
 lifetime: 42
 speed: 3.8
-lightningLength: 4
+lightningLength: 6
 lightningDamage: 2
-lightningLenghtRand: 4
-hitGround: true
+lightningLenghtRand: 6
+collidesGround: true
 width: 8
 height: 10
 damage: 4
