@@ -1,0 +1,39 @@
+type: Reconstructor
+name: "Tetrative Reconstructor 2"
+size: 9
+health: 380
+description: "A Tetrative Reconstructor specialized for this mod's units"
+constructTime: 14400
+hasPower: true
+hasLiquids: true
+liquidCapacity: 60
+upgrades: [
+  [
+    isumbra, karuma
+  ]
+]
+consumes: {
+    power: 25
+liquids:{
+liquid: cryofluid
+amount: 3
+items:{
+  items: [
+  silicon/1000
+  plastanium/600
+  surgeAlloy/500
+  phaseFabric/350
+  ]
+}
+}
+category: units
+research: tetrative-reconstructor
+researchCostMultiplier: 0
+requirements: [
+  lead/4000
+  silicon/3000
+  thorium/1000
+  plastanium/600
+  phaseFabric/600
+  surgeAlloy/800
+]
