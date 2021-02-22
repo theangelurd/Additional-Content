@@ -6,7 +6,7 @@ size: 3
 plans:[
  {
  unit: tora
- produceTime: 2560
+ time: 2560
  requirements:[
  silicon/30
  metaglass/30
