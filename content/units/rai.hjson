@@ -33,7 +33,7 @@ rotate: true
 rotateSpeed: 17
 bullet: {
 type: BasicBulletType
-damage: 10
+damage: 27
 speed: 3
 lifetime: 60
 hitSound: none
@@ -62,8 +62,8 @@ top: true
 rotateSpeed: 9
 bullet: {
 type: ArtilleryBulletType
-splashDamage: 47
-splashDamageRadius: 25
+splashDamage: 63
+splashDamageRadius: 28
 lifetime: 72
 speed: 3.1
 width: 14.5
