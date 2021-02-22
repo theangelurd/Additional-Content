@@ -1,0 +1,41 @@
+type: Reconstructor
+name: "Exponential Reconstructor 2"
+size: 7
+health: 380
+description: "A Exponential Reconstructor specialized for this mod's units"
+constructTime: 5400
+hasPower: true
+hasLiquids: true
+liquidCapacity: 60
+upgrades: [
+  [
+    impra, isumbra
+  ]
+  [
+    tirama, rai
+  ]
+]
+consumes: {
+    power: 13
+liquids:{
+liquid: cryofluid
+amount: 1
+items:{
+  items: [
+  silicon/130
+  titanium/80
+  metaglass/40
+  ]
+}
+}
+category: units
+research: multiplicative-reconstructor
+researchCostMultiplier: 0
+requirements: [
+  lead/2000
+  silicon/1000
+  titanium/2000
+  thorium/750
+  plastanium/450
+  phaseFabric/600
+]
