@@ -10,7 +10,7 @@ commandLimit: 7
 range: 282
 accel: 0.08
 flying: false
-itemCapacity: 80
+itemCapacity: 140
 rotateSpeed: 1.5
 rotateShooting: false
 trailLength: 60
