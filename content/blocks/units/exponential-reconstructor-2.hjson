@@ -38,5 +38,5 @@ requirements: [
   titanium/2000
   thorium/750
   plastanium/450
-  "phaseFabric"/"600"
+  phase-fabric/600
 ]
