@@ -2,7 +2,7 @@ type: Reconstructor
 name: "Exponential Reconstructor 2"
 size: 7
 health: 380
-description: "A Exponential Reconstructor specialized for this mod's units"
+description: "An Exponential Reconstructor specialized for this mod's units"
 constructTime: 5400
 hasPower: true
 hasLiquids: true
