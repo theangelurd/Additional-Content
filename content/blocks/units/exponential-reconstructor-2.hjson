@@ -29,7 +29,7 @@ items:{
 }
 }
 category: units
-research: multiplicative-reconstructor
+research: exponential-reconstructor
 researchCostMultiplier: 0
 requirements: [
   lead/2000
