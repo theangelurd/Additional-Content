@@ -23,9 +23,9 @@ amount: 1
 }
 items:{
   items: [
-  silicon/130
-  titanium/80
-  metaglass/40
+  silicon/850
+  titanium/750
+  plastanium/650
   ]
 }
 }
