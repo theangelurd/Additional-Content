@@ -7,7 +7,7 @@ armor: 6
 hitSize: 35
 health: 10900
 commandLimit: 7
-range: 223
+range: 282
 accel: 0.08
 flying: false
 itemCapacity: 80
@@ -64,8 +64,8 @@ bullet: {
 type: ArtilleryBulletType
 splashDamage: 63
 splashDamageRadius: 28
-lifetime: 72
-speed: 3.1
+lifetime: 83
+speed: 3.4
 width: 14.5
 height: 14.5
 lightning: 3
@@ -85,7 +85,7 @@ knockback: 1.7
 {
 name: snapper
 reload: 11
-recoil: 4
+recoil: 2.5
 shootSound: shootSnap
 top: true
 rotate: true
@@ -104,9 +104,9 @@ lightningLenghtRand: 6
 collidesGround: true
 width: 8
 height: 10
-damage: 4
-splashDamage: 23
-splashDamageRadius: 13
+damage: 7
+splashDamage: 29
+splashDamageRadius: 14
 hitEffect: flakExplosion
 }
 }
