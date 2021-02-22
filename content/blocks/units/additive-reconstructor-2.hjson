@@ -29,7 +29,8 @@ items:{
 }
 }
 category: units
-research: ground-factory
+research: additive-reconstructor
+researchCostMultiplier: 0
 requirements: [
   copper/200
   lead/120
