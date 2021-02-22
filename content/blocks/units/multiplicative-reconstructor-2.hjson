@@ -24,7 +24,7 @@ items:{
 }
 }
 category: units
-research: additive-reconstructor
+research: multiplicative-reconstructor
 researchCostMultiplier: 0
 requirements: [
   lead/650
