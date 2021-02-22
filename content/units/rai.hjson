@@ -1,13 +1,13 @@
 type: naval
 name: "Rai"
 description: "Quickly fires a barrage of artillery, bullets and flak."
-speed: 0.75
+speed: 0.7
 drag: 0.08
 armor: 6
 hitSize: 15
-health: 1020
-commandLimit: 6
-range: 180
+health: 10900
+commandLimit: 7
+range: 223
 accel: 0.08
 flying: false
 itemCapacity: 80
