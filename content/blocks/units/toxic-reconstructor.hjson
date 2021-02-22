@@ -2,12 +2,15 @@ type: Reconstructor
 name: "Toxic Reconstructor"
 size: 3
 health: 280
-description: "Reconstructs Suro into Aruma."
+description: "Reconstructs normal units into toxic versions."
 constructTime: 480
 hasPower: true
 upgrades: [
   [
     suro, aruma
+  ]
+  [
+    tora, sappor
   ]
 ]
 consumes: {
@@ -20,7 +23,7 @@ items:{
 }
 }
 category: units
-research: suro
+research: ground-factory
 requirements: [
   copper/140
   lead/100
