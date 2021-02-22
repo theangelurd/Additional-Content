@@ -1,0 +1,116 @@
+type: naval
+name: "Rai"
+description: ""
+speed: 0.75
+drag: 0.08
+armor: 6
+hitSize: 15
+health: 1020
+commandLimit: 6
+range: 180
+accel: 0.08
+flying: false
+itemCapacity: 80
+rotateSpeed: 1.5
+rotateShooting: false
+trailLength: 60
+trailX: 8
+trailY: -11
+trailScl: 3
+weapons: [
+{
+name: mount-weapon
+reload: 10
+alternate: true
+ejectEffect: casing1
+top: true
+shootSound: pew
+recoil: 1.5
+x: 12
+shootY: 4
+y: 21
+rotate: true
+rotateSpeed: 17
+bullet: {
+type: BasicBulletType
+damage: 10
+speed: 3
+lifetime: 60
+hitSound: none
+width: 7.2
+height: 11.5
+hitEffect: hitBulletSmall
+collidesGround: true
+collidesAir: true
+shootEffect: shootSmall
+smokeEffect: shootSmallSmoke
+trailEffect: none
+}
+}
+{
+name: artillery-mount
+reload: 85
+alternate: true
+ejectEffect: casing3
+shootSound: artillery
+recoil: 3
+x: 14
+shootY: 4
+y: -3
+rotate: true
+top: true
+rotateSpeed: 9
+bullet: {
+type: ArtilleryBulletType
+splashDamage: 47
+splashDamageRadius: 25
+lifetime: 72
+speed: 3.1
+width: 14.5
+height: 14.5
+lightning: 3
+lightningLength: 7.3
+lightningLengthRand: 9
+despawnEffect: explosion
+hitEffect: explosion
+shootEffect: shootBig
+smokeEffect: shootBigSmoke
+collides: true
+collidesTiles: true
+collidesGround: true
+collidesAir: false
+knockback: 1.7
+}
+}
+{
+name: snapper
+reload: 11
+recoil: 4
+shootSound: shootSnap
+top: true
+rotate: true
+rotateSpeed: 18
+mirror: true
+y: 15
+x: 0
+shootY: 6
+bullet: {
+type: FlakBulletType
+length: 240
+lifetime: 42
+lightningLength: 4
+lightningDamage: 2
+lightningLenghtRand: 4
+hitGround: true
+width: 8
+height: 10
+damage: 4
+splashDamage: 23
+splashDamageRadius: 13
+hitEffect: flakExplosion
+}
+}
+]
+research:{
+parent: tirama
+}
