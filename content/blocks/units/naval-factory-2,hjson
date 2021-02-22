@@ -1,0 +1,26 @@
+name: "Naval Factory 2"
+description: "A naval factory designed to produce additional units."
+health: 300
+size: 3
+plans:[
+ {
+ unit: tora
+ requirements:[
+ silicon/30
+ metaglass/30
+]
+ }
+
+]
+consumes: {
+power: 1.2
+}
+category: units
+research: naval-factory
+researchCostMultiplier: 0
+floating: true
+requirements: [
+  lead/130
+  copper/150
+  metaglass/120
+]
