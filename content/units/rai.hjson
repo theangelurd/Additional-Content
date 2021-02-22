@@ -4,7 +4,7 @@ description: "Quickly fires a barrage of artillery, bullets and flak."
 speed: 0.7
 drag: 0.08
 armor: 6
-hitSize: 27
+hitSize: 35
 health: 10900
 commandLimit: 7
 range: 223
