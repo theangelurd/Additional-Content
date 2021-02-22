@@ -1,0 +1,33 @@
+type: Reconstructor
+name: "Multiplicative Reconstructor 2"
+size: 3
+health: 380
+description: "A Multiplicative Reconstructor specialized for this mod's units"
+constructTime: 1800
+hasPower: true
+upgrades: [
+  [
+    tayros, impra
+  ]
+  [
+    tremo, tirama
+  ]
+]
+consumes: {
+    power: 6
+items:{
+  items: [
+  silicon/130
+  titanium/80
+  metaglass/40
+  ]
+}
+}
+category: units
+research: additive-reconstructor
+researchCostMultiplier: 0
+requirements: [
+  copper/200
+  lead/120
+  silicon/90
+]
