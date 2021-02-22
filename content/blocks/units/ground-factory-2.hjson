@@ -6,6 +6,7 @@ size: 3
 plans:[
  {
  unit: patred
+ time: 1000
  requirements:[
  lead/15
  silicon/10
