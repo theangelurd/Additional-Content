@@ -1,4 +1,4 @@
-type: Factory
+type: factory
 name: "Naval Factory 2"
 description: "A naval factory designed to produce additional units."
 health: 300
