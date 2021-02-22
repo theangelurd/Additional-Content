@@ -4,7 +4,7 @@ description: "Quickly fires a barrage of artillery, bullets and flak."
 speed: 0.7
 drag: 0.08
 armor: 6
-hitSize: 15
+hitSize: 27
 health: 10900
 commandLimit: 7
 range: 223
@@ -14,7 +14,7 @@ itemCapacity: 80
 rotateSpeed: 1.5
 rotateShooting: false
 trailLength: 60
-trailX: 8
+trailX: 15
 trailY: -17
 trailScl: 3.2
 weapons: [
