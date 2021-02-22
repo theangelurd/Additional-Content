@@ -15,8 +15,8 @@ rotateSpeed: 1.5
 rotateShooting: false
 trailLength: 60
 trailX: 8
-trailY: -11
-trailScl: 3
+trailY: -17
+trailScl: 3.2
 weapons: [
 {
 name: mount-weapon
@@ -92,12 +92,12 @@ rotate: true
 rotateSpeed: 18
 mirror: true
 y: 15
-x: 0
+x: 7
 shootY: 6
 bullet: {
 type: FlakBulletType
-length: 240
 lifetime: 42
+speed: 3.8
 lightningLength: 4
 lightningDamage: 2
 lightningLenghtRand: 4
