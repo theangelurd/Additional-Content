@@ -110,6 +110,7 @@ splashDamage: 29
 splashDamageRadius: 14
 hitEffect: flakExplosion
 fragBullets: 3
+fragCone: 55
 fragBullet: {
 type: FlakBulletType
 lifetime: 28
