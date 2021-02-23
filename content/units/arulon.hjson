@@ -1,0 +1,52 @@
+type: mech
+name: "Arulon"
+description: "Shoots lightning charged artillery shells at ground targets."
+range: 255
+speed: 0.6
+health: 710
+hitSize: 14
+commandLimit: 5
+rotateSpeed: 5.6
+drag: 0.3
+accel: 0.5
+itemCapacity: 55
+mineTier: 1
+mineSpeed: 1.5
+mineTier: 2
+mineSpeed: 4
+weapons:[
+{
+name: electric-artillery
+reload: 120
+shootSound: spark
+shots: 2
+recoil: 2
+cooldownTime: 76
+heatColor: a3a3ff
+ejectEffect: none
+top: false
+rotate: false
+x: 10
+bullet: {
+type: ArtilleryBulletType
+splashDamage: 23
+splashDamageRadius: 28
+shootEffect: sparkShoot
+smokeEffect: shootSmallSmoke
+speed: 3
+lifetime: 85
+height: 13
+width: 13
+frontColor: f4f7ff
+backColor: a1bbff
+lightning: 3
+lightningLengthRand: 8
+lightningLength: 6.3
+lightningDamage: 4
+lightningColor: 89a9ff
+}
+}
+]
+research: {
+parent: irule
+}
