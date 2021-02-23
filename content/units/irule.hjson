@@ -17,6 +17,7 @@ engineSize: 2.5
 engineOffset: 6
 mineTier: 2
 mineSpeed: 3
+itemCapacity: 40
 weapons:[
 {
 name: laser-weapon
