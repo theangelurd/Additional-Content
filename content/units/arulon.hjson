@@ -14,6 +14,7 @@ mineTier: 1
 mineSpeed: 1.5
 mineTier: 2
 mineSpeed: 4
+armor: 4
 weapons:[
 {
 name: electric-artillery
