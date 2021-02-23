@@ -110,6 +110,41 @@ splashDamageRadius: 14
 hitEffect: flakExplosion
 }
 }
+{
+name: small-artillery-mount
+reload: 65
+alternate: true
+ejectEffect: casing3
+shootSound: artillery
+recoil: 2
+x: 12
+shootY: 2
+y: 4
+rotate: true
+top: true
+rotateSpeed: 9
+bullet: {
+type: ArtilleryBulletType
+splashDamage: 46
+splashDamageRadius: 21
+lifetime: 80
+speed: 3.3
+width: 11
+height: 11
+lightning: 2
+lightningLength: 4.3
+lightningLengthRand: 6
+despawnEffect: explosion
+hitEffect: explosion
+shootEffect: shootBig
+smokeEffect: shootBigSmoke
+collides: true
+collidesTiles: true
+collidesGround: true
+collidesAir: false
+knockback: 1.2
+}
+}
 ]
 research:{
 parent: tirama
