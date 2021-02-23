@@ -3,7 +3,7 @@ name: "Rai"
 description: "Quickly fires a barrage of artillery, bullets and flak."
 speed: 0.7
 drag: 0.08
-armor: 6
+armor: 12
 hitSize: 35
 health: 10900
 commandLimit: 7
