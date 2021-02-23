@@ -40,10 +40,10 @@ height: 13
 width: 13
 frontColor: f4f7ff
 backColor: a1bbff
-lightning: 3
+lightning: 2
 lightningLengthRand: 8
 lightningLength: 6.3
-lightningDamage: 4
+lightningDamage: 3.2
 lightningColor: 89a9ff
 }
 }
