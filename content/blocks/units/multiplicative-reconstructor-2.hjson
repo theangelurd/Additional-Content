@@ -12,6 +12,9 @@ upgrades: [
   [
     tremo, tirama
   ]
+  [
+    irule, arulon
+  ]
 ]
 consumes: {
     power: 6
