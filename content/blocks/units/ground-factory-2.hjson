@@ -12,6 +12,14 @@ plans:[
  silicon/10
 ]
  }
+ {
+ unit: irel
+ time: 1000
+ requirements:[
+ lead/10
+ silicon/5
+]
+ }
 ]
 consumes: {
 power: 1.2
