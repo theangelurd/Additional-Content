@@ -1,0 +1,71 @@
+type: mech
+name: "Tefrectic"
+description: "Fires massive amounts of lightning at enemies."
+range: 200
+speed: 0.45
+health: 7600
+armor: 7
+hitSize: 19
+commandLimit: 6
+rotateSpeed: 7
+drag: 0.3
+accel: 0.5
+itemCapacity: 20
+mineTier: 3
+mineSpeed: 3.8
+weapons:[
+{
+name: electric-destroyer
+reload: 20
+shootSound: spark
+shots: 5
+recoil: 4
+cooldownTime: 40
+heatColor: a3a3ff
+ejectEffect: none
+top: false
+rotate: false
+x: 14
+bullet: {
+type: LightningBulletType
+damage: 13
+lightningLength: 12
+lightningLengthRand: 11
+shootEffect: sparkShoot
+smokeEffect: shootBigSmoke
+lightningType: {
+lifetime: 10
+hitEffect: hitLancer
+despawnEffect: none
+statusDuration: 380
+status: shocked
+hittable: false
+}
+}
+}
+{
+name: laser-mount
+reload: 75
+shootSound: laser
+recoil: 3.5
+cooldownTime: 30
+heatColor: a3a3ff
+ejectEffect: none
+top: true
+rotate: true
+x: 7
+y: 5
+bullet: {
+type: LaserBulletType
+damage: 110
+length: 200
+width: 15
+shootEffect: lancerLaserShoot
+smokeEffect: shootBigSmoke
+lifetime: 45
+}
+}
+]
+research: {
+parent: arulon
+}
