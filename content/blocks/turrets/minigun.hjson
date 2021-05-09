@@ -1,0 +1,143 @@
+type: ItemTurret
+name: minigun
+description: An extremely fast turret that can easily destroy things in front of it.
+health: 1960
+size: 3
+reloadTime: 5.5
+recoilAmount: 2
+shootSound: shootBig
+range: 140
+shots: 2
+alternate: true
+spread: 10
+ammoUseEffect: casing2
+targetAir: true
+targetGround: true
+rotateSpeed: 4
+ammoTypes: {
+  iron: {
+    speed: 4.7
+    damage: 13
+    splashDamage: 20
+    splashDamageRadius: 17
+    width: 12
+    height: 19
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    hitEffect: hitBulletBig
+    despawnEffect: hitBulletBig
+    lifetime: 48
+    ammoMultiplier: 3
+    knockback: 1.4
+    collidesGround: true
+    collidesAir: true
+    }
+    steel: {
+    speed: 4.7
+    damage: 16
+    splashDamage: 20
+    splashDamageRadius: 23
+    width: 13
+    height: 18
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    hitEffect: hitBulletBig
+    despawnEffect: hitBulletBig
+    lifetime: 48
+    ammoMultiplier: 3
+    knockback: 1.4
+    collidesGround: true
+    collidesAir: true
+    }
+    steel-rod: {
+    speed: 4.7
+    damage: 35
+    splashDamage: 6
+    splashDamageRadius: 12
+    width: 11
+    height: 25
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    hitEffect: hitBulletBig
+    despawnEffect: hitBulletBig
+    lifetime: 48
+    ammoMultiplier: 2
+    knockback: 1.4
+    collidesGround: true
+    collidesAir: true
+    }
+    copper: {
+    speed: 4.7
+    damage: 8
+    splashDamage: 10
+    splashDamageRadius: 16
+    width: 11
+    height: 15
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    hitEffect: hitBulletBig
+    despawnEffect: hitBulletBig
+    lifetime: 48
+    ammoMultiplier: 3
+    knockback: 1.4
+    collidesGround: true
+    collidesAir: true
+    }
+    graphite: {
+    speed: 4.7
+    damage: 15
+    splashDamage: 18
+    splashDamageRadius: 19
+    width: 11
+    height: 15
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    hitEffect: hitBulletBig
+    despawnEffect: hitBulletBig
+    lifetime: 48
+    ammoMultiplier: 3
+    knockback: 1.4
+    collidesGround: true
+    collidesAir: true
+    }
+    tier-1-shell: {
+    speed: 5.2
+    damage: 66
+    width: 16
+    height: 22
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    hitEffect: hitBulletBig
+    despawnEffect: hitBulletBig
+    lifetime: 48
+    ammoMultiplier: 2
+    knockback: 1.9
+    collidesGround: true
+    collidesAir: true
+    }
+    tier-2-shell: {
+    speed: 5.2
+    damage: 79
+    width: 20
+    height: 27
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    hitEffect: hitBulletBig
+    despawnEffect: hitBulletBig
+    lifetime: 48
+    ammoMultiplier: 2
+    knockback: 2.4
+    collidesGround: true
+    collidesAir: true
+    }
+}
+requirements: [    
+  copper/375
+  lead/300
+  graphite/315
+  iron/370
+  steel/300
+  timerite/220
+]
+category: turret
+research: gattler
