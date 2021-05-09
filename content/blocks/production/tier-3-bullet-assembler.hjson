@@ -1,0 +1,27 @@
+name: Tier 3 Shell Assembler
+description: "Assembles tier 3 shells for ammo."
+size: 2
+hasItems: true
+hasPower: true
+type: GenericCrafter
+craftEffect: pulverize
+craftTime: 140
+consumes: {
+    power: 1.2
+    items: {
+      items: [
+        blast-compound/3
+        lead/3
+        steel/2
+      ]
+    }
+}
+requirements: [
+  steel/300
+  silicon/175
+  titanium/200
+  blast-compound/80
+]
+category: crafting
+research: tier-2-bullet-assembler
+outputItem: tier-3-shell/1
