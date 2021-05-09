@@ -129,6 +129,23 @@ ammoTypes: {
     collidesGround: true
     collidesAir: true
     }
+    tier-3-shell: {
+    speed: 5.2
+    damage: 62
+    splashDamage: 29
+    splashDamageRadius: 25
+    width: 18
+    height: 27
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    hitEffect: blastExplosion
+    despawnEffect: blastExplosion
+    lifetime: 48
+    ammoMultiplier: 2
+    knockback: 2.5
+    collidesGround: true
+    collidesAir: true
+    }
 }
 requirements: [    
   copper/220
