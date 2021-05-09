@@ -1,0 +1,26 @@
+name: Mega Steel Furnace
+description: "Smelts even more steel at once."
+size: 4
+hasPower: true
+hasItems: true
+craftTime: 240
+craftEffect: smeltsmoke
+consumes: {
+  power: 0.7
+  items: {
+    items: [
+      coal/7
+      iron/7
+    ]
+  }
+}
+requirements: [
+    copper/500
+    lead/460
+    graphite/420
+    iron/270
+    silicon/240
+]
+category: crafting
+research: iron-separator
+outputItem: steel/4
