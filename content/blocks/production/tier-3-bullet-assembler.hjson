@@ -7,7 +7,7 @@ type: GenericCrafter
 craftEffect: pulverize
 craftTime: 140
 consumes: {
-    power: 1.2
+    power: 2
     items: {
       items: [
         blast-compound/3
