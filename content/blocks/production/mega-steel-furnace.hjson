@@ -1,3 +1,4 @@
+type: GenericSmelter
 name: Mega Steel Furnace
 description: "Smelts even more steel at once."
 size: 4
