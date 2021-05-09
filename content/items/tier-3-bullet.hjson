@@ -1,0 +1,13 @@
+name: Tier 3 Shell
+description: Used as extremely powerful ammo for turrets.
+hardness: 0
+cost: 0.5
+color: ff795e
+research: {
+    parent: tier-1-shell
+    requirements:[
+        blast-compound/1660
+        lead/1200
+        steel/780
+    ]
+}
