@@ -9,6 +9,9 @@ upgrades: [
   [
     aruma, isaro
   ]
+  [
+    sappor, draopor
+  ]
 ]
 consumes: {
     power: 1.85
