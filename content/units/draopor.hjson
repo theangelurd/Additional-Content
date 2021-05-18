@@ -28,8 +28,8 @@ reload: 20
 shootSound: sap
 rotate: true
 rotateSpeed: 28
-x: 4
-y: 6
+x: 6
+y: 4
 bullet: {
 type: SapBulletType
 damage: 10
@@ -69,7 +69,7 @@ sapStrength: 0.11
 name: draopor-cannon
 y: 0
 x: 0
-recoil: 2
+recoil: 3.5
 reload: 120
 shootSound: artillery
 rotate: true
