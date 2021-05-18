@@ -1,0 +1,104 @@
+type: naval
+name: "Draopor"
+description: "Shoots very strong artillery."
+flying: false
+speed: 1.1
+rotateSpeed: 5
+commandLimit: 6
+health: 620
+drag: 0.16
+accel: 0.16
+range: 100
+hitSize: 10
+faceTarget: true
+rotateShooting: false
+itemCapacity: 60
+trailX: 4
+trailY: -6
+trailScl: 2.2
+trailLength: 25
+targetGround: true
+targetAir: true
+armor: 5
+weapons:[
+{
+name: aruma-weapon
+recoil: 1
+reload: 20
+shootSound: sap
+rotate: true
+rotateSpeed: 28
+x: 4
+y: 6
+bullet: {
+type: SapBulletType
+damage: 10
+lifetime: 32
+hitColor: bf92f9
+color: bf92f9
+length: 120
+width: 0.4
+pierce: true
+knockback: -1.2
+sapStrength: 0.11
+}
+}
+{
+name: aruma-weapon
+recoil: 1
+reload: 20
+shootSound: sap
+rotate: true
+rotateSpeed: 28
+x: 6
+y: -8
+bullet: {
+type: SapBulletType
+damage: 10
+lifetime: 32
+hitColor: bf92f9
+color: bf92f9
+length: 120
+width: 0.4
+pierce: true
+knockback: -1.2
+sapStrength: 0.11
+}
+}
+{
+name: draopor-cannon
+y: -2
+x: 4
+recoil: 2
+reload: 120
+shootSound: artillery
+rotate: true
+rotateSpeed: 6
+shake: 3
+bullet: {
+type: ArtilleryBulletType
+damage: 19
+splashDamage: 27
+splashDamageRadius: 25
+speed: 3.2
+lifetime: 60
+lightning: 3
+lightningCone: 70
+lightningColor: bf92f9
+lightningLength: 14
+lightningLengthRand: 14
+hitShake: 2.3
+frontColor: bf92f9
+backColor: bf92f9
+hitEffect: sapExplosion
+despawnEffect: sapExplosion
+width: 20
+height: 20
+status: sapped
+statusDuration: 1000
+}
+}
+]
+research: {
+parent: sappor
+}
