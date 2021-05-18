@@ -67,18 +67,19 @@ sapStrength: 0.11
 }
 {
 name: draopor-cannon
-y: -2
-x: 4
+y: 0
+x: 0
 recoil: 2
 reload: 120
 shootSound: artillery
 rotate: true
-rotateSpeed: 6
-shake: 3
+rotateSpeed: 4.5
+shake: 4
+mirror: false
 bullet: {
 type: ArtilleryBulletType
-damage: 19
-splashDamage: 27
+damage: 22
+splashDamage: 28
 splashDamageRadius: 25
 speed: 3.2
 lifetime: 60
