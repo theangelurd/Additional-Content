@@ -18,6 +18,9 @@ upgrades: [
   [
     irel, irule
   ]
+   [
+    sappor, draopor
+  ]
 ]
 consumes: {
     power: 3
