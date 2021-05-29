@@ -9,3 +9,5 @@ lightningChance: 0.2
 category: defense
 research: charged-frassium-barrier
 size: 2
+insulated: true
+absorbLasers: true
