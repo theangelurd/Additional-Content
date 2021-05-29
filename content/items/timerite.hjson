@@ -2,7 +2,7 @@ name: Timerite
 description: A product of mixing various resources. Has good energy properties.
 hardness: 0
 cost: 0.25
-color: b19696
+color: 0094ff
 research: {
     parent: iron
     requirements: [
