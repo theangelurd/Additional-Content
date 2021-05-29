@@ -1,0 +1,9 @@
+name: "Frassium Barrier"
+description: "Protects structures from enemy projectiles."
+type: Wall
+health: 1600
+requirements:[
+    frassium/6
+]
+category: defense
+research: surge-wall
