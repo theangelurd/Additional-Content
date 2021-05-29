@@ -1,0 +1,31 @@
+type: PowerTurret
+name: Lightning
+description: Shoots lightning at any nearby enemy.
+health: 1600
+size: 3
+reloadTime: 45
+shots: 3
+shootShake: 2.5
+recoilAmount: 3.5
+cooldown: 0.025
+rotateSpeed: 7.5
+shootEffect: lightningShoot
+powerUse: 10
+heatColor: ff000b
+shootSound: spark
+range: 150
+shootType: {
+type: LightningBulletType
+damage: 35
+lightningLength: 24
+collidesAir: false
+}
+research: thunder
+requirements:[
+copper/250
+lead/320
+silicon/200
+iron/120
+steel/50
+]
+category: turret
