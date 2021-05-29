@@ -4,6 +4,7 @@ type: Wall
 health: 2000
 requirements:[
     charged-frassium/6
+silicon/2
 ]
 lightningChance: 0.15
 category: defense
