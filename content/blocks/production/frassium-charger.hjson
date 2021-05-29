@@ -6,7 +6,7 @@ size: 1
 hasPower: true
 hasItems: true
 craftTime: 100
-updateEffect: smeltsmoke
+updateEffect: flakExplosion
 consumes: {
   power: 5
   items: {
