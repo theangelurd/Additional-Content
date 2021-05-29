@@ -65,6 +65,7 @@ requirements:[
   steel/2000
   iron/2400
   timerite/1200
+  frassium/550
 ]
 research: meltdown
 category: turret
