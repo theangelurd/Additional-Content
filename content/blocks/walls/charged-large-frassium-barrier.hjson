@@ -1,0 +1,10 @@
+name: "Charged Large Frassium Barrier"
+description: "Protects structures from enemy projectiles. Spans multiple tiles."
+type: Wall
+health: 8000
+requirements:[
+    charged-frassium/24
+]
+lightningChance: 0.2
+category: defense
+research: charge-frassium-barrier
