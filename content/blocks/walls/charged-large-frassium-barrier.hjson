@@ -3,7 +3,7 @@ description: "Protects structures from enemy projectiles. Spans multiple tiles."
 type: Wall
 health: 8000
 requirements:[
-    charged-frassium/24*
+    charged-frassium/24
 silicon/8
 ]
 lightningChance: 0.2
