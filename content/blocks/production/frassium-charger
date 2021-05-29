@@ -1,0 +1,26 @@
+type: GenericSmelter
+name: Frassium Charger
+description: "Charges up Frassium."
+liquidCapacity: 50
+size: 1
+hasPower: true
+hasItems: true
+craftTime: 100
+updateEffect: smeltsmoke
+consumes: {
+  power: 5
+  items: {
+    items: [
+    frassium/1
+    ]
+  }
+}
+requirements: [
+    thorium/350
+    titanium/500
+    timerite/300
+    surge-alloy/200
+]
+category: crafting
+research: frassium-melter
+outputItem: charged-frassium/1
