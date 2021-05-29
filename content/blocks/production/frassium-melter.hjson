@@ -11,9 +11,9 @@ consumes: {
   power: 1.2
   items: {
     items: [
-      timerite/2
+      timerite/3
       steel/2
-      iron/2
+      iron/4
     ]
   }
 }
