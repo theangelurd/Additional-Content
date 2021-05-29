@@ -7,7 +7,7 @@ reloadTime: 22
 shots: 2
 shootShake: 1.5
 recoilAmount: 3.5
-cooldown: 0.4
+cooldown: 0.04
 rotateSpeed: 7.5
 shootEffect: lightningShoot
 powerUse: 6
