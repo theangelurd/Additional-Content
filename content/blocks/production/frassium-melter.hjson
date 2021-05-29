@@ -1,0 +1,28 @@
+type: GenericSmelter
+name: Iron Separator
+description: "Melts very strong things to make an even stronger alloy."
+liquidCapacity: 50
+size: 1
+hasPower: true
+hasItems: true
+craftTime: 100
+updateEffect: smeltsmoke
+consumes: {
+  power: 1.2
+  items: {
+    items: [
+      timerite/1
+      steel/1
+      iron/2
+    ]
+  }
+}
+requirements: [
+    thorium/350
+    titanium/500
+    timerite/300
+    surge-alloy/200
+]
+category: crafting
+research: mega-steel-furnace
+outputItem: frassium/1
