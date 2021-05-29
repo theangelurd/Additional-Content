@@ -1,0 +1,9 @@
+name: "Large Frassium Barrier"
+description: "Protects structures from enemy projectiles. Spans multiple tiles."
+type: Wall
+health: 6400
+requirements:[
+    frassium/24
+]
+category: defense
+research: frassium-wall
