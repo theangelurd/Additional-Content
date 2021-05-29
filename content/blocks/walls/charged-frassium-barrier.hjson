@@ -8,3 +8,5 @@ requirements:[
 lightningChance: 0.15
 category: defense
 research: frassium-barrier
+insulated: true
+absorbLasers: true
