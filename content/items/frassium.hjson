@@ -1,0 +1,8 @@
+name: Frassium
+description: An extremely strong material capable of holding power.
+hardness: 0
+cost: 0.5
+color: b19696
+research: {
+    parent: timerite
+}
