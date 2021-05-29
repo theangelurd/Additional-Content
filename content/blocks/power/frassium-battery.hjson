@@ -1,0 +1,16 @@
+type: Battery
+name: Frassium Battery
+description: "Uses the massive amounts of power Frassium can contain to store a lot of power."
+health: 1200
+size: 1
+hasPower: true
+hasItems: false
+consumes:{
+	powerBuffered: 40000
+}
+requirements: [
+  frassium/20
+  titanium/15
+]
+category: power
+research: large-battery
