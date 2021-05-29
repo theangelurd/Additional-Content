@@ -23,5 +23,7 @@ research: arc
 requirements:[
 copper/125
 lead/145
+silicon/20
+iron/15
 ]
 category: turret
