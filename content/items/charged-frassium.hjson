@@ -1,0 +1,8 @@
+name: Charged Frassium
+description: The charged version of Frassium.
+hardness: 0
+cost: 0.5
+color: 6bffe8
+research: {
+    parent: frassium
+}
