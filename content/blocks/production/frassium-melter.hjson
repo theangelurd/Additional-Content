@@ -2,7 +2,7 @@ type: GenericSmelter
 name: Iron Separator
 description: "Melts very strong things to make an even stronger alloy."
 liquidCapacity: 50
-size: 1
+size: 4
 hasPower: true
 hasItems: true
 craftTime: 100
