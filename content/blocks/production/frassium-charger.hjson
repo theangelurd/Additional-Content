@@ -5,7 +5,7 @@ liquidCapacity: 50
 size: 1
 hasPower: true
 hasItems: true
-craftTime: 100
+craftTime: 80
 updateEffect: flakExplosion
 consumes: {
   power: 5
