@@ -1,5 +1,5 @@
 type: GenericSmelter
-name: Iron Separator
+name: frassium Melter
 description: "Melts very strong things to make an even stronger alloy."
 liquidCapacity: 50
 size: 4
