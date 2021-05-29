@@ -3,11 +3,11 @@ name: Thunder
 description: Shoots pairs of lightning at any nearby enemy.
 health: 800
 size: 2
-reloadTime: 22
+reloadTime: 40
 shots: 2
 shootShake: 1.5
 recoilAmount: 3.5
-cooldown: 0.04
+cooldown: 0.03
 rotateSpeed: 7.5
 shootEffect: lightningShoot
 powerUse: 6
