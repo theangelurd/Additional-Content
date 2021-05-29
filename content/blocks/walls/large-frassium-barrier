@@ -8,3 +8,5 @@ requirements:[
 category: defense
 research: frassium-wall
 size: 2
+insulated: true
+absorbLasers: true
