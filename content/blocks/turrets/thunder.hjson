@@ -13,6 +13,7 @@ shootEffect: lightningShoot
 powerUse: 7
 heatColor: ff000b
 shootSound: spark
+range: 140
 shootType: {
 type: LightningBulletType
 damage: 30
