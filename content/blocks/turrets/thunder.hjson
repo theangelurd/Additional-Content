@@ -9,7 +9,7 @@ shootShake: 1.5
 recoilAmount: 3.5
 cooldown: 24
 rotateSpeed: 7.5
-shootEffect: spark
+shootEffect: lightningShoot
 powerUse: 6
 heatColor: ff000b
 shootType: {
@@ -18,10 +18,7 @@ damage: 35
 lightningLength: 22
 collidesAir: false
 }
-research:
-{
-parent: arc
-}
+research: arc
 requirements:[
 copper/125
 lead/145
