@@ -1,0 +1,8 @@
+name: DeflectivePlating
+description: A deflective, compressed resource that can withstand a lot of damage.
+hardness: 0
+cost: 0.5
+color: 6bffe8
+research: {
+    parent: frassium
+}
