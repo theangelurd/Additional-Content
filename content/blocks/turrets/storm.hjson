@@ -20,17 +20,17 @@ range: 160
 xRand: 1.5
 shootType: {
 type: LightningBulletType
-damage: 40
+damage: 45
 lightningLength: 26
 collidesAir: false
 }
 research: lightning
 requirements:[
 graphite/500
-titanium/600
-silicon/450
-iron/350
-steel/220
-timerite/100
+titanium/1100
+silicon/750
+iron/500
+steel/380
+timerite/220
 ]
 category: turret
