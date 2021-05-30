@@ -20,7 +20,7 @@ weapons:[
 {
 name: ultimate-form-of-weapon
 recoil: 20
-reload: 20
+reload: 1
 shootSound: shootSnap
 rotate: true
 top: true
