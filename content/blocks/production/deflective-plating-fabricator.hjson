@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: Deflective Plating Fabricator
+description: "Compresses lead, titanium and phase fabric into a deflective and durable deflective plating."
+size: 3
+hasPower: true
+hasItems: true
+craftTime: 95
+craftEffect: pulverize
+consumes: {
+  power: 0.7
+  items: {
+    items: [
+      lead/4
+      titanium/3
+      phase-fabric/1
+    ]
+  }
+}
+requirements: [
+    copper/350
+    lead/300
+    graphite/220
+    silicon/100
+    titanium/180
+]
+category: crafting
+research: phase-weaver
+outputItem: deflective-plating/2
