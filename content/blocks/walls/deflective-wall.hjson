@@ -1,0 +1,10 @@
+name: "Deflective Wall"
+description: "Protects structures from enemy projectiles. Deflects enemy bullets."
+type: Wall
+health: 2000
+requirements:[
+    deflective-plating/6
+]
+category: defense
+research: frassium-wall
+chanceDeflect: 8
