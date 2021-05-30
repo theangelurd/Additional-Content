@@ -1,18 +1,12 @@
-type: LiquidConverter
+type: GenericCrafter
 name: Water Cooler
 description: "Cools down water vapor in the atmosphere to produce water."
 size: 2
 hasPower: true
 craftTime: 50
-outputsLiquid: true
 hasLiquids: true
 consumes: {
   power: 1.2
-   liquids: {
-    liquids: [
-      water/0
-    ]
-  }
 }
 requirements: [
     copper/100
