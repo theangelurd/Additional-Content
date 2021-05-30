@@ -4,7 +4,7 @@ description: "Why does this even exist?"
 speed: 0.8
 engineOffset: 46
 engineSize: 7.8
-health: 24000
+health: 999999999
 armor: 16
 itemCapacity: 250
 mineSpeed: 9
@@ -31,7 +31,7 @@ x: 30
 bullet: {
 type: BasicBulletType
 sprite: flare-bullet
-damage: 999
+damage: 9999999
 knockback: 9
 status: unmoving
 statusDuration: 9999
