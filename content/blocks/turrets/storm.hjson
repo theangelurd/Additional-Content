@@ -1,0 +1,33 @@
+type: PowerTurret
+name: Storm
+description: Shoots large amounts of lightning at any nearby enemy.
+health: 2400
+size: 4
+reloadTime: 48
+shots: 5
+shootDelay: 5
+shootShake: 2.5
+recoilAmount: 3.5
+cooldown: 0.02
+rotateSpeed: 5.2
+shootEffect: lightningShoot
+powerUse: 15
+heatColor: ff000b
+shootSound: spark
+range: 160
+shootType: {
+type: LightningBulletType
+damage: 40
+lightningLength: 26
+collidesAir: false
+}
+research: lightning
+requirements:[
+graphite/500
+titanium/600
+silicon/450
+iron/350
+steel/220
+timerite/100
+]
+category: turret
