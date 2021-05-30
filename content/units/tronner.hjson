@@ -67,8 +67,8 @@ sapStrength: 0.11
 }
 {
 name: draopor-cannon
-y: 5
-x: 0
+y: 0
+x: 5
 recoil: 3.5
 reload: 130
 shootSound: artillery
