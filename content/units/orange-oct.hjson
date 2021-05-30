@@ -24,7 +24,7 @@ reload: 1
 shootSound: shootSnap
 rotate: true
 top: true
-rotateSpeed: 4
+rotateSpeed: 99
 shootY: 30
 y: -2
 x: 30
@@ -35,7 +35,7 @@ damage: 9999999
 knockback: 9
 status: unmoving
 statusDuration: 9999
-speed: 8
+speed: 10
 pierce: true
 pierceBuilding: true
 }
