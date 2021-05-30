@@ -1,0 +1,69 @@
+type: ItemTurret
+name: "Crunch"
+description: "Fires 4 long-range piercing blasts at nearby enemies."
+reloadTime: 40
+size: 3
+health: 2240
+shots: 4
+range: 115
+alternate: false
+spread: 7
+rotateSpeed: 4.15
+recoilAmount: 3.5
+restitution: 0.095
+shootShake: 10
+shootSound: shotgun
+ejectEffect: none
+ammoTypes: {
+thorium: {
+speed: 0.01
+damage: 150
+width: 24
+type: ShrapnelBulletType
+lifetime: 18
+length: 115
+serrations: 8
+fromColor: f9a3c7
+toColor: f9a3c7
+ammoMultiplier: 6
+}
+thorium: {
+speed: 0.01
+damage: 135
+width: 27
+type: ShrapnelBulletType
+lifetime: 18
+length: 115
+serrations: 8
+fromColor: ffc3dc
+toColor: ffc3dc
+ammoMultiplier: 8
+}
+timerite: {
+speed: 0.01
+damage: 155
+width: 20
+type: ShrapnelBulletType
+lifetime: 18
+length: 115
+serrations: 8
+fromColor: ffc3dc
+toColor: ffc3dc
+ammoMultiplier: 12
+}
+}
+requirements:[
+copper/900
+graphite/850
+metaglass/800
+silicon/725
+thorium/650
+titanium/600
+plastanium/500
+surge-alloy/450
+]
+research: fuse
+category: turret
+
+    © 2021 GitHub, Inc.
+    Terms
