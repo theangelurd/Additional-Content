@@ -6,5 +6,5 @@ requirements:[
     deflective-plating/6
 ]
 category: defense
-research: frassium-wall
+research: frassium-barrier
 chanceDeflect: 8
