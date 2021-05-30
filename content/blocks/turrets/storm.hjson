@@ -3,7 +3,7 @@ name: Storm
 description: Shoots large amounts of lightning at any nearby enemy.
 health: 2400
 size: 4
-reloadTime: 48
+reloadTime: 14
 shots: 5
 shootDelay: 5
 shootShake: 2.5
