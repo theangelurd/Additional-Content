@@ -1,0 +1,11 @@
+name: "Large Deflective Wall"
+description: "Protects structures from enemy projectiles. Deflects enemy bullets. Spans multiple tiles."
+type: Wall
+health: 6000
+size: 2
+requirements:[
+    deflective-plating/24
+]
+category: defense
+research: deflective-wall
+chanceDeflect: 8
