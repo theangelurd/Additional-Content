@@ -1,0 +1,20 @@
+type: LiquidConverter
+name: Water Cooler
+description: "Cools down water vapor in the atmosphere to produce water."
+size: 2
+hasPower: true
+craftTime: 50
+outputsLiquid: true
+hasLiquids: true
+consumes: {
+  power: 1.2
+}
+requirements: [
+    copper/100
+    lead/120
+    graphite/50
+    silicon/60
+]
+category: crafting
+research: graphite-press
+outputLiquid: water/0.025
