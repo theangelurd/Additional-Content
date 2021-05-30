@@ -15,6 +15,7 @@ powerUse: 15
 heatColor: ff000b
 shootSound: spark
 range: 160
+xRand: 10
 shootType: {
 type: LightningBulletType
 damage: 40
