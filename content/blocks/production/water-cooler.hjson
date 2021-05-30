@@ -16,4 +16,4 @@ requirements: [
 ]
 category: crafting
 research: graphite-press
-outputLiquid: water/0.025
+outputLiquid: water/0.12
