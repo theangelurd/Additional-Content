@@ -9,13 +9,15 @@ shootDelay: 5
 shootShake: 2.5
 recoilAmount: 3.5
 cooldown: 0.02
+alternate: true
+spacing: 2
 rotateSpeed: 5.2
 shootEffect: lightningShoot
 powerUse: 15
 heatColor: ff000b
 shootSound: spark
 range: 160
-xRand: 10
+xRand: 1.5
 shootType: {
 type: LightningBulletType
 damage: 40
