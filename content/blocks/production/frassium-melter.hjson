@@ -8,7 +8,7 @@ hasItems: true
 craftTime: 55
 updateEffect: smeltsmoke
 consumes: {
-  power: 1.2
+  power: 2.5
   items: {
     items: [
       timerite/3
