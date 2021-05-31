@@ -6,7 +6,7 @@ requirements:[
     frassium/24
 ]
 category: defense
-research: frassium-wall
+research: frassium-barrier
 size: 2
 insulated: true
 absorbLasers: true
