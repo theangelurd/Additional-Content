@@ -28,8 +28,8 @@ reload: 19
 shootSound: sap
 rotate: true
 rotateSpeed: 25
-x: 6
-y: 4
+x: 10
+y: 8
 bullet: {
 type: SapBulletType
 damage: 24
@@ -50,8 +50,8 @@ reload: 20
 shootSound: sap
 rotate: true
 rotateSpeed: 28
-x: 6
-y: -8
+x: 10
+y: -12
 bullet: {
 type: SapBulletType
 damage: 24
