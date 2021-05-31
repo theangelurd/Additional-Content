@@ -2,24 +2,24 @@ type: naval
 name: "Yrion"
 description: "Shoots a devastating artillery shell."
 flying: false
-speed: 1
-rotateSpeed: 5
+speed: 0.95
+rotateSpeed: 4.3
 commandLimit: 6
-health: 1100
+health: 11000
 drag: 0.16
 accel: 0.16
 range: 100
-hitSize: 13
+hitSize: 22
 faceTarget: true
 rotateShooting: false
 itemCapacity: 60
-trailX: 6
-trailY: -9
-trailScl: 2.5
-trailLength: 30
+trailX: 8
+trailY: -13
+trailScl: 3.2
+trailLength: 35
 targetGround: true
 targetAir: true
-armor: 8
+armor: 11
 weapons:[
 {
 name: large-sapper
@@ -32,19 +32,19 @@ x: 6
 y: 4
 bullet: {
 type: SapBulletType
-damage: 14
+damage: 24
 lifetime: 32
 hitColor: bf92f9
 color: bf92f9
 length: 120
-width: 0.4
+width: 0.5
 pierce: true
 knockback: -1.5
 sapStrength: 0.15
 }
 }
 {
-name: aruma-weapon
+name: large-sapper
 recoil: 1
 reload: 20
 shootSound: sap
@@ -54,15 +54,15 @@ x: 6
 y: -8
 bullet: {
 type: SapBulletType
-damage: 10
+damage: 24
 lifetime: 32
 hitColor: bf92f9
 color: bf92f9
 length: 120
-width: 0.4
+width: 0.5
 pierce: true
-knockback: -1.2
-sapStrength: 0.11
+knockback: -2
+sapStrength: 0.15
 }
 }
 {
