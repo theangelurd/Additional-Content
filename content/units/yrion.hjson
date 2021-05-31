@@ -95,7 +95,7 @@ hitEffect: sapExplosion
 despawnEffect: sapExplosion
 width: 30
 height: 30
-status: broken
+status: sapped
 statusDuration: 1550
 }
 }
