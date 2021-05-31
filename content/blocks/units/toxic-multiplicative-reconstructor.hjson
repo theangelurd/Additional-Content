@@ -7,9 +7,6 @@ constructTime: 2400
 hasPower: true
 upgrades: [
   [
-    aruma, isaro
-  ]
-  [
     draopor, tronner
   ]
 ]
