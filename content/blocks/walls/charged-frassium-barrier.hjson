@@ -1,7 +1,7 @@
 name: "Charged Frassium Barrier"
 description: "Protects structures from enemy projectiles."
 type: Wall
-health: 2000
+health: 3500
 requirements:[
     charged-frassium/6
 silicon/2
