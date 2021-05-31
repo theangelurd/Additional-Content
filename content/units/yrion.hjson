@@ -1,0 +1,105 @@
+type: naval
+name: "Yrion"
+description: "Shoots a devastating artillery shell."
+flying: false
+speed: 1
+rotateSpeed: 5
+commandLimit: 6
+health: 1100
+drag: 0.16
+accel: 0.16
+range: 100
+hitSize: 13
+faceTarget: true
+rotateShooting: false
+itemCapacity: 60
+trailX: 6
+trailY: -9
+trailScl: 2.5
+trailLength: 30
+targetGround: true
+targetAir: true
+armor: 8
+weapons:[
+{
+name: large-sapper
+recoil: 1.5
+reload: 19
+shootSound: sap
+rotate: true
+rotateSpeed: 25
+x: 6
+y: 4
+bullet: {
+type: SapBulletType
+damage: 14
+lifetime: 32
+hitColor: bf92f9
+color: bf92f9
+length: 120
+width: 0.4
+pierce: true
+knockback: -1.5
+sapStrength: 0.15
+}
+}
+{
+name: aruma-weapon
+recoil: 1
+reload: 20
+shootSound: sap
+rotate: true
+rotateSpeed: 28
+x: 6
+y: -8
+bullet: {
+type: SapBulletType
+damage: 10
+lifetime: 32
+hitColor: bf92f9
+color: bf92f9
+length: 120
+width: 0.4
+pierce: true
+knockback: -1.2
+sapStrength: 0.11
+}
+}
+{
+name: yrion-cannon
+y: 0
+x: 0
+recoil: 3.5
+reload: 130
+shootSound: artillery
+rotate: true
+rotateSpeed: 3
+shake: 7.5
+mirror: false
+bullet: {
+type: ArtilleryBulletType
+damage: 66
+splashDamage: 73
+splashDamageRadius: 35
+speed: 3.5
+lifetime: 60
+lightning: 5
+lightningCone: 70
+lightningColor: bf92f9
+lightningLength: 16
+lightningLengthRand: 17
+hitShake: 5
+frontColor: bf92f9
+backColor: bf92f9
+hitEffect: sapExplosion
+despawnEffect: sapExplosion
+width: 30
+height: 30
+status: sapped
+statusDuration: 1550
+}
+}
+]
+research: {
+parent: tronner
+}
