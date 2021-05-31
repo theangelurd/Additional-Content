@@ -1,0 +1,34 @@
+type: Reconstructor
+name: "Toxic Multiplicative Reconstructor"
+size: 5
+health: 780
+description: "Reconstructs toxic units."
+constructTime: 2400
+hasPower: true
+upgrades: [
+  [
+    aruma, isaro
+  ]
+  [
+    draopor, tronner
+  ]
+]
+consumes: {
+    power: 5.5
+items:{
+  items: [
+  silicon/135
+  titanium/100
+  plastanium/40
+  ]
+}
+}
+category: units
+research: toxic-additive-reconstructor
+requirements: [
+  copper/650
+  titanium/600
+  thorium/500
+  plastanium/400
+  phase-fabric/150
+]
