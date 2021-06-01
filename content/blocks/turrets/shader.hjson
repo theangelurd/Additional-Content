@@ -1,0 +1,39 @@
+type: ItemTurret
+name: Gattler
+description: Quickly fires bullets at any enemy.
+health: 320
+size: 2
+reloadTime: 6
+recoilAmount: 1.8
+shootSound: shootBig
+range: 140
+xRand: 3
+shots: 1
+ammoUseEffect: casing2
+targetAir: true
+targetGround: true
+rotateSpeed: 5.4
+ammoTypes: {
+  shadium: {
+    speed: 3
+    damage: 80
+    width: 9
+    height: 9
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    hitEffect: hitBulletBig
+    despawnEffect: hitBulletBig
+    frontColor: 494949
+    backColor: 272727
+    lifetime: 48
+    ammoMultiplier: 3
+    knockback: 1.2
+    collidesGround: true
+    collidesAir: true
+    }
+}
+requirements: [    
+  shadium/35
+]
+category: turret
+research: meltdown
