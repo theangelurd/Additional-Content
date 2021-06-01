@@ -6,7 +6,7 @@ size: 1
 reloadTime: 6
 recoilAmount: 1.8
 shootSound: shootBig
-range: 140
+range: 80
 xRand: 3
 shots: 1
 ammoUseEffect: casing2
