@@ -1,0 +1,8 @@
+name: Shadium
+description: A strange and dark ore, emanating a mysterious essence.
+hardness: 10
+cost: 0.5
+color: b19696
+research: {
+    parent: frassium
+}
