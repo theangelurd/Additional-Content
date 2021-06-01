@@ -1,0 +1,9 @@
+name: "shade Wall"
+description: "The power of darkness strengthens this powerful wall."
+type: Wall
+health: 5250
+requirements:[
+    shadium/9
+]
+category: defense
+research: deflective-wall
