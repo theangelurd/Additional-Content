@@ -6,6 +6,7 @@ size: 1
 reloadTime: 16
 spacing: 3
 shots: 2
+alternate: true
 recoilAmount: 1.8
 shootSound: shootBig
 range: 80
