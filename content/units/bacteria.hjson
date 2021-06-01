@@ -7,7 +7,7 @@ health: 95
 armor: 1
 rotateSpeed: 12.5
 flying: true
-engineOffset: 5
+engineOffset: 3.5
 commandLimit: 8
 lowAltitude: false
 engineSize: 2
@@ -18,7 +18,7 @@ reload: 10
 recoil: 0
 mirror: false
 shootSound: none
-y: 6
+y: 5
 x: 0
 bullet: {
 width: 0
