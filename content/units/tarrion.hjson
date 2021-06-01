@@ -73,7 +73,7 @@ statusDuration: 1000
 name: toxic-railgun
 y: 0
 x: 0
-recoil: 3.5
+recoil: 10
 reload: 125
 shootSound: railgun
 rotate: true
