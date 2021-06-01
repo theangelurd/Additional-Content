@@ -1,7 +1,7 @@
 type: ItemTurret
 name: Shader
 description: Fires darkness bullets at any nearby enemy.
-health: 320
+health: 1700
 size: 1
 reloadTime: 20
 spacing: 3
