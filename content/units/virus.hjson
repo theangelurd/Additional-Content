@@ -1,0 +1,39 @@
+type: flying
+name: Virus
+description: Flies over and stabs units with its pointy end.
+hitSize: 14
+speed: 2.5
+health: 300
+armor: 3
+rotateSpeed: 12
+flying: true
+engineOffset: 8
+commandLimit: 8
+lowAltitude: false
+engineSize: 2.5
+weapons: [
+{
+name: none
+reload: 10
+recoil: 0
+mirror: false
+shootSound: none
+y: 10
+x: 0
+bullet: {
+width: 0
+height: 0
+speed: 3
+lifetime: 5
+recoil: -7.5
+damage: 22
+knockback: 1.5
+despawnEffect: none
+shootEffectSmoke: none
+shootEffect: none
+}
+}
+]
+research:{
+parent: bacteria
+}
