@@ -8,6 +8,8 @@ armor: 1
 rotateSpeed: 12.5
 flying: true
 engineOffset: 5
+commandLimit: 8
+lowAltitude: false
 engineSize: 2
 weapons: [
 {
@@ -26,7 +28,7 @@ recoil: -5
 damage: 10
 knockback: 1
 despawnEffect: none
-shootSmokeEffect: none
+shootEffectSmoke: none
 shootEffect: none
 }
 }
