@@ -9,8 +9,6 @@ shots: 2
 recoilAmount: 1.8
 shootSound: shootBig
 range: 80
-xRand: 3
-shots: 1
 ammoUseEffect: casing2
 targetAir: true
 targetGround: true
