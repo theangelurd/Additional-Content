@@ -13,7 +13,14 @@ plans:[
  titanium/5
 ]
  }
-
+ {
+ unit: bacteria
+ time: 1450
+ requirements:[
+ lead/5
+ silicon/15
+]
+ }
 ]
 consumes: {
 power: 1.2
