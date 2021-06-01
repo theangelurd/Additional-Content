@@ -1,0 +1,9 @@
+name: "Shade Wall"
+description: "The power of darkness strengthens this powerful wall. Spans multiple tiles."
+type: Wall
+health: 21000
+requirements:[
+    shadium/36
+]
+category: defense
+research: shade-wall
