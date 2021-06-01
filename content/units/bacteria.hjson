@@ -17,6 +17,7 @@ name: none
 reload: 10
 recoil: 0
 mirror: false
+shootSound: none
 y: 6
 x: 0
 bullet: {
