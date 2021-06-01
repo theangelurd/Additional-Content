@@ -1,0 +1,7 @@
+name: Duventium
+type: OreBlock
+itemDrop: duventium
+oreDefault: false
+oreThreshold: 0.35
+oreScale: 28.94831
+variants: 3
