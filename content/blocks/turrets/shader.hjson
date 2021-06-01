@@ -1,8 +1,8 @@
 type: ItemTurret
-name: Gattler
-description: Quickly fires bullets at any enemy.
+name: Shader
+description: Fires darkness bullets at any nearby enemy.
 health: 320
-size: 2
+size: 1
 reloadTime: 6
 recoilAmount: 1.8
 shootSound: shootBig
