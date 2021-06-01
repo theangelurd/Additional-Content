@@ -1,0 +1,6 @@
+name: Shadium
+type: OreBlock
+itemDrop: shadium
+oreDefault: false
+oreThreshold: 0.51
+oreScale: 28.94831
