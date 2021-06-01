@@ -5,7 +5,8 @@ hitSize: 11
 speed: 3
 health: 95
 armor: 1
-rotateSpeed: 7.5
+rotateSpeed: 12.5
+flying: true
 weapons: [
 {
 name: none
@@ -18,10 +19,13 @@ bullet: {
 width: 0
 height: 0
 speed: 3
-lifetime: 10
+lifetime: 5
 recoil: -5
 damage: 10
 knockback: 1
+despawnEffect: none
+shootSmokeEffect: none
+shootEffect: none
 }
 }
 ]
