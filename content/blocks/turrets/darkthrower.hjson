@@ -1,0 +1,43 @@
+type: ItemTurret
+name: Darkthrower
+description: Fires powerful shade artillery.
+health: 1700
+size: 1
+reloadTime: 20
+spacing: 3
+shots: 2
+alternate: true
+recoilAmount: 1.8
+shootSound: shootBig
+range: 240
+ammoUseEffect: casing2
+targetAir: false
+targetGround: true
+rotateSpeed: 5.5
+ammoTypes: {
+  shadium: {
+    type: ArtilleryBulletType
+    speed: 3
+    splashDamage: 170
+    splashDamageRadius: 20
+    width: 9
+    height: 9
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    hitEffect: hitBulletBig
+    despawnEffect: hitBulletBig
+    frontColor: 494949
+    backColor: 272727
+    lifetime: 80
+    ammoMultiplier: 1
+    knockback: 2
+    collidesGround: true
+    collidesAir: false
+    }
+}
+requirements: [    
+  shadium/40
+  graphite/100
+]
+category: turret
+research: shader
