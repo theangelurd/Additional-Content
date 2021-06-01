@@ -82,9 +82,6 @@ shake: 8
 mirror: false
 bullet: {
 type: RailBulletType
-damage: 66
-splashDamage: 73
-splashDamageRadius: 35
 speed: 5
 updateEffectSeg: 30
 pierceDamageFactor: 0.4
