@@ -1,0 +1,12 @@
+name: "Darkness"
+type: Floor
+isLiquid: false
+speedMultiplier: 0.8
+variants: 3
+solid: false
+placeableOn: true
+cacheLayer: water
+walkSound: shield
+walkSoundVolume: 0.5
+walkSoundPitchMin: 0.2
+walkSoundPitchMax: 0.2
