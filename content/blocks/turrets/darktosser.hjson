@@ -3,9 +3,7 @@ name: Darktosser
 description: Fires powerful shade artillery.
 health: 1700
 size: 1
-reloadTime: 20
-spacing: 3
-shots: 2
+reloadTime: 45
 alternate: true
 recoilAmount: 1.8
 shootSound: shootBig
