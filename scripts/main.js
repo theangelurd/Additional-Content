@@ -1,2 +1,2 @@
-
+require("infected")
 require("testUnitGlow")
