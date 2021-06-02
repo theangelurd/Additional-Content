@@ -1,0 +1,5 @@
+name: testunit
+health: 100
+speed: 1
+armor: 1
+rotateSpeed: 5
