@@ -1,4 +1,4 @@
-const impra = extend(UnitType, impra, {
+const testunit = extend(UnitType, testunit, {
 health: 80,
 armor: 0,
 speed: 0.85,
