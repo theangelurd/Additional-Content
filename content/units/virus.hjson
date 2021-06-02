@@ -31,6 +31,8 @@ knockback: 1.5
 despawnEffect: none
 shootEffectSmoke: none
 shootEffect: none
+status: infected
+statusDuration: 900
 }
 }
 ]
