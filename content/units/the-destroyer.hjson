@@ -1,0 +1,41 @@
+type: flying
+name: The Destroyer
+description: ...
+hitSize: 100
+speed: 6
+health: 300
+armor: 3
+rotateSpeed: 12
+flying: true
+engineOffset: 80
+commandLimit: 8
+lowAltitude: false
+engineSize: 50
+weapons: [
+{
+name: none
+reload: 10
+recoil: 0
+mirror: false
+shootSound: none
+y: 78
+x: 0
+bullet: {
+width: 0
+height: 0
+speed: 3
+lifetime: 5
+recoil: -100
+damage: 88888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+splashDamage: 999999999999999999999999999999999999999999999999999999999999999999999
+splashDamageRadius: 999
+knockback: 8888888
+despawnEffect: none
+shootEffectSmoke: none
+shootEffect: none
+}
+}
+]
+research:{
+parent: bacteria
+}
