@@ -1,0 +1,68 @@
+type: flying
+name: "Delta"
+description: "Shoots several bullets at enemies. Definitely not a reference to another core unit there was before."
+flying: true
+health: 300
+commandLimit: 8
+lowAltitude: true
+hitSize: 9
+speed: 3.5
+drag: 0.07
+range: 160
+accel: 0.15
+engineOffset: 1
+engineSize: 2.5
+targetGround: true
+targetAir: true
+rotateSpeed: 20
+buildSpeed: 1.25
+mineSpeed: 9
+mineTier: 3
+weapons:[
+{
+name: drak-weapon
+x: 1
+y: 4
+recoil: 1.5
+reload: 20
+mirror: true
+shootY: 3
+shootSound: shoot
+top: false
+bullet: {
+type: BasicBulletType
+damage: 14
+speed: 3
+lifetime: 60
+width: 5
+height: 9
+pierce: false
+pierceBuilding: false
+buildingDamageMultiplier: 0.01
+}
+}
+{
+name: drak-weapon
+x: 3
+y: -2
+recoil: 1.5
+reload: 20
+mirror: true
+shootY: 3
+shootSound: shoot
+top: true
+rotate: true
+rotateSpeed: 25
+bullet: {
+type: BasicBulletType
+damage: 14
+speed: 3
+lifetime: 60
+width: 5
+height: 9
+pierce: false
+pierceBuilding: false
+buildingDamageMultiplier: 0.01
+}
+}
+]
