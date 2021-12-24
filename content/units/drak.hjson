@@ -21,8 +21,8 @@ mineTier: 3
 weapons:[
 {
 name: drak-weapon
-x: 1
-y: 4
+x: -0.8
+y: 40.2
 recoil: 1.5
 reload: 20
 mirror: true
@@ -43,8 +43,8 @@ buildingDamageMultiplier: 0.01
 }
 {
 name: drak-weapon
-x: 3
-y: -2
+x: 5
+y: -3
 recoil: 1.5
 reload: 20
 mirror: true
