@@ -71,3 +71,6 @@ homingRange: 40
 }
 }
 ]
+research: [
+  parent: core-xinaq
+]
