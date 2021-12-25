@@ -12,6 +12,15 @@ plans:[
  metaglass/30
 ]
  }
+ {
+ unit: arias
+ time: 3000
+ requirements:[
+ silicon/35
+ metaglass/35
+ titanium/5
+]
+ }
 
 ]
 consumes: {
