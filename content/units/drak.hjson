@@ -22,7 +22,7 @@ weapons:[
 {
 name: drak-weapon
 x: -0.8
-y: 40.2
+y: 4.2
 recoil: 1.5
 reload: 20
 mirror: true
