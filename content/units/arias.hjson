@@ -34,7 +34,7 @@ y: 0.5
 rotateSpeed: 12
 bullet: {
 type: LightningBulletType
-damage: 10
+damage: 11
 lightningLength: 9
 lightningLengthRand: 9
 shootEffect: sparkShoot
