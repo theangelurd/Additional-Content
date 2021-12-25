@@ -22,4 +22,4 @@ requirements: [
 ]
 category: crafting
 research: water-cooler
-outputLiquid: water/20
+outputLiquid: water/50
