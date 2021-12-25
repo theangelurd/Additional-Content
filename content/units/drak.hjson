@@ -18,6 +18,7 @@ rotateSpeed: 20
 buildSpeed: 1.25
 mineSpeed: 9
 mineTier: 3
+itemCapacity: 90
 weapons:[
 {
 name: drak-weapon
@@ -39,8 +40,8 @@ height: 9
 pierce: false
 pierceBuilding: false
 buildingDamageMultiplier: 0.01
-homingPower = 0.1
-homingRange = 40
+homingPower: 0.1
+homingRange: 40
 }
 }
 {
@@ -65,8 +66,8 @@ height: 9
 pierce: false
 pierceBuilding: false
 buildingDamageMultiplier: 0.01
-homingPower = 0.1
-homingRange = 40
+homingPower: 0.1
+homingRange: 40
 }
 }
 ]
