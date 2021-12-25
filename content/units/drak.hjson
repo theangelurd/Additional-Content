@@ -31,7 +31,7 @@ shootSound: pew
 top: false
 bullet: {
 type: BasicBulletType
-damage: 14
+damage: 16
 speed: 3
 lifetime: 60
 width: 5
@@ -39,6 +39,8 @@ height: 9
 pierce: false
 pierceBuilding: false
 buildingDamageMultiplier: 0.01
+homingPower = 0.1
+homingRange = 40
 }
 }
 {
@@ -55,7 +57,7 @@ rotate: true
 rotateSpeed: 25
 bullet: {
 type: BasicBulletType
-damage: 14
+damage: 16
 speed: 3
 lifetime: 60
 width: 5
@@ -63,6 +65,8 @@ height: 9
 pierce: false
 pierceBuilding: false
 buildingDamageMultiplier: 0.01
+homingPower = 0.1
+homingRange = 40
 }
 }
 ]
