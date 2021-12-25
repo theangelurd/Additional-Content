@@ -8,8 +8,8 @@ unitCapModifier: 32
 unitType: drak
 researchCostMultiplier: 0.06
 requirements: [
-  copper/14000
-  lead/14000
+  copper/13000
+  lead/13000
   titanium/110000
   thorium/9000
   silicon/10000
