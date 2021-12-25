@@ -10,7 +10,7 @@ speed: 4
 drag: 0.07
 range: 160
 accel: 0.15
-engineOffset: 1
+engineOffset: 2
 engineSize: 2.5
 targetGround: true
 targetAir: true
