@@ -2,14 +2,14 @@ type: naval
 name: "Arias"
 description: "Fires electric arcs at enemies."
 commandLimit: 6
-health: 260
-speed: 1.55
+health: 240
+speed: 1.6
 flying: false
 drag: 0.12
 accel: 0.12
 range: 50
 hitSize: 9
-faceTarget: false
+faceTarget: true
 rotateShooting: false
 itemCapacity: 30
 trailX: 3
@@ -25,7 +25,7 @@ name: arias-weapon
 reload: 40
 shootSound: spark
 shots: 1
-recoil: 1.5
+recoil: 0.5
 ejectEffect: none
 top: true
 rotate: true
@@ -34,7 +34,7 @@ y: 0.5
 rotateSpeed: 12
 bullet: {
 type: LightningBulletType
-damage: 9
+damage: 10
 lightningLength: 9
 lightningLengthRand: 9
 shootEffect: sparkShoot
