@@ -6,7 +6,7 @@ health: 300
 commandLimit: 8
 lowAltitude: true
 hitSize: 9
-speed: 3.5
+speed: 4
 drag: 0.07
 range: 160
 accel: 0.15
