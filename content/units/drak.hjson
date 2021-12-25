@@ -27,7 +27,7 @@ recoil: 1.5
 reload: 20
 mirror: true
 shootY: 3
-shootSound: shoot
+shootSound: pew
 top: false
 bullet: {
 type: BasicBulletType
@@ -49,7 +49,7 @@ recoil: 1.5
 reload: 20
 mirror: true
 shootY: 3
-shootSound: shoot
+shootSound: pew
 top: true
 rotate: true
 rotateSpeed: 25
