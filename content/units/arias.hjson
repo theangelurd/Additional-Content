@@ -1,0 +1,55 @@
+type: naval
+name: "Arias"
+description: "Fires electric arcs at enemies."
+commandLimit: 6
+health: 260
+speed: 1.55
+flying: false
+drag: 0.12
+accel: 0.12
+range: 50
+hitSize: 9
+faceTarget: false
+rotateShooting: false
+itemCapacity: 30
+trailX: 3
+trailY: -5
+trailScl: 1
+trailLength: 30
+targetGround: true
+targetAir: true
+armor: 2
+rotateSpeed: 9
+weapons:[{
+name: arias-weapon
+reload: 40
+shootSound: spark
+shots: 1
+recoil: 1.5
+ejectEffect: none
+top: true
+rotate: true
+x: 3
+y: 0.5
+rotateSpeed: 12
+bullet: {
+type: LightningBulletType
+damage: 9
+lightningLength: 9
+lightningLengthRand: 9
+shootEffect: sparkShoot
+smokeEffect: shootSmallSmoke
+lightningType: {
+lifetime: 10
+hitEffect: hitLancer
+despawnEffect: none
+statusDuration: 10
+status: shocked
+hittable: false
+}
+}
+}
+]
+research: {
+    parent: naval-factory
+}
