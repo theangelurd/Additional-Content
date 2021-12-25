@@ -1,0 +1,22 @@
+type: CoreBlock
+name: "Core: Xinaq"
+description: "A new iteration of the Core. More durable, new unit and more unit cap."
+health: 30000
+itemCapacity: 20000
+size: 6
+unitCapModifier: 32
+unitType: drak
+researchCostMultiplier: 0.06
+requirements: [
+  copper/12000
+  lead/12000
+  titanium/10000
+  thorium/8000
+  silicon/9000
+  plastanium/4000
+] 
+category: effect
+hasItems: true
+solid: true
+alwaysUnlocked: false
+research: core-nucleus
