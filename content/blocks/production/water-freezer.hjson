@@ -1,0 +1,25 @@
+type: GenericCrafter
+name: Water Freezer
+description: "Cools down a lot of water vapor in the atmosphere in order to get more water. Uses Cryofluid for increased cooling power."
+size: 3
+hasPower: true
+craftTime: 40
+hasLiquids: true
+consumes: {
+  power: 2.4
+    liquid: {
+    liquid: cryofluid
+    amount: 0.15
+    }
+}
+requirements: [
+    copper/140
+    lead/100
+    graphite/60
+    silicon/70
+    titanium/120
+    metaglass/80
+]
+category: crafting
+research: water-cooler
+outputLiquid: water/20
