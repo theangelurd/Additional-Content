@@ -80,5 +80,5 @@ hittable: false
 }
 ]
 research: {
-    parent: naval-factory
+    parent: arias
 }
