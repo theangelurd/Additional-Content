@@ -27,7 +27,7 @@ speed: 3
 lifetime: 5
 recoil: -5
 splashDamage: 25
-splashDamageRadius: 10
+splashDamageRadius: 20
 knockback: 1
 despawnEffect: none
 shootEffectSmoke: none
