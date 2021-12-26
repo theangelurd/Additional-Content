@@ -29,8 +29,8 @@ recoil: 0.6
 ejectEffect: none
 top: true
 rotate: true
-x: 5
-y: -0.5
+x: 6
+y: -1.5
 rotateSpeed: 14
 bullet: {
 type: LightningBulletType
