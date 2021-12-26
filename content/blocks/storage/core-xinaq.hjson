@@ -10,7 +10,7 @@ researchCostMultiplier: 0.06
 requirements: [
   copper/13000
   lead/13000
-  titanium/110000
+  titanium/11000
   thorium/9000
   silicon/10000
   plastanium/5000
