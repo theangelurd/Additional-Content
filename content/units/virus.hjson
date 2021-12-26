@@ -3,7 +3,7 @@ name: Virus
 description: Flies over and stabs units with its pointy end.
 hitSize: 14
 speed: 2.5
-health: 300
+health: 560
 armor: 3
 rotateSpeed: 12
 flying: true
