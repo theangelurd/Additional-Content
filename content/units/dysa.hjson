@@ -1,0 +1,84 @@
+type: naval
+name: "Dysa"
+description: "Fires electric arcs at enemies."
+commandLimit: 7
+health: 600
+speed: 1.5
+flying: false
+drag: 0.12
+accel: 0.12
+range: 50
+hitSize: 9
+faceTarget: true
+rotateShooting: false
+itemCapacity: 30
+trailX: 5
+trailY: -7
+trailScl: 1.2
+trailLength: 40
+targetGround: true
+targetAir: true
+armor: 4
+rotateSpeed: 9
+weapons:[{
+name: arias-weapon
+reload: 48
+shootSound: spark
+shots: 1
+recoil: 0.6
+ejectEffect: none
+top: true
+rotate: true
+x: 5
+y: -0.5
+rotateSpeed: 14
+bullet: {
+type: LightningBulletType
+damage: 12
+lightningLength: 8
+lightningLengthRand: 8
+shootEffect: sparkShoot
+smokeEffect: shootSmallSmoke
+lightningType: {
+lifetime: 10
+hitEffect: hitLancer
+despawnEffect: none
+statusDuration: 10
+status: shocked
+hittable: false
+}
+}
+}
+{
+name: arias-weapon
+reload: 48
+shootSound: spark
+shots: 1
+recoil: 0.6
+ejectEffect: none
+top: true
+rotate: true
+x: 3
+y: 1
+rotateSpeed: 14
+bullet: {
+type: LightningBulletType
+damage: 12
+lightningLength: 8
+lightningLengthRand: 8
+shootEffect: sparkShoot
+smokeEffect: shootSmallSmoke
+lightningType: {
+lifetime: 10
+hitEffect: hitLancer
+despawnEffect: none
+statusDuration: 10
+status: shocked
+hittable: false
+}
+}
+}
+]
+research: {
+    parent: naval-factory
+}
