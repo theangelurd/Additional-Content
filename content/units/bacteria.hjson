@@ -26,7 +26,7 @@ height: 0
 speed: 3
 lifetime: 5
 recoil: -5
-splashDamage: 16
+splashDamage: 25
 splashDamageRadius: 10
 knockback: 1
 despawnEffect: none
