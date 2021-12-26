@@ -3,7 +3,7 @@ name: Bacteria
 description: Flies over and stabs units with its pointy end.
 hitSize: 11
 speed: 3
-health: 95
+health: 145
 armor: 1
 rotateSpeed: 12.5
 flying: true
