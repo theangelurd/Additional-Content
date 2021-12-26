@@ -18,6 +18,12 @@ upgrades: [
   [
     irel, irule
   ]
+    [
+    arias, dysa
+  ]
+    [
+    bacteria, virus
+  ]
 ]
 consumes: {
     power: 3
