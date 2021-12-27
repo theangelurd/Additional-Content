@@ -5,7 +5,7 @@ reloadTime: 85
 size: 3
 health: 320
 shots: 1
-range: 325
+range: 300
 alternate: false
 spread: 25
 rotateSpeed: 3
