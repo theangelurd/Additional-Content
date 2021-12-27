@@ -90,12 +90,12 @@ despawnEffect: flakExplosionBig
 }
 }
 requirements:[
-copper/280
-lead/200
-silicon/180
-titanium/140
-plastanium/80
-thorium/50
+copper/480
+lead/400
+silicon/380
+titanium/340
+plastanium/280
+thorium/150
 ]
 research: cyclone
 category: turret
