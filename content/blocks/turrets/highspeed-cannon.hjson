@@ -56,7 +56,7 @@ pierceBuilding: true
 pierceCap: 5
 hitEffect: blastExplosion
 despawnEffect: flakExplosionBig
-homingPower: 1
+homingPower: 0.35
 homingRange: 100
 }
 plastanium: {
