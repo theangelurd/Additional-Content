@@ -3,7 +3,7 @@ name: "H.S.C"
 description: "Stands for High Speed Cannon, able to fire projectiles over massive distances. Does a very high amount of damage."
 reloadTime: 85
 size: 3
-health: 320
+health: 960
 shots: 1
 range: 350
 alternate: false
