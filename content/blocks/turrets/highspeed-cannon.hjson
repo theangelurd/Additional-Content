@@ -5,7 +5,7 @@ reloadTime: 70
 size: 3
 health: 320
 shots: 1
-range: 500
+range: 425
 alternate: false
 spread: 25
 rotateSpeed: 3
@@ -73,13 +73,13 @@ pierceCap: 5
 hitEffect: blastExplosion
 despawnEffect: flakExplosionBig
 fragBullets: 3
-fragCone: 0
+fragCone: 120
 fragBullet: {
 type: BasicBulletType
 splashDamage: 23
 splashDamageRadius: 40
 lifetime: 30
-speed: 3
+speed: 5
 keepVelocity: false
 shrinkY: 0.1
 width: 9
