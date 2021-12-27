@@ -5,7 +5,7 @@ reloadTime: 85
 size: 3
 health: 320
 shots: 1
-range: 300
+range: 350
 alternate: false
 spread: 25
 rotateSpeed: 3
@@ -20,7 +20,7 @@ speed: 10
 damage: 150
 type: BasicBulletType
 width: 9
-lifetime: 30
+lifetime: 35
 length: 20
 ammoMultiplier: 2
 pierce: true
@@ -34,7 +34,7 @@ speed: 10
 damage: 220
 type: BasicBulletType
 width: 11
-lifetime: 30
+lifetime: 35
 length: 25
 ammoMultiplier: 2
 pierce: true
@@ -48,7 +48,7 @@ speed: 10
 damage: 140
 type: BasicBulletType
 width: 8
-lifetime: 30
+lifetime: 35
 length: 17
 ammoMultiplier: 2
 pierce: true
@@ -64,7 +64,7 @@ speed: 10
 damage: 120
 type: BasicBulletType
 width: 9
-lifetime: 30
+lifetime: 35
 length: 20
 ammoMultiplier: 3
 pierce: true
