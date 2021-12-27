@@ -22,7 +22,7 @@ type: BasicBulletType
 width: 9
 lifetime: 35
 length: 20
-ammoMultiplier: 2
+ammoMultiplier: 1
 pierce: true
 pierceBuilding: true
 pierceCap: 5
@@ -36,7 +36,7 @@ type: BasicBulletType
 width: 11
 lifetime: 35
 length: 25
-ammoMultiplier: 2
+ammoMultiplier: 1
 pierce: true
 pierceBuilding: true
 pierceCap: 5
@@ -50,7 +50,7 @@ type: BasicBulletType
 width: 8
 lifetime: 35
 length: 17
-ammoMultiplier: 2
+ammoMultiplier: 1
 pierce: true
 pierceBuilding: true
 pierceCap: 5
@@ -66,7 +66,7 @@ type: BasicBulletType
 width: 9
 lifetime: 35
 length: 20
-ammoMultiplier: 3
+ammoMultiplier: 2
 pierce: true
 pierceBuilding: true
 pierceCap: 5
@@ -76,7 +76,7 @@ fragBullets: 3
 fragCone: 120
 fragBullet: {
 type: BasicBulletType
-splashDamage: 23
+splashDamage: 12
 splashDamageRadius: 40
 lifetime: 30
 speed: 5
