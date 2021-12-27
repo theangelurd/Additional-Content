@@ -61,7 +61,7 @@ homingRange: 100
 }
 plastanium: {
 speed: 10
-damage: 120
+damage: 100
 type: BasicBulletType
 width: 9
 lifetime: 35
@@ -77,7 +77,7 @@ fragCone: 120
 fragBullet: {
 type: BasicBulletType
 splashDamage: 12
-splashDamageRadius: 40
+splashDamageRadius: 20
 lifetime: 30
 speed: 5
 keepVelocity: false
