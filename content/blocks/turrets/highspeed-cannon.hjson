@@ -5,12 +5,12 @@ reloadTime: 85
 size: 3
 health: 320
 shots: 1
-range: 350
+range: 325
 alternate: false
 spread: 25
 rotateSpeed: 3
 recoilAmount: 3
-restitution: 0.2
+restitution: 0.1
 shootShake: 5
 shootSound: laser
 ejectEffect: none
