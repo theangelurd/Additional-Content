@@ -1,0 +1,101 @@
+type: ItemTurret
+name: "H.S.C"
+description: "Stands for High Speed Cannon, able to fire projectiles over massive distances. Does a very high amount of damage."
+reloadTime: 50
+size: 1
+health: 320
+shots: 2
+range: 500
+alternate: false
+spread: 25
+rotateSpeed: 4.9
+recoilAmount: 3
+restitution: 0.2
+shootShake: 5
+shootSound: laser
+ejectEffect: none
+ammoTypes: {
+titanium: {
+speed: 10
+damage: 150
+type: BasicBulletType
+width: 9
+lifetime: 60
+length: 20
+ammoMultiplier: 2
+pierce: true
+pierceBuilding: true
+pierceCap: 5
+hitEffect: blastExplosion
+despawnEffect: flakExplosionBig
+}
+thorium: {
+speed: 10
+damage: 220
+type: BasicBulletType
+width: 11
+lifetime: 60
+length: 25
+ammoMultiplier: 2
+pierce: true
+pierceBuilding: true
+pierceCap: 5
+hitEffect: blastExplosion
+despawnEffect: flakExplosionBig
+}
+silicon: {
+speed: 10
+damage: 140
+type: BasicBulletType
+width: 8
+lifetime: 60
+length: 17
+ammoMultiplier: 2
+pierce: true
+pierceBuilding: true
+pierceCap: 5
+hitEffect: blastExplosion
+despawnEffect: flakExplosionBig
+homingPower: 1
+homingRange: 100
+}
+plastanium: {
+speed: 10
+damage: 120
+type: BasicBulletType
+width: 9
+lifetime: 60
+length: 20
+ammoMultiplier: 3
+pierce: true
+pierceBuilding: true
+pierceCap: 5
+hitEffect: blastExplosion
+despawnEffect: flakExplosionBig
+fragBullets: 3
+fragCone: 0
+fragBullet: {
+type: BasicBulletType
+splashDamage: 23
+splashDamageRadius: 40
+lifetime: 30
+speed: 3
+keepVelocity: false
+shrinkY: 0.1
+width: 9
+height: 9
+hitEffect: blastExplosion
+despawnEffect: flakExplosionBig
+}
+}
+}
+requirements:[
+copper/280
+lead/200
+silicon/180
+titanium/140
+plastanium/80
+thorium/50
+]
+research: cyclone
+category: turret
