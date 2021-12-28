@@ -1,0 +1,159 @@
+type: ItemTurret
+name: "Sonic Cannon"
+description: "Even more damage and range, but more cost. Accepts more types of ammo."
+reloadTime: 150
+size: 4
+health: 1360
+shots: 1
+range: 400
+alternate: false
+spread: 25
+rotateSpeed: 2.7
+recoilAmount: 4
+restitution: 0.08
+shootShake: 6
+shootSound: laser
+ejectEffect: none
+ammoTypes: {
+copper: {
+speed: 10
+damage: 120
+type: BasicBulletType
+width: 8
+lifetime: 40
+length: 15
+ammoMultiplier: 1
+pierce: true
+pierceBuilding: true
+pierceCap: 5
+hitEffect: blastExplosion
+despawnEffect: flakExplosionBig
+}
+lead: {
+speed: 10
+damage: 170
+type: BasicBulletType
+width: 9
+lifetime: 40
+length: 18
+ammoMultiplier: 1
+pierce: true
+pierceBuilding: true
+pierceCap: 5
+hitEffect: blastExplosion
+despawnEffect: flakExplosionBig
+}
+titanium: {
+speed: 10
+damage: 230
+type: BasicBulletType
+width: 13
+lifetime: 40
+length: 27
+ammoMultiplier: 1
+pierce: true
+pierceBuilding: true
+pierceCap: 5
+hitEffect: blastExplosion
+despawnEffect: flakExplosionBig
+}
+thorium: {
+speed: 10
+damage: 350
+type: BasicBulletType
+width: 16
+lifetime: 40
+length: 30
+ammoMultiplier: 1
+pierce: true
+pierceBuilding: true
+pierceCap: 5
+hitEffect: blastExplosion
+despawnEffect: flakExplosionBig
+}
+silicon: {
+speed: 10
+damage: 220
+type: BasicBulletType
+width: 13
+lifetime: 40
+length: 25
+ammoMultiplier: 1
+pierce: true
+pierceBuilding: true
+pierceCap: 5
+hitEffect: blastExplosion
+despawnEffect: flakExplosionBig
+homingPower: 0.35
+homingRange: 100
+}
+plastanium: {
+speed: 10
+damage: 200
+type: BasicBulletType
+width: 14
+lifetime: 40
+length: 28
+ammoMultiplier: 2
+pierce: true
+pierceBuilding: true
+pierceCap: 5
+hitEffect: blastExplosion
+despawnEffect: flakExplosionBig
+fragBullets: 3
+fragCone: 120
+fragBullet: {
+type: BasicBulletType
+splashDamage: 20
+splashDamageRadius: 20
+lifetime: 30
+speed: 5
+keepVelocity: false
+shrinkY: 0.1
+width: 9
+height: 9
+hitEffect: blastExplosion
+despawnEffect: flakExplosionBig
+}
+}
+metaglass: {
+speed: 10
+damage: 170
+type: BasicBulletType
+width: 12
+lifetime: 40
+length: 22
+ammoMultiplier: 2
+pierce: true
+pierceBuilding: true
+pierceCap: 5
+hitEffect: blastExplosion
+despawnEffect: flakExplosionBig
+fragBullets: 3
+fragCone: 120
+fragBullet: {
+type: BasicBulletType
+splashDamage: 17
+splashDamageRadius: 15
+lifetime: 30
+speed: 5
+keepVelocity: false
+shrinkY: 0.1
+width: 9
+height: 9
+hitEffect: blastExplosion
+despawnEffect: flakExplosionBig
+}
+}
+}
+requirements:[
+copper/600
+lead/540
+silicon/500
+titanium/500
+plastanium/300
+thorium/350
+phase-fabric/180
+]
+research: highspeed-cannon
+category: turret
