@@ -1,0 +1,71 @@
+type: PowerTurret
+name: "Blast"
+description: "Shoots stronger plasma spheres."
+health: 640
+size: 2
+reloadTime: 50
+shootSound: sap
+range: 240
+recoilAmount: 2
+restitution: 0.05
+chargeTime: 0
+hasPower: true
+powerUse: 5
+shots: 1
+rotateSpeed: 6.5
+ammoTypes: {
+           titanium: {
+           type: BasicBulletType
+           pierce: false
+           damage: 14
+           splashDamage: 25
+           splashDamageRadius: 24
+           width: 23
+           height: 18
+           lifetime: 60
+           weaveScale: 11
+           weaveMag: 3
+           homingPower: 0.2
+           homingRange: 180
+           speed: 3.5
+           despawnEffect: blastExplosion
+           hitEffect: blastExplosion
+           backColor: 808eff
+           frontColor: 808eff
+           shootEffect: shootSmall
+           smokeEffect: shootSmallSmoke
+           hitShake: 2
+           shrinkY: 0
+           }
+}
+shootType: {
+           type: BasicBulletType
+           pierce: false
+           damage: 14
+           splashDamage: 25
+           splashDamageRadius: 24
+           width: 23
+           height: 18
+           lifetime: 60
+           weaveScale: 11
+           weaveMag: 2.5
+           homingPower: 0.25
+           homingRange: 180
+           speed: 3
+           despawnEffect: blastExplosion
+           hitEffect: blastExplosion
+           backColor: 808eff
+           frontColor: 808eff
+           shootEffect: shootSmall
+           smokeEffect: shootSmallSmoke
+           hitShake: 2
+           shrinkY: 0
+}
+requirements:[
+  copper/75
+  lead/50
+  graphite/25
+  silicon/20
+]
+research: arc
+category: turret
