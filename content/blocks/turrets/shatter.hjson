@@ -62,7 +62,7 @@ shootType: {
            frontColor: 808eff
            shootEffect: shootSmall
            smokeEffect: shootSmallSmoke
-           hitShake: 2
+           hitShake: 4
            shrinkY: 0
            hitSound: explosion
            lightning: 3
@@ -72,11 +72,11 @@ shootType: {
            lightningColor: 808eff
 }
 requirements:[
-  copper/125
-  lead/115
-  graphite/50
-  silicon/75
-  titanium/35
+  copper/145
+  lead/135
+  graphite/65
+  silicon/90
+  titanium/75
 ]
 research: boom
 category: turret
