@@ -36,6 +36,7 @@ ammoTypes: {
            smokeEffect: shootSmallSmoke
            hitShake: 1
            shrinkY: 0
+           hitSound: explosion
            }
 }
 shootType: {
@@ -60,6 +61,7 @@ shootType: {
            smokeEffect: shootSmallSmoke
            hitShake: 1
            shrinkY: 0
+           hitSound: explosion
 }
 requirements:[
   copper/45
