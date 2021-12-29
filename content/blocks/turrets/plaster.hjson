@@ -1,0 +1,65 @@
+type: PowerTurret
+name: "Plaster"
+description: "Shoots weak plasma spheres."
+health: 320
+size: 1
+reloadTime: 45
+shootSound: laser
+range: 180
+recoilAmount: 2
+restitution: 0.1
+chargeTime: 0
+hasPower: true
+powerUse: 3
+shots: 1
+rotateSpeed: 10
+ammoTypes: {
+           titanium: {
+           type: BasicBulletType
+           pierce: false
+           damage: 10
+           splashDamage: 16
+           splashDamageRadius: 20
+           width: 12
+           height: 9
+           lifetime: 60
+           weaveScale = 6
+           weaveMag = 2
+           homingPower = 0.2
+           homingRange = 180
+           speed = 3
+           despawnEffect = blastExplosion
+           hitEffect = blastExplosion
+           backColor = 808eff
+           frontColor = 808eff
+           shootEffect: shootSmall
+           smokeEffect: shootSmallSmoke
+           }
+}
+shootType: {
+           type: BasicBulletType
+           pierce: false
+           damage: 10
+           splashDamage: 16
+           splashDamageRadius: 20
+           width: 12
+           height: 9
+           lifetime: 60
+           weaveScale = 6
+           weaveMag = 2
+           homingPower = 0.2
+           homingRange = 180
+           speed = 3
+           despawnEffect = blastExplosion
+           hitEffect = blastExplosion
+           backColor = 808eff
+           frontColor = 808eff
+           shootEffect: shootSmall
+           smokeEffect: shootSmallSmoke
+}
+requirements:[
+  copper/45
+  lead/35
+]
+research: arc
+category: turret
