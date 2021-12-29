@@ -1,0 +1,80 @@
+type: PowerTurret
+name: "Shatter"
+description: "Shoots destructive plasma spheres."
+health: 960
+size: 3
+reloadTime: 55
+shootSound: missile
+range: 220
+recoilAmount: 3
+restitution: 0.05
+chargeTime: 0
+hasPower: true
+powerUse: 7.5
+shots: 1
+rotateSpeed: 6.5
+ammoTypes: {
+           titanium: {
+           type: BasicBulletType
+           pierce: false
+           damage: 20
+           splashDamage: 40
+           splashDamageRadius: 30
+           width: 35
+           height: 18
+           lifetime: 60
+           weaveScale: 14
+           weaveMag: 4
+           homingPower: 0.2
+           homingRange: 180
+           speed: 4
+           despawnEffect: blastExplosion
+           hitEffect: blastExplosion
+           backColor: 808eff
+           frontColor: 808eff
+           shootEffect: shootSmall
+           smokeEffect: shootSmallSmoke
+           hitShake: 2
+           shrinkY: 0
+           hitSound: explosion
+           lightning: 3
+           lightningLength: 15
+           lightColor: 808eff
+           }
+}
+shootType: {
+           type: BasicBulletType
+           pierce: false
+           damage: 20
+           splashDamage: 40
+           splashDamageRadius: 30
+           width: 35
+           height: 18
+           lifetime: 60
+           weaveScale: 14
+           weaveMag: 4
+           homingPower: 0.2
+           homingRange: 180
+           speed: 4
+           despawnEffect: blastExplosion
+           hitEffect: blastExplosion
+           backColor: 808eff
+           frontColor: 808eff
+           shootEffect: shootSmall
+           smokeEffect: shootSmallSmoke
+           hitShake: 2
+           shrinkY: 0
+           hitSound: explosion
+           lightning: 3
+           lightningLength: 15
+           lightColor: 808eff
+}
+requirements:[
+  copper/125
+  lead/115
+  graphite/50
+  silicon/75
+  titanium/35
+]
+research: boom
+category: turret
