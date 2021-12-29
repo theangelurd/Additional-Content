@@ -4,15 +4,15 @@ description: "Shoots weak plasma spheres."
 health: 320
 size: 1
 reloadTime: 45
-shootSound: laser
+shootSound: sap
 range: 180
-recoilAmount: 2
-restitution: 0.1
+recoilAmount: 1
+restitution: 0.05
 chargeTime: 0
 hasPower: true
 powerUse: 3
 shots: 1
-rotateSpeed: 10
+rotateSpeed: 7
 ammoTypes: {
            titanium: {
            type: BasicBulletType
@@ -20,11 +20,11 @@ ammoTypes: {
            damage: 10
            splashDamage: 16
            splashDamageRadius: 20
-           width: 12
+           width: 14
            height: 9
            lifetime: 60
-           weaveScale: 6
-           weaveMag: 2
+           weaveScale: 10
+           weaveMag: 3
            homingPower: 0.2
            homingRange: 180
            speed: 3
@@ -34,6 +34,8 @@ ammoTypes: {
            frontColor: 808eff
            shootEffect: shootSmall
            smokeEffect: shootSmallSmoke
+           hitShake: 1
+           shrinkY: 1
            }
 }
 shootType: {
@@ -42,7 +44,7 @@ shootType: {
            damage: 10
            splashDamage: 16
            splashDamageRadius: 20
-           width: 12
+           width: 14
            height: 9
            lifetime: 60
            weaveScale: 6
@@ -56,6 +58,8 @@ shootType: {
            frontColor: 808eff
            shootEffect: shootSmall
            smokeEffect: shootSmallSmoke
+           hitShake: 1
+           shrinkY: 0
 }
 requirements:[
   copper/45
