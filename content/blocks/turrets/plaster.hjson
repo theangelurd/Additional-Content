@@ -28,7 +28,7 @@ ammoTypes: {
            homingPower: 0.2
            homingRange: 180
            speed: 3
-           despawnEffect = blastExplosion
+           despawnEffect: blastExplosion
            hitEffect: blastExplosion
            backColor: 808eff
            frontColor: 808eff
@@ -50,7 +50,7 @@ shootType: {
            homingPower: 0.2
            homingRange: 180
            speed: 3
-           despawnEffect = blastExplosion
+           despawnEffect: blastExplosion
            hitEffect: blastExplosion
            backColor: 808eff
            frontColor: 808eff
