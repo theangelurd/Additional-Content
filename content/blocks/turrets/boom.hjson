@@ -4,8 +4,8 @@ description: "Shoots stronger plasma spheres."
 health: 640
 size: 2
 reloadTime: 50
-shootSound: sap
-range: 240
+shootSound: missile
+range: 200
 recoilAmount: 2
 restitution: 0.05
 chargeTime: 0
@@ -21,7 +21,7 @@ ammoTypes: {
            splashDamage: 25
            splashDamageRadius: 24
            width: 23
-           height: 18
+           height: 15
            lifetime: 60
            weaveScale: 11
            weaveMag: 3
@@ -45,13 +45,13 @@ shootType: {
            splashDamage: 25
            splashDamageRadius: 24
            width: 23
-           height: 18
+           height: 15
            lifetime: 60
            weaveScale: 11
            weaveMag: 2.5
            homingPower: 0.25
            homingRange: 180
-           speed: 3
+           speed: 3.5
            despawnEffect: blastExplosion
            hitEffect: blastExplosion
            backColor: 808eff
@@ -67,5 +67,5 @@ requirements:[
   graphite/25
   silicon/20
 ]
-research: arc
+research: plaster
 category: turret
