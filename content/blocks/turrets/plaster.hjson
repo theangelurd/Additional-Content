@@ -25,7 +25,7 @@ ammoTypes: {
            lifetime: 60
            weaveScale: 6
            weaveMag: 2
-           homingPower = 0.2
+           homingPower: 0.2
            homingRange: 180
            speed: 3
            despawnEffect = blastExplosion
@@ -47,7 +47,7 @@ shootType: {
            lifetime: 60
            weaveScale: 6
            weaveMag: 2
-           homingPower = 0.2
+           homingPower: 0.2
            homingRange: 180
            speed: 3
            despawnEffect = blastExplosion
