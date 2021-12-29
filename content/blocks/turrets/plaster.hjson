@@ -23,15 +23,15 @@ ammoTypes: {
            width: 12
            height: 9
            lifetime: 60
-           weaveScale = 6
-           weaveMag = 2
+           weaveScale: 6
+           weaveMag: 2
            homingPower = 0.2
-           homingRange = 180
-           speed = 3
+           homingRange: 180
+           speed: 3
            despawnEffect = blastExplosion
-           hitEffect = blastExplosion
-           backColor = 808eff
-           frontColor = 808eff
+           hitEffect: blastExplosion
+           backColor: 808eff
+           frontColor: 808eff
            shootEffect: shootSmall
            smokeEffect: shootSmallSmoke
            }
@@ -45,15 +45,15 @@ shootType: {
            width: 12
            height: 9
            lifetime: 60
-           weaveScale = 6
-           weaveMag = 2
+           weaveScale: 6
+           weaveMag: 2
            homingPower = 0.2
-           homingRange = 180
-           speed = 3
+           homingRange: 180
+           speed: 3
            despawnEffect = blastExplosion
-           hitEffect = blastExplosion
-           backColor = 808eff
-           frontColor = 808eff
+           hitEffect: blastExplosion
+           backColor: 808eff
+           frontColor: 808eff
            shootEffect: shootSmall
            smokeEffect: shootSmallSmoke
 }
