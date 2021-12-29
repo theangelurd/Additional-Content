@@ -1,6 +1,6 @@
 type: PowerTurret
 name: "Shatter"
-description: "Shoots destructive plasma spheres."
+description: "Shoots destructive plasma spheres. Plasma spheres will explode in lightning bolts, dealing damage to units in the vincinity."
 health: 960
 size: 3
 reloadTime: 55
