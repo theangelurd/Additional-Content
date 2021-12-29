@@ -35,7 +35,7 @@ ammoTypes: {
            shootEffect: shootSmall
            smokeEffect: shootSmallSmoke
            hitShake: 1
-           shrinkY: 1
+           shrinkY: 0
            }
 }
 shootType: {
