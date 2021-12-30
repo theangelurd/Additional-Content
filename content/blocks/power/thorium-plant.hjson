@@ -1,0 +1,30 @@
+type: NuclearReactor
+name: "Thorium Plant"
+description: "Enlarged thorium reactor, produces a lot more power, but requires more thorium and cooling."
+size: 5
+hasPower: true
+hasLiquids: true
+hasItems: true
+itemCapacity: 60
+liquidCapacity: 30
+itemDuration: 200
+powerProduction: 35
+heating: 0.05
+consumes: {
+ liquid: cryofluid/0.2
+  items: {
+   items: [
+    thorium/2
+    ]
+  }
+}
+requirements: [
+  metaglass/100
+  silicon/300
+  graphite/220
+  lead/550
+  thorium/220
+  titanium/250
+]
+category: power
+research: thorium-reactor
