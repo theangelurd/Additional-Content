@@ -1,0 +1,9 @@
+name: "Dirium Wall"
+description: "Protects structures from enemy projectiles. Moderately strong, but somewhat expensive to get."
+type: Wall
+health: 560
+requirements:[
+    dirium/7
+]
+category: defense
+research: copper-wall
