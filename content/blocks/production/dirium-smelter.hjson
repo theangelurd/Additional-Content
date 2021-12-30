@@ -1,5 +1,5 @@
 type: GenericSmelter
-name: Dirium Smelter
+name: Dirium Forge
 description: "Smelts lead and copper to make a fairly strong alloy."
 size: 2
 hasPower: true
