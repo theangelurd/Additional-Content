@@ -1,0 +1,25 @@
+type: GenericSmelter
+name: Dirium Smelter
+description: "Smelts lead and copper to make a fairly strong alloy."
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 90
+craftEffect: smeltsmoke
+consumes: {
+  power: 0.4
+  items: {
+    items: [
+      copper/2
+      lead/2
+    ]
+  }
+}
+requirements: [
+    copper/75
+    lead/60
+    graphite/40
+]
+category: crafting
+research: graphite-press
+outputItem: dirium/2
