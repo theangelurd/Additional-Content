@@ -1,0 +1,10 @@
+name: "Large Dirium Wall"
+description: "Protects structures from enemy projectiles. Moderately strong, but somewhat expensive to get. Spans multiple tiles."
+type: Wall
+size: 2
+health: 2240
+requirements:[
+    dirium/3360
+]
+category: defense
+research: dirium-wall
