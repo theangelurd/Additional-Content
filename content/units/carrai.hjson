@@ -24,7 +24,7 @@ name: repair-cannon
 x: 0
 y: -3
 recoil: 1
-reload: 30
+reload: 45
 mirror: false
 shootY: 0
 shootSound: lasershoot
@@ -33,6 +33,7 @@ rotateSpeed: 7.5
 bullet: {
 type: BasicBulletType
 damage: 15
+collidesTeam: true
 knockback: 1
 speed: 4.5
 homingPower: 0.08
