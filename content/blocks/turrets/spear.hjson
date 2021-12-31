@@ -41,7 +41,7 @@ ammoTypes: {
 }
 shootType: {
            type: BasicBulletType
-           sprite: diamondbullet
+           sprite: additional-content-diamondbullet
            pierce: false
            damage: 45
            width: 5
