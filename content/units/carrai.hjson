@@ -1,0 +1,49 @@
+type: flying
+name: "Carrai"
+description: "Shoots repairing bullets at enemies."
+flying: true
+health: 200
+commandLimit: 4
+lowAltitude: true
+hitSize: 7
+speed: 3.2
+drag: 0.1
+range: 100
+accel: 0.1
+engineOffset: 6
+engineSize: 3
+targetGround: true
+targetAir: true
+rotateSpeed: 6
+armor: 3
+itemCapacity: 40
+weapons:[
+{
+name: repair-cannon
+x: 0
+y: -3
+recoil: 1
+reload: 15
+mirror: false
+shootY: 0
+shootSound: lasershoot
+bullet: {
+type: BasicBulletType
+damage: 5
+splashDamage: 10
+splashDamageRadius: 18
+knockback: 1
+speed: 4.5
+homingPower: 0.08
+homingRange: 60
+lifetime: 60
+width: 9
+height: 9
+healPercent: 4
+sprite: additional-content-plasmabullet
+}
+}
+]
+research: {
+parent: air-factory
+}
