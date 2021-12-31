@@ -43,7 +43,10 @@ shootType: {
            type: BasicBulletType
            sprite: additional-content-diamondbullet
            pierce: false
-           damage: 45
+           damage: 40
+           pierce: true
+           pierceBuilding: true
+           pierceCap: 3
            width: 5
            height: 10
            lifetime: 60
