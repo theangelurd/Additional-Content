@@ -7,7 +7,8 @@ shots: 4
 range: 140
 alternate: false
 burstSpacing: 4
-spread: 2
+spread: 1
+spacing: 2
 alternate: true
 rotateSpeed: 3
 recoilAmount: 1
