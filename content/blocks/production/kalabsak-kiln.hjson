@@ -1,0 +1,30 @@
+type: GenericSmelter
+name: Kalabsak Kiln
+description: "Smelts dirium copper, lead, coal and sand to make a very durable crystal."
+size: 3
+hasPower: true
+hasItems: true
+craftTime: 60
+craftEffect: smeltsmoke
+consumes: {
+  power: 1
+  items: {
+    items: [
+      dirium/1
+      copper/1
+      lead/2
+      coal/1
+      sand/2
+    ]
+  }
+}
+requirements: [
+    copper/140
+    lead/120
+    graphite/100
+    silicon/100
+    titanium/60
+]
+category: crafting
+research: graphite-press
+outputItem: kalabsak/1
