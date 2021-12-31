@@ -1,0 +1,9 @@
+name: Kalabsak
+description: A complex alloy, made out of early-game resources, including Dirium.
+hardness: 0
+cost: 2.25
+color: 2e1171
+research: {
+    parent: dirium
+}
+details: "It is said, this resource was used for mass-destruction weapons. It seems that the designs have been lost to time... but maybe, you can recreate them? It also could be possible, that there is an even stronger version of this, the true culmination of the line, and one of the hardest to get. And then, you will have ultimate power."
