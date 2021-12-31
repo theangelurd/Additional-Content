@@ -1,0 +1,91 @@
+type: ItemTurret
+name: "Dersu"
+description: "Fires bursts of bullets at enemies."
+reloadTime: 50
+size: 3
+health: 960
+shots: 4
+range: 140
+alternate: false
+spread: 15
+alternate: true
+rotateSpeed: 3
+recoilAmount: 1
+restitution: 0.2
+shootShake: 2
+shootSound: shoot
+ejectEffect: none
+ammoTypes: {
+copper: {
+speed: 6
+damage: 11
+type: BasicBulletType
+width: 9
+lifetime: 50
+length: 11
+ammoMultiplier: 2
+hitEffect: hitBulletSmall
+despawnEffect: hitBulletSmall
+}
+graphite: {
+speed: 6
+damage: 22
+reloadMultiplier: 0.6
+type: BasicBulletType
+width: 11
+lifetime: 50
+length: 13
+ammoMultiplier: 4
+hitEffect: hitBulletSmall
+despawnEffect: hitBulletSmall
+}
+silicon: {
+speed: 6
+damage: 17
+reloadMultiplier: 1.5
+type: BasicBulletType
+width: 10
+lifetime: 50
+length: 12
+ammoMultiplier: 4
+homingPower: 0.06
+homingRange: 90
+hitEffect: hitBulletSmall
+despawnEffect: hitBulletSmall
+}
+pyratite: {
+speed: 6
+damage: 20
+type: BasicBulletType
+width: 11
+lifetime: 50
+length: 13
+ammoMultiplier: 4
+frontColor: ffa900
+backColor: ffa900
+status: burning
+hitEffect: hitBulletSmall
+despawnEffect: hitBulletSmall
+}
+pyratite: {
+speed: 6
+damage: 25
+type: BasicBulletType
+width: 12
+lifetime: 50
+length: 14
+ammoMultiplier: 4
+hitEffect: hitBulletSmall
+despawnEffect: hitBulletSmall
+}
+}
+requirements:[
+copper/480
+lead/400
+silicon/380
+titanium/340
+plastanium/280
+thorium/150
+]
+research: cyclone
+category: turret
