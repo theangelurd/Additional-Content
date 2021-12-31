@@ -15,6 +15,7 @@ engineSize: 3
 targetGround: true
 targetAir: true
 rotateSpeed: 6
+rotateShooting: false
 armor: 3
 itemCapacity: 40
 weapons:[
@@ -27,6 +28,8 @@ reload: 15
 mirror: false
 shootY: 0
 shootSound: lasershoot
+rotate: true
+rotateSpeed: 7.5
 bullet: {
 type: BasicBulletType
 damage: 5
