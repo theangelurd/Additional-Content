@@ -1,6 +1,6 @@
 type: GenericSmelter
 name: Kalabsak Kiln
-description: "Smelts dirium copper, lead, coal and sand to make a very durable crystal."
+description: "Smelts dirium, copper, lead, coal and sand to make a very durable crystal."
 size: 3
 hasPower: true
 hasItems: true
