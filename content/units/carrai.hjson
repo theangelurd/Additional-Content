@@ -52,5 +52,5 @@ frontColor: 84f491
 }
 ]
 research: {
-parent: air-factory
+parent: advanced-factory
 }
