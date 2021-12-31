@@ -24,7 +24,7 @@ name: repair-cannon
 x: 0
 y: -3
 recoil: 1
-reload: 15
+reload: 30
 mirror: false
 shootY: 0
 shootSound: lasershoot
@@ -32,9 +32,7 @@ rotate: true
 rotateSpeed: 7.5
 bullet: {
 type: BasicBulletType
-damage: 5
-splashDamage: 10
-splashDamageRadius: 18
+damage: 15
 knockback: 1
 speed: 4.5
 homingPower: 0.08
@@ -42,8 +40,10 @@ homingRange: 60
 lifetime: 60
 width: 9
 height: 9
-healPercent: 4
+healPercent: 10
 sprite: additional-content-plasmabullet
+backColor: 84f491
+frontColor: 84f491
 }
 }
 ]
