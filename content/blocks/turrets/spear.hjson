@@ -1,0 +1,71 @@
+type: PowerTurret
+name: "Spear"
+description: "Shoots piercing plasma bolts."
+health: 320
+size: 1
+reloadTime: 80
+shootSound: missile
+range: 160
+recoilAmount: 1
+restitution: 0.05
+chargeTime: 0
+hasPower: true
+powerUse: 3.5
+shots: 1
+rotateSpeed: 7
+ammoTypes: {
+           titanium: {
+           type: BasicBulletType
+           pierce: false
+           damage: 10
+           splashDamage: 16
+           splashDamageRadius: 20
+           width: 14
+           height: 9
+           lifetime: 60
+           weaveScale: 10
+           weaveMag: 3
+           homingPower: 0.2
+           homingRange: 180
+           speed: 3
+           despawnEffect: blastExplosion
+           hitEffect: blastExplosion
+           backColor: 808eff
+           frontColor: 808eff
+           shootEffect: shootSmall
+           smokeEffect: shootSmallSmoke
+           hitShake: 1
+           shrinkY: 0
+           hitSound: explosion
+           }
+}
+shootType: {
+           type: BasicBulletType
+           sprite: diamondbullet
+           pierce: false
+           damage: 45
+           width: 5
+           height: 10
+           lifetime: 60
+           weaveScale: 2
+           weaveMag: 0.25
+           homingPower: 0.05
+           homingRange: 180
+           speed: 6
+           despawnEffect: hitLaserBlast
+           hitEffect: hitLaserBlast
+           backColor: 808eff
+           frontColor: 808eff
+           shootEffect: shootBig
+           smokeEffect: shootBigSmoke
+           hitShake: 2
+           shrinkY: 0
+           hitSound: explosion
+}
+requirements:[
+  copper/55
+  lead/55
+  graphite/25
+]
+research: plaster
+category: turret
