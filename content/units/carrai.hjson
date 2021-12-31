@@ -12,6 +12,9 @@ range: 100
 accel: 0.1
 engineOffset: 6
 engineSize: 3
+buildSpeed: 25
+mineTier: 2
+mineSpeed: 350
 targetGround: true
 targetAir: true
 rotateSpeed: 6
