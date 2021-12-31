@@ -1,0 +1,10 @@
+name: "Kalabsak Wall"
+description: "Protects structures from enemy projectiles. Strong, but expensive to get."
+type: Wall
+health: 720
+requirements:[
+    dirium/2
+    kalabsak/6
+]
+category: defense
+research: dirium-wall
