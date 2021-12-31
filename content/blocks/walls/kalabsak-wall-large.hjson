@@ -1,6 +1,7 @@
 name: "Large Kalabsak Wall"
 description: "Protects structures from enemy projectiles. Strong, but expensive to get. Spans multiple tiles."
 type: Wall
+size: 2
 health: 2880
 requirements:[
     dirium/8
