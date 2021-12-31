@@ -2,11 +2,7 @@ name: Dirium
 description: The product of melting Copper with Lead. Strong, but contributes a lot to building time.
 hardness: 0
 cost: 2
-color: b19696
+color: 8188aa
 research: {
     parent: copper
-    requirements: [
-        lead/200
-        copper/200
-    ]
 }
