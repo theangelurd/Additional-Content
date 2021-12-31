@@ -1,0 +1,28 @@
+type: UnitFactory
+name: "Advanced Factory"
+description: "Multi-type factory for advanced units."
+health: 600
+size: 3
+plans:[
+ {
+ unit: carrai
+ time: 1200
+ requirements:[
+ lead/25
+ silicon/25
+ titanium/15
+]
+ }
+]
+consumes: {
+power: 2
+}
+category: units
+research: naval-factory
+researchCostMultiplier: 1
+requirements: [
+  copper/120
+  lead/120
+  silicon/140
+  dirium/60
+]
