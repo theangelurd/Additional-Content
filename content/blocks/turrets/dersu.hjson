@@ -2,8 +2,7 @@ type: ItemTurret
 name: "Dersu"
 description: "Fires bursts of bullets at enemies."
 reloadTime: 50
-size: 3
-health: 960
+size: 1
 shots: 4
 range: 140
 alternate: false
@@ -67,7 +66,7 @@ status: burning
 hitEffect: hitBulletSmall
 despawnEffect: hitBulletSmall
 }
-pyratite: {
+dirium: {
 speed: 6
 damage: 25
 type: BasicBulletType
@@ -80,12 +79,10 @@ despawnEffect: hitBulletSmall
 }
 }
 requirements:[
-copper/480
-lead/400
-silicon/380
-titanium/340
-plastanium/280
-thorium/150
+copper/45
+lead/40
+dirium/30
+graphite/35
 ]
-research: cyclone
+research: duo
 category: turret
