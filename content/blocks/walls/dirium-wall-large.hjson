@@ -4,7 +4,7 @@ type: Wall
 size: 2
 health: 2240
 requirements:[
-    dirium/3360
+    dirium/28
 ]
 category: defense
 research: dirium-wall
