@@ -3,7 +3,7 @@ name: "Advanced Additive Reconstructor"
 size: 3
 health: 500
 description: "An advanced reconstructor, allows for production of stronger units."
-constructTime: 900
+constructTime: 1500
 hasPower: true
 upgrades: [
   [
@@ -11,12 +11,12 @@ upgrades: [
   ]
 ]
 consumes: {
-    power: 4.2
+    power: 5
 items:{
   items: [
-  silicon/60
-  metaglass/40
-  titanium/20
+  silicon/80
+  metaglass/60
+  titanium/40
   ]
 }
 }
@@ -24,8 +24,8 @@ category: units
 research: additive-reconstructor
 researchCostMultiplier: 1
 requirements: [
-  copper/260
-  lead/200
-  silicon/140
-  titanium/100
+  copper/300
+  lead/300
+  silicon/240
+  titanium/200
 ]
