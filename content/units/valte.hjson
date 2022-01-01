@@ -25,8 +25,8 @@ itemCapacity: 150
 weapons:[
 {
 name: repair-cannon
-x: 2
-y: -1
+x: 3
+y: -2
 recoil: 1
 reload: 40
 mirror: true
@@ -51,7 +51,7 @@ colors: [84f491, 84f491, 84f491]
 {
 name: plasma-cannon
 x: 0
-y: 6
+y: 8
 recoil: 1
 reload: 60
 mirror: false
@@ -81,7 +81,7 @@ frontColor: 84f491
 {
 name: laser-blaster
 x: 0
-y: -3
+y: -5
 recoil: 1.5
 reload: 80
 mirror: false
