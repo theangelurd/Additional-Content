@@ -1,0 +1,31 @@
+type: Reconstructor
+name: "Advanced Additive Reconstructor"
+size: 3
+health: 500
+description: "An advanced reconstructor, allows for production of stronger units."
+constructTime: 900
+hasPower: true
+upgrades: [
+  [
+    carrai, sorag
+  ]
+]
+consumes: {
+    power: 4.2
+items:{
+  items: [
+  silicon/60
+  metaglass/40
+  titanium/20
+  ]
+}
+}
+category: units
+research: additive-reconstructor
+researchCostMultiplier: 1
+requirements: [
+  copper/260
+  lead/200
+  silicon/140
+  titanium/100
+]
