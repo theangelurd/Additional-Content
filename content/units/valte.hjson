@@ -6,7 +6,7 @@ health: 950
 commandLimit: 6
 lowAltitude: true
 hitSize: 20
-payloadCapacity: 400
+payloadCapacity: 133
 speed: 2.5
 drag: 0.1
 range: 150
