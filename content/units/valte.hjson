@@ -3,9 +3,10 @@ name: "Valte"
 description: "Shoots repairing bullets and lasers at enemies."
 flying: true
 health: 950
-commandLimit: 5
+commandLimit: 6
 lowAltitude: true
 hitSize: 20
+payloadCapacity: 4
 speed: 2.5
 drag: 0.1
 range: 150
