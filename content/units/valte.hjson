@@ -83,7 +83,7 @@ name: laser-blaster
 x: 0
 y: -7
 recoil: 1.5
-reload: 80
+reload: 120
 mirror: false
 shootY: 3
 shootSound: laser
@@ -97,7 +97,7 @@ damage: 60
 collidesTeam: true
 knockback: 4
 speed: 0.01
-lifetime: 60
+lifetime: 120
 healPercent: 10
 lightColor: 84f491
 colors: [84f491, 84f491, 84f491]
