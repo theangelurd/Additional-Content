@@ -1,0 +1,34 @@
+type: Reconstructor
+name: "Advanced Multiplicative Reconstructor"
+size: 5
+health: 1000
+description: "An advanced reconstructor, allows for production of stronger units."
+constructTime: 3500
+hasPower: true
+upgrades: [
+  [
+    sorag, valte
+  ]
+]
+consumes: {
+    power: 10
+items:{
+  items: [
+  silicon/180
+  metaglass/160
+  titanium/200
+  dirium/100
+  plastanium/90
+  ]
+}
+}
+category: units
+research: advanced-reconstructor
+researchCostMultiplier: 1
+requirements: [
+  copper/800
+  lead/800
+  silicon/750
+  titanium/700
+  thorium/650
+]
