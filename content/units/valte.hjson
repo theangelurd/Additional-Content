@@ -1,0 +1,108 @@
+type: payload
+name: "Valte"
+description: "Shoots repairing bullets and lasers at enemies."
+flying: true
+health: 950
+commandLimit: 5
+lowAltitude: true
+hitSize: 20
+speed: 2.5
+drag: 0.1
+range: 150
+accel: 0.1
+engineOffset: 11
+engineSize: 4
+buildSpeed: 0.5
+mineTier: 4
+mineSpeed: 6.5
+targetGround: true
+targetAir: true
+rotateSpeed: 5
+rotateShooting: false
+armor: 9
+itemCapacity: 150
+weapons:[
+{
+name: repair-cannon
+x: 2
+y: -1
+recoil: 1
+reload: 40
+mirror: true
+shootY: 2
+shootSound: laser
+rotate: true
+rotateSpeed: 8
+bullet: {
+type: LaserBulletType
+length: 150
+width: 9
+damage: 16
+collidesTeam: true
+knockback: 1.5
+speed: 0.01
+lifetime: 10
+healPercent: 4.5
+lightColor: 84f491
+colors: [84f491, 84f491, 84f491]
+}
+}
+{
+name: plasma-cannon
+x: 0
+y: 6
+recoil: 1
+reload: 60
+mirror: false
+shootY: 2
+shootSound: laser
+rotate: true
+rotateSpeed: 6
+bullet: {
+type: BasicBulletType
+height: 15
+sprite: additional-content-orb
+width: 15
+damage: 11
+splashDamage: 24
+splashDamageRadius: 23
+collidesTeam: true
+knockback: 3
+speed: 4
+homingPower: 0.11
+homingRange: 40
+lifetime: 70
+healPercent: 10
+backColor: 84f491
+frontColor: 84f491
+}
+}
+{
+name: laser-blaster
+x: 0
+y: -3
+recoil: 1.5
+reload: 80
+mirror: false
+shootY: 3
+shootSound: laser
+rotate: true
+rotateSpeed: 5
+bullet: {
+type: LaserBulletType
+length: 250
+width: 9
+damage: 60
+collidesTeam: true
+knockback: 4
+speed: 0.01
+lifetime: 60
+healPercent: 10
+lightColor: 84f491
+colors: [84f491, 84f491, 84f491]
+}
+}
+]
+research: {
+parent: sorag
+}
