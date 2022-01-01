@@ -6,23 +6,23 @@ size: 3
 plans:[
  {
  unit: carrai
- time: 1200
+ time: 2500
  requirements:[
- lead/25
- silicon/25
- titanium/15
+ lead/35
+ silicon/35
+ titanium/30
 ]
  }
 ]
 consumes: {
-power: 2
+power: 2.5
 }
 category: units
 research: naval-factory
 researchCostMultiplier: 1
 requirements: [
-  copper/120
-  lead/120
-  silicon/140
-  dirium/60
+  copper/150
+  lead/160
+  silicon/180
+  dirium/120
 ]
