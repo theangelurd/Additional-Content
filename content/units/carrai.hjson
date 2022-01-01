@@ -35,6 +35,7 @@ rotate: true
 rotateSpeed: 7.5
 bullet: {
 type: BasicBulletType
+shrinkY: 0
 damage: 15
 collidesTeam: true
 knockback: 1
