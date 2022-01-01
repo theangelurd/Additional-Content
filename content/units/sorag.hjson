@@ -48,7 +48,6 @@ healPercent: 5
 lightColor: 84f491
 colors: [84f491, 84f491, 84f491]
 }
-}
 name: plasma-cannon
 x: 0
 y: -1
