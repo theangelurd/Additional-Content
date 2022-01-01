@@ -14,11 +14,12 @@ consumes: {
     power: 10
 items:{
   items: [
-  silicon/140
+  silicon/160
   metaglass/100
-  titanium/120
-  dirium/80
-  thorium/60
+  titanium/140
+  dirium/120
+  thorium/120
+  plastanium/60
   ]
 }
 }
@@ -31,4 +32,5 @@ requirements: [
   silicon/750
   titanium/700
   thorium/650
+  plastanium/500
 ]
