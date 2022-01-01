@@ -14,11 +14,11 @@ consumes: {
     power: 10
 items:{
   items: [
-  silicon/180
-  metaglass/160
-  titanium/200
-  dirium/100
-  plastanium/90
+  silicon/140
+  metaglass/100
+  titanium/120
+  dirium/80
+  thorium/60
   ]
 }
 }
