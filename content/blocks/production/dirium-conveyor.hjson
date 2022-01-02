@@ -1,0 +1,12 @@
+type: Conveyor
+name: "Dirium Conveyor"
+health: 100
+speed: 0.12
+displayedSpeed: 16
+requirements: [
+  metaglass/1
+  dirium/1
+  titanium/1
+]
+category: distribution
+research: titanium-conveyor
