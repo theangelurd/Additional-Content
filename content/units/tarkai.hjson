@@ -5,7 +5,7 @@ flying: true
 health: 9500
 commandLimit: 7
 lowAltitude: true
-hitSize: 40
+hitSize: 48
 payloadCapacity: 600
 speed: 2
 drag: 0.08
