@@ -38,8 +38,8 @@ bullet: {
 type: MissileBulletType
 height: 9
 width: 9
-damage: 10
-splashDamage: 20
+damage: 15
+splashDamage: 32
 splashDamageRadius: 18
 collidesTeam: true
 knockback: 2
@@ -71,8 +71,8 @@ bullet: {
 type: MissileBulletType
 height: 9
 width: 9
-damage: 10
-splashDamage: 22
+damage: 15
+splashDamage: 32
 splashDamageRadius: 18
 collidesTeam: true
 knockback: 2
@@ -104,7 +104,7 @@ bullet: {
 type: LaserBulletType
 length: 220
 width: 9
-damage: 50
+damage: 80
 collidesTeam: true
 knockback: 3
 speed: 0.01
@@ -129,7 +129,7 @@ bullet: {
 type: LaserBulletType
 length: 300
 width: 14
-damage: 140
+damage: 200
 collidesTeam: true
 knockback: 5
 speed: 0.01
