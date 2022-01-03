@@ -29,7 +29,7 @@ x: 22
 y: 7
 recoil: 1
 reload: 60
-mirror: false
+mirror: true
 shootY: 2
 shootSound: missiles
 rotate: true
@@ -57,11 +57,11 @@ frontColor: 84f491
 }
 {
 name: repair-cannon
-x: 18
-y: 9
+x: 15
+y: 11
 recoil: 1
 reload: 60
-mirror: false
+mirror: true
 shootY: 2
 shootSound: missile
 rotate: true
@@ -89,7 +89,7 @@ frontColor: 84f491
 }
 {
 name: laser-blaster
-x: 5
+x: 10
 y: 10
 recoil: 2
 reload: 100
@@ -115,7 +115,7 @@ colors: [84f491, 84f491, 84f491]
 {
 name: large-beam-heal-cannon
 x: 0
-y: 10
+y: -2
 recoil: 4
 reload: 160
 mirror: false
