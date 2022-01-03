@@ -94,7 +94,7 @@ name: laser-blaster
 x: 7
 y: 10
 recoil: 2
-reload: 80
+reload: 40
 mirror: true
 shootY: 3
 shootSound: laser
@@ -108,7 +108,7 @@ damage: 80
 collidesTeam: true
 knockback: 3
 speed: 0.01
-lifetime: 80
+lifetime: 30
 healPercent: 6
 lightColor: 84f491
 colors: [84f491, 84f491, 84f491]
@@ -119,7 +119,7 @@ name: large-beam-heal-cannon
 x: 0
 y: -2
 recoil: 4
-reload: 140
+reload: 80
 mirror: false
 shootY: 2
 shootSound: laser
@@ -133,7 +133,7 @@ damage: 200
 collidesTeam: true
 knockback: 5
 speed: 0.01
-lifetime: 100
+lifetime: 80
 healPercent: 13
 lightColor: 84f491
 colors: [84f491, 84f491, 84f491]
