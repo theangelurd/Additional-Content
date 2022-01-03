@@ -11,7 +11,7 @@ speed: 2
 drag: 0.08
 range: 150
 accel: 0.08
-engineOffset: 2
+engineOffset: 10
 engineSize: 10
 buildSpeed: 0.65
 mineTier: 5
