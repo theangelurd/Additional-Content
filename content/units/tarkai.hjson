@@ -128,7 +128,7 @@ rotateSpeed: 4.5
 bullet: {
 type: LaserBulletType
 length: 300
-width: 9
+width: 14
 damage: 140
 collidesTeam: true
 knockback: 5
