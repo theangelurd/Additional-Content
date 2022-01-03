@@ -112,6 +112,7 @@ lightColor: 84f491
 colors: [84f491, 84f491, 84f491]
 }
 }
+{
 name: large-beam-heal-cannon
 x: 0
 y: 10
