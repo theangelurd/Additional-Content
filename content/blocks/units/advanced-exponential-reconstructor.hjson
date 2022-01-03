@@ -1,0 +1,39 @@
+type: Reconstructor
+name: "Advanced Exponential Reconstructor"
+size: 7
+health: 1860
+description: "An advanced reconstructor, allows for production of stronger units."
+constructTime: 9000
+hasPower: true
+upgrades: [
+  [
+    valte, tarkai
+  ]
+]
+consumes: {
+    power: 30
+    liquid: cryofluid/1.25
+items:{
+  items: [
+  silicon/960
+  metaglass/700
+  titanium/900
+  dirium/500
+  kalabsak/200
+  thorium/500
+  phase-fabric/40
+  plastanium/800
+  ]
+}
+}
+category: units
+research: advanced-multiplicative-reconstructor
+researchCostMultiplier: 1
+requirements: [
+  copper/2000
+  lead/2000
+  silicon/1750
+  titanium/1500
+  thorium/1250
+  plastanium/1000
+]
