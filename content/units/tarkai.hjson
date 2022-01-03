@@ -1,0 +1,142 @@
+type: payload
+name: "Tarkai"
+description: "Shoots repairing bullets, missiles and lasers at enemies."
+flying: true
+health: 9500
+commandLimit: 7
+lowAltitude: true
+hitSize: 40
+payloadCapacity: 600
+speed: 2
+drag: 0.08
+range: 150
+accel: 0.08
+engineOffset: 2
+engineSize: 10
+buildSpeed: 0.65
+mineTier: 5
+mineSpeed: 7
+targetGround: true
+targetAir: true
+rotateSpeed: 4.5
+rotateShooting: false
+armor: 12
+itemCapacity: 280
+weapons:[
+{
+name: repair-cannon
+x: 22
+y: 7
+recoil: 1
+reload: 60
+mirror: false
+shootY: 2
+shootSound: missiles
+rotate: true
+rotateSpeed: 6
+bullet: {
+type: MissileBulletType
+height: 9
+width: 9
+damage: 6
+splashDamage: 13
+splashDamageRadius: 18
+collidesTeam: true
+knockback: 2
+speed: 3
+homingPower: 0.2
+homingRange: 40
+lifetime: 80
+weaveMag: 1
+weaveScale: 2
+healPercent: 2.5
+shots: 2
+backColor: 84f491
+frontColor: 84f491
+}
+}
+{
+name: repair-cannon
+x: 18
+y: 9
+recoil: 1
+reload: 60
+mirror: false
+shootY: 2
+shootSound: missile
+rotate: true
+rotateSpeed: 6
+bullet: {
+type: MissileBulletType
+height: 9
+width: 9
+damage: 6
+splashDamage: 13
+splashDamageRadius: 18
+collidesTeam: true
+knockback: 2
+speed: 3
+homingPower: 0.2
+homingRange: 40
+lifetime: 80
+weaveMag: 1
+weaveScale: 2
+healPercent: 2.5
+shots: 2
+backColor: 84f491
+frontColor: 84f491
+}
+}
+{
+name: laser-blaster
+x: 5
+y: 10
+recoil: 2
+reload: 100
+mirror: true
+shootY: 3
+shootSound: laser
+rotate: true
+rotateSpeed: 6
+bullet: {
+type: LaserBulletType
+length: 220
+width: 9
+damage: 50
+collidesTeam: true
+knockback: 3
+speed: 0.01
+lifetime: 80
+healPercent: 6
+lightColor: 84f491
+colors: [84f491, 84f491, 84f491]
+}
+}
+name: large-beam-heal-cannon
+x: 0
+y: 10
+recoil: 4
+reload: 160
+mirror: false
+shootY: 2
+shootSound: laser
+rotate: true
+rotateSpeed: 4.5
+bullet: {
+type: LaserBulletType
+length: 300
+width: 9
+damage: 140
+collidesTeam: true
+knockback: 5
+speed: 0.01
+lifetime: 150
+healPercent: 13
+lightColor: 84f491
+colors: [84f491, 84f491, 84f491]
+}
+}
+]
+research: {
+parent: valte
+}
