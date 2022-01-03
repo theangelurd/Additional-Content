@@ -12,17 +12,17 @@ upgrades: [
 ]
 consumes: {
     power: 30
-    liquid: cryofluid/1.25
+    liquid: cryofluid/1.5
 items:{
   items: [
-  silicon/960
-  metaglass/700
-  titanium/900
+  silicon/650
+  metaglass/500
+  titanium/550
   dirium/500
   kalabsak/200
-  thorium/500
-  phase-fabric/40
-  plastanium/800
+  thorium/450
+  phase-fabric/50
+  plastanium/450
   ]
 }
 }
