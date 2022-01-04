@@ -35,6 +35,7 @@ shootSound: missiles
 rotate: true
 rotateSpeed: 6
 shots: 2
+inaccuracy: 8
 bullet: {
 type: MissileBulletType
 height: 9
@@ -48,8 +49,8 @@ speed: 3
 homingPower: 0.2
 homingRange: 40
 lifetime: 80
-weaveMag: 1
-weaveScale: 2
+weaveMag: 2
+weaveScale: 4
 healPercent: 2.5
 shots: 2
 backColor: 84f491
@@ -69,6 +70,7 @@ shootY: 2
 shootSound: missile
 rotate: true
 rotateSpeed: 6
+inaccuracy: 8
 bullet: {
 type: MissileBulletType
 height: 9
@@ -82,8 +84,8 @@ speed: 3
 homingPower: 0.2
 homingRange: 40
 lifetime: 80
-weaveMag: 1
-weaveScale: 2
+weaveMag: 2
+weaveScale: 4
 healPercent: 2.5
 shots: 2
 backColor: 84f491
