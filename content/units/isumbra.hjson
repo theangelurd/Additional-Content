@@ -77,7 +77,7 @@ despawnEffect: blastExplosion
 shootEffect: shootBig
 smokeEffect: shootBig
 knockback: 4.2
-drag: -0.025
+drag: -0.01
 }
 }
 ]
