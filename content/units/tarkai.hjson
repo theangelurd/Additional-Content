@@ -2,7 +2,7 @@ type: payload
 name: "Tarkai"
 description: "Shoots repairing bullets, missiles and lasers at enemies."
 flying: true
-health: 9500
+health: 14000
 commandLimit: 7
 lowAltitude: true
 hitSize: 48
@@ -20,7 +20,7 @@ targetGround: true
 targetAir: true
 rotateSpeed: 4.5
 rotateShooting: false
-armor: 12
+armor: 13
 itemCapacity: 280
 weapons:[
 {
@@ -34,6 +34,7 @@ shootY: 2
 shootSound: missiles
 rotate: true
 rotateSpeed: 6
+shots: 2
 bullet: {
 type: MissileBulletType
 height: 9
@@ -61,6 +62,7 @@ name: repair-cannon
 x: 15
 y: 11
 recoil: 1
+shots: 2
 reload: 60
 mirror: true
 shootY: 2
@@ -94,7 +96,7 @@ name: laser-blaster
 x: 7
 y: 10
 recoil: 2
-reload: 50
+reload: 40
 mirror: true
 shootY: 3
 shootSound: laser
@@ -108,7 +110,7 @@ damage: 80
 collidesTeam: true
 knockback: 3
 speed: 0.01
-lifetime: 40
+lifetime: 20
 healPercent: 6
 lightColor: 84f491
 colors: [84f491, 84f491, 84f491]
@@ -119,7 +121,7 @@ name: large-beam-heal-cannon
 x: 0
 y: -2
 recoil: 4
-reload: 100
+reload: 80
 mirror: false
 shootY: 2
 shootSound: laser
@@ -133,7 +135,7 @@ damage: 200
 collidesTeam: true
 knockback: 5
 speed: 0.01
-lifetime: 90
+lifetime: 60
 healPercent: 13
 lightColor: 84f491
 colors: [84f491, 84f491, 84f491]
