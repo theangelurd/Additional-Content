@@ -5,6 +5,7 @@ health: 1860
 description: "An advanced reconstructor, allows for production of stronger units."
 constructTime: 9000
 hasPower: true
+liquidCapacity: 90
 upgrades: [
   [
     valte, tarkai
