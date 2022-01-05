@@ -24,7 +24,7 @@ homingPower: 0.05
 homingRange: 150000
 type: BasicBulletType
 width: 9
-lifetime: 9999999999999
+lifetime: 300
 length: 9
 ammoMultiplier: 10
 pierce: true
