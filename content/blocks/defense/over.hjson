@@ -1,0 +1,16 @@
+type: OverdriveProjector
+name: "over"
+description: "NANANANANA"
+size: 1
+range: 412321421312413
+speedBoost: 4000
+hasBoost: false
+requirements:[
+    surge-alloy/231412231
+    plastanium/4311232314
+    silicon/123231321
+    metaglass/123321231
+    titanium/123231
+    lead/123231
+]
+category: effect
