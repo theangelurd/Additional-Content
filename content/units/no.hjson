@@ -31,29 +31,29 @@ shootY: 5
 shootSound: artillery
 shootShake: 10
 top: false
-shots: 13
-inaccuracy: 25
+shots: 30
+inaccuracy: 37
 velocityRnd: 0.7
 bullet: {
 type: BasicBulletType
 shrinkY: 0
-damage: 3000
-splashDamage: 10000
-splashDamageRange: 35
+damage: 30000
+splashDamage: 100000
+splashDamageRange: 60
 hitSound: explosion
 hitShake: 5
 hitEffect: blastExplosion
 despawnEffect: blastExplosion
-speed: 5
+speed: 10
 lifetime: 120
 width: 9
 height: 9
-homingPower: 0.05
+homingPower: 0.2
 homingRange: 10000
 pierce: false
 pierceBuilding: false
 buildingDamageMultiplier: 999
-drag: 0.05
+drag: 0.025
 shootEffect: railShoot
 }
 }
