@@ -30,6 +30,8 @@ mirror: true
 shootY: 3
 shootSound: pew
 top: false
+shots: 7
+inaccuracy: 45
 bullet: {
 type: BasicBulletType
 damage: 500
