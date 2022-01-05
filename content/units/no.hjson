@@ -1,0 +1,45 @@
+type: flying
+name: "no"
+description: "NO"
+flying: true
+health: 239011203929013021
+commandLimit: 9999
+lowAltitude: true
+hitSize: 1
+speed: 10
+drag: 0.5
+range: 10
+accel: 0.5
+engineOffset: 5
+engineSize: 1
+targetGround: true
+targetAir: true
+rotateSpeed: 2412142
+buildSpeed: 412313
+mineSpeed: 9213124521
+mineTier: 31231
+itemCapacity: 906543
+weapons:[
+{
+name: none
+x: 0
+y: 0
+recoil: 0
+reload: 1
+mirror: true
+shootY: 3
+shootSound: pew
+top: false
+bullet: {
+type: BasicBulletType
+damage: 500
+speed: 9
+lifetime: 60
+width: 1
+height: 1
+pierce: false
+pierceBuilding: false
+buildingDamageMultiplier: 999
+}
+}
+]
