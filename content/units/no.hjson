@@ -39,7 +39,7 @@ type: BasicBulletType
 shrinkY: 0
 damage: 50
 splashDamage: 200
-splashDamageRange: 42
+splashDamageRadius: 42
 hitSound: explosion
 hitShake: 5
 hitEffect: blastExplosion
