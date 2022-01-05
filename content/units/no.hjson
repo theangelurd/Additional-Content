@@ -37,8 +37,8 @@ type: BasicBulletType
 damage: 500
 speed: 9
 lifetime: 60
-width: 1
-height: 1
+width: 9
+height: 9
 pierce: false
 pierceBuilding: false
 buildingDamageMultiplier: 999
