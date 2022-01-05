@@ -2,7 +2,7 @@ type: flying
 name: "no"
 description: "NO"
 flying: true
-health: 239011203929013021
+health: 439011
 commandLimit: 9999
 lowAltitude: true
 hitSize: 1
@@ -31,7 +31,7 @@ shootY: 5
 shootSound: artillery
 shootShake: 10
 top: false
-shots: 30
+shots: 92
 inaccuracy: 37
 velocityRnd: 0.7
 bullet: {
@@ -45,15 +45,15 @@ hitShake: 5
 hitEffect: blastExplosion
 despawnEffect: blastExplosion
 speed: 10
-lifetime: 120
+lifetime: 500
 width: 9
 height: 9
-homingPower: 0.2
+homingPower: 0.02
 homingRange: 10000
 pierce: false
 pierceBuilding: false
 buildingDamageMultiplier: 999
-drag: 0.025
+drag: 0.01
 shootEffect: railShoot
 }
 }
