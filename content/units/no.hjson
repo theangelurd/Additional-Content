@@ -39,10 +39,11 @@ type: BasicBulletType
 shrinkY: 0
 damage: 3000
 splashDamage: 10000
-splashDamageRange: 25
+splashDamageRange: 35
 hitSound: explosion
 hitShake: 5
 hitEffect: blastExplosion
+despawnEffect: blastExplosion
 speed: 5
 lifetime: 120
 width: 9
@@ -53,6 +54,7 @@ pierce: false
 pierceBuilding: false
 buildingDamageMultiplier: 999
 drag: 0.05
+shootEffect: railShoot
 }
 }
 ]
