@@ -1,0 +1,21 @@
+type: CoreBlock
+name: "Core:"
+description: "uh idk?"
+health: 40192830129480129381204
+itemCapacity: 41345213214213214213
+size: 10
+unitCapModifier: 32120948193
+unitType: 
+researchCostMultiplier: 11111111111111111111111111111111111111111111111111111111
+requirements: [
+  copper/139800000421980418903421231000
+  lead/21342121412421412421
+  titanium/41123442342311234342411234
+  thorium/9023132123131200
+  silicon/12323231313
+  plastanium/5231231231000
+] 
+category: effect
+hasItems: true
+solid: true
+alwaysUnlocked: false
