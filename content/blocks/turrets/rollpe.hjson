@@ -1,0 +1,43 @@
+type: ItemTurret
+name: "Ripple?"
+description: "OH GOD WHAT HAVE I DONE"
+reloadTime: 25
+size: 3
+health: 9049123
+shots: 25
+range: 9999
+alternate: false
+inaccuracy: 50
+rotateSpeed: 9999
+recoilAmount: 50
+restitution: 0.01
+shootShake: 50
+shootSound: beam
+ejectEffect: greenBomb
+ammoTypes: {
+copper: {
+speed: 1
+damage: 12948129038029148219830291
+type: BasicBulletType
+width: 9
+lifetime: 9999999999999
+length: 9
+ammoMultiplier: 10
+pierce: true
+pierceBuilding: true
+pierceCap: 99999999999999999999
+hitEffect: greenBomb
+despawnEffect: greenBomb
+}
+}
+requirements:[
+copper/134890
+lead/98134
+silicon/15321
+titanium/1423
+plastanium/12423151
+thorium/12421324
+surge-alloy/901428
+phase-fabric/9053890813
+]
+category: turret
