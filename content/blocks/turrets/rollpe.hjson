@@ -18,7 +18,7 @@ ammoTypes: {
 copper: {
 speed: 1
 drag: -0.01
-damage: 12948129038029148219830291
+damage: 100
 knockback: 15
 homingPower: 0.05
 homingRange: 150000
