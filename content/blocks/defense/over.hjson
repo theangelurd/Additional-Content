@@ -3,7 +3,7 @@ name: "over"
 description: "NANANANANA"
 size: 1
 range: 412321421312413
-speedBoost: 4000
+speedBoost: 20
 hasBoost: false
 requirements:[
     surge-alloy/231412231
