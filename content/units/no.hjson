@@ -39,6 +39,8 @@ speed: 9
 lifetime: 60
 width: 9
 height: 9
+homingPower: 0.05
+homingRange: 10000
 pierce: false
 pierceBuilding: false
 buildingDamageMultiplier: 999
