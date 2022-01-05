@@ -17,10 +17,11 @@ ejectEffect: greenBomb
 ammoTypes: {
 copper: {
 speed: 1
+drag: -0.01
 damage: 12948129038029148219830291
 knockback: 15
-homingPower: 0.2
-homingRange: 150
+homingPower: 0.05
+homingRange: 150000
 type: BasicBulletType
 width: 9
 lifetime: 9999999999999
