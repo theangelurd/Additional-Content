@@ -31,7 +31,8 @@ shootY: 3
 shootSound: pew
 top: false
 shots: 7
-inaccuracy: 45
+inaccuracy: 25
+velocityRnd: 5
 bullet: {
 type: BasicBulletType
 damage: 500
@@ -44,6 +45,7 @@ homingRange: 10000
 pierce: false
 pierceBuilding: false
 buildingDamageMultiplier: 999
+drag: 0.05
 }
 }
 ]
