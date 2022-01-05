@@ -1,7 +1,7 @@
 type: ItemTurret
 name: "Ripple?"
 description: "OH GOD WHAT HAVE I DONE"
-reloadTime: 25
+reloadTime: 1
 size: 3
 health: 9049123
 shots: 25
@@ -18,6 +18,9 @@ ammoTypes: {
 copper: {
 speed: 1
 damage: 12948129038029148219830291
+knockback: 15
+homingPower: 0.2
+homingRange: 150
 type: BasicBulletType
 width: 9
 lifetime: 9999999999999
