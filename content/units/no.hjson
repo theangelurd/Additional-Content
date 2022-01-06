@@ -32,7 +32,7 @@ shootSound: artillery
 shake: 10
 top: false
 shots: 7
-inaccuracy: 37
+inaccuracy: 180
 velocityRnd: 0.9
 bullet: {
 type: BasicBulletType
@@ -110,7 +110,7 @@ shots: 5
 recoil: 0
 rotate: true
 rotateSpeed: 10
-inaccuracy: 50
+inaccuracy: 180
 shotDelay: 0.5
 x: 5
 y: -3
