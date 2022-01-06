@@ -96,7 +96,7 @@ smokeEffect: smokeCloud
 lightning: 50
 lightningLengthRand: 12
 lightningLength: 12
-lightningDamage: 500
+lightningDamage: 50
 lightningColor: 00ff83
 status: electrified
 }
@@ -130,8 +130,8 @@ lightningDamage: 10
 lightningColor: 00ff83
 weaveMag: 6
 weaveScale: 12
-damage: 50
-splashDamage: 100
+damage: 20
+splashDamage: 50
 splashDamageRadius: 50
 hitEffect: blastExplosion
 despawnEffect: blastExplosion
@@ -183,15 +183,15 @@ shotDelay: 1
 spread: 10
 bullet: {
 type: SapBulletType
-damage: 1000
+damage: 100
 lifetime: 50
 hitColor: 81ffe9
 color: 81ffe9
-length: 50
+length: 100
 width: 3
 pierce: true
-knockback: -50
-sapStrength: 100
+knockback: -25
+sapStrength: 5
 }
 }
 ]
