@@ -126,6 +126,7 @@ hitEffect: blastExplosion
 despawnEffect: blastExplosion
 shootEffect: shootBig
 smokeEffect: shootBig
+trailColor: 00ff83
 knockback: 10
 drag: -0.001
 homingPower: 0.3
