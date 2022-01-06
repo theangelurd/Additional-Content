@@ -73,7 +73,9 @@ ejectEffect: casing4
 bullet: {
 type: RailBulletType
 pierceDamageFactor: 0
-speed: 0.01
+speed: 0.5
+homingPower: 1
+homingRange: 100
 updateEffectSeg: 5
 damage: 4000
 updateEffect: railTrail
