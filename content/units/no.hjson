@@ -25,7 +25,7 @@ name: none
 x: 3
 y: 0
 recoil: 0
-reload: 60
+reload: 20
 mirror: true
 shootY: 5
 shootSound: artillery
