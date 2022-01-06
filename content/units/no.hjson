@@ -22,14 +22,14 @@ itemCapacity: 250
 weapons:[
 {
 name: none
-x: 0
+x: 3
 y: 0
 recoil: 0
-reload: 180
-mirror: false
+reload: 60
+mirror: true
 shootY: 5
 shootSound: artillery
-shootShake: 10
+shake: 10
 top: false
 shots: 7
 inaccuracy: 37
@@ -55,6 +55,33 @@ pierceBuilding: false
 buildingDamageMultiplier: 0.01
 drag: 0.01
 shootEffect: railShoot
+}
+}
+{
+name: none
+reload: 120
+shake: 20
+recoil: 0
+x: 0
+y: -5
+shootY: 0
+top: false
+rotate: false
+mirror: false
+shootSound: railgun
+ejectEffect: casing4
+bullet: {
+type: RailBulletType
+pierceDamageFactor: 0.9
+speed: 0.01
+updateEffectSeg: 25
+damage: 3000
+updateEffect: railTrail
+length: 500
+hitEffect: railHit
+pierceEffect: railHit
+shootEffect: railShoot
+smokeEffect: smokeCloud
 }
 }
 ]
