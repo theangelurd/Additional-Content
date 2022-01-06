@@ -84,6 +84,12 @@ hitEffect: railHit
 pierceEffect: railHit
 shootEffect: railShoot
 smokeEffect: smokeCloud
+lightning: 6
+lightningLengthRand: 12
+lightningLength: 12
+lightningDamage: 100
+lightningColor: 00ff83
+status: electrified
 }
 }
 ]
