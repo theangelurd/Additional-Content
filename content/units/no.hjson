@@ -2,7 +2,7 @@ type: flying
 name: "no"
 description: "NO"
 flying: true
-health: 100000
+health: 7500
 commandLimit: 15
 lowAltitude: true
 hitSize: 10
@@ -36,9 +36,10 @@ inaccuracy: 180
 velocityRnd: 0.9
 bullet: {
 type: BasicBulletType
+status: electrified
 shrinkY: 0
-damage: 1000
-splashDamage: 5000
+damage: 10
+splashDamage: 50
 frontColor: 00ff83
 backColor: 00ff83
 lightning: 12
@@ -85,7 +86,7 @@ speed: 0.5
 homingPower: 1
 homingRange: 100
 updateEffectSeg: 5
-damage: 10000
+damage: 200
 updateEffect: railTrail
 length: 1000
 hitEffect: railHit
@@ -121,15 +122,16 @@ speed: 5
 lifetime: 100
 frontColor: 00ff83
 backColor: 00ff83
+status: electrified
 lightning: 12
 lightningLengthRand: 12
 lightningLength: 12
-lightningDamage: 20
+lightningDamage: 10
 lightningColor: 00ff83
 weaveMag: 6
 weaveScale: 12
-damage: 600
-splashDamage: 2000
+damage: 50
+splashDamage: 100
 splashDamageRadius: 50
 hitEffect: blastExplosion
 despawnEffect: blastExplosion
@@ -140,6 +142,31 @@ knockback: 10
 drag: -0.001
 homingPower: 0.3
 homingRange: 100
+}
+}
+{
+name: none
+recoil: 0
+reload: 5
+shootSound: sap
+rotate: true
+rotateSpeed: 28
+x: 6
+y: 4
+shots: 4
+shotDelay: 1
+spread: 10
+bullet: {
+type: SapBulletType
+damage: 25
+lifetime: 50
+hitColor: 00ff83
+color: 00ff83
+length: 250
+width: 0.5
+pierce: true
+knockback: -3
+sapStrength: 0.5
 }
 }
 ]
