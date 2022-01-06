@@ -234,6 +234,7 @@ lightningLength: 18
 lightningDamage: 120
 lightningColor: 00ff83
 status: electrified
+shootEffect: greenLaserCharge
 }
 }
 ]
