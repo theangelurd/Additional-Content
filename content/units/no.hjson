@@ -14,7 +14,7 @@ engineOffset: 7
 engineSize: 3
 targetGround: true
 targetAir: true
-rotateSpeed: 24
+rotateSpeed: 10
 buildSpeed: 2
 mineSpeed: 12.5
 mineTier: 15
@@ -147,7 +147,7 @@ homingRange: 100
 {
 name: none
 recoil: 0
-reload: 5
+reload: 0.1
 shootSound: sap
 rotate: true
 rotateSpeed: 28
@@ -160,9 +160,9 @@ bullet: {
 type: SapBulletType
 damage: 25
 lifetime: 50
-hitColor: 00ff83
-color: 00ff83
-length: 250
+hitColor: 81ffe9
+color: 81ffe9
+length: 500
 width: 0.5
 pierce: true
 knockback: -3
