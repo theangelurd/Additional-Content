@@ -37,13 +37,13 @@ velocityRnd: 0.9
 bullet: {
 type: BasicBulletType
 shrinkY: 0
-damage: 50
-splashDamage: 200
-splashDamageRadius: 42
+damage: 100
+splashDamage: 500
+splashDamageRadius: 30
 hitSound: explosion
-hitShake: 5
-hitEffect: blastExplosion
-despawnEffect: blastExplosion
+hitShake: 9
+hitEffect: flakExplosionBig
+despawnEffect: flakExplosionBig
 speed: 3
 lifetime: 500
 width: 15
@@ -59,7 +59,7 @@ shootEffect: railShoot
 }
 {
 name: none
-reload: 120
+reload: 60
 shake: 20
 recoil: 0
 x: 0
@@ -72,12 +72,12 @@ shootSound: railgun
 ejectEffect: casing4
 bullet: {
 type: RailBulletType
-pierceDamageFactor: 0.9
+pierceDamageFactor: 0
 speed: 0.01
-updateEffectSeg: 25
-damage: 3000
+updateEffectSeg: 5
+damage: 4000
 updateEffect: railTrail
-length: 500
+length: 1000
 hitEffect: railHit
 pierceEffect: railHit
 shootEffect: railShoot
