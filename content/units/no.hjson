@@ -52,8 +52,8 @@ hitShake: 9
 hitEffect: flakExplosionBig
 despawnEffect: flakExplosionBig
 speed: 1
-lifetime: 500
-width: 15
+lifetime: 200
+width: 20
 height: 12
 homingPower: 0.02
 homingRange: 10000
@@ -66,12 +66,13 @@ shootEffect: railShoot
 }
 {
 name: none
-reload: 0.5
+reload: 0.1
 shake: 20
 recoil: 0
 x: 0
 y: -5
 shootY: 0
+inaccuracy: 10
 top: false
 rotate: false
 mirror: false
@@ -105,11 +106,12 @@ shake: 5
 reload: 0.5
 shootSound: missile
 shootY: 0
-shots: 1
+shots: 5
 recoil: 0
 rotate: true
 rotateSpeed: 10
 inaccuracy: 50
+shotDelay: 0.5
 x: 5
 y: -3
 chargeSound: bang
