@@ -44,7 +44,7 @@ hitSound: explosion
 hitShake: 9
 hitEffect: flakExplosionBig
 despawnEffect: flakExplosionBig
-speed: 3
+speed: 1
 lifetime: 500
 width: 15
 height: 12
@@ -59,7 +59,7 @@ shootEffect: railShoot
 }
 {
 name: none
-reload: 5
+reload: 0.5
 shake: 20
 recoil: 0
 x: 0
@@ -77,7 +77,7 @@ speed: 0.5
 homingPower: 1
 homingRange: 100
 updateEffectSeg: 5
-damage: 40000
+damage: 10000
 updateEffect: railTrail
 length: 1000
 hitEffect: railHit
@@ -109,7 +109,7 @@ chargeSound: bang
 bullet: {
 type: MissileBulletType
 speed: 5
-lifetime: 60
+lifetime: 30
 frontColor: ff795e
 backColor: c85c51
 weaveMag: 6
