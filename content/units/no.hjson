@@ -2,7 +2,7 @@ type: flying
 name: "no"
 description: "NO"
 flying: true
-health: 45000
+health: 450000
 commandLimit: 15
 lowAltitude: true
 hitSize: 10
@@ -37,8 +37,8 @@ velocityRnd: 0.9
 bullet: {
 type: BasicBulletType
 shrinkY: 0
-damage: 100
-splashDamage: 500
+damage: 1000
+splashDamage: 5000
 splashDamageRadius: 30
 hitSound: explosion
 hitShake: 9
@@ -59,7 +59,7 @@ shootEffect: railShoot
 }
 {
 name: none
-reload: 60
+reload: 5
 shake: 20
 recoil: 0
 x: 0
@@ -77,7 +77,7 @@ speed: 0.5
 homingPower: 1
 homingRange: 100
 updateEffectSeg: 5
-damage: 4000
+damage: 40000
 updateEffect: railTrail
 length: 1000
 hitEffect: railHit
@@ -95,7 +95,7 @@ status: electrified
 {
 name: none
 shake: 5
-reload: 2
+reload: 0.5
 shootSound: missile
 shootY: 0
 shots: 1
