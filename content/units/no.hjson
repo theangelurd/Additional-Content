@@ -44,7 +44,7 @@ backColor: 00ff83
 lightning: 12
 lightningLengthRand: 12
 lightningLength: 12
-lightningDamage: 1000
+lightningDamage: 200
 lightningColor: 00ff83
 splashDamageRadius: 30
 hitSound: explosion
@@ -94,7 +94,7 @@ smokeEffect: smokeCloud
 lightning: 50
 lightningLengthRand: 12
 lightningLength: 12
-lightningDamage: 100
+lightningDamage: 500
 lightningColor: 00ff83
 status: electrified
 }
@@ -122,7 +122,7 @@ backColor: 00ff83
 lightning: 12
 lightningLengthRand: 12
 lightningLength: 12
-lightningDamage: 1000
+lightningDamage: 20
 lightningColor: 00ff83
 weaveMag: 6
 weaveScale: 12
