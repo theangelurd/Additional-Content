@@ -95,13 +95,14 @@ status: electrified
 {
 name: none
 shake: 5
-reload: 5
+reload: 2
 shootSound: missile
 shootY: 0
 shots: 1
 recoil: 0
 rotate: true
 rotateSpeed: 10
+inaccuracy: 50
 x: 5
 y: -3
 chargeSound: bang
@@ -122,6 +123,8 @@ shootEffect: shootBig
 smokeEffect: shootBig
 knockback: 10
 drag: -0.001
+homingPower: 0.3
+homingRange: 100
 }
 }
 ]
