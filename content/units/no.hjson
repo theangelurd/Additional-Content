@@ -14,7 +14,7 @@ engineOffset: 7
 engineSize: 3
 targetGround: true
 targetAir: true
-rotateSpeed: 10
+rotateSpeed: 4
 buildSpeed: 2
 mineSpeed: 12.5
 mineTier: 15
@@ -109,7 +109,7 @@ shootSound: missile
 shootY: 0
 shots: 5
 recoil: 0
-rotate: true
+rotate: false
 rotateSpeed: 10
 inaccuracy: 180
 shotDelay: 0.5
