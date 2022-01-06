@@ -196,7 +196,7 @@ sapStrength: 5
 }
 {
 name: none
-reload: 160
+reload: 500
 shake: 20
 recoil: 0
 x: 0
@@ -206,7 +206,7 @@ chargeSound: lasercharge
 shootY: 0
 shake: 25
 firstShotDelay: 100
-inaccuracy: 10
+inaccuracy: 0
 top: false
 rotate: false
 mirror: false
