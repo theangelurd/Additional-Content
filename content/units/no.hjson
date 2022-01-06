@@ -165,8 +165,33 @@ color: 81ffe9
 length: 500
 width: 0.5
 pierce: true
-knockback: -3
+knockback: -10
 sapStrength: 0.5
+}
+}
+{
+name: none
+recoil: 0
+reload: 0.1
+shootSound: sap
+rotate: true
+rotateSpeed: 28
+x: 6
+y: 4
+shots: 4
+shotDelay: 1
+spread: 10
+bullet: {
+type: SapBulletType
+damage: 1000
+lifetime: 50
+hitColor: 81ffe9
+color: 81ffe9
+length: 50
+width: 3
+pierce: true
+knockback: -50
+sapStrength: 100
 }
 }
 ]
