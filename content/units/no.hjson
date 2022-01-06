@@ -2,7 +2,7 @@ type: flying
 name: "no"
 description: "NO"
 flying: true
-health: 150000
+health: 45000
 commandLimit: 15
 lowAltitude: true
 hitSize: 10
