@@ -6,10 +6,10 @@ health: 150000
 commandLimit: 15
 lowAltitude: true
 hitSize: 10
-speed: 4.2
-drag: 0.05
+speed: 8
+drag: 0.02
 range: 10
-accel: 0.03
+accel: 0.01
 engineOffset: 7
 engineSize: 3
 targetGround: true
