@@ -38,14 +38,14 @@ bullet: {
 type: BasicBulletType
 status: electrified
 shrinkY: 0
-damage: 10
-splashDamage: 50
+damage: 50
+splashDamage: 150
 frontColor: 00ff83
 backColor: 00ff83
-lightning: 12
+lightning: 6
 lightningLengthRand: 12
 lightningLength: 12
-lightningDamage: 200
+lightningDamage: 50
 lightningColor: 00ff83
 splashDamageRadius: 30
 hitSound: explosion
@@ -67,7 +67,7 @@ shootEffect: railShoot
 }
 {
 name: none
-reload: 0.1
+reload: 7
 shake: 20
 recoil: 0
 x: 0
@@ -93,7 +93,7 @@ hitEffect: railHit
 pierceEffect: railHit
 shootEffect: railShoot
 smokeEffect: smokeCloud
-lightning: 50
+lightning: 10
 lightningLengthRand: 12
 lightningLength: 12
 lightningDamage: 50
@@ -104,7 +104,7 @@ status: electrified
 {
 name: none
 shake: 5
-reload: 0.5
+reload: 20
 shootSound: missile
 shootY: 0
 shots: 5
@@ -123,7 +123,7 @@ lifetime: 100
 frontColor: 00ff83
 backColor: 00ff83
 status: electrified
-lightning: 12
+lightning: 5
 lightningLengthRand: 12
 lightningLength: 12
 lightningDamage: 10
@@ -147,7 +147,7 @@ homingRange: 100
 {
 name: none
 recoil: 0
-reload: 0.1
+reload: 8
 shootSound: sap
 rotate: true
 rotateSpeed: 28
@@ -172,7 +172,7 @@ sapStrength: 0.5
 {
 name: none
 recoil: 0
-reload: 0.1
+reload: 15
 shootSound: sap
 rotate: true
 rotateSpeed: 28
@@ -192,6 +192,48 @@ width: 3
 pierce: true
 knockback: -25
 sapStrength: 5
+}
+}
+{
+name: none
+reload: 160
+shake: 20
+recoil: 0
+x: 0
+y: 0
+shootSound: laserblast
+chargeSound: lasercharge
+shootY: 0
+shake: 25
+firstShotDelay: 100
+inaccuracy: 10
+top: false
+rotate: false
+mirror: false
+bullet: {
+type: LaserBulletType
+collidesTeam: true
+healPercent: 100
+width: 100
+largeHit: true
+sideWidth: 15
+sideAngle: 45
+sideLength: 100
+colors: [81ffe9, 81ffe9, 81ffe9]
+speed: 0.01
+damage: 5000
+length: 400
+lifetime: 100
+hitEffect: railHit
+pierceEffect: railHit
+shootEffect: railShoot
+smokeEffect: smokeCloud
+lightning: 27
+lightningLengthRand: 18
+lightningLength: 18
+lightningDamage: 120
+lightningColor: 00ff83
+status: electrified
 }
 }
 ]
