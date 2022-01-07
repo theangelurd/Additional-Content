@@ -69,3 +69,12 @@ lifetime: 45
 research: {
 parent: arulon
 }
+abilities: [
+  {
+    type: ForceFieldAbility
+    radius: 60
+    regen: 100
+    max: 3000
+    cooldown: 450
+  }
+]
