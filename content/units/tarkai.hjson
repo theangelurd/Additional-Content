@@ -155,8 +155,22 @@ shootSound: beam
 rotate: true
 rotateSpeed: 15
 bullet: {
-type: ContinousLaserBulletType
+type: ContinuousLaserBulletType
 length: 200
+hitEffect: hitMeltHeal
+despawnEffect: {
+  type: ExplosionEffect
+  lifetime: 80
+  waveStroke: 1
+  waveRadBase: 1
+  waveLife: 1
+  waveRad: 1
+  waveColor: 84f491
+  smokeColor: 515151
+  sparkColor: 00ff83
+  sparks: 0
+  smokes: 15
+}
 drawSize: 500
 incendChance: 0.2
 incendSpread: 8
