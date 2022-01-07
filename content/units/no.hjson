@@ -50,8 +50,6 @@ lightningColor: 00ff83
 splashDamageRadius: 30
 hitSound: explosion
 hitShake: 9
-hitEffect: flakExplosionBig
-despawnEffect: flakExplosionBig
 speed: 1
 lifetime: 200
 width: 20
@@ -63,6 +61,22 @@ pierceBuilding: false
 buildingDamageMultiplier: 0.01
 drag: 0.01
 shootEffect: railShoot
+hitEffect: {
+  type: ExplosionEffect
+  lifetime: 20
+  waveStroke: 5
+  waveRadBase: 4
+  waveLife: 40
+  waveRad: 40
+  waveColor: 00ff83
+  smokeColor: 81ffe9
+  sparkColor: 00ff83
+  sparks: 7
+  smokes: 7
+  sparkRad: 20
+  sparkStroke: 1
+  sparkLen: 1
+}
 }
 }
 {
@@ -101,17 +115,17 @@ lightningColor: 00ff83
 status: electrified
 hitEffect: {
   type: ExplosionEffect
-  lifetime: 40
+  lifetime: 15
   waveStroke: 5
   waveRadBase: 4
   waveLife: 40
-  waveRad: 40
+  waveRad: 60
   waveColor: 00ff83
   smokeColor: 81ffe9
   sparkColor: 00ff83
   sparks: 7
   smokes: 7
-  sparkRad: 20
+  sparkRad: 80
   sparkStroke: 1
   sparkLen: 1
 }
