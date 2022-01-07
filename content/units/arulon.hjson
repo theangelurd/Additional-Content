@@ -51,3 +51,12 @@ lightningColor: 89a9ff
 research: {
 parent: irule
 }
+abilities: [
+  {
+    type: ForceFieldAbility
+    radius: 35
+    regen: 22
+    max: 900
+    cooldown: 300
+  }
+]
