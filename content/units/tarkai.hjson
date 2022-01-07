@@ -150,12 +150,12 @@ parent: valte
 abilities: [
   {
     type: EnergyFieldAbility
-    reload: 20
+    reload: 80
     damage: 30
     range: 150
     color: 84f491
     maxTargets: 5
-    healPercent: 0
+    healPercent: 0.5
     sectors: 3
     sectorRad: 0.2
     rotateSpeed: 1
@@ -167,6 +167,6 @@ abilities: [
     type: RepairFieldAbility
     range: 100
     amount: 50
-    reload: 30
+    reload: 70
   }
 ]
