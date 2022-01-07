@@ -282,7 +282,7 @@ shootEffect: greenLaserCharge
 hitEffect: {
   type: ExplosionEffect
   lifetime: 20
-  waveStroke: 4
+  waveStroke: 8
   waveRadBase: 10
   waveLife: 20
   waveRad: 100
