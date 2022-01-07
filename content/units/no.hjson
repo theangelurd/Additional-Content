@@ -112,7 +112,7 @@ lightningLengthRand: 12
 lightningLength: 12
 lightningDamage: 50
 lightningColor: 00ff83
-status: electrified
+status: pulse
 hitEffect: {
   type: ExplosionEffect
   lifetime: 15
@@ -213,6 +213,7 @@ width: 0.5
 pierce: true
 knockback: -10
 sapStrength: 0.5
+status: pulse
 }
 }
 {
@@ -238,6 +239,7 @@ width: 3
 pierce: true
 knockback: -25
 sapStrength: 5
+status: pulse
 }
 }
 {
@@ -277,7 +279,7 @@ lightningLengthRand: 18
 lightningLength: 18
 lightningDamage: 120
 lightningColor: 00ff83
-status: electrified
+status: pulse
 shootEffect: greenLaserCharge
 hitEffect: {
   type: ExplosionEffect
