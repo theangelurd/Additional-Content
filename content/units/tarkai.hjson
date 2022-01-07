@@ -157,7 +157,7 @@ rotateSpeed: 15
 continuous: true
 bullet: {
 type: ContinuousLaserBulletType
-length: 200
+length: 120
 hitEffect: hitMeltHeal
 despawnEffect: {
   type: ExplosionEffect
@@ -177,8 +177,8 @@ incendChance: 0.2
 incendSpread: 8
 incendAmount: 2
 shake: 1
-width: 10
-damage: 60
+width: 7
+damage: 40
 collidesTeam: true
 knockback: 4
 speed: 0.01
@@ -198,6 +198,58 @@ shootEffect: {
   sparkColor: 00ff83
   sparks: 0
   smokes: 0
+}
+}
+}
+{
+name: none
+x: 0
+y: 0
+recoil: 0
+reload: 300
+mirror: false
+shootY: 0
+shootSound: plasmaboom
+rotate: true
+shake: 15
+rotateSpeed: 99
+bullet: {
+type: BasicBulletType
+height: 1
+hitEffect: {
+  type: ExplosionEffect
+  lifetime: 30
+  waveStroke: 4
+  waveRadBase: 2
+  waveLife: 30
+  waveRad: 50
+  waveColor: 84f491
+  smokeColor: 81ffe9
+  sparkColor: 00ff83
+  sparks: 0
+  smokes: 0
+}
+status: electrified
+width: 1
+splashDamage: 250
+splashDamageRadius: 100
+collidesTeam: true
+knockback: 15
+speed: 0.01
+lifetime: 1
+healPercent: 25
+shootEffect: {
+  type: ExplosionEffect
+  lifetime: 30
+  waveStroke: 10
+  waveRadBase: 12
+  waveLife: 30
+  waveRad: 100
+  waveColor: 84f491
+  smokeColor: 515151
+  sparkColor: 00ff83
+  sparks: 0
+  smokes: 6
 }
 }
 }
