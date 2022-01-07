@@ -147,3 +147,26 @@ colors: [84f491, 84f491, 84f491]
 research: {
 parent: valte
 }
+abilities: [
+  {
+    type: EnergyFieldAbility
+    reload: 20
+    damage: 30
+    range: 150
+    color: 84f491
+    maxTargets: 5
+    healPercent: 0
+    sectors: 3
+    sectorRad: 0.2
+    rotateSpeed: 1
+    blinkScl: 5
+    shootSound: none
+    status: electrified
+  }
+    {
+    type: RepairFieldAbility
+    range: 100
+    amount: 50
+    reload: 30
+  }
+]
