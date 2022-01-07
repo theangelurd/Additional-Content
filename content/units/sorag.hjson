@@ -88,6 +88,6 @@ abilities [
     type: RepairFieldAbility
     range: 60
     amount: 30
-    reload: 35
+    reload: 100
   }
 ]
