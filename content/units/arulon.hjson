@@ -55,7 +55,7 @@ abilities: [
   {
     type: ForceFieldAbility
     radius: 50
-    regen: 22
+    regen: 0.45
     max: 900
     cooldown: 300
   }
