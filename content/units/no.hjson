@@ -99,6 +99,22 @@ lightningLength: 12
 lightningDamage: 50
 lightningColor: 00ff83
 status: electrified
+hitEffect: {
+  type: ExplosionEffect
+  lifetime: 15
+  waveStroke: 5
+  waveRadBase: 4
+  waveLife: 10
+  waveRad: 40
+  waveColor: 00ff83
+  smokeColor: 81ffe9
+  sparkColor: 00ff83
+  sparks: 7
+  smokes: 7
+  sparkRad: 20
+  sparkStroke: 1
+  sparkLen: 1
+}
 }
 }
 {
