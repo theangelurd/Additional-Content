@@ -154,6 +154,7 @@ shootY: 2
 shootSound: beam
 rotate: true
 rotateSpeed: 15
+continuous: true
 bullet: {
 type: ContinuousLaserBulletType
 length: 200
