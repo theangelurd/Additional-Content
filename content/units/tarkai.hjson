@@ -160,7 +160,7 @@ abilities: [
     sectorRad: 0.2
     rotateSpeed: 1
     blinkScl: 5
-    shootSound: none
+    shootSound: spark
     status: electrified
   }
     {
