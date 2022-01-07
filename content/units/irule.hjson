@@ -49,3 +49,12 @@ sideLength: 90
 research: {
 parent: irel
 }
+abilities: [
+  {
+    type: ForceFieldAbility
+    radius: 40
+    regen: 20
+    max: 500
+    cooldown: 320
+  }
+]
