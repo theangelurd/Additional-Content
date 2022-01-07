@@ -121,7 +121,7 @@ colors: [84f491, 84f491, 84f491]
 {
 name: large-beam-heal-cannon
 x: 0
-y: -2
+y: 15
 recoil: 4
 reload: 80
 mirror: false
@@ -141,6 +141,49 @@ lifetime: 60
 healPercent: 13
 lightColor: 84f491
 colors: [84f491, 84f491, 84f491]
+}
+}
+{
+name: none
+x: 0
+y: 0
+recoil: 0
+reload: 200
+mirror: false
+shootY: 2
+shootSound: beam
+rotate: true
+rotateSpeed: 15
+bullet: {
+type: ContinousLaserBulletType
+length: 200
+drawSize: 500
+incendChance: 0.2
+incendSpread: 8
+incendAmount: 2
+shake: 1
+width: 15
+damage: 40
+collidesTeam: true
+knockback: 2
+shootEffect: {
+  type: ExplosionEffect
+  lifetime: 30
+  waveStroke: 6
+  waveRadBase: 5
+  waveLife: 30
+  waveRad: 80
+  waveColor: 84f491
+  smokeColor: 81ffe9
+  sparkColor: 00ff83
+  sparks: 0
+  smokes: 0
+}
+speed: 0.01
+lifetime: 140
+healPercent: 1
+lightColor: 84f491
+colors: [84f491, 84f491, 84f491, 84f491]
 }
 }
 ]
