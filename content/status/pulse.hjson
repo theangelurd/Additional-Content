@@ -1,0 +1,24 @@
+speedMultiplier: 0.7
+healthMultiplier: 0.85
+reloadMultiplier: 0.5
+damage: 3
+affinities: [shocked]
+transitionDamage: 20
+dragMultiplier: 1
+effectChance: 0.1
+effect: {
+  type: ExplosionEffect
+  lifetime: 30
+  waveStroke: 10
+  waveRadBase: 15
+  waveLife: 30
+  waveRad: 60
+  waveColor: 00ff83
+  smokeColor: 676767
+  sparkColor: 00ff83
+  sparks: 7
+  smokes: 12
+  sparkRad: 20
+  sparkStroke: 2
+  sparkLen: 10
+}
