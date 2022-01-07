@@ -5,7 +5,7 @@ healthMultiplier: 0.85
 reloadMultiplier: 0.5
 damage: 1
 affinities: [shocked, electrified]
-transitionDamage: 100
+transitionDamage: 280
 dragMultiplier: 1
 effectChance: 0.1
 effect: {
