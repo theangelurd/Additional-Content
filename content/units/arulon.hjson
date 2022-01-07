@@ -54,7 +54,7 @@ parent: irule
 abilities: [
   {
     type: ForceFieldAbility
-    radius: 35
+    radius: 50
     regen: 22
     max: 900
     cooldown: 300
