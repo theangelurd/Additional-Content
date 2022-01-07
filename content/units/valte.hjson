@@ -107,3 +107,11 @@ colors: [84f491, 84f491, 84f491]
 research: {
 parent: sorag
 }
+abilities: [
+  {
+    type: RepairFieldAbility
+    range: 80
+    amount: 40
+    reload: 32
+  }
+]
