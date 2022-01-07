@@ -142,6 +142,22 @@ knockback: 10
 drag: -0.001
 homingPower: 0.3
 homingRange: 100
+hitEffect: {
+  type: ExplosionEffect
+  lifetime: 30
+  waveStroke: 10
+  waveRadBase: 5
+  waveLife: 20
+  waveRad: 20
+  waveColor: 00ff83
+  smokeColor: 81ffe9
+  sparkColor: 00ff83
+  sparks: 4
+  smokes: 4
+  sparkRad: 40
+  sparkStroke: 2
+  sparkLen: 5
+}
 }
 }
 {
