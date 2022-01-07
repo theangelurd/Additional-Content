@@ -148,7 +148,7 @@ name: none
 x: 0
 y: 0
 recoil: 0
-reload: 200
+reload: 400
 mirror: false
 shootY: 2
 shootSound: beam
@@ -161,7 +161,7 @@ length: 200
 hitEffect: hitMeltHeal
 despawnEffect: {
   type: ExplosionEffect
-  lifetime: 80
+  lifetime: 140
   waveStroke: 1
   waveRadBase: 1
   waveLife: 1
@@ -177,12 +177,12 @@ incendChance: 0.2
 incendSpread: 8
 incendAmount: 2
 shake: 1
-width: 15
-damage: 40
+width: 10
+damage: 60
 collidesTeam: true
-knockback: 2
+knockback: 4
 speed: 0.01
-lifetime: 140
+lifetime: 250
 healPercent: 1
 lightColor: 84f491
 colors: [84f491, 84f491, 84f491]
