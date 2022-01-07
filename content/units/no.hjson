@@ -67,7 +67,7 @@ hitEffect: {
   waveStroke: 5
   waveRadBase: 4
   waveLife: 40
-  waveRad: 40
+  waveRad: 20
   waveColor: 00ff83
   smokeColor: 81ffe9
   sparkColor: 00ff83
@@ -118,7 +118,7 @@ hitEffect: {
   lifetime: 15
   waveStroke: 5
   waveRadBase: 4
-  waveLife: 40
+  waveLife: 20
   waveRad: 60
   waveColor: 00ff83
   smokeColor: 81ffe9
@@ -270,9 +270,7 @@ speed: 0.01
 damage: 5000
 length: 400
 lifetime: 100
-hitEffect: railHit
 pierceEffect: railHit
-shootEffect: railShoot
 smokeEffect: smokeCloud
 lightning: 27
 lightningLengthRand: 18
@@ -281,6 +279,22 @@ lightningDamage: 120
 lightningColor: 00ff83
 status: electrified
 shootEffect: greenLaserCharge
+hitEffect: {
+  type: ExplosionEffect
+  lifetime: 15
+  waveStroke: 4
+  waveRadBase: 2
+  waveLife: 15
+  waveRad: 100
+  waveColor: 00ff83
+  smokeColor: 81ffe9
+  sparkColor: 00ff83
+  sparks: 12
+  smokes: 12
+  sparkRad: 100
+  sparkStroke: 2
+  sparkLen: 6
+}
 }
 }
 ]
