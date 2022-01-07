@@ -3,9 +3,9 @@ name: "Pulse"
 speedMultiplier: 0.7
 healthMultiplier: 0.85
 reloadMultiplier: 0.5
-damage: 3
+damage: 1
 affinities: [shocked]
-transitionDamage: 20
+transitionDamage: 100
 dragMultiplier: 1
 effectChance: 0.1
 effect: {
