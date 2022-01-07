@@ -166,6 +166,11 @@ width: 15
 damage: 40
 collidesTeam: true
 knockback: 2
+speed: 0.01
+lifetime: 140
+healPercent: 1
+lightColor: 84f491
+colors: [84f491, 84f491, 84f491]
 shootEffect: {
   type: ExplosionEffect
   lifetime: 30
@@ -179,11 +184,6 @@ shootEffect: {
   sparks: 0
   smokes: 0
 }
-speed: 0.01
-lifetime: 140
-healPercent: 1
-lightColor: 84f491
-colors: [84f491, 84f491, 84f491, 84f491]
 }
 }
 ]
