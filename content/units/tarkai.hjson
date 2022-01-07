@@ -231,7 +231,7 @@ hitEffect: {
 }
 status: electrified
 width: 1
-splashDamage: 250
+splashDamage: 750
 splashDamageRadius: 100
 collidesTeam: true
 knockback: 15
