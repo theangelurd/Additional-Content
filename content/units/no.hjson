@@ -101,10 +101,10 @@ lightningColor: 00ff83
 status: electrified
 hitEffect: {
   type: ExplosionEffect
-  lifetime: 15
+  lifetime: 40
   waveStroke: 5
   waveRadBase: 4
-  waveLife: 10
+  waveLife: 40
   waveRad: 40
   waveColor: 00ff83
   smokeColor: 81ffe9
