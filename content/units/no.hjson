@@ -281,10 +281,10 @@ status: electrified
 shootEffect: greenLaserCharge
 hitEffect: {
   type: ExplosionEffect
-  lifetime: 15
+  lifetime: 20
   waveStroke: 4
-  waveRadBase: 2
-  waveLife: 15
+  waveRadBase: 10
+  waveLife: 20
   waveRad: 100
   waveColor: 00ff83
   smokeColor: 81ffe9
