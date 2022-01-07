@@ -38,14 +38,14 @@ bullet: {
 type: BasicBulletType
 status: electrified
 shrinkY: 0
-damage: 50
-splashDamage: 150
+damage: 25
+splashDamage: 75
 frontColor: 00ff83
 backColor: 00ff83
 lightning: 6
 lightningLengthRand: 12
 lightningLength: 12
-lightningDamage: 50
+lightningDamage: 10
 lightningColor: 00ff83
 splashDamageRadius: 30
 hitSound: explosion
@@ -100,9 +100,9 @@ speed: 0.5
 homingPower: 1
 homingRange: 100
 updateEffectSeg: 5
-damage: 200
+damage: 60
 updateEffect: railTrail
-length: 1000
+length: 50
 hitEffect: railHit
 pierceEffect: railHit
 shootEffect: railShoot
@@ -110,7 +110,7 @@ smokeEffect: smokeCloud
 lightning: 10
 lightningLengthRand: 12
 lightningLength: 12
-lightningDamage: 50
+lightningDamage: 10
 lightningColor: 00ff83
 status: pulse
 hitEffect: {
@@ -156,12 +156,12 @@ status: electrified
 lightning: 5
 lightningLengthRand: 12
 lightningLength: 12
-lightningDamage: 10
+lightningDamage: 5
 lightningColor: 00ff83
 weaveMag: 6
 weaveScale: 12
-damage: 20
-splashDamage: 50
+damage: 10
+splashDamage: 20
 splashDamageRadius: 50
 hitEffect: blastExplosion
 despawnEffect: blastExplosion
@@ -204,7 +204,7 @@ shotDelay: 1
 spread: 10
 bullet: {
 type: SapBulletType
-damage: 25
+damage: 10
 lifetime: 50
 hitColor: 81ffe9
 color: 81ffe9
@@ -230,7 +230,7 @@ shotDelay: 1
 spread: 10
 bullet: {
 type: SapBulletType
-damage: 100
+damage: 50
 lifetime: 50
 hitColor: 81ffe9
 color: 81ffe9
@@ -269,7 +269,7 @@ sideAngle: 45
 sideLength: 100
 colors: [81ffe9, 81ffe9, 81ffe9]
 speed: 0.01
-damage: 5000
+damage: 1000
 length: 400
 lifetime: 100
 pierceEffect: railHit
