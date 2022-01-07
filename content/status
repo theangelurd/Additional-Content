@@ -1,6 +1,0 @@
-type: StatusEffect
-color: ffffff
-speedMultiplier: 0.5
-damage: 0.2
-effect: flakExplosion
-healthMultiplier: 0.9
