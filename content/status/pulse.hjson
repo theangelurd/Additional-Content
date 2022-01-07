@@ -1,3 +1,5 @@
+type: StatusEffect
+name: "Pulse"
 speedMultiplier: 0.7
 healthMultiplier: 0.85
 reloadMultiplier: 0.5
