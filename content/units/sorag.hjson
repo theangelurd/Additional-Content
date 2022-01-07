@@ -83,3 +83,11 @@ frontColor: 84f491
 research: {
 parent: carrai
 }
+abilities [
+  {
+    type: RepairFieldAbility
+    range: 60
+    amount: 30
+    reload: 35
+  }
+]
