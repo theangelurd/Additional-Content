@@ -46,3 +46,12 @@ hittable: false
 research: {
 parent: ground-factory
 }
+abilities: [
+  {
+    type: ForceFieldAbility
+    radius: 20
+    regen: 10
+    max: 200
+    cooldown: 400
+  }
+]
