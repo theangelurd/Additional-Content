@@ -24,6 +24,20 @@ armor: 13
 itemCapacity: 280
 weapons:[
 {
+  type: RepairBeamWeapon
+  name: repair-center
+  x: 10
+  y: -3
+  mirror: true
+  shootY: 5
+  beamWidth: 1
+  repairSpeed: 2.5
+  bullet: {
+    type: BulletType
+    maxRange: 250
+  }
+}
+{
 name: repair-cannon
 x: 22
 y: 7
