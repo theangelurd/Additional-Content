@@ -34,7 +34,7 @@ weapons:[
   repairSpeed: 2.5
   bullet: {
     type: BulletType
-    maxRange: 250
+    maxRange: 500
   }
 }
 {
