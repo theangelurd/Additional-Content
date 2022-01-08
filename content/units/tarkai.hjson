@@ -37,9 +37,9 @@ weapons:[
   shootSound: lasershoot
   recoil: 2
   reload: 30
-  shots: 3
+  shots: 2
   inaccuracy: 16
-  shotDelay: 1
+  shotDelay: 5
   chargeSound: bang
   bullet: {
     type: BulletType
