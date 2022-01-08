@@ -105,7 +105,27 @@ weapons:[
     trailChance: 1
     trailLength: 10
     trailWidth: 3
-    trailEffect: additional-content-orb
+    trailEffect: {
+      type: ExplosionEffect
+      lifetime: 20
+      waveStroke: 0
+      waveRadBase: 3
+      waveLife: 20
+      waveRad: 0
+      waveColor: 84f491
+      smokeColor: 81ffe9
+      sparkColor: 00ff83
+      sparks: 5
+      smokes: 3
+      sparkStroke: 1.5
+      sparkRad: 20
+      sparkLen: 3
+      smokeColor: 575757
+      sparkColor: 84f491
+      smokeSize: 3
+      smokeRad: 20
+      smokeSizeBase: 1.5
+    }
     trailParam: 2
   }
 }
