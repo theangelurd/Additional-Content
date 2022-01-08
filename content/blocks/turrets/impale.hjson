@@ -1,0 +1,97 @@
+type: PowerTurret
+name: "Impale"
+description: "Shoots strong piercing plasma bolts at all enemies."
+health: 640
+size: 3
+reloadTime: 70
+shootSound: missile
+range: 250
+recoilAmount: 2
+restitution: 0.03
+chargeTime: 0
+hasPower: true
+powerUse: 8
+shots: 1
+rotateSpeed: 6
+ammoTypes: {
+           titanium: {
+           type: BasicBulletType
+           pierce: false
+           damage: 10
+           splashDamage: 16
+           splashDamageRadius: 20
+           width: 14
+           height: 9
+           lifetime: 60
+           weaveScale: 10
+           weaveMag: 3
+           homingPower: 0.2
+           homingRange: 180
+           speed: 3
+           despawnEffect: blastExplosion
+           hitEffect: blastExplosion
+           backColor: 808eff
+           frontColor: 808eff
+           shootEffect: shootSmall
+           smokeEffect: shootSmallSmoke
+           hitShake: 1
+           shrinkY: 0
+           hitSound: explosion
+           }
+}
+shootType: {
+           type: BasicBulletType
+           sprite: additional-content-diamondbullet
+           damage: 100
+           pierce: true
+           pierceBuilding: true
+           pierceCap: 7
+           width: 10
+           height: 17
+           lifetime: 60
+           weaveScale: 2
+           weaveMag: 0.25
+           homingPower: 0.1
+           homingRange: 220
+           speed: 6
+           despawnEffect: {
+             lifetime: 30
+             waveRad: 50
+             waveStroke: 5
+             waveRadBase: 4.5
+             waveColor: 808eff
+             sparks: 6
+             sparkColor: 808eff
+             sparkStroke: 1
+             sparkRad: 50
+             sparkLen: 3
+           }
+           hitEffect: {
+             lifetime: 30
+             waveRad: 50
+             waveStroke: 5
+             waveRadBase: 4.5
+             waveColor: 808eff
+             sparks: 6
+             sparkColor: 808eff
+             sparkStroke: 1
+             sparkRad: 50
+             sparkLen: 3
+           }
+           backColor: 808eff
+           frontColor: 808eff
+           shootEffect: shootBig
+           smokeEffect: shootBigSmoke
+           hitShake: 5
+           shrinkY: 0
+           hitSound: explosion
+}
+requirements:[
+  copper/180
+  lead/150
+  graphite/115
+  silicon/120
+  titanium/100
+]
+research: pike
+category: turret
