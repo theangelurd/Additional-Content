@@ -24,6 +24,92 @@ armor: 13
 itemCapacity: 280
 weapons:[
 {
+  controllable: false
+  autoTarget: true
+  mirror: true
+  shake: 4
+  shootY: 1
+  rotate: true
+  rotateSpeed: 10
+  x: 7
+  y: 18
+  shootSound: lasershoot
+  recoil: 2
+  reload: 30
+  bullet: {
+    type: BulletType
+    sprite: additional-content-sizedBullet
+    lifetime: 35
+    speed: 3.5
+    width: 7
+    height: 10
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 6
+    hitEffect: {
+      type: ExplosionEffect
+      lifetime: 20
+      waveStroke: 3
+      waveRadBase: 3
+      waveLife: 20
+      waveRad: 30
+      waveColor: 84f491
+      smokeColor: 81ffe9
+      sparkColor: 00ff83
+      sparks: 5
+      smokes: 3
+      sparkStroke: 1.5
+      sparkRad: 20
+      sparkLen: 3
+      smokeColor: 575757
+      sparkColor: 84f491
+      smokeSize: 3
+      smokeRad: 20
+      smokeSizeBase: 1.5
+    }
+    despawnEffect: {
+      type: ExplosionEffect
+      lifetime: 20
+      waveStroke: 3
+      waveRadBase: 3
+      waveLife: 20
+      waveRad: 30
+      waveColor: 84f491
+      smokeColor: 81ffe9
+      sparkColor: 00ff83
+      sparks: 5
+      smokes: 3
+      sparkStroke: 1.5
+      sparkRad: 20
+      sparkLen: 3
+      smokeColor: 575757
+      sparkColor: 84f491
+      smokeSize: 3
+      smokeRad: 20
+      smokeSizeBase: 1.5
+    }
+    status: electrified
+    statusDuration: 600
+    lightning: 2
+    lightningDamage: 4
+    lightningLength: 6
+    lightningLengthRand: 6
+    damage: 25
+    collidesTeam: true
+    healPercent: 6
+    absorbable: true
+    incendAmount: 5
+    incendSpread: 10
+    incendChance: 0.2
+    trailInterval: 0.1
+    trailChance: 1
+    trailLength: 10
+    trailWidth: 3
+    trailEffect: additional-content-orb
+    trailParam: 2
+  }
+}
+{
   type: RepairBeamWeapon
   name: repair-center
   x: 10
