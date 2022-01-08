@@ -40,7 +40,9 @@ weapons:[
   bullet: {
     type: BulletType
     sprite: additional-content-sizedBullet
-    lifetime: 35
+    lifetime: 60
+    hitShake: 2
+    hitSound: explosion
     speed: 3.5
     width: 7
     height: 10
@@ -95,6 +97,7 @@ weapons:[
     lightningDamage: 4
     lightningLength: 6
     lightningLengthRand: 6
+    lightningColor: 84f491
     damage: 25
     collidesTeam: true
     healPercent: 6
@@ -106,7 +109,7 @@ weapons:[
     trailChance: 1
     trailLength: 10
     trailWidth: 3
-    trailColor: 00ff83
+    trailColor: 84f491
     trailEffect: {
       type: ExplosionEffect
       lifetime: 20
@@ -116,7 +119,6 @@ weapons:[
       waveRad: 0
       waveColor: 84f491
       smokeColor: 81ffe9
-      sparkColor: 00ff83
       sparks: 5
       smokes: 0
       sparkStroke: 1.5
