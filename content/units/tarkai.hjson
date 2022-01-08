@@ -24,6 +24,7 @@ armor: 13
 itemCapacity: 280
 weapons:[
 {
+  name: automatic-heal-weapon
   controllable: false
   autoTarget: true
   mirror: true
@@ -105,6 +106,7 @@ weapons:[
     trailChance: 1
     trailLength: 10
     trailWidth: 3
+    trailColor: 00ff83
     trailEffect: {
       type: ExplosionEffect
       lifetime: 20
@@ -116,15 +118,11 @@ weapons:[
       smokeColor: 81ffe9
       sparkColor: 00ff83
       sparks: 5
-      smokes: 3
+      smokes: 0
       sparkStroke: 1.5
       sparkRad: 20
       sparkLen: 3
-      smokeColor: 575757
       sparkColor: 84f491
-      smokeSize: 3
-      smokeRad: 20
-      smokeSizeBase: 1.5
     }
     trailParam: 2
   }
