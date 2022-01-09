@@ -58,9 +58,10 @@ shootType: {
              lifetime: 30
              waveRad: 50
              waveStroke: 5
-             waveRadBase: 4.5
+             waveRadBase: 6
              waveColor: 808eff
              sparks: 6
+             smokes: 0
              sparkColor: 808eff
              sparkStroke: 1
              sparkRad: 50
@@ -70,9 +71,10 @@ shootType: {
              lifetime: 30
              waveRad: 50
              waveStroke: 5
-             waveRadBase: 4.5
+             waveRadBase: 6
              waveColor: 808eff
              sparks: 6
+             smokes: 0
              sparkColor: 808eff
              sparkStroke: 1
              sparkRad: 50
