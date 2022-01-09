@@ -1,0 +1,71 @@
+type: PowerTurret
+name: "Impale"
+description: "Shoots a destructive railgun blast at all enemies."
+health: 960
+size: 3
+reloadTime: 150
+shootSound: missile
+range: 400
+recoilAmount: 3
+restitution: 0.015
+chargeTime: 0
+hasPower: true
+powerUse: 15
+shots: 1
+rotateSpeed: 5
+ammoTypes: {
+           titanium: {
+           type: BasicBulletType
+           pierce: false
+           damage: 10
+           splashDamage: 16
+           splashDamageRadius: 20
+           width: 14
+           height: 9
+           lifetime: 60
+           weaveScale: 10
+           weaveMag: 3
+           homingPower: 0.2
+           homingRange: 180
+           speed: 3
+           despawnEffect: blastExplosion
+           hitEffect: blastExplosion
+           backColor: 808eff
+           frontColor: 808eff
+           shootEffect: shootSmall
+           smokeEffect: shootSmallSmoke
+           hitShake: 1
+           shrinkY: 0
+           hitSound: explosion
+           }
+}
+shootType: {
+    type: RailBulletType
+    damage: 650
+    pierceDamageFactor: 0.7
+    length: 400
+    updateEffect: {
+      type: ParticleEffect
+      particles: 1
+      length: 10
+      lifetime: 35
+      sizeFrom: 20
+      sizeTo: 0
+      colorFrom: 808eff
+      colorTo: 808eff
+      region: additional-content-diamondbullet
+    }
+    updateEffectSeg: 20
+    pierceEffect: none
+}
+requirements:[
+  copper/750
+  lead/625
+  graphite/525
+  silicon/500
+  titanium/450
+  plastanium/300
+  surge-alloy/175
+]
+research: impale
+category: turret
