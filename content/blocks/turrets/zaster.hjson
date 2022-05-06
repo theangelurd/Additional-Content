@@ -4,7 +4,7 @@ description: Shoots a bigger array of bullets at enemies.
 health: 8000
 size: 2
 reloadTime: 62
-shots: 45
+shots: 60
 shootShake: 8
 recoilAmount: 5
 cooldown: 0.007
