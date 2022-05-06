@@ -3,8 +3,8 @@ name: Spilar
 description: Shoots a spiral of bullets.
 health: 8000
 size: 2
-reloadTime: 3
-shots: 18
+reloadTime: 15
+shots: 36
 spread: 10
 shootShake: 3
 recoilAmount: 1
@@ -16,9 +16,9 @@ shootEffect: {
       waveRadBase: 2
       waveLife: 15
       waveRad: 20
-      waveColor: #dadeff
+      waveColor: dadeff
       smokeColor: 3a3a3a
-      sparkColor: #dadeff
+      sparkColor: dadeff
       sparks: 15
       smokes: 20
       sparkStroke: 1
@@ -36,8 +36,8 @@ shootType: {
 type: BasicBulletType
 damage: 24
 lifetime: 30
-backColor: #dadeff
-frontColor: #dadeff
+backColor: dadeff
+frontColor: dadeff
 speed: 6
 keepVelocity: false
 shrinkY: 0
