@@ -1,7 +1,7 @@
 type: PowerTurret
 name: Spilar
-description: Shoots a spiral of bullets.
-health: 1500
+description: Shoots a spiral of bullets that attract enemies back.
+health: 5000
 size: 2
 reloadTime: 3
 shots: 128
@@ -49,13 +49,14 @@ hitEffect: flakExplosion
 despawnEffect: flakExplosion
 hitSound: explosion
 homingRange: 80
-homingPower: 0.05
+homingPower: 0.1
+knockback: -2
 }
 research: lancer
 requirements:[
-copper/500
-lead/800
-silicon/550
-titanium/600
+copper/1575
+lead/2000
+silicon/900
+titanium/2500
 ]
 category: turret
