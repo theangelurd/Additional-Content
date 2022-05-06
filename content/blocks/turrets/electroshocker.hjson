@@ -44,10 +44,10 @@ fragBullet: {
 type: BasicBulletType
 sprite: additional-content-sizedBullet
 damage: 8
-lifetime: 20
+lifetime: 30
 backColor: ffffff
 frontColor: ffffff
-speed: 6
+speed: 8
 keepVelocity: false
 shrinkY: 0.1
 width: 9
