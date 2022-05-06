@@ -9,7 +9,25 @@ shootShake: 4
 recoilAmount: 2.5
 cooldown: 0.01
 rotateSpeed: 6
-shootEffect: ExplosionEffect 
+shootEffect: {
+      type: ExplosionEffect
+      lifetime: 20
+      waveStroke: 2
+      waveRadBase: 2
+      waveLife: 15
+      waveRad: 25
+      waveColor: ffffff
+      smokeColor: 3a3a3a
+      sparkColor: ffffff
+      sparks: 15
+      smokes: 20
+      sparkStroke: 2
+      sparkRad: 30
+      sparkLen: 4
+      smokeSize: 3
+      smokeRad: 20
+      smokeSizeBase: 1.5
+} 
 powerUse: 45
 heatColor: ff000b
 shootSound: spark
@@ -18,13 +36,17 @@ shootType: {
 type: LightningBulletType
 damage: 20
 lightningLength: 15
+lightningColor: ffffff
 collidesAir: false
 fragBullets: 2
 fragCone: 140
 fragBullet: {
 type: BasicBulletType
+sprite: additional-content-sizedBullet
 damage: 8
 lifetime: 20
+backColor: ffffff
+frontColor: ffffff
 speed: 6
 keepVelocity: false
 shrinkY: 0.1
