@@ -1,6 +1,6 @@
 type: PowerTurret
 name: Spilar
-description: Shoots a bigger array of bullets at enemies.
+description: Shoots a spiral of bullets.
 health: 8000
 size: 2
 reloadTime: 3
