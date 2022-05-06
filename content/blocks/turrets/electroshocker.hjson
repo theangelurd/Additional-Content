@@ -9,7 +9,6 @@ shootShake: 4
 recoilAmount: 2.5
 cooldown: 0.01
 rotateSpeed: 5
-range: 350
 shootEffect: {
       type: ExplosionEffect
       lifetime: 20
@@ -32,7 +31,7 @@ shootEffect: {
 powerUse: 45
 heatColor: ff000b
 shootSound: spark
-range: 100
+range: 250
 shootType: {
 type: LightningBulletType
 damage: 40
