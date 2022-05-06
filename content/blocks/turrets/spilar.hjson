@@ -5,7 +5,7 @@ health: 1500
 size: 2
 reloadTime: 12
 shots: 36
-burstDelay: 2
+burstSpacing: 2
 spread: 10
 shootShake: 3
 recoilAmount: 1
