@@ -1,0 +1,59 @@
+type: PowerTurret
+name: Spilar
+description: Shoots a bigger array of bullets at enemies.
+health: 8000
+size: 2
+reloadTime: 3
+shots: 18
+spread: 10
+shootShake: 3
+recoilAmount: 1
+rotateSpeed: 6
+shootEffect: {
+      type: ExplosionEffect
+      lifetime: 15
+      waveStroke: 2
+      waveRadBase: 2
+      waveLife: 15
+      waveRad: 20
+      waveColor: #dadeff
+      smokeColor: 3a3a3a
+      sparkColor: #dadeff
+      sparks: 15
+      smokes: 20
+      sparkStroke: 1
+      sparkRad: 20
+      sparkLen: 2
+      smokeSize: 2
+      smokeRad: 15
+      smokeSizeBase: 1
+} 
+powerUse: 10
+heatColor: ff000b
+shootSound: spark
+range: 300
+shootType: {
+type: BasicBulletType
+damage: 24
+lifetime: 30
+backColor: #dadeff
+frontColor: #dadeff
+speed: 6
+keepVelocity: false
+shrinkY: 0
+width: 11
+height: 11
+hitEffect: flakExplosion
+despawnEffect: flakExplosion
+hitSound: explosion
+homingRange: 80
+homingPower: 0.05
+}
+research: lancer
+requirements:[
+copper/500
+lead/800
+silicon/550
+titanium/600
+]
+category: turret
