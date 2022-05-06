@@ -2,6 +2,7 @@ name: "Shade Wall"
 description: "The power of darkness strengthens this powerful wall. Spans multiple tiles."
 type: Wall
 health: 21000
+size: 2
 requirements:[
     shadium/36
 ]
