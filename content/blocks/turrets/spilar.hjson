@@ -50,7 +50,7 @@ despawnEffect: flakExplosion
 hitSound: explosion
 homingRange: 80
 homingPower: 0.1
-knockback: -2
+knockback: -10
 }
 research: lancer
 requirements:[
