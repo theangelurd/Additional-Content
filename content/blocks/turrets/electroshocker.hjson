@@ -3,12 +3,13 @@ name: Electroshocker
 description: Shoots an array to lightning that later converts into a volley of bullets.
 health: 2000
 size: 1
-reloadTime: 40
-shots: 8
+reloadTime: 60
+shots: 20
 shootShake: 4
 recoilAmount: 2.5
 cooldown: 0.01
-rotateSpeed: 6
+rotateSpeed: 5
+range: 200
 shootEffect: {
       type: ExplosionEffect
       lifetime: 20
@@ -44,7 +45,7 @@ fragBullet: {
 type: BasicBulletType
 sprite: additional-content-sizedBullet
 damage: 20
-lifetime: 30
+lifetime: 40
 backColor: ffffff
 frontColor: ffffff
 speed: 8
@@ -56,7 +57,7 @@ hitEffect: flakExplosion
 despawnEffect: flakExplosion
 hitSound: explosion
 homingRange: 200
-homingPower: 0.1
+homingPower: 0.2
 }
 }
 research: arc
