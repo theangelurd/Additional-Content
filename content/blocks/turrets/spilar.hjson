@@ -4,9 +4,9 @@ description: Shoots a spiral of bullets.
 health: 1500
 size: 2
 reloadTime: 12
-shots: 36
-burstSpacing: 2
-spread: 10
+shots: 128
+burstSpacing: 0.5
+spread: 5
 shootShake: 3
 recoilAmount: 1
 rotateSpeed: 6
@@ -35,7 +35,7 @@ shootSound: spark
 range: 300
 shootType: {
 type: BasicBulletType
-damage: 24
+damage: 1
 lifetime: 30
 backColor: dadeff
 frontColor: dadeff
