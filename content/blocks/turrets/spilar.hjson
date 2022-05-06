@@ -10,6 +10,7 @@ spread: 5
 shootShake: 3
 recoilAmount: 1
 rotateSpeed: 6
+details: Create the milky way.
 shootEffect: {
       type: ExplosionEffect
       lifetime: 15
@@ -31,12 +32,12 @@ shootEffect: {
 } 
 powerUse: 10
 heatColor: ff000b
-shootSound: spark
+shootSound: laser
 range: 300
 shootType: {
 type: BasicBulletType
 damage: 1
-lifetime: 30
+lifetime: 120
 backColor: dadeff
 frontColor: dadeff
 speed: 6
