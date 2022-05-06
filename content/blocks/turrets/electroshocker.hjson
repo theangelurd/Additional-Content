@@ -1,0 +1,48 @@
+type: PowerTurret
+name: Electroshocker
+description: Shoots an array to lightning that later converts into a volley of bullets.
+health: 2000
+size: 1
+reloadTime: 40
+shots: 8
+shootShake: 4
+recoilAmount: 2.5
+cooldown: 0.01
+rotateSpeed: 6
+shootEffect: ExplosionEffect 
+powerUse: 45
+heatColor: ff000b
+shootSound: spark
+range: 100
+shootType: {
+type: LightningBulletType
+damage: 20
+lightningLength: 15
+collidesAir: false
+fragBullets: 2
+fragCone: 140
+fragBullet: {
+type: BasicBulletType
+damage: 8
+lifetime: 20
+speed: 6
+keepVelocity: false
+shrinkY: 0.1
+width: 9
+height: 9
+hitEffect: flakExplosion
+despawnEffect: flakExplosion
+hitSound: explosion
+}
+}
+research: arc
+requirements:[
+copper/4000
+lead/5500
+silicon/4000
+titanium/3500
+thorium/2000
+plastanium/2000
+kalabsak/1000
+]
+category: turret
