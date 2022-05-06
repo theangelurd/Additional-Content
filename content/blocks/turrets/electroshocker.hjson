@@ -34,7 +34,7 @@ shootSound: spark
 range: 100
 shootType: {
 type: LightningBulletType
-damage: 20
+damage: 40
 lightningLength: 15
 lightningColor: ffffff
 collidesAir: false
@@ -43,7 +43,7 @@ fragCone: 140
 fragBullet: {
 type: BasicBulletType
 sprite: additional-content-sizedBullet
-damage: 8
+damage: 20
 lifetime: 30
 backColor: ffffff
 frontColor: ffffff
@@ -55,6 +55,8 @@ height: 9
 hitEffect: flakExplosion
 despawnEffect: flakExplosion
 hitSound: explosion
+homingRange: 200
+homingPower: 0.1
 }
 }
 research: arc
