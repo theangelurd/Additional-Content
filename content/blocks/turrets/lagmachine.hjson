@@ -1,0 +1,165 @@
+type: PowerTurret
+name: lag machine
+description: use this turret if you want to lag your game to death
+health: 3553151453142145
+size: 10
+reloadTime: 100
+shots: 100
+shootShake: 15
+recoilAmount: 0
+rotateSpeed: 100
+velocityInaccuracy: 5
+shootEffect: {
+      type: ExplosionEffect
+      lifetime: 150
+      waveStroke: 6
+      waveRadBase: 6
+      waveLife: 150
+      waveRad: 150
+      waveColor: ffffff
+      smokeColor: ffffff
+      sparkColor: ffffff
+      sparks: 150
+      smokes: 150
+      sparkStroke: 9
+      sparkRad: 150
+      sparkLen: 10
+      smokeSize: 10
+      smokeRad: 150
+      smokeSizeBase: 21
+} 
+powerUse: 63463463436463463463463456734
+shootSound: beam
+range: 1000
+shootType: {
+type: BasicBulletType
+height: 10
+hitEffect: {
+      type: ExplosionEffect
+      lifetime: 150
+      waveStroke: 6
+      waveRadBase: 6
+      waveLife: 150
+      waveRad: 150
+      waveColor: ffffff
+      smokeColor: ffffff
+      sparkColor: ffffff
+      sparks: 150
+      smokes: 150
+      sparkStroke: 9
+      sparkRad: 150
+      sparkLen: 10
+      smokeSize: 10
+      smokeRad: 150
+      smokeSizeBase: 21
+} 
+sprite: additional-content-sizedBullet
+damage: 500
+splashDamage: 500
+splashDamageRadius: 50
+lifetime: 20
+backColor: ffffff
+frontColor: ffffff
+speed: 10
+keepVelocity: false
+shrinkY: 0
+width: 11
+height: 11
+hitEffect: flakExplosionBig
+despawnEffect: flakExplosionBig
+hitSound: explosion
+homingRange: 0
+homingPower: 0
+fragBullets: 10
+fragBullet: {
+type: BasicBulletType
+height: 10
+hitEffect: {
+      type: ExplosionEffect
+      lifetime: 150
+      waveStroke: 6
+      waveRadBase: 6
+      waveLife: 150
+      waveRad: 150
+      waveColor: ffffff
+      smokeColor: ffffff
+      sparkColor: ffffff
+      sparks: 150
+      smokes: 150
+      sparkStroke: 9
+      sparkRad: 150
+      sparkLen: 10
+      smokeSize: 10
+      smokeRad: 150
+      smokeSizeBase: 21
+} 
+sprite: additional-content-sizedBullet
+damage: 500
+splashDamage: 500
+splashDamageRadius: 50
+lifetime: 20
+backColor: ffffff
+frontColor: ffffff
+speed: 10
+keepVelocity: false
+shrinkY: 0
+width: 11
+height: 11
+hitEffect: flakExplosionBig
+despawnEffect: flakExplosionBig
+hitSound: explosion
+homingRange: 0
+homingPower: 0
+fragBullets: 10
+fragBullet: {
+type: BasicBulletType
+height: 10
+hitEffect: {
+      type: ExplosionEffect
+      lifetime: 150
+      waveStroke: 6
+      waveRadBase: 6
+      waveLife: 150
+      waveRad: 150
+      waveColor: ffffff
+      smokeColor: ffffff
+      sparkColor: ffffff
+      sparks: 150
+      smokes: 150
+      sparkStroke: 9
+      sparkRad: 150
+      sparkLen: 10
+      smokeSize: 10
+      smokeRad: 150
+      smokeSizeBase: 21
+} 
+sprite: additional-content-sizedBullet
+damage: 500
+splashDamage: 500
+splashDamageRadius: 50
+lifetime: 20
+backColor: ffffff
+frontColor: ffffff
+speed: 10
+keepVelocity: false
+shrinkY: 0
+width: 11
+height: 11
+hitEffect: flakExplosionBig
+despawnEffect: flakExplosionBig
+hitSound: explosion
+homingRange: 0
+homingPower: 0
+}
+}
+}
+research: over
+requirements:[
+copper/99999999999999
+lead/99999999999999
+silicon/99999999999999
+titanium/99999999999999
+thorium/99999999999999
+plastanium/99999999999999
+]
+category: turret
