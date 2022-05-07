@@ -59,7 +59,7 @@ buildingDamageMultiplier: 0.01
 }
 {
 name: drak-weapon
-x: 3
+x: -3.5
 y: -0
 recoil: 1.5
 reload: 15
