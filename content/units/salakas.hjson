@@ -1,0 +1,89 @@
+type: flying
+name: "Salakas"
+description: "Shoots 5 powerful missiles from a center weapon and 2 lesser bullets."
+flying: true
+health: 450
+commandLimit: 8
+lowAltitude: true
+hitSize: 13
+speed: 4.2
+drag: 0.08
+range: 160
+accel: 0.06
+engineOffset: 1
+engineSize: 4
+targetGround: true
+targetAir: true
+rotateSpeed: 22
+buildSpeed: 3
+mineSpeed: 12
+mineTier: 4
+itemCapacity: 120
+weapons:[
+{
+name: megarocket
+shake: 2
+reload: 60
+shootSound: missile
+shootY: 8
+shots: 5
+shotDelay: 1
+recoil: 3
+rotate: true
+rotateSpeed: 4
+x: 0
+y: 0
+spacing: 1
+inaccuracy: 5
+xRand: 1
+chargeSound: bang
+bullet: {
+type: MissileBulletType
+speed: 5
+lifetime: 40
+frontColor: ff795e
+backColor: c85c51
+weaveMag: 4
+weaveScale: 8
+damage: 12
+splashDamage: 30
+splashDamageRadius: 25
+hitEffect: blastExplosion
+despawnEffect: blastExplosion
+shootEffect: shootBig
+smokeEffect: shootBig
+knockback: 3
+drag: -0.005
+buildingDamageMultiplier: 0.01
+}
+}
+{
+name: drak-weapon
+x: 3
+y: -0
+recoil: 1.5
+reload: 15
+mirror: true
+shootY: 3
+shootSound: pew
+top: true
+rotate: true
+rotateSpeed: 25
+bullet: {
+type: BasicBulletType
+damage: 12
+speed: 3
+lifetime: 60
+width: 6
+height: 10
+pierce: false
+pierceBuilding: false
+buildingDamageMultiplier: 0.01
+homingPower: 0.1
+homingRange: 40
+}
+}
+]
+research: {
+  parent: core-saklars
+}
