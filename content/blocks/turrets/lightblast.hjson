@@ -43,12 +43,12 @@ sideWidth: 4
 sideAngle: 90
 colors: [ffffffff, ffffffff, ffffffff]
 lightColor: 6f5b5f
-damage: 400
+damage: 1800
 fragBullets: 15
 fragCone: 160
 fragBullet: {
 type: LightningBulletType
-damage: 30
+damage: 60
 lightningLength: 25
 lightningColor: ffffff
 collidesAir: true
@@ -57,7 +57,7 @@ fragCone: 140
 fragBullet: {
 type: BasicBulletType
 sprite: additional-content-sizedBullet
-damage: 20
+damage: 80
 lifetime: 45
 backColor: ffffff
 frontColor: ffffff
