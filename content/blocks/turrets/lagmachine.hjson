@@ -2,7 +2,7 @@ type: PowerTurret
 name: lag machine
 description: use this turret if you want to lag your game to death
 health: 3553151453142145
-size: 10
+size: 5
 reloadTime: 100
 shots: 100
 shootShake: 15
