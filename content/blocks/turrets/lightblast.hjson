@@ -1,5 +1,5 @@
 type: PowerTurret
-name: Zaster
+name: Lightblast
 description: Shoots a bigger array of bullets at enemies.
 health: 18000
 size: 3
