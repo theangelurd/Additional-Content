@@ -27,7 +27,8 @@ reload: 60
 shootSound: missile
 shootY: 8
 shots: 5
-shotDelay: 1
+shotDelay: 3
+mirror: false
 recoil: 3
 rotate: true
 rotateSpeed: 4
@@ -36,7 +37,6 @@ y: 0
 spacing: 1
 inaccuracy: 5
 xRand: 1
-chargeSound: bang
 bullet: {
 type: MissileBulletType
 speed: 5
