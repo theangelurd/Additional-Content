@@ -1,0 +1,89 @@
+type: PowerTurret
+name: Zaster
+description: Shoots a bigger array of bullets at enemies.
+health: 18000
+size: 3
+reloadTime: 250
+shots: 1
+shootShake: 12
+recoilAmount: 7.5
+rotateSpeed: 4.5
+shootEffect: {
+      type: ExplosionEffect
+      lifetime: 40
+      waveStroke: 3
+      waveRadBase: 3
+      waveLife: 40
+      waveRad: 50
+      waveColor: ffffff
+      smokeColor: 3a3a3a
+      sparkColor: ffffff
+      sparks: 35
+      smokes: 50
+      sparkStroke: 3
+      sparkRad: 60
+      sparkLen: 4
+      smokeSize: 4
+      smokeRad: 50
+      smokeSizeBase: 3
+} 
+powerUse: 80
+shootSound: laser
+range: 350
+shootType: {
+type: LaserBulletType
+length: 350
+lightningSpacing: 40
+lifetime: 50
+lightningLength: 14
+lightningDamage: 15
+lightningLengthRand: 13
+width: 50
+sideWidth: 4
+sideAngle: 90
+colors: [ffffffff, ffffffff, ffffffff]
+lightColor: 6f5b5f
+damage: 400
+fragBullets: 15
+fragCone: 160
+fragBullet: {
+type: LightningBulletType
+damage: 30
+lightningLength: 25
+lightningColor: ffffff
+collidesAir: true
+fragBullets: 3
+fragCone: 140
+fragBullet: {
+type: BasicBulletType
+sprite: additional-content-sizedBullet
+damage: 20
+lifetime: 45
+backColor: ffffff
+frontColor: ffffff
+speed: 9
+keepVelocity: false
+shrinkY: 0
+width: 11
+height: 11
+hitEffect: flakExplosionBig
+despawnEffect: flakExplosionBig
+hitSound: explosion
+homingRange: 100
+homingPower: 0.2
+}
+}
+}
+research: zaster
+requirements:[
+copper/8000
+lead/6000
+silicon/7500
+titanium/6500
+thorium/5500
+plastanium/6500
+kalabsak/3500
+shadium/500
+lightium/500
+]
+category: turret
