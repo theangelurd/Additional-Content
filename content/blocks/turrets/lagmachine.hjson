@@ -3,7 +3,7 @@ name: lag machine
 description: use this turret if you want to lag your game to death
 health: 3553151453142145
 size: 5
-reloadTime: 100
+reloadTime: 20
 shots: 100
 shootShake: 15
 recoilAmount: 0
@@ -15,7 +15,7 @@ shootEffect: {
       lifetime: 150
       waveStroke: 6
       waveRadBase: 6
-      waveLife: 150
+      waveLife: 1500
       waveRad: 150
       waveColor: ffffff
       smokeColor: ffffff
