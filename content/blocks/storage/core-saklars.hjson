@@ -1,0 +1,24 @@
+type: CoreBlock
+name: "Core: Saklars"
+description: "The antepenultimate core. Much more durable, holds many more items, and has a much better core unit."
+health: 28000
+itemCapacity: 38000
+size: 7
+unitCapModifier: 44
+unitType: salakas
+researchCostMultiplier: 0.06
+requirements: [
+  copper/20000
+  lead/20000
+  titanium/20000
+  thorium/18000
+  silicon/20000
+  plastanium/12000
+  kalabasak/8000
+  lightum/2000
+] 
+category: effect
+hasItems: true
+solid: true
+alwaysUnlocked: false
+research: core-xinaq
