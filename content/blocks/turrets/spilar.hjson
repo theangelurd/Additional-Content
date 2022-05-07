@@ -3,7 +3,7 @@ name: Spilar
 description: Shoots a spiral of bullets that attract enemies back.
 health: 5000
 size: 2
-reloadTime: 3
+reloadTime: 30
 shots: 128
 burstSpacing: 0.5
 spread: 5
@@ -36,7 +36,7 @@ shootSound: laser
 range: 300
 shootType: {
 type: BasicBulletType
-damage: 1
+damage: 15
 lifetime: 120
 backColor: dadeff
 frontColor: dadeff
@@ -52,7 +52,7 @@ homingRange: 80
 homingPower: 0.1
 knockback: -10
 }
-research: lancer
+research: meltdown
 requirements:[
 copper/1575
 lead/2000
