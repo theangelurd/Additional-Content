@@ -1,6 +1,6 @@
 type: PowerTurret
 name: Lightblast
-description: Shoots a bigger array of bullets at enemies.
+description: Shoots a laser that converts into lightning that converts into bullets.
 health: 18000
 size: 3
 reloadTime: 250
