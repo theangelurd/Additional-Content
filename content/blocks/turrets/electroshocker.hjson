@@ -1,6 +1,6 @@
 type: PowerTurret
 name: Electroshocker
-description: Shoots an array to lightning that later converts into a volley of bullets.
+description: Shoots an array of lightning that later converts into a volley of bullets.
 health: 2000
 size: 1
 reloadTime: 60
@@ -59,7 +59,7 @@ homingRange: 200
 homingPower: 0.2
 }
 }
-research: arc
+research: foreshadow
 requirements:[
 copper/4000
 lead/5500
