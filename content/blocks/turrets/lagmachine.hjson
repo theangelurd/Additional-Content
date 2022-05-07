@@ -12,7 +12,7 @@ velocityInaccuracy: 5
 inaccuracy: 180
 shootEffect: {
       type: ExplosionEffect
-      lifetime: 150
+      lifetime: 1500
       waveStroke: 6
       waveRadBase: 6
       waveLife: 1500
