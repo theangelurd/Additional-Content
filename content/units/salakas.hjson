@@ -55,6 +55,8 @@ smokeEffect: shootBig
 knockback: 3
 drag: -0.005
 buildingDamageMultiplier: 0.01
+homingRange: 200
+homingPower: 0.07
 }
 }
 {
@@ -71,7 +73,7 @@ rotate: true
 rotateSpeed: 25
 bullet: {
 type: BasicBulletType
-damage: 12
+damage: 15
 speed: 3
 lifetime: 60
 width: 6
