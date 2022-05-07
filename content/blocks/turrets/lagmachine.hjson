@@ -9,6 +9,7 @@ shootShake: 15
 recoilAmount: 0
 rotateSpeed: 100
 velocityInaccuracy: 5
+inaccuracy: 180
 shootEffect: {
       type: ExplosionEffect
       lifetime: 150
@@ -60,7 +61,7 @@ splashDamageRadius: 50
 lifetime: 20
 backColor: ffffff
 frontColor: ffffff
-speed: 10
+speed: 20
 keepVelocity: false
 shrinkY: 0
 width: 11
@@ -100,7 +101,7 @@ splashDamageRadius: 50
 lifetime: 20
 backColor: ffffff
 frontColor: ffffff
-speed: 10
+speed: 20
 keepVelocity: false
 shrinkY: 0
 width: 11
@@ -140,7 +141,7 @@ splashDamageRadius: 50
 lifetime: 20
 backColor: ffffff
 frontColor: ffffff
-speed: 10
+speed: 20
 keepVelocity: false
 shrinkY: 0
 width: 11
