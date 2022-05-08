@@ -1,0 +1,96 @@
+type: PowerTurret
+name: Dilator
+description: Shoots the bane of existence out.
+health: 70000
+size: 6
+reloadTime: 500
+shots: 1
+shootShake: 60
+recoilAmount: 15
+rotateSpeed: 3
+shootEffect: {
+      type: ExplosionEffect
+      lifetime: 60
+      waveStroke: 6
+      waveRadBase: 6
+      waveLife: 60
+      waveRad: 200
+      waveColor: ffffff
+      smokeColor: 3a3a3a
+      sparkColor: ffffff
+      sparks: 100
+      smokes: 120
+      sparkStroke: 6
+      sparkRad: 200
+      sparkLen: 4
+      smokeSize: 4
+      smokeRad: 200
+      smokeSizeBase: 6
+} 
+powerUse: 120
+shootSound: laserbig
+chargeSound: artillery
+range: 500
+shootType: {
+type: LaserBulletType
+length: 500
+lightningSpacing: 20
+lifetime: 140
+lightningLength: 25
+lightningDamage: 200
+lightningLengthRand: 25
+width: 120
+sideWidth: 14
+sideAngle: 45
+colors: [ffffffff, ffffffff, ffffffff]
+lightColor: 6f5b5f
+damage: 7000
+fragBullets: 25
+fragCone: 160
+fragBullet: {
+type: LightningBulletType
+damage: 240
+lightningLength: 45
+lightningColor: ffffff
+lifetime: 10
+collidesAir: true
+fragBullets: 3
+fragCone: 140
+fragBullet: {
+type: BasicBulletType
+sprite: additional-content-sizedBullet
+damage: 240
+lifetime: 85
+backColor: ffffff
+frontColor: ffffff
+speed: 8
+keepVelocity: false
+shrinkY: 0
+width: 14
+height: 14
+lightning: 5
+lightningLengthRand: 10
+lightningLength: 10
+lightningDamage: 25
+lightningColor: ffffff
+hitEffect: flakExplosionBig
+despawnEffect: flakExplosionBig
+hitSound: explosion
+homingRange: 200
+homingPower: 0.2
+}
+}
+}
+research: lastador
+requirements:[
+copper/20000
+lead/24000
+silicon/26000
+titanium/20000
+thorium/15000
+plastanium/3000
+kalabsak/1500
+shadium/300
+lightum/8000
+]
+category: turret
