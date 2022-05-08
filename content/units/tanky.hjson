@@ -12,5 +12,5 @@ hitSize: 14
 itemCapacity: 500
 targetGround: true
 targetAir: true 
-armor: 0
+armor: 10
 rotateSpeed: 5
