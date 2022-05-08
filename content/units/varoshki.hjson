@@ -18,8 +18,8 @@ weapons: [
 name: void-artillery-small
 reload: 50
 alternate: true
-x: 6
-y: 3
+x: 3
+y: 2
 shootSound: arillery
 top: false
 recoil: 2
@@ -32,13 +32,12 @@ splashDamage: 200
 splashDamageRadius: 30
 shrinkY: 0.2
 shootEffect: shootBig
-backColor: 333073
-frontColor: 524b99
+backColor: c27ddd
+frontColor: edbdff
 width: 15
 smokeEffect: shootBigSmoke
 collidesAir: true
 collidesGround: true
-
 height: 15
 knockback: 5
 hitEffect: {
