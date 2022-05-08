@@ -1,0 +1,41 @@
+type: flying
+name: Ukolar
+description: Core unit that fights by stabbing other units.
+hitSize: 14
+speed: 4.2
+health: 900
+armor: 0
+rotateSpeed: 30
+flying: true
+engineOffset: 6
+commandLimit: 10
+lowAltitude: false
+engineSize: 4
+weapons: [
+{
+name: none
+reload: 15
+recoil: 0
+mirror: false
+shootSound: none
+y: 10
+x: 0
+bullet: {
+width: 0
+height: 0
+speed: 3
+lifetime: 5
+recoil: -10
+splashDamage: 200
+splashDamageRadius: 25
+knockback: 5
+buildingDamageMultiplier: 0.01
+despawnEffect: none
+shootEffectSmoke: none
+shootEffect: none
+}
+}
+]
+research:{
+parent: core-xenon
+}
