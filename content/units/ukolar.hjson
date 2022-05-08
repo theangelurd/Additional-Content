@@ -11,6 +11,9 @@ engineOffset: 7
 commandLimit: 10
 lowAltitude: false
 engineSize: 3
+buildSpeed: 7
+mineSpeed: 20
+mineTier: 5
 weapons: [
 {
 name: none
