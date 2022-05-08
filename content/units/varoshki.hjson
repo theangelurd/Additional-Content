@@ -85,3 +85,6 @@ speed: 5
 }
 }
 ]
+research: [
+parent: advanced-factory
+]
