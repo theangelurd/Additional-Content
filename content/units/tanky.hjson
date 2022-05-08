@@ -1,0 +1,16 @@
+type: mech
+name: "tanky"
+description: "U"
+health: 2000000
+speed: 0
+flying: false
+drag: 0.3
+accel: 0.3
+mechFrontSway: 0.6
+mechSideSway: 1.5
+hitSize: 14
+itemCapacity: 500
+targetGround: true
+targetAir: true 
+armor: 0
+rotateSpeed: 5
