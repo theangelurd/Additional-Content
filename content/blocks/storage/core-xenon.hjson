@@ -5,7 +5,7 @@ health: 45000
 itemCapacity: 60000
 size: 8
 unitCapModifier: 60
-unitType: salakas
+unitType: ukolar
 researchCostMultiplier: 0.06
 requirements: [
   copper/38000
