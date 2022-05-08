@@ -1,0 +1,90 @@
+type: PowerTurret
+name: Breakblaster
+description: Shoots a desvastating beam.
+health: 30000
+size: 4
+reloadTime: 300
+shots: 1
+shootShake: 20
+recoilAmount: 10
+rotateSpeed: 4
+shootEffect: {
+      type: ExplosionEffect
+      lifetime: 50
+      waveStroke: 3
+      waveRadBase: 3
+      waveLife: 40
+      waveRad: 70
+      waveColor: ffffff
+      smokeColor: 3a3a3a
+      sparkColor: ffffff
+      sparks: 40
+      smokes: 60
+      sparkStroke: 4
+      sparkRad: 80
+      sparkLen: 4
+      smokeSize: 4
+      smokeRad: 100
+      smokeSizeBase: 3
+} 
+powerUse: 90
+shootSound: beam
+range: 400
+shootType: {
+type: LaserBulletType
+length: 400
+lightningSpacing: 30
+lifetime: 70
+lightningLength: 20
+lightningDamage: 20
+lightningLengthRand: 20
+width: 80
+sideWidth: 8
+sideAngle: 45
+colors: [ffffffff, ffffffff, ffffffff]
+lightColor: 6f5b5f
+damage: 3000
+fragBullets: 17
+fragCone: 160
+fragBullet: {
+type: LightningBulletType
+damage: 135
+lightningLength: 40
+lightningColor: ffffff
+lifetime: 10
+collidesAir: true
+fragBullets: 3
+fragCone: 140
+fragBullet: {
+type: BasicBulletType
+sprite: additional-content-sizedBullet
+damage: 130
+lifetime: 55
+backColor: ffffff
+frontColor: ffffff
+speed: 9
+keepVelocity: false
+shrinkY: 0
+width: 12
+height: 12
+hitEffect: flakExplosionBig
+despawnEffect: flakExplosionBig
+hitSound: explosion
+homingRange: 100
+homingPower: 0.2
+}
+}
+}
+research: lightblast
+requirements:[
+copper/10000
+lead/11000
+silicon/9000
+titanium/10000
+thorium/9000
+plastanium/4000
+kalabsak/5000
+shadium/800
+lightum/2000
+]
+category: turret
