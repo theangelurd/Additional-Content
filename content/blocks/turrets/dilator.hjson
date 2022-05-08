@@ -35,7 +35,7 @@ shootType: {
 type: LaserBulletType
 length: 500
 lightningSpacing: 20
-lifetime: 140
+lifetime: 220
 lightningLength: 25
 lightningDamage: 200
 lightningLengthRand: 25
