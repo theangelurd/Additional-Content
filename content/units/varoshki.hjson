@@ -1,0 +1,85 @@
+type: mech
+name: Varoshki
+description: Shoots powerful shadow artillery shells.
+details: The Shadow units started appearing in dead star systems, consumed by the dark, they became it.
+speed: 0.6
+drag: 0.05
+accel: 0.02
+armor: 0
+hitSize: 9
+health: 1270
+mechFrontSway: 0.6
+mechSideSway: 0.4
+flying: false
+rotateSpeed: 6
+rotateShooting: true
+weapons: [
+{
+name: void-artillery-small
+reload: 50
+alternate: true
+x: 6
+y: 3
+shootSound: arillery
+top: false
+recoil: 2
+shootY: 2
+rotate: false
+bullet: {
+type: ArtilleryBulletType
+damage: 113
+splashDamage: 200
+splashDamageRadius: 30
+shrinkY: 0.2
+shootEffect: shootBig
+backColor: 333073
+frontColor: 524b99
+width: 15
+smokeEffect: shootBigSmoke
+collidesAir: true
+collidesGround: true
+
+height: 15
+knockback: 5
+hitEffect: {
+type: ExplosionEffect
+lifetime: 80
+waveStroke: 4
+waveRadBase: 3
+waveLife: 40
+waveRad: 80
+waveColor: a78fff
+smokeColor: 3e3e3e
+sparkColor: a78fff
+sparks: 20
+smokes: 30
+sparkRad: 80
+smokeSize: 4
+smokeSizeBase: 4
+smokeRad: 80
+sparkStroke: 4
+sparkLen: 4
+}
+despawnEffect: {
+type: ExplosionEffect
+lifetime: 80
+waveStroke: 4
+waveRadBase: 3
+waveLife: 40
+waveRad: 80
+waveColor: a78fff
+smokeColor: 3e3e3e
+sparkColor: a78fff
+sparks: 20
+smokes: 30
+sparkRad: 80
+smokeSize: 4
+smokeSizeBase: 4
+smokeRad: 80
+sparkStroke: 4
+sparkLen: 4
+}
+trailEffect: none
+}
+}
+]
