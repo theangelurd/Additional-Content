@@ -41,6 +41,7 @@ lightningLengthRand: 20
 width: 80
 sideWidth: 8
 sideAngle: 45
+chargeSound: artillery
 colors: [ffffffff, ffffffff, ffffffff]
 lightColor: 6f5b5f
 damage: 3000
