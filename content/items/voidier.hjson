@@ -1,0 +1,8 @@
+name: Voidier
+description: Mixing lightum and shadium creates a truly terrifying resource.
+hardness: 14
+cost: 4
+color: 524b99
+research: {
+    parent: lightum
+}
