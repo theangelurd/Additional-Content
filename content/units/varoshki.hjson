@@ -13,6 +13,7 @@ mechSideSway: 0.4
 flying: false
 rotateSpeed: 6
 rotateShooting: true
+range: 300
 weapons: [
 {
 name: void-artillery-small
