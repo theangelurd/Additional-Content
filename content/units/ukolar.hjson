@@ -7,10 +7,10 @@ health: 900
 armor: 0
 rotateSpeed: 30
 flying: true
-engineOffset: 6
+engineOffset: 7
 commandLimit: 10
 lowAltitude: false
-engineSize: 4
+engineSize: 3
 weapons: [
 {
 name: none
