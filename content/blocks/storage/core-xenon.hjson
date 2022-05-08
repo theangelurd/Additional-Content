@@ -1,0 +1,25 @@
+type: CoreBlock
+name: "Core: Xenon"
+description: "The penultimate core. Has a melee-type core unit."
+health: 45000
+itemCapacity: 60000
+size: 8
+unitCapModifier: 60
+unitType: salakas
+researchCostMultiplier: 0.06
+requirements: [
+  copper/38000
+  lead/38000
+  titanium/38000
+  thorium/34000
+  silicon/38000
+  plastanium/24000
+  kalabsak/10000
+  lightum/4000
+  shadium/3000
+] 
+category: effect
+hasItems: true
+solid: true
+alwaysUnlocked: false
+research: core-saklars
