@@ -1,0 +1,94 @@
+type: PowerTurret
+name: Lastador
+description: Fires a laser of absolute destruction.
+health: 48000
+size: 5
+reloadTime: 450
+shots: 1
+shootShake: 30
+recoilAmount: 12.5
+rotateSpeed: 3.5
+shootEffect: {
+      type: ExplosionEffect
+      lifetime: 50
+      waveStroke: 4
+      waveRadBase: 4
+      waveLife: 50
+      waveRad: 120
+      waveColor: ffffff
+      smokeColor: 3a3a3a
+      sparkColor: ffffff
+      sparks: 60
+      smokes: 75
+      sparkStroke: 5
+      sparkRad: 140
+      sparkLen: 4
+      smokeSize: 4
+      smokeRad: 140
+      smokeSizeBase: 5
+} 
+powerUse: 100
+shootSound: beam
+range: 450
+shootType: {
+type: LaserBulletType
+length: 450
+lightningSpacing: 25
+lifetime: 100
+lightningLength: 20
+lightningDamage: 40
+lightningLengthRand: 20
+width: 100
+sideWidth: 14
+sideAngle: 45
+colors: [ffffffff, ffffffff, ffffffff]
+lightColor: 6f5b5f
+damage: 4800
+fragBullets: 20
+fragCone: 160
+fragBullet: {
+type: LightningBulletType
+damage: 180
+lightningLength: 40
+lightningColor: ffffff
+lifetime: 10
+collidesAir: true
+fragBullets: 3
+fragCone: 140
+fragBullet: {
+type: BasicBulletType
+sprite: additional-content-sizedBullet
+damage: 180
+lifetime: 75
+backColor: ffffff
+frontColor: ffffff
+speed: 8
+keepVelocity: false
+shrinkY: 0
+width: 13
+height: 13
+lightning: 4
+lightningLengthRand: 10
+lightningLength: 10
+lightningColor: ffffff
+hitEffect: flakExplosionBig
+despawnEffect: flakExplosionBig
+hitSound: explosion
+homingRange: 150
+homingPower: 0.2
+}
+}
+}
+research: breakblaster
+requirements:[
+copper/14000
+lead/16000
+silicon/18000
+titanium/9000
+thorium/6000
+plastanium/2000
+kalabsak/1000
+shadium/500
+lightum/5000
+]
+category: turret
