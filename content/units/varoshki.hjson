@@ -29,7 +29,7 @@ bullet: {
 type: ArtilleryBulletType
 damage: 113
 splashDamage: 200
-splashDamageRadius: 30
+splashDamageRadius: 80
 shrinkY: 0.2
 shootEffect: shootBig
 backColor: c27ddd
