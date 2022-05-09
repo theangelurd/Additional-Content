@@ -29,7 +29,7 @@ consumes: {
   items: {
     items: [
       lightum/1
-      lead/1
+      shadium/1
     ]
   }
 }
