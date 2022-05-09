@@ -1,4 +1,4 @@
-type: GenericSmelter
+type: GenericCrafter
 name: Steel Smelter
 description: "Smelts iron with coal to produce a durable steel alloy."
 size: 2
