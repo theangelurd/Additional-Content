@@ -13,6 +13,14 @@ plans:[
  titanium/30
 ]
  }
+  {
+ unit: varoshki
+ time: 7500
+ requirements:[
+ silicon/45
+ voidier/10
+]
+ }
 ]
 consumes: {
 power: 2.5
