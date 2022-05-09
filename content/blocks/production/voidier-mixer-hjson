@@ -1,0 +1,47 @@
+type: GenericSmelter
+name: Voidier Fuser
+description: "Fuses Lightum and Shadium together to make a truly terrifying resource."
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 120
+craftEffect: {
+      type: ExplosionEffect
+      lifetime: 60
+      waveStroke: 4
+      waveRadBase: 3
+      waveLife: 30
+      waveRad: 100
+      waveColor: ccbdff
+      smokeColor: 3a3a3a
+      sparkColor: ccbdff
+      sparks: 40
+      smokes: 50
+      sparkStroke: 4
+      sparkRad: 150
+      sparkLen: 3
+      smokeSize: 3
+      smokeRad: 150
+      smokeSizeBase: 3
+}
+consumes: {
+  power: 5
+  items: {
+    items: [
+      lightum/1
+      lead/1
+    ]
+  }
+}
+requirements: [
+    copper/800
+    lead/600
+    graphite/500
+    silicon/800
+    titanium/1000
+    lightum/100
+    shadium/100
+]
+category: crafting
+research: alloy-smelter
+outputItem: voidier/1
