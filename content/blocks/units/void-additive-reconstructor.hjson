@@ -1,0 +1,33 @@
+type: Reconstructor
+name: "Void Additive Reconstructor"
+size: 3
+health: 10000
+description: "Void-related reconstructor."
+constructTime: 3000
+hasPower: true
+upgrades: [
+  [
+    varoshki, yshtikayla
+  ]
+]
+consumes: {
+    power: 15
+items:{
+  items: [
+  silicon/100
+  metaglass/60
+  titanium/40
+  voidier/20
+  ]
+}
+}
+category: units
+research: advanced-factory
+researchCostMultiplier: 1
+requirements: [
+  copper/800
+  lead/700
+  silicon/1000
+  titanium/1200
+  voidier/200
+]
