@@ -1,4 +1,4 @@
-type: GenericSmelter
+type: GenericCrafter
 name: Dirium Forge
 description: "Smelts lead and copper to make a fairly strong alloy."
 size: 2
