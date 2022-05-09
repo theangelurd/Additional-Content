@@ -20,7 +20,7 @@ name: void-artillery-small
 reload: 50
 alternate: true
 x: 3
-y: -2
+y: 2
 shootSound: artillery
 top: false
 recoil: 2
