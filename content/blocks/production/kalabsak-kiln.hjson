@@ -1,4 +1,4 @@
-type: GenericSmelter
+type: GenericCrafter
 name: Kalabsak Kiln
 description: "Smelts dirium, copper, lead, coal and sand to make a very durable crystal."
 size: 3
