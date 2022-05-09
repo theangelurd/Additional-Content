@@ -1,0 +1,4 @@
+name: "Void Rock"
+type: Wall
+variants: 3
+solid: true
