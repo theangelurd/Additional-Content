@@ -1,0 +1,91 @@
+type: mech
+name: Yshtikayla
+description: Shoots powerful shadow artillery shells.
+details: The shadow has grown, and it has become much stronger.
+speed: 2
+drag: 0.04
+accel: 0.03
+armor: 0
+hitSize: 12
+health: 2500
+mechFrontSway: 0.8
+mechSideSway: 0.5
+flying: false
+rotateSpeed: 5.5
+rotateShooting: true
+range: 360
+weapons: [
+{
+name: void-artillery
+reload: 100
+alternate: true
+x: 5
+y: -2
+shootSound: arillery
+top: false
+recoil: 4
+shootY: 4
+rotate: false
+bullet: {
+type: ArtilleryBulletType
+damage: 250
+splashDamage: 500
+splashDamageRadius: 100
+shrinkY: 0.3
+shootEffect: shootBig
+backColor: c27ddd
+frontColor: edbdff
+width: 18
+smokeEffect: shootBigSmoke
+collidesAir: true
+collidesGround: true
+height: 18
+knockback: 8
+recoil: 4
+hitEffect: {
+type: ExplosionEffect
+lifetime: 80
+waveStroke: 4
+waveRadBase: 3
+waveLife: 20
+waveRad: 100
+waveColor: a78fff
+smokeColor: 3e3e3e
+sparkColor: a78fff
+sparks: 30
+smokes: 45
+sparkRad: 100
+smokeSize: 4
+smokeSizeBase: 4
+smokeRad: 100
+sparkStroke: 4
+sparkLen: 4
+}
+despawnEffect: {
+type: ExplosionEffect
+lifetime: 80
+waveStroke: 4
+waveRadBase: 3
+waveLife: 20
+waveRad: 100
+waveColor: a78fff
+smokeColor: 3e3e3e
+sparkColor: a78fff
+sparks: 30
+smokes: 45
+sparkRad: 100
+smokeSize: 4
+smokeSizeBase: 4
+smokeRad: 100
+sparkStroke: 4
+sparkLen: 4
+}
+trailEffect: none
+lifetime: 60
+speed: 6
+}
+}
+]
+research: {
+parent: varoshki
+}
