@@ -1,0 +1,10 @@
+name: "Void Rock"
+type: Floor
+isLiquid: false
+albedo: 0.5
+speedMultiplier: 0.85
+variants: 3
+solid: false
+placeableOn: true
+emitLight: true
+cacheLayer: water
