@@ -21,7 +21,7 @@ reload: 100
 alternate: true
 x: 5
 y: -2
-shootSound: arillery
+shootSound: artillery
 top: false
 recoil: 4
 shootY: 4
