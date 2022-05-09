@@ -1,4 +1,4 @@
-type: GenericSmelter
+type: GenericCrafter
 name: Voidier Fuser
 description: "Fuses Lightum and Shadium together to make a truly terrifying resource."
 size: 2
