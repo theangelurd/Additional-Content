@@ -151,6 +151,7 @@ trailEffect: none
 lifetime: 60
 speed: 5
 }
+}
 ]
 research: {
 parent: yshtikayla
