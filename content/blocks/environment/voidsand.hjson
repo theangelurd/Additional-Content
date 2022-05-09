@@ -1,0 +1,10 @@
+name: "Void Sand"
+type: Floor
+isLiquid: false
+albedo: 0.7
+speedMultiplier: 0.8
+variants: 3
+solid: false
+placeableOn: true
+itemDrop: sand
+cacheLayer: water
