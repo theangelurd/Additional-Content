@@ -93,7 +93,7 @@ shootSound: artillery
 top: true
 recoil: 2
 shootY: 2
-rotate: false
+rotate: true
 bullet: {
 type: ArtilleryBulletType
 damage: 113
