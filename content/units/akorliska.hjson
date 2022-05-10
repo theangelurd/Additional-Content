@@ -19,7 +19,7 @@ weapons: [
 name: akorliska-weapon
 reload: 40
 alternate: true
-x: 7
+x: 9
 y: 0
 shootSound: explosion
 top: false
