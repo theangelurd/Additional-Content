@@ -1,0 +1,35 @@
+type: Reconstructor
+name: "Void Multiplicative Reconstructor"
+size: 5
+health: 20000
+description: "Void-related reconstructor."
+constructTime: 8000
+hasPower: true
+upgrades: [
+  [
+    yshtikayla, akorliska
+  ]
+]
+consumes: {
+    power: 25
+items:{
+  items: [
+  silicon/300
+  metaglass/450
+  titanium/200
+  plastanium/150
+  voidier/55
+  ]
+}
+}
+category: units
+research: void-additive-reconstructor
+researchCostMultiplier: 1
+requirements: [
+  copper/1500
+  lead/1800
+  silicon/2000
+  titanium/3000
+  thorium/1000
+  voidier/450
+]
