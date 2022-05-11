@@ -3,7 +3,7 @@ name: Lastador
 description: Fires a laser of absolute destruction.
 health: 48000
 size: 5
-reloadTime: 450
+reload: 450
 shots: 1
 shootShake: 30
 recoilAmount: 12.5
