@@ -1,10 +1,10 @@
 type: ItemTurret
 name: "Rip"
 description: "Fires 2 close-range piercing blasts at nearby enemies."
-reloadTime: 32
+reload: 32
 size: 1
 health: 320
-shots: 2
+shoot.shots: 2
 range: 75
 alternate: false
 spread: 25
