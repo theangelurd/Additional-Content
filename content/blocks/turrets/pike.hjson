@@ -3,7 +3,7 @@ name: "Pike"
 description: "Shoots moderately strong piercing plasma bolts at all enemies."
 health: 320
 size: 2
-reloadTime: 75
+reload: 75
 shootSound: missile
 range: 200
 recoilAmount: 1.5
