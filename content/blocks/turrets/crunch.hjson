@@ -1,7 +1,7 @@
 type: ItemTurret
 name: "Crunch"
 description: "Fires 4 long-range piercing blasts at nearby enemies."
-reloadTime: 40
+reload: 40
 size: 3
 health: 2240
 shots: 4
