@@ -3,7 +3,7 @@ name: "Shatter"
 description: "Shoots destructive plasma spheres. Plasma spheres will explode in lightning bolts, dealing damage to units in the vincinity."
 health: 960
 size: 3
-reloadTime: 55
+reload: 55
 shootSound: missile
 range: 220
 recoilAmount: 3
