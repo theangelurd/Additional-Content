@@ -3,7 +3,7 @@ name: Shredder
 description: Shoots massive amounts of bullets.
 health: 5120
 size: 5
-reloadTime: 5.5
+reload: 5.5
 recoilAmount: 3
 shootSound: shootBig
 range: 240
