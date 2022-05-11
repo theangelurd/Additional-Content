@@ -3,7 +3,7 @@ name: Lightning
 description: Shoots lightning at any nearby enemy.
 health: 1600
 size: 3
-reloadTime: 45
+reload: 17
 shots: 3
 shootShake: 2.5
 recoilAmount: 3.5
