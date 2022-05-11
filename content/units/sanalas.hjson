@@ -8,7 +8,7 @@ armor: 2
 speed: 0.8
 rotateSpeed: 2
 legCount: 4
-legLength: 15
+legLength: 7
 legBaseOffset: 5
 legExtension: 0
 legSpeed: 0.05
@@ -27,7 +27,6 @@ weapons: [
        shootSound: pew
        bullet: {
            type: BasicBulletType
-           sprite: none
            smokeEffect: shootSmallSmoke
            shootEffect: shootSmall
            width: 4
@@ -36,7 +35,6 @@ weapons: [
            trailLength: 4
            lifetime: 70
            speed: 3
-           
        }
     }
 ]
