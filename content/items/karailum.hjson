@@ -1,0 +1,9 @@
+name: Karailum
+description: Hard to mine resource that can withstand Urunir's conditions.
+details: "Urunir's surface is very hot, so only resources like these will survive."
+hardness: 5
+cost: 1
+color: a1a0af
+research: {
+    parent: core-altar
+}
