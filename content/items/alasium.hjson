@@ -1,0 +1,9 @@
+name: Alasium
+description: A flammable resource, covered with a hard, heat-resistant surface to fend off Urunir's heat.
+details: "It's very rare to see resources like this."
+hardness: 7
+cost: 1.5
+color: 9d7f73
+research: {
+    parent: karailum
+}
