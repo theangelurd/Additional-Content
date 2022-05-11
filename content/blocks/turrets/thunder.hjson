@@ -3,7 +3,7 @@ name: Thunder
 description: Shoots pairs of lightning at any nearby enemy.
 health: 800
 size: 2
-reloadTime: 42
+reload: 42
 shots: 2
 shootShake: 1.5
 recoilAmount: 3.5
