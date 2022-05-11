@@ -3,7 +3,7 @@ name: "Impale"
 description: "Shoots strong piercing plasma bolts at all enemies."
 health: 640
 size: 3
-reloadTime: 70
+reload: 70
 shootSound: missile
 range: 250
 recoilAmount: 2
