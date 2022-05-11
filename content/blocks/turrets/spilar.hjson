@@ -3,8 +3,8 @@ name: Spilar
 description: Shoots a spiral of bullets that attract enemies back.
 health: 5000
 size: 2
-reloadTime: 30
-shots: 128
+reload: 30
+shoot.shots: 128
 burstSpacing: 0.5
 spread: 5
 shootShake: 3
