@@ -3,7 +3,7 @@ name: "Piercer"
 description: "Shoots weak lasers."
 health: 320
 size: 1
-reloadTime: 70
+reload: 70
 shootSound: laser
 cooldown: 0.01
 heatColor: ab3400
