@@ -3,7 +3,7 @@ name: Electroshocker
 description: Shoots an array of lightning that later converts into a volley of bullets.
 health: 2000
 size: 1
-reloadTime: 60
+reload: 60
 shots: 20
 shootShake: 4
 recoilAmount: 2.5
@@ -33,6 +33,11 @@ heatColor: ff000b
 shootSound: spark
 range: 250
 shootType: {
+type: BasicBulletType
+lifetime: 0
+fragBullets: 20
+fragCone: 90
+fragBullet: {
 type: LightningBulletType
 damage: 40
 lightningLength: 15
@@ -57,6 +62,7 @@ despawnEffect: flakExplosion
 hitSound: explosion
 homingRange: 200
 homingPower: 0.2
+}
 }
 }
 research: foreshadow
