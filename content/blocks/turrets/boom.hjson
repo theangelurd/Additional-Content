@@ -3,7 +3,7 @@ name: "Blast"
 description: "Shoots stronger plasma spheres."
 health: 640
 size: 2
-reloadTime: 50
+reload: 50
 shootSound: missile
 range: 200
 recoilAmount: 2
