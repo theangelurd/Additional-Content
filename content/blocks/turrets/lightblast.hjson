@@ -3,7 +3,7 @@ name: Lightblast
 description: Shoots a laser that converts into lightning that converts into bullets.
 health: 18000
 size: 3
-reloadTime: 250
+reload: 250
 shots: 1
 shootShake: 12
 recoilAmount: 7.5
