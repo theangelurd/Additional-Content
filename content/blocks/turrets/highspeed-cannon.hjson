@@ -1,7 +1,7 @@
 type: ItemTurret
 name: "H.S.C"
 description: "Stands for High Speed Cannon, able to fire projectiles over massive distances. Does a very high amount of damage."
-reloadTime: 145
+reload: 145
 size: 3
 health: 960
 shots: 1
