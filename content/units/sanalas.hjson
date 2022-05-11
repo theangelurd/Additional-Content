@@ -28,8 +28,8 @@ weapons: [
        bullet: {
            type: BasicBulletType
            sprite: none
-           smokeEffect: shootSmoke
-           shootEffect: shoot
+           smokeEffect: shootSmallSmoke
+           shootEffect: shootSmall
            width: 4
            height: 4
            trailWidth: 1.2
