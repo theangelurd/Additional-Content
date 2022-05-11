@@ -3,7 +3,7 @@ name: Zaster
 description: Shoots a bigger array of bullets at enemies.
 health: 8000
 size: 2
-reloadTime: 200
+reload: 200
 shots: 60
 shootShake: 8
 recoilAmount: 5
