@@ -3,7 +3,7 @@ name: Tosser
 description: Tosses bombs that do heavy damage on contact.
 health: 320
 size: 1
-reloadTime: 75
+reload: 75
 shootSound: bigshot
 range: 120
 shots: 1
