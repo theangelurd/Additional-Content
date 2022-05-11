@@ -1,0 +1,42 @@
+type: legs
+name: "Sanalas"
+description: "Legged unit designed to survive in Urunir."
+hitSize: 8
+visualElevation: 0.4
+health: 500
+armor: 2
+speed: 0.8
+rotateSpeed: 2
+legCount: 4
+legLength: 15
+legBaseOffset: 5
+legExtension: 0
+legSpeed: 0.05
+maxStretch: 2
+allowLegStep: true
+weapons: [
+    {
+       name: urunir-small-weapon
+       x: 2
+       y: 2
+       recoil: 2
+       reload: 40
+       rotate: false
+       top: false
+       shootY: 2
+       shootSound: pew
+       bullet: {
+           type: BasicBulletType
+           sprite: none
+           smokeEffect: shootSmoke
+           shootEffect: shoot
+           width: 4
+           height: 4
+           trailWidth: 1.2
+           trailLength: 4
+           lifetime: 70
+           speed: 3
+           
+       }
+    }
+]
