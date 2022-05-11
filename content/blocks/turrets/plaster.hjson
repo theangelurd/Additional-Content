@@ -3,7 +3,7 @@ name: "Plaster"
 description: "Shoots weak plasma spheres."
 health: 320
 size: 1
-reloadTime: 45
+reload: 45
 shootSound: sap
 range: 180
 recoilAmount: 1
