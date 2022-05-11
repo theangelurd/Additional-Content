@@ -2,8 +2,8 @@ type: flying
 name: Akalajas
 description: "Able to heal other units with its laser beam."
 details: "The first Urunir core unit, specialised for healing structures."
-coreUnitDock = true
-mineFloor = true
+coreUnitDock: true
+mineFloor: true
 mineSpeed: 5
 mineTier: 3
 buildSpeed: 0.7
