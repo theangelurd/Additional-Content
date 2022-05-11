@@ -1,0 +1,19 @@
+type: CoreBlock
+name: "Core: Altar"
+description: "First iteration of Urunir core. Suited to survive the harsh conditions in Urunir."
+details: "These ores are suited for surviving these conditions, any other ores will NOT do."
+health: 2000
+itemCapacity: 2000
+size: 2
+unitCapModifier: 5
+unitType: akalajas
+researchCostMultiplier: 0.06
+requirements: [
+  karailum/1000
+  alasium/500
+] 
+category: effect
+hasItems: true
+solid: true
+alwaysUnlocked: true
+research: core-shard
