@@ -27,11 +27,11 @@ mirror: false
 y: 6
 rotate: false
 shootY: 0
-beamWidth: 1f;
-repairSpeed: 4f;
-fractionRepairSpeed: 0.05f
-aimDst: 0f
-shootCone: 30f
+beamWidth: 1
+repairSpeed: 4
+fractionRepairSpeed: 0.05
+aimDst: 0
+shootCone: 30
 targetUnits: false
 targetBuildings: true
 autoTarget: false
