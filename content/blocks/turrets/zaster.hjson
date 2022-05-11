@@ -28,7 +28,7 @@ shootEffect: {
       smokeRad: 20
       smokeSizeBase: 1.5
 } 
-powerUse: 60
+consumePower: 60
 heatColor: ff000b
 shootSound: spark
 range: 300
