@@ -1,10 +1,10 @@
 type: ItemTurret
 name: "Torn"
 description: "Fires 3 close-range piercing blasts at nearby enemies."
-reloadTime: 36.5
+reload: 36.5
 size: 2
 health: 320
-shots: 3
+shoot.shots: 3
 range: 82
 alternate: false
 spread: 22
