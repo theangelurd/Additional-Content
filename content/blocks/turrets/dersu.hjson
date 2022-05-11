@@ -1,7 +1,7 @@
 type: ItemTurret
 name: "Dersu"
 description: "Fires bursts of bullets at enemies."
-reloadTime: 90
+reload: 90
 size: 1
 shots: 4
 range: 140
