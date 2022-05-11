@@ -3,7 +3,7 @@ name: Dilator
 description: Shoots the bane of existence out.
 health: 70000
 size: 6
-reloadTime: 500
+reload: 500
 shots: 1
 shootShake: 60
 recoilAmount: 15
