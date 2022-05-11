@@ -1,0 +1,47 @@
+type: flying
+name: Akalajas
+description: "Able to heal other units with its laser beam."
+details: "The first Urunir core unit, specialised for healing structures."
+coreUnitDock = true
+mineFloor = true
+mineSpeed: 5
+mineTier: 3
+buildSpeed: 0.7
+drag: 0.03
+accel: 0.025
+speed: 5
+rotateSpeed: 15
+itemCapacity: 80
+health: 350
+armor: 2
+hitSize: 8
+engineSize: 1.5
+engineOffset: 5
+fogRadius: 3
+weapons: [
+{
+type: RepairBeamWeapon
+name: none
+x: 0
+mirror: false
+y: 6
+rotate: false
+shootY: 0
+beamWidth: 1f;
+repairSpeed: 4f;
+fractionRepairSpeed: 0.05f
+aimDst: 0f
+shootCone: 30f
+targetUnits: false
+targetBuildings: true
+autoTarget: false
+controllable: true
+bullet: {
+type: BulletType
+maxRange: 80
+}
+}
+]
+research: {
+parent: core-altar
+}
