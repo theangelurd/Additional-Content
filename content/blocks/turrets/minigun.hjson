@@ -3,7 +3,7 @@ name: minigun
 description: An extremely fast turret that can easily destroy things in front of it.
 health: 1960
 size: 3
-reloadTime: 5.5
+reload: 5.5
 recoilAmount: 2
 shootSound: shootBig
 range: 140
