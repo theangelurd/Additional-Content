@@ -1,0 +1,7 @@
+name: Karailum
+type: OreBlock
+itemDrop: karailum
+oreDefault: false
+oreThreshold: 0.51
+oreScale: 28.94831
+variants: 3
