@@ -3,7 +3,7 @@ name: Shader
 description: Fires darkness bullets at any nearby enemy.
 health: 1700
 size: 1
-reloadTime: 20
+reload: 20
 spacing: 3
 shots: 2
 alternate: true
