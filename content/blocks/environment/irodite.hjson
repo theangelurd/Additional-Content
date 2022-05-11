@@ -1,0 +1,4 @@
+name: "Irodite"
+type: Floor
+variants: 3
+placeableOn: true
