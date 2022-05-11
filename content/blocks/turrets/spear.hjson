@@ -3,7 +3,7 @@ name: "Spear"
 description: "Shoots piercing plasma bolts."
 health: 320
 size: 1
-reloadTime: 80
+reload: 80
 shootSound: missile
 range: 160
 recoilAmount: 1
