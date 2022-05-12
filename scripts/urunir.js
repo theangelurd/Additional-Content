@@ -1,6 +1,6 @@
 const generators = require("urunirGen");
 const urunir = extend(Planet, "urunir", Planets.sun, 2, 2, {
-    generator: Version.number >= 7 ? Planets.serpulo.generator : generators.urunir,
+    generator: Version.number >= 7 ? Planets.serpulo.generator : Planets.serpulo.generator,
     meshLoader: () => new HexMesh(this, 7),
     bloom: true,
     radius: 3,
