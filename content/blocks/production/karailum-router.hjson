@@ -1,0 +1,7 @@
+type: Router 
+health: 80
+requirements: [
+  karailum/2
+] 
+category: distribution
+research: core-altar
