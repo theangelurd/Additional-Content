@@ -1,0 +1,24 @@
+type: ConsumeGenerator
+name: "Water Generator"
+description: "Extracts the heat from Alasium and makes water into steam for power."
+size: 1
+hasPower: true
+hasLiquids: true
+hasItems: true
+itemCapacity: 10
+liquidCapacity: 10
+itemDuration: 100
+powerProduction: 2
+consumes: {
+ liquid: water/0.1
+  items: {
+   items: [
+    alasium/1
+    ]
+  }
+}
+requirements: [
+  karailum/40
+]
+category: power
+research: core-altar
