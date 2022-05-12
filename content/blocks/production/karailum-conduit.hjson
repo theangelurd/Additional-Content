@@ -1,0 +1,10 @@
+type: Conduit
+name: "Karailum Conduit"
+leaks: true
+health: 80
+requirements: [
+  karailum/2
+]
+liquidCapacity: 10
+placeableLiquid: true
+category: liquid
