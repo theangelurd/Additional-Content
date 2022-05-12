@@ -1,0 +1,20 @@
+name: Power Drill
+description: Uses laser tech to drill ores.
+type: Drill
+size: 2
+tier: 7
+drillTime: 60
+consumes: {
+  power: 1.5
+  liquid: {
+    liquid: water
+    amount: 0.7
+    booster: true
+    optional: true
+  }
+}
+requirements: [
+  karailum/25
+]
+category: production
+research: core-altar
