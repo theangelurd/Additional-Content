@@ -1,4 +1,5 @@
 type: BeamNode
+name: Laser Node
 fogRadius: 3
 range: 15
 consumePower: true
