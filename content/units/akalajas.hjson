@@ -16,7 +16,7 @@ health: 350
 armor: 2
 hitSize: 8
 engineSize: 1.5
-engineOffset: 5
+engineOffset: 8
 fogRadius: 8
 weapons: [
 {
