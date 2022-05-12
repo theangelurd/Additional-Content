@@ -8,4 +8,4 @@ requirements: [
 liquidCapacity: 10
 placeableLiquid: true
 category: liquid
-research: core-altar
+research: force-pump
