@@ -1,0 +1,13 @@
+type: ItemBridge 
+health: 300
+range: 6
+speed: 150
+arrowPeriod: 1
+arrowTimeScl: 3
+pulse: true
+requirements: [
+  karailum/5
+  alasium/3
+] 
+category: distribution
+research: karailum-router
