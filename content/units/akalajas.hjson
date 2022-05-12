@@ -5,7 +5,7 @@ details: "The first Urunir core unit, specialised for healing structures."
 coreUnitDock: true
 mineFloor: true
 mineSpeed: 5
-mineTier: 3
+mineTier: 5
 buildSpeed: 0.7
 drag: 0.03
 accel: 0.025
@@ -17,7 +17,7 @@ armor: 2
 hitSize: 8
 engineSize: 1.5
 engineOffset: 5
-fogRadius: 3
+fogRadius: 8
 weapons: [
 {
 type: RepairBeamWeapon
