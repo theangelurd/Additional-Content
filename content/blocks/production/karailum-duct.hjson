@@ -1,0 +1,10 @@
+type: Conveyor
+name: "Karailum Duct"
+health: 80
+speed: 0.15
+displayedSpeed: 20
+requirements: [
+  karailum/1
+]
+category: distribution
+research: core-altar
