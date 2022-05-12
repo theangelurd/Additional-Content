@@ -1,0 +1,10 @@
+type: Junction
+name: Karailum Junction
+health: 140
+speed: 16
+capacity: 16
+requirements: [
+  karailum/4
+] 
+category: distribution
+research: core-altar
