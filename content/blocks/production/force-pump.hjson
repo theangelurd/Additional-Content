@@ -1,0 +1,11 @@
+type: Pump
+name: "Force Pump"
+description: "Pumps liquid."
+size: 2
+pumpAmount: 0.2
+placeableLiquid: true
+liquidCapacity: 40
+requirements: [
+  karailum/45
+]
+category: liquid
