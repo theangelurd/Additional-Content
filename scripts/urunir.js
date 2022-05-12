@@ -1,4 +1,4 @@
-const generators = require("extras/urunirGen");
+const generators = require("urunirGen");
 const urunir = extend(Planet, "urunir", Planets.sun, 2, 2, {
     generator: Version.number >= 7 ? Planets.serpulo.generator : generators.urunir,
     meshLoader: () => new HexMesh(this, 7),
