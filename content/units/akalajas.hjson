@@ -4,8 +4,8 @@ description: "Able to heal other units with its laser beam."
 details: "The first Urunir core unit, specialised for healing structures."
 coreUnitDock: true
 mineFloor: true
-mineSpeed: 5
-mineTier: 5
+mineSpeed: 8
+mineTier: 7
 buildSpeed: 0.7
 drag: 0.03
 accel: 0.025
