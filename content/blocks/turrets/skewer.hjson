@@ -1,0 +1,47 @@
+type: ItemTurret
+name: "Skewer"
+description: "Shoots strong bullets at enemies."
+reload: 25
+size: 1
+shots: 1
+range: 280
+rotateSpeed: 10
+recoilAmount: 1
+restitution: 0.1
+shootShake: 3
+shootSound: shoot
+ejectEffect: none
+ammoTypes: {
+karailum: {
+ammoMultiplier: 4
+damage: 35
+type: BasicBulletType
+smokeEffect: shootSmallSmoke
+shootEffect: shootSmall
+width: 4
+height: 4
+trailWidth: 1.2
+trailLength: 4
+lifetime: 70
+speed: 4
+}
+alasium: {
+damage: 40
+ammoMultiplier: 4
+type: BasicBulletType
+smokeEffect: shootSmallSmoke
+shootEffect: shootSmall
+width: 4
+height: 4
+trailWidth: 1.4
+trailLength: 5
+lifetime: 70
+speed: 4
+}
+}
+requirements:[
+karailum/80
+alasium/40
+]
+research: core-altar
+category: turret
