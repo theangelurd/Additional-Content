@@ -1,0 +1,9 @@
+name: "Alasium Wall"
+description: "Very strong wall, made out of Alasium."
+type: Wall
+health: 600
+requirements:[
+    alasium/5
+]
+category: defense
+research: core-altar
