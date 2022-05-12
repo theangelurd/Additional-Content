@@ -11,7 +11,7 @@ const urunir = extend(Planet, "urunir", Planets.sun, 2, 2, {
     atmosphereRadOut: 0.15,
     localizedName: "Urunir"
 });
-templura.meshLoader = () => extend(HexMesh, templura, 7, {});
+urunir.meshLoader = () => extend(HexMesh, urunir, 7, {});
 
 const landingPoint = extend(SectorPreset, "landing-point", urunir, 0, {
     description: "The initial starting point for the harsh planet Urunir.",
