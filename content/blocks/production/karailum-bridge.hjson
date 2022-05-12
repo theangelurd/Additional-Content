@@ -1,4 +1,5 @@
 type: ItemBridge 
+name: Karailum Bridge
 health: 300
 range: 6
 speed: 150
