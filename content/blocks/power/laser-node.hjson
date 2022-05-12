@@ -12,3 +12,4 @@ requirements: [
 research: {
   parent: core-altar
 }
+category: power
