@@ -27,6 +27,7 @@ weapons: [
        shootSound: pew
        bullet: {
            type: BasicBulletType
+           damage: 24
            smokeEffect: shootSmallSmoke
            shootEffect: shootSmall
            width: 4
