@@ -1,0 +1,14 @@
+type: BeamNode
+fogRadius: 3
+range: 15
+consumePower: true
+outputPower: true
+consumes: {
+  power: 10
+}
+requirements: [
+   karailum/10
+]
+research: {
+  parent: core-altar
+}
