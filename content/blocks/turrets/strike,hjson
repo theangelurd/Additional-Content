@@ -1,0 +1,61 @@
+type: PowerTurret
+name: Zaster
+description: Shoots a bigger array of bullets at enemies.
+health: 8000
+size: 2
+reload: 200
+shots: 60
+shootShake: 8
+recoilAmount: 5
+cooldown: 0.007
+rotateSpeed: 5
+drawer: {
+  parts.add: {
+    type: RegionPart
+    name: 
+  }
+}
+shootEffect: {
+      type: ExplosionEffect
+      lifetime: 20
+      waveStroke: 2
+      waveRadBase: 2
+      waveLife: 15
+      waveRad: 15
+      waveColor: c5fffb
+      smokeColor: 3a3a3a
+      sparkColor: c5fffb
+      sparks: 12
+      smokes: 15
+      sparkStroke: 2
+      sparkRad: 20
+      sparkLen: 4
+      smokeSize: 3
+      smokeRad: 20
+      smokeSizeBase: 1.5
+} 
+consumePower: 12
+heatRequirement: 15
+heatColor: ff000b
+shootSound: spark
+range: 200
+shootType: {
+type: BasicBulletType
+lifetime: 40
+speed: 5
+weaveMag: 10
+damage: 50
+lightning: 5
+lightningLengthRand: 8
+lightningLength: 8
+lightningDamage: 7
+lightningColor: c5fffb
+}
+research: electroshocker
+requirements:[
+beryllium/450
+oxide/100
+tungsten/300
+graphite/200
+]
+category: turret
