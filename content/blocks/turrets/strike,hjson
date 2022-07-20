@@ -1,20 +1,12 @@
 type: PowerTurret
-name: Zaster
-description: Shoots a bigger array of bullets at enemies.
+name: Strike
 health: 8000
-size: 2
-reload: 200
-shots: 60
-shootShake: 8
-recoilAmount: 5
-cooldown: 0.007
-rotateSpeed: 5
-drawer: {
-  parts.add: {
-    type: RegionPart
-    name: 
-  }
-}
+size: 3
+reload: 80
+shake: 5
+recoil: 5
+rotateSpeed: 8
+recoilTime: 5
 shootEffect: {
       type: ExplosionEffect
       lifetime: 20
@@ -51,7 +43,7 @@ lightningLength: 8
 lightningDamage: 7
 lightningColor: c5fffb
 }
-research: electroshocker
+research: sublimate
 requirements:[
 beryllium/450
 oxide/100
